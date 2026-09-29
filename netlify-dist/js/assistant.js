@@ -110,14 +110,25 @@ async function askAssistant(message) {
       renderAssistantStats();
       return;
     }
+    const requestBody = config.provider === "groq"
+      ? {
+          model: config.model || "openai/gpt-oss-20b",
+          temperature: 0.4,
+          messages: [
+            { role: "system", content: config.systemPrompt || "Você é um assistente de estudos." },
+            { role: "user", content: `${text}\n\nDados atuais do estudante: ${JSON.stringify(assistantContext())}` },
+          ],
+        }
+      : { message: text, context: assistantContext() };
     const response = await fetch(config.endpoint, {
       method: config.method || "POST",
       headers: config.headers || { "Content-Type": "application/json" },
-      body: JSON.stringify({ message: text, context: assistantContext() }),
+      body: JSON.stringify(requestBody),
     });
     if (!response.ok) throw new Error(`assistant_api_${response.status}`);
     const data = await response.json();
-    appendAssistantMessage(data.reply || data.message || "Recebi sua solicitação, mas a API não retornou uma resposta.", "bot");
+    const reply = data.reply || data.message || data.choices?.[0]?.message?.content || "Recebi sua solicitação, mas a API não retornou uma resposta.";
+    appendAssistantMessage(reply, "bot");
     renderAssistantStats(data.stats);
     if (Array.isArray(data.suggestions)) {
       document.getElementById("assistant-suggestions").innerHTML = data.suggestions.slice(0, 3).map((item) => `<button type="button" onclick="askAssistant('${assistantEscape(item).replace(/'/g, "\\'")}')">${assistantEscape(item)}</button>`).join("");
