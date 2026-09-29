@@ -54,7 +54,7 @@
 
   .assistant-hero { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; height: 136px; margin-bottom: 2px; }
   .assistant-mascot-button { border: 0; padding: 0; background: transparent; cursor: pointer; }
-  .assistant-mascot { position: relative; display: block; width: 94px; height: 116px; filter: drop-shadow(0 13px 15px rgba(37,99,235,.22)); transition: transform .2s, filter .2s; }
+  .assistant-mascot { position: relative; display: block; width: 94px; height: 116px; filter: drop-shadow(0 13px 15px rgba(37,99,235,.22)); animation: assistant-hover 3.2s ease-in-out infinite; transition: transform .2s, filter .2s; }
   .assistant-mascot-button:hover .assistant-mascot, .assistant-mascot-button:focus-visible .assistant-mascot { transform: translateY(-4px); filter: drop-shadow(0 18px 20px rgba(59,130,246,.35)); }
   .mascot-antenna { position: absolute; left: 45px; top: 0; width: 5px; height: 15px; border-radius: 5px; background: #647ce9; }
   .mascot-antenna::before { content: ''; position: absolute; left: -4px; top: -5px; width: 13px; height: 13px; border-radius: 50%; background: #8aa6ff; box-shadow: 0 0 13px rgba(129,140,248,.7); }
@@ -70,6 +70,21 @@
   .assistant-hero-actions button { width: 32px; height: 30px; border: 0; border-radius: 14px; color: #334155; background: transparent; cursor: pointer; font: 700 1.05rem 'DM Sans', sans-serif; }
   .assistant-hero-actions button + button { border-left: 1px solid #e2e8f0; border-radius: 0 14px 14px 0; }
   .assistant-hero-actions button:hover, .assistant-hero-actions button:focus-visible { color: #2563eb; background: #eff6ff; outline: none; }
+  @keyframes assistant-hover { 0%, 100% { transform: translateY(0) rotate(-1deg); } 50% { transform: translateY(-7px) rotate(1deg); } }
+  @keyframes assistant-antenna-pulse { 0%, 100% { opacity: .65; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.15); } }
+  .mascot-antenna::before { animation: assistant-antenna-pulse 1.8s ease-in-out infinite; }
+
+  .quiz-assistant-rail { position: relative; display: flex; align-items: center; height: 76px; margin: 20px 0 8px; border-top: 1px solid rgba(96,165,250,.13); border-bottom: 1px solid rgba(96,165,250,.13); overflow: hidden; background: linear-gradient(90deg, rgba(59,130,246,.035), transparent 45%, rgba(16,185,129,.035)); }
+  .quiz-assistant-caption { position: absolute; left: 0; top: 8px; z-index: 1; color: var(--muted); font-size: .64rem; letter-spacing: .09em; text-transform: uppercase; }
+  .quiz-assistant-runner { position: absolute; left: 0; bottom: -23px; width: 66px; height: 82px; border: 0; padding: 0; background: transparent; cursor: pointer; animation: assistant-run-across 8s ease-in-out infinite alternate; }
+  .quiz-assistant-runner:hover .assistant-mascot, .quiz-assistant-runner:focus-visible .assistant-mascot { filter: drop-shadow(0 11px 13px rgba(59,130,246,.52)); }
+  .assistant-mascot-compact { transform: scale(.58); transform-origin: bottom center; animation: assistant-run-bob .52s ease-in-out infinite alternate; }
+  .quiz-assistant-runner:hover .assistant-mascot-compact { transform: scale(.64) translateY(-3px); }
+  @keyframes assistant-run-across { from { left: 0; } to { left: calc(100% - 66px); } }
+  @keyframes assistant-run-bob { from { margin-bottom: 0; } to { margin-bottom: 5px; } }
+  @media (prefers-reduced-motion: reduce) {
+    .assistant-mascot, .mascot-antenna::before, .quiz-assistant-runner, .assistant-mascot-compact { animation: none; }
+  }
 
   .logo {
     font-family: 'Syne', sans-serif;

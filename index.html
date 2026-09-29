@@ -229,6 +229,18 @@
       <div class="question-text abnt-prose" id="question-text"></div>
       <div class="question-media" id="question-media" style="display:none"></div>
       <div class="options" id="options-container"></div>
+      <div class="quiz-assistant-rail" aria-label="Assistente acompanhando a questão">
+        <div class="quiz-assistant-caption">Copiloto de revisão</div>
+        <button type="button" class="quiz-assistant-runner" onclick="toggleAssistant(true)" aria-label="Abrir assistente durante a prova">
+          <span class="assistant-mascot assistant-mascot-compact" aria-hidden="true">
+            <span class="mascot-antenna"></span>
+            <span class="mascot-head"><span class="mascot-screen">›_</span></span>
+            <span class="mascot-body"><span class="mascot-chest">›_</span></span>
+            <span class="mascot-arm mascot-arm-left"></span>
+            <span class="mascot-arm mascot-arm-right"></span>
+          </span>
+        </button>
+      </div>
       <div class="feedback-box" id="feedback-box"></div>
       <div class="ai-box" id="ai-box" aria-live="polite">
         <div class="ai-box-header">
