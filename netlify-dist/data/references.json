@@ -1,0 +1,206 @@
+{
+  "version": "revalida-v1.0.0",
+  "generatedAt": "2026-07-14T15:49:11Z",
+  "references": {
+    "REF-2026-0001": {
+      "referenceId": "REF-2026-0001",
+      "title": "Ministério da Saúde",
+      "citation": "Ministério da Saúde — catálogo RKBS Nível 1 (MS)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 1,
+      "sigla": "MS"
+    },
+    "REF-2026-0003": {
+      "referenceId": "REF-2026-0003",
+      "title": "Secretaria de Atenção Primária à Saúde",
+      "citation": "Secretaria de Atenção Primária à Saúde — catálogo RKBS Nível 1 (SAPS)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 1,
+      "sigla": "SAPS"
+    },
+    "REF-2026-0004": {
+      "referenceId": "REF-2026-0004",
+      "title": "Secretaria de Vigilância em Saúde e Ambiente",
+      "citation": "Secretaria de Vigilância em Saúde e Ambiente — catálogo RKBS Nível 1 (SVSA)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 1,
+      "sigla": "SVSA"
+    },
+    "REF-2026-0012": {
+      "referenceId": "REF-2026-0012",
+      "title": "Conselho Federal de Medicina",
+      "citation": "Conselho Federal de Medicina — catálogo RKBS Nível 2 (CFM)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "CFM"
+    },
+    "REF-2026-0014": {
+      "referenceId": "REF-2026-0014",
+      "title": "Sociedade Brasileira de Clínica Médica",
+      "citation": "Sociedade Brasileira de Clínica Médica — catálogo RKBS Nível 2 (SBCM)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "SBCM"
+    },
+    "REF-2026-0015": {
+      "referenceId": "REF-2026-0015",
+      "title": "Sociedade Brasileira de Medicina de Família e Comunidade",
+      "citation": "Sociedade Brasileira de Medicina de Família e Comunidade — catálogo RKBS Nível 2 (SBMFC)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "SBMFC"
+    },
+    "REF-2026-0016": {
+      "referenceId": "REF-2026-0016",
+      "title": "Sociedade Brasileira de Pediatria",
+      "citation": "Sociedade Brasileira de Pediatria — catálogo RKBS Nível 2 (SBP)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "SBP"
+    },
+    "REF-2026-0017": {
+      "referenceId": "REF-2026-0017",
+      "title": "Federação Brasileira das Associações de Ginecologia e Obstetrícia",
+      "citation": "Federação Brasileira das Associações de Ginecologia e Obstetrícia — catálogo RKBS Nível 2 (FEBRASGO)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "FEBRASGO"
+    },
+    "REF-2026-0018": {
+      "referenceId": "REF-2026-0018",
+      "title": "Sociedade Brasileira de Cardiologia",
+      "citation": "Sociedade Brasileira de Cardiologia — catálogo RKBS Nível 2 (SBC-Cardiologia)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "SBC-Cardiologia"
+    },
+    "REF-2026-0019": {
+      "referenceId": "REF-2026-0019",
+      "title": "Sociedade Brasileira de Endocrinologia e Metabologia",
+      "citation": "Sociedade Brasileira de Endocrinologia e Metabologia — catálogo RKBS Nível 2 (SBEM)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "SBEM"
+    },
+    "REF-2026-0022": {
+      "referenceId": "REF-2026-0022",
+      "title": "Sociedade Brasileira de Infectologia",
+      "citation": "Sociedade Brasileira de Infectologia — catálogo RKBS Nível 2 (SBI)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "SBI"
+    },
+    "REF-2026-0023": {
+      "referenceId": "REF-2026-0023",
+      "title": "Sociedade Brasileira de Nefrologia",
+      "citation": "Sociedade Brasileira de Nefrologia — catálogo RKBS Nível 2 (SBN)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "SBN"
+    },
+    "REF-2026-0025": {
+      "referenceId": "REF-2026-0025",
+      "title": "Academia Brasileira de Neurologia",
+      "citation": "Academia Brasileira de Neurologia — catálogo RKBS Nível 2 (ABN)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "ABN"
+    },
+    "REF-2026-0026": {
+      "referenceId": "REF-2026-0026",
+      "title": "Colégio Brasileiro de Cirurgiões",
+      "citation": "Colégio Brasileiro de Cirurgiões — catálogo RKBS Nível 2 (CBC)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "CBC"
+    },
+    "REF-2026-0028": {
+      "referenceId": "REF-2026-0028",
+      "title": "Sociedade Brasileira de Urologia",
+      "citation": "Sociedade Brasileira de Urologia — catálogo RKBS Nível 2 (SBU)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "SBU"
+    },
+    "REF-2026-0029": {
+      "referenceId": "REF-2026-0029",
+      "title": "Sociedade Brasileira de Dermatologia",
+      "citation": "Sociedade Brasileira de Dermatologia — catálogo RKBS Nível 2 (SBD-Dermatologia)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "SBD-Dermatologia"
+    },
+    "REF-2026-0034": {
+      "referenceId": "REF-2026-0034",
+      "title": "Associação Brasileira de Hematologia, Hemoterapia e Terapia Celular",
+      "citation": "Associação Brasileira de Hematologia, Hemoterapia e Terapia Celular — catálogo RKBS Nível 2 (ABHH)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 2,
+      "sigla": "ABHH"
+    },
+    "REF-2026-0056": {
+      "referenceId": "REF-2026-0056",
+      "title": "Kidney Disease: Improving Global Outcomes",
+      "citation": "Kidney Disease: Improving Global Outcomes — catálogo RKBS Nível 4 (KDIGO)",
+      "sourceType": "guideline",
+      "confidenceLevel": "medium",
+      "publicationYear": 2026,
+      "hierarchyLevel": 4,
+      "sigla": "KDIGO"
+    },
+    "REF-2026-0067": {
+      "referenceId": "REF-2026-0067",
+      "title": "Schwartz's Principles of Surgery",
+      "citation": "Schwartz's Principles of Surgery — catálogo RKBS Nível 5 (Schwartz)",
+      "sourceType": "textbook",
+      "confidenceLevel": "medium",
+      "publicationYear": 2026,
+      "hierarchyLevel": 5,
+      "sigla": "Schwartz"
+    },
+    "REF-2026-0091": {
+      "referenceId": "REF-2026-0091",
+      "title": "Advanced Cardiovascular Life Support",
+      "citation": "Advanced Cardiovascular Life Support — catálogo RKBS Nível 7 (ACLS)",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "hierarchyLevel": 7,
+      "sigla": "ACLS"
+    }
+  }
+}

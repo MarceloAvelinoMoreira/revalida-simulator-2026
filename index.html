@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<base href="netlify-dist/">
+<meta name="description" content="REVALIDDA Simulator — simulado oficial do REVALIDA com 1000 questões e camada educacional (comentários, justificativas, take-home, macetes e referências).">
+<meta name="author" content="Marcelo Avelino">
+<meta name="theme-color" content="#0a0e1a">
+<meta name="application-name" content="REVALIDDA Simulator">
+<meta property="og:title" content="REVALIDDA Simulator">
+<meta property="og:description" content="Simulado oficial do REVALIDA com Knowledge Base v1.0 — estudo offline-capable.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<title>REVALIDDA Simulator</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/questions/favicon-placeholder.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/questions/favicon-placeholder.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=7">
+<style>
+  .mode-card,
+  .year-btn,
+  .qty-btn {
+    font: inherit;
+    color: inherit;
+    text-align: inherit;
+  }
+  button.mode-card,
+  button.year-btn,
+  button.qty-btn {
+    appearance: none;
+    border: 0;
+    width: 100%;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<div id="page-simulado">
+
+<!-- HOME -->
+<div id="screen-home" class="screen">
+  <div class="logo">REVALIDDA</div>
+  <div class="brand-byline">Simulator · Marcelo Avelino</div>
+  <div class="tagline">Simulado oficial do REVALIDA · Knowledge Base v1.0</div>
+
+  <div class="mode-section">
+    <div class="mode-label">Modo de estudo</div>
+    <div class="mode-cards" style="grid-template-columns:repeat(4, minmax(0, 1fr));">
+      <button type="button" class="mode-card selected" data-mode="all" onclick="selectMode('all', this)">
+        <div class="mc-title">Todas as provas</div>
+        <div class="mc-desc">Questões de todas as edições, em sequência.</div>
+      </button>
+      <button type="button" class="mode-card" data-mode="year" onclick="selectMode('year', this)">
+        <div class="mc-title">Prova específica</div>
+        <div class="mc-desc">Selecione uma edição para praticar.</div>
+      </button>
+      <button type="button" class="mode-card" data-mode="custom" onclick="selectMode('custom', this)">
+        <div class="mc-title">Personalizado</div>
+        <div class="mc-desc">Sorteio aleatório entre edições, na quantidade desejada.</div>
+      </button>
+      <button type="button" class="mode-card rapid-mode-card" data-mode="rapid" onclick="selectMode('rapid', this)">
+        <div class="mc-title">Respostas rápidas</div>
+        <div class="mc-desc">Veja cada questão e a alternativa correta, sem fazer o simulado.</div>
+      </button>
+    </div>
+  </div>
+
+  <!-- SELEÇÃO DE EDIÇÃO (modo year) -->
+  <div class="mode-section" id="year-selector" style="display:none">
+    <div class="mode-label">Selecione a edição</div>
+    <div class="year-grid">
+      <button type="button" class="year-btn" data-year="2021" onclick="selectYear('2021', this)">
+        2021
+        <span class="yb-sub">100 questões</span>
+      </button>
+      <button type="button" class="year-btn" data-year="2022-1" onclick="selectYear('2022-1', this)">
+        2022/1
+        <span class="yb-sub">100 questões</span>
+      </button>
+      <button type="button" class="year-btn" data-year="2022-2" onclick="selectYear('2022-2', this)">
+        2022/2
+        <span class="yb-sub">100 questões</span>
+      </button>
+      <button type="button" class="year-btn" data-year="2023-1" onclick="selectYear('2023-1', this)">
+        2023/1
+        <span class="yb-sub">100 questões</span>
+      </button>
+      <button type="button" class="year-btn" data-year="2023-2" onclick="selectYear('2023-2', this)">
+        2023/2
+        <span class="yb-sub">100 questões</span>
+      </button>
+      <button type="button" class="year-btn" data-year="2024-1" onclick="selectYear('2024-1', this)">
+        2024/1
+        <span class="yb-sub">100 questões</span>
+      </button>
+      <button type="button" class="year-btn" data-year="2024-2" onclick="selectYear('2024-2', this)">
+        2024/2
+        <span class="yb-sub">100 questões</span>
+      </button>
+      <button type="button" class="year-btn" data-year="2025-1" onclick="selectYear('2025-1', this)">
+        2025/1
+        <span class="yb-sub">100 questões</span>
+      </button>
+      <button type="button" class="year-btn" data-year="2025-2" onclick="selectYear('2025-2', this)">
+        2025/2
+        <span class="yb-sub">100 questões</span>
+      </button>
+      <button type="button" class="year-btn" data-year="2026-1" onclick="selectYear('2026-1', this)">
+        2026/1
+        <span class="yb-sub">100 questões</span>
+      </button>
+      <button type="button" class="year-btn" data-year="2026-2" onclick="selectYear('2026-2', this)">
+        2026/2
+        <span class="yb-sub">100 questões</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- SELEÇÃO DE QUANTIDADE (modo custom) -->
+  <div class="mode-section" id="custom-selector" style="display:none">
+    <div class="mode-label">Quantidade de questões</div>
+    <div class="custom-qty-info">Sorteio aleatório de todas as edições · <span id="custom-total-label">1000 questões disponíveis</span></div>
+    <div class="qty-grid">
+      <button type="button" class="qty-btn" data-qty="10" onclick="selectQty(10, this)">10</button>
+      <button type="button" class="qty-btn" data-qty="20" onclick="selectQty(20, this)">20</button>
+      <button type="button" class="qty-btn" data-qty="30" onclick="selectQty(30, this)">30</button>
+      <button type="button" class="qty-btn" data-qty="50" onclick="selectQty(50, this)">50</button>
+      <button type="button" class="qty-btn" data-qty="100" onclick="selectQty(100, this)">100</button>
+      <button type="button" class="qty-btn" data-qty="200" onclick="selectQty(200, this)">200</button>
+    </div>
+    <div class="custom-or">ou digite um número</div>
+    <div class="custom-input-wrap">
+      <input type="number" id="custom-qty-input" class="custom-qty-input" min="1" max="1000" placeholder="Ex: 75" oninput="onCustomQtyInput(this.value)">
+      <span class="custom-qty-unit">questões</span>
+    </div>
+    <div class="custom-qty-hint" id="custom-qty-hint"></div>
+  </div>
+
+  <button class="start-btn" id="start-btn" onclick="startQuiz()">Iniciar simulado</button>
+</div>
+
+<!-- RESPOSTAS RÁPIDAS -->
+<div id="screen-rapid" class="screen">
+  <div class="rapid-shell">
+    <header class="rapid-header">
+      <button type="button" class="rapid-back" onclick="closeRapidAnswers()">← Voltar</button>
+      <div>
+        <div class="rapid-kicker">Gabarito de revisão</div>
+        <h1 id="rapid-title">Respostas rápidas</h1>
+        <p id="rapid-subtitle">Questões e alternativas corretas da edição selecionada.</p>
+      </div>
+      <div class="rapid-count" id="rapid-count">0 questões</div>
+    </header>
+    <div class="rapid-toolbar">
+      <label class="rapid-search-label" for="rapid-jump">Ir para questão</label>
+      <input id="rapid-jump" class="rapid-search" type="number" min="1" max="100" inputmode="numeric" placeholder="Ex.: 25" oninput="goRapidTo(this.value)">
+    </div>
+    <main id="rapid-list" class="rapid-list" aria-live="polite"></main>
+    <nav class="rapid-navigation" aria-label="Navegação das respostas rápidas">
+      <button type="button" class="rapid-nav" id="rapid-prev" onclick="nextRapidQuestion(-1)">← Anterior</button>
+      <span class="rapid-page-label" id="rapid-page-label">Questão 1</span>
+      <button type="button" class="rapid-nav rapid-nav-primary" id="rapid-next" onclick="nextRapidQuestion(1)">Próxima →</button>
+    </nav>
+  </div>
+</div>
+
+<!-- QUIZ -->
+<div id="screen-quiz" class="screen">
+  <div class="quiz-header">
+    <button class="quiz-back" onclick="goHome()" title="Voltar">←</button>
+    <div class="quiz-progress-wrap">
+      <div class="quiz-meta" id="quiz-meta">Revalida 2021</div>
+      <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+    </div>
+    <div class="live-score">
+      <div class="ls-chip correct">
+        <span class="ls-dot"></span>
+        <span class="ls-correct-num" id="live-correct">0</span>
+      </div>
+      <div class="ls-chip wrong">
+        <span class="ls-dot"></span>
+        <span class="ls-wrong-num" id="live-wrong">0</span>
+      </div>
+    </div>
+    <div class="quiz-counter" id="quiz-counter">1 / 100</div>
+    <button class="qnav-toggle-btn" id="qnav-toggle-btn" onclick="toggleQNav()" title="Navegar questões">☰</button>
+  </div>
+  <div class="quiz-layout">
+    <!-- PAINEL LATERAL DE NAVEGAÇÃO -->
+    <aside class="qnav-panel" id="qnav-panel">
+      <div class="qnav-header">
+        <span class="qnav-title">Questões</span>
+        <button class="qnav-close" onclick="toggleQNav()">✕</button>
+      </div>
+      <div class="qnav-legend">
+        <span class="qnav-leg"><span class="qnav-dot qnav-dot-current"></span>Atual</span>
+        <span class="qnav-leg"><span class="qnav-dot qnav-dot-correct"></span>Acertou</span>
+        <span class="qnav-leg"><span class="qnav-dot qnav-dot-wrong"></span>Errou</span>
+        <span class="qnav-leg"><span class="qnav-dot qnav-dot-skipped"></span>Pulou</span>
+      </div>
+      <div class="qnav-grid" id="qnav-grid"></div>
+    </aside>
+    <!-- ÁREA PRINCIPAL DA QUESTÃO -->
+    <div class="quiz-body">
+      <div class="question-num" id="question-num">Questão 1</div>
+      <div class="question-text abnt-prose" id="question-text"></div>
+      <div class="question-media" id="question-media" style="display:none"></div>
+      <div class="options" id="options-container"></div>
+      <div class="feedback-box" id="feedback-box"></div>
+      <div class="ai-box" id="ai-box" aria-live="polite">
+        <div class="ai-box-header">
+          <span class="ai-badge">EO</span>
+          <span class="ai-box-title">Justificativa da resposta correta</span>
+        </div>
+        <div class="ai-box-body abnt-prose" id="ai-box-body"></div>
+      </div>
+      <div class="takehome-panel" id="takehome-panel" style="display:none">
+        <div class="takehome-label">Mensagem final</div>
+        <div class="takehome-body abnt-prose" id="takehome-panel-body"></div>
+      </div>
+      <div class="keypoints-panel" id="keypoints-panel" style="display:none">
+        <div class="keypoints-label">Principais quesitos</div>
+        <ul class="keypoints-list abnt-prose" id="keypoints-list"></ul>
+      </div>
+      <div class="alt-rationales" id="alt-rationales" style="display:none"></div>
+      <div class="extra-panels" id="extra-panels">
+        <div class="extra-panel" id="macete-panel" style="display:none" role="region" aria-label="Macete">
+          <div class="extra-panel-title">Macete</div>
+          <div class="extra-panel-body abnt-prose" id="macete-panel-body"></div>
+        </div>
+        <div class="extra-panel" id="comment-panel" style="display:none" role="region" aria-label="Comentário">
+          <div class="extra-panel-title">Comentário</div>
+          <div class="extra-panel-body abnt-prose" id="comment-panel-body"></div>
+        </div>
+        <div class="extra-panel" id="refs-panel" style="display:none" role="region" aria-label="Referências">
+          <div class="extra-panel-title">Referências</div>
+          <div class="extra-panel-body" id="refs-panel-body"></div>
+        </div>
+      </div>
+      <div class="nav-buttons">
+        <button class="btn-skip" id="btn-skip" onclick="skipQuestion()" title="Pular esta questão">⏭ Pular</button>
+        <button type="button" class="btn-macete" id="btn-macete" onclick="toggleMacete()" style="display:none" aria-expanded="false" aria-controls="macete-panel">Macete</button>
+        <button type="button" class="btn-comment" id="btn-comment" onclick="toggleComment()" style="display:none" aria-expanded="false" aria-controls="comment-panel">Comentário</button>
+        <button type="button" class="btn-refs" id="btn-refs" onclick="toggleRefs()" style="display:none" aria-expanded="false" aria-controls="refs-panel">Referências</button>
+        <button type="button" class="btn-justify" id="btn-justify" onclick="justifyAnswer()" aria-expanded="false" aria-controls="ai-box">Justificar resposta</button>
+        <button class="btn-next" id="btn-next" onclick="nextQuestion()">Próxima</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RESULT -->
+<div id="screen-result" class="screen">
+  <div class="result-inner">
+    <div class="result-score-ring">
+      <svg width="160" height="160" viewBox="0 0 160 160">
+        <circle cx="80" cy="80" r="68" fill="none" stroke="#1e2d45" stroke-width="10"/>
+        <circle cx="80" cy="80" r="68" fill="none" stroke="url(#grad)" stroke-width="10"
+          stroke-linecap="round" stroke-dasharray="427" id="score-circle" stroke-dashoffset="427"/>
+        <defs>
+          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#3b82f6"/>
+            <stop offset="100%" style="stop-color:#10b981"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <div class="result-score-text">
+        <div class="rsr-num" id="score-pct">0%</div>
+        <div class="rsr-label">Acertos</div>
+      </div>
+    </div>
+
+    <div class="result-title" id="result-title">Bom trabalho!</div>
+    <div class="result-subtitle" id="result-subtitle">Você concluiu o simulado</div>
+
+    <div class="result-stats">
+      <div class="stat-card">
+        <div class="stat-num green" id="stat-correct">0</div>
+        <div class="stat-label">Corretas</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num red" id="stat-wrong">0</div>
+        <div class="stat-label">Erradas</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num yellow" id="stat-annulled">0</div>
+        <div class="stat-label">Anuladas</div>
+      </div>
+    </div>
+
+    <div class="result-actions">
+      <button class="btn-outline" onclick="goHome()">← Início</button>
+      <button class="btn-outline" onclick="restartQuiz()">↺ Refazer</button>
+      <button class="btn-review" onclick="openReview()">📋 Revisar Gabarito</button>
+      <button class="start-btn" style="margin:0" onclick="goHome()">Nova prova</button>
+    </div>
+  </div>
+</div>
+
+<!-- REVIEW MODAL PLACEHOLDER -->
+<div id="review-overlay" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(6,12,20,.92);backdrop-filter:blur(6px);overflow-y:auto;"></div>
+</div>
+
+<script src="js/questions.js?v=2"></script>
+<script src="js/questions-2026-2.js?v=2"></script>
+<script src="js/utils.js?v=2"></script>
+<script src="js/storage.js?v=2"></script>
+<script src="js/score.js?v=2"></script>
+<script src="js/question-repository.js?v=3"></script>
+<script src="js/eo-repository.js?v=2"></script>
+<script src="js/resolver.js?v=2"></script>
+<script src="js/simulator.js?v=6"></script>
+<script src="js/review.js?v=2"></script>
+<script src="js/rapid.js?v=2"></script>
+<script src="js/app.js?v=2"></script>
+</body>
+</html>
