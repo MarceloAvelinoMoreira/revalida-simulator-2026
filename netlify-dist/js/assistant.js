@@ -62,6 +62,12 @@ function toggleAssistant(force) {
   }
 }
 
+function assistantVoiceNotice() {
+  toggleAssistant(true);
+  setAssistantStatus("O modo de voz será conectado junto com sua API externa.");
+  appendAssistantMessage("Quando você definir o provedor de voz, este botão poderá ouvir sua pergunta e responder falando.", "bot");
+}
+
 function appendAssistantMessage(text, role) {
   const messages = document.getElementById("assistant-messages");
   if (!messages) return;

@@ -43,6 +43,21 @@
 
 <!-- HOME -->
 <div id="screen-home" class="screen">
+  <div class="assistant-hero" aria-label="Assistente virtual REVALIDDA">
+    <button type="button" class="assistant-mascot-button" onclick="toggleAssistant(true)" aria-label="Abrir assistente virtual">
+      <span class="assistant-mascot" aria-hidden="true">
+        <span class="mascot-antenna"></span>
+        <span class="mascot-head"><span class="mascot-screen">›_</span></span>
+        <span class="mascot-body"><span class="mascot-chest">›_</span></span>
+        <span class="mascot-arm mascot-arm-left"></span>
+        <span class="mascot-arm mascot-arm-right"></span>
+      </span>
+    </button>
+    <div class="assistant-hero-actions" role="group" aria-label="Ações do assistente">
+      <button type="button" onclick="toggleAssistant(true)" aria-label="Conversar por texto">⌕</button>
+      <button type="button" onclick="assistantVoiceNotice()" aria-label="Conversar por voz">◖◗</button>
+    </div>
+  </div>
   <div class="logo">REVALIDDA</div>
   <div class="brand-byline">Simulator · Marcelo Avelino</div>
   <div class="tagline">Simulado oficial do REVALIDA · Knowledge Base v1.0</div>
