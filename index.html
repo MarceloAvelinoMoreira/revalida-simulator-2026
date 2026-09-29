@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <base href="netlify-dist/">
-<meta name="description" content="REVALIDDA Simulator — simulado oficial do REVALIDA com 1000 questões e camada educacional (comentários, justificativas, take-home, macetes e referências).">
+<meta name="description" content="REVALIDDA Simulator — simulado oficial do REVALIDA com 1300 questões e camada educacional (comentários, justificativas, take-home, macetes e referências).">
 <meta name="author" content="Marcelo Avelino">
 <meta name="theme-color" content="#0a0e1a">
 <meta name="application-name" content="REVALIDDA Simulator">
@@ -117,13 +117,17 @@
         2026/2
         <span class="yb-sub">100 questões</span>
       </button>
+      <button type="button" class="year-btn" data-year="facisa" onclick="selectYear('facisa', this)">
+        QUESTÕES FACISA
+        <span class="yb-sub">200 questões</span>
+      </button>
     </div>
   </div>
 
   <!-- SELEÇÃO DE QUANTIDADE (modo custom) -->
   <div class="mode-section" id="custom-selector" style="display:none">
     <div class="mode-label">Quantidade de questões</div>
-    <div class="custom-qty-info">Sorteio aleatório de todas as edições · <span id="custom-total-label">1000 questões disponíveis</span></div>
+    <div class="custom-qty-info">Sorteio aleatório de todas as edições · <span id="custom-total-label">1300 questões disponíveis</span></div>
     <div class="qty-grid">
       <button type="button" class="qty-btn" data-qty="10" onclick="selectQty(10, this)">10</button>
       <button type="button" class="qty-btn" data-qty="20" onclick="selectQty(20, this)">20</button>
@@ -134,7 +138,7 @@
     </div>
     <div class="custom-or">ou digite um número</div>
     <div class="custom-input-wrap">
-      <input type="number" id="custom-qty-input" class="custom-qty-input" min="1" max="1000" placeholder="Ex: 75" oninput="onCustomQtyInput(this.value)">
+      <input type="number" id="custom-qty-input" class="custom-qty-input" min="1" max="1300" placeholder="Ex: 75" oninput="onCustomQtyInput(this.value)">
       <span class="custom-qty-unit">questões</span>
     </div>
     <div class="custom-qty-hint" id="custom-qty-hint"></div>
@@ -307,6 +311,7 @@
 
 <script src="js/questions.js?v=2"></script>
 <script src="js/questions-2026-2.js?v=2"></script>
+<script src="js/questions-facisa.js?v=1"></script>
 <script src="js/utils.js?v=2"></script>
 <script src="js/storage.js?v=2"></script>
 <script src="js/score.js?v=2"></script>
