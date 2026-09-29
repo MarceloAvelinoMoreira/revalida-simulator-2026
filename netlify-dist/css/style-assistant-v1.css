@@ -66,10 +66,6 @@
   .mascot-arm { position: absolute; top: 70px; width: 12px; height: 31px; border-radius: 9px; background: #607be3; }
   .mascot-arm-left { left: 15px; transform: rotate(20deg); }
   .mascot-arm-right { right: 12px; transform: rotate(-20deg); }
-  .assistant-hero-actions { display: flex; align-items: center; gap: 1px; height: 38px; margin-top: -1px; padding: 0 8px; border: 1px solid rgba(148,163,184,.35); border-radius: 19px; background: rgba(255,255,255,.96); box-shadow: 0 9px 20px rgba(0,0,0,.2); }
-  .assistant-hero-actions button { width: 32px; height: 30px; border: 0; border-radius: 14px; color: #334155; background: transparent; cursor: pointer; font: 700 1.05rem 'DM Sans', sans-serif; }
-  .assistant-hero-actions button + button { border-left: 1px solid #e2e8f0; border-radius: 0 14px 14px 0; }
-  .assistant-hero-actions button:hover, .assistant-hero-actions button:focus-visible { color: #2563eb; background: #eff6ff; outline: none; }
   @keyframes assistant-hover { 0%, 100% { transform: translateY(0) rotate(-1deg); } 50% { transform: translateY(-7px) rotate(1deg); } }
   @keyframes assistant-antenna-pulse { 0%, 100% { opacity: .65; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.15); } }
   .mascot-antenna::before { animation: assistant-antenna-pulse 1.8s ease-in-out infinite; }
