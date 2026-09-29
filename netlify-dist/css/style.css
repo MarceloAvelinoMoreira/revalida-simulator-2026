@@ -235,6 +235,73 @@
   .rapid-nav-primary { justify-self: stretch; }
 }
 
+/* Virtual assistant */
+.assistant-launcher {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 9000;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  border: 1px solid rgba(96,165,250,.5);
+  border-radius: 999px;
+  padding: 12px 17px;
+  color: #eff6ff;
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  box-shadow: 0 15px 35px rgba(37,99,235,.28);
+  cursor: pointer;
+  font: 600 .82rem 'DM Sans', sans-serif;
+  transition: transform .2s, box-shadow .2s;
+}
+.assistant-launcher:hover { transform: translateY(-2px); box-shadow: 0 18px 40px rgba(37,99,235,.4); }
+.assistant-launcher-dot { width: 8px; height: 8px; border-radius: 50%; background: #86efac; box-shadow: 0 0 0 4px rgba(134,239,172,.15); }
+.assistant-panel {
+  position: fixed;
+  right: 24px;
+  bottom: 82px;
+  z-index: 9001;
+  display: flex;
+  flex-direction: column;
+  width: min(390px, calc(100vw - 32px));
+  height: min(650px, calc(100vh - 112px));
+  overflow: hidden;
+  border: 1px solid rgba(96,165,250,.3);
+  border-radius: 22px;
+  background: rgba(12,20,38,.97);
+  box-shadow: 0 24px 70px rgba(0,0,0,.45);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(16px) scale(.98);
+  transition: opacity .2s, transform .2s;
+}
+.assistant-panel.is-open { opacity: 1; pointer-events: auto; transform: translateY(0) scale(1); }
+.assistant-header { display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: start; padding: 20px; background: radial-gradient(circle at 0 0, rgba(59,130,246,.28), transparent 55%); border-bottom: 1px solid var(--border); }
+.assistant-avatar { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 14px; color: #dbeafe; background: linear-gradient(135deg, #3b82f6, #7c3aed); font-size: 1.3rem; }
+.assistant-eyebrow { color: #93c5fd; font-size: .65rem; letter-spacing: .1em; text-transform: uppercase; }
+.assistant-heading h2 { margin: 3px 0 4px; font: 700 1.06rem 'Syne', sans-serif; }
+.assistant-heading p { margin: 0; color: var(--muted); font-size: .78rem; line-height: 1.4; }
+.assistant-close { border: 0; color: var(--muted); background: transparent; cursor: pointer; font-size: 1.5rem; line-height: 1; }
+.assistant-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; padding: 14px 16px 4px; }
+.assistant-stats > div { padding: 10px 8px; border: 1px solid var(--border); border-radius: 12px; background: rgba(255,255,255,.025); text-align: center; }
+.assistant-stats strong { display: block; color: #bfdbfe; font: 700 1rem 'Syne', sans-serif; }
+.assistant-stats span { display: block; margin-top: 4px; color: var(--muted); font-size: .64rem; }
+.assistant-suggestions { display: flex; flex-wrap: wrap; gap: 7px; padding: 12px 16px 4px; }
+.assistant-suggestions button { border: 1px solid rgba(96,165,250,.25); border-radius: 999px; padding: 7px 10px; color: #bfdbfe; background: rgba(59,130,246,.08); cursor: pointer; font: .72rem 'DM Sans', sans-serif; }
+.assistant-suggestions button:hover { border-color: #60a5fa; background: rgba(59,130,246,.16); }
+.assistant-messages { flex: 1; overflow-y: auto; padding: 14px 16px; }
+.assistant-message { max-width: 88%; margin: 0 0 10px; padding: 10px 12px; border-radius: 13px; font-size: .8rem; line-height: 1.5; }
+.assistant-message-bot { border: 1px solid var(--border); color: #dbeafe; background: rgba(255,255,255,.045); }
+.assistant-message-user { margin-left: auto; color: #eff6ff; background: #2563eb; }
+.assistant-form { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--border); background: rgba(5,10,20,.35); }
+.assistant-form input { min-width: 0; flex: 1; border: 1px solid var(--border); border-radius: 11px; padding: 11px 12px; color: var(--text); background: rgba(255,255,255,.05); font: .8rem 'DM Sans', sans-serif; }
+.assistant-form input:focus { outline: 2px solid rgba(96,165,250,.5); outline-offset: 1px; }
+.assistant-form button { width: 40px; border: 0; border-radius: 11px; color: #fff; background: #2563eb; cursor: pointer; font-size: 1.15rem; }
+@media (max-width: 640px) {
+  .assistant-launcher { right: 16px; bottom: 16px; }
+  .assistant-panel { right: 16px; bottom: 72px; width: calc(100vw - 32px); height: min(620px, calc(100vh - 92px)); }
+}
+
   /* Custom quantity selector */
   .custom-qty-info {
     font-size: 0.75rem;

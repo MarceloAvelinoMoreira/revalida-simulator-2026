@@ -307,6 +307,44 @@
 
 <!-- REVIEW MODAL PLACEHOLDER -->
 <div id="review-overlay" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(6,12,20,.92);backdrop-filter:blur(6px);overflow-y:auto;"></div>
+
+<!-- ASSISTENTE VIRTUAL -->
+<button type="button" class="assistant-launcher" id="assistant-launcher" onclick="toggleAssistant()" aria-controls="assistant-panel" aria-expanded="false">
+  <span class="assistant-launcher-dot"></span>
+  <span>Assistente</span>
+</button>
+<aside class="assistant-panel" id="assistant-panel" aria-label="Assistente virtual" aria-hidden="true">
+  <header class="assistant-header">
+    <div class="assistant-avatar" aria-hidden="true">✦</div>
+    <div class="assistant-heading">
+      <div class="assistant-eyebrow">Seu copiloto de estudos</div>
+      <h2>Olá, estudante!</h2>
+      <p id="assistant-status">Posso analisar seu desempenho e sugerir o próximo passo.</p>
+    </div>
+    <button type="button" class="assistant-close" onclick="toggleAssistant(false)" aria-label="Fechar assistente">×</button>
+  </header>
+
+  <div class="assistant-stats" id="assistant-stats" aria-label="Resumo do desempenho">
+    <div><strong id="assistant-accuracy">—</strong><span>Aproveitamento</span></div>
+    <div><strong id="assistant-answered">0</strong><span>Respondidas</span></div>
+    <div><strong id="assistant-streak">—</strong><span>Sequência</span></div>
+  </div>
+
+  <div class="assistant-suggestions" id="assistant-suggestions">
+    <button type="button" onclick="askAssistant('Como está meu desempenho?')">Meu desempenho</button>
+    <button type="button" onclick="askAssistant('Em que devo melhorar?')">Onde melhorar?</button>
+    <button type="button" onclick="askAssistant('Me dê uma dica rápida para a próxima questão.')">Dica rápida</button>
+  </div>
+
+  <div class="assistant-messages" id="assistant-messages" aria-live="polite">
+    <div class="assistant-message assistant-message-bot">Faça uma pergunta ou escolha uma sugestão. Quando sua API estiver conectada, eu também poderei responder com dados personalizados.</div>
+  </div>
+
+  <form class="assistant-form" onsubmit="submitAssistant(event)">
+    <input id="assistant-input" type="text" autocomplete="off" placeholder="Pergunte sobre seu desempenho..." aria-label="Pergunta para o assistente">
+    <button type="submit" aria-label="Enviar pergunta">↑</button>
+  </form>
+</aside>
 </div>
 
 <script src="js/questions.js?v=2"></script>
@@ -321,6 +359,7 @@
 <script src="js/simulator.js?v=6"></script>
 <script src="js/review.js?v=2"></script>
 <script src="js/rapid.js?v=2"></script>
+<script src="js/assistant.js?v=1"></script>
 <script src="js/app.js?v=2"></script>
 </body>
 </html>
