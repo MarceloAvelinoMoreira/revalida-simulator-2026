@@ -76,12 +76,15 @@ function renderRapidQuestion() {
   const question = rapidQuestions[rapidIndex];
   const statement = question.text || question.statement || 'Enunciado não disponível.';
   const answer = rapidAnswerText(question);
+  const images = !question.image ? [] : (Array.isArray(question.image) ? question.image : [question.image]);
+  const mediaHtml = images.map(src => `<img src="${rapidEscape(src)}" alt="Figura da questão ${rapidEscape(question.n)}" loading="lazy" style="max-width:100%;height:auto;display:block;margin:16px auto;border-radius:8px">`).join('');
   const answerHtml = answer
     ? `<div class="rapid-answer"><span class="rapid-answer-label">Resposta ${rapidEscape(answer.letter)}</span><span class="rapid-answer-text">${rapidEscape(rapidText(answer.text))}</span></div>`
     : '<div class="rapid-answer rapid-annulled"><span class="rapid-answer-label">Questão anulada</span><span class="rapid-answer-text">Não há alternativa correta válida no gabarito oficial.</span></div>';
   list.innerHTML = `<article class="rapid-card" id="rapid-question-${rapidEscape(question.n)}">
       <div class="rapid-question-label">Questão ${rapidEscape(question.n)}</div>
       <p class="rapid-question-text">${rapidEscape(rapidText(statement))}</p>
+      ${mediaHtml}
       ${answerHtml}
     </article>`;
   count.textContent = `${rapidIndex + 1} de ${rapidQuestions.length} questões`;
