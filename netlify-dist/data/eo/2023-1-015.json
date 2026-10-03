@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"3cf0b98e-f43f-5c62-b228-08e32f531d3a","questionId":"2023-1-015","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «O afastamento, temporário ou permanente, desse trabalhador deve ser avaliado, a partir da confirmação ou suspeita de doença relacionada ao trabalho».\n\nNo cenário — Um paciente com 32 anos, enfermeiro em hospital de referência em urgência e emergência, queixa-se de eritema, descamação e pápulas na face, principalmente na região malar. Ele relata ter percebido que esse quadro clínico, compatível com eczema de contato na face, manifestou-se após o uso constante de certo tipo de máscara de proteção. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Medicina Preventiva e Social, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Os medicamentos tópicos, como pomadas compostas por corticoide e antibiótico, são de prescrição obrigatória na condução clínica desse paciente») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Os testes epicutâneos constituem ferramenta diagnóstica confirmativa, podendo ser utilizados amplamente na Atenção Primária à Saúde») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («O diagnóstico de dermatose ocupacional, frequente entre profissionais dessa área, possui prevalência real registrada elevada, existindo baixa prevalência de sub-registros depois das notificações realizadas na Atenção Primária à Saúde») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Medicina Preventiva e Social. O enunciado descreve: Um paciente com 32 anos, enfermeiro em hospital de referência em urgência e emergência, queixa-se de eritema, descamação e pápulas na face, principalmente na região malar. Ele relata ter percebido que esse quadro clínico, compatível com eczema de contato na face, manifestou-se após o uso constante de certo tipo de máscara de proteção. Apesar do risco de contágio pelo novo Covid-19 já ter diminuído, os profissionais da área de saúde continuam a usar com frequência seus equipamentos de proteção individual, entre eles, as máscaras N95.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («O afastamento, temporário ou permanente, desse trabalhador deve ser avaliado, a partir da confirmação ou suspeita de doença relacionada ao trabalho») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de medicina preventiva e social, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Medicina Preventiva e Social.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0004","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Medicina Preventiva e Social","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "3cf0b98e-f43f-5c62-b228-08e32f531d3a",
+  "questionId": "2023-1-015",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Dermatite facial que aparece após uso repetido de máscara tem possível relação com o trabalho, por irritação, contato alérgico ou ambos. A conduta inclui investigar exposições, tratar, revisar equipamento sem perder proteção respiratória e avaliar necessidade de afastamento, alternativa C. O vínculo não deve ser ignorado enquanto se aguarda teste. Afastamento não é automaticamente permanente: depende de gravidade, resposta e possibilidade de adaptar exposição segura.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Antibiótico tópico não é obrigatório sem infecção e pode sensibilizar; tratamento deve ser individualizado."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Teste epicutâneo ajuda na dermatite alérgica, mas requer técnica/interpretação apropriadas e não confirma todo eczema irritativo."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Subnotificação é problema relevante; não há base para afirmar registro elevado e poucos casos não notificados."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 15\n\nResposta C — O afastamento, temporário ou permanente, desse trabalhador deve ser avaliado, a partir da confirmação ou suspeita de doença relacionada ao trabalho\n\nSaúde Coletiva › Saúde do trabalhador › Dermatite ocupacional por equipamento de proteção\n\nDermatite facial que aparece após uso repetido de máscara tem possível relação com o trabalho, por irritação, contato alérgico ou ambos. A conduta inclui investigar exposições, tratar, revisar equipamento sem perder proteção respiratória e avaliar necessidade de afastamento, alternativa C. O vínculo não deve ser ignorado enquanto se aguarda teste. Afastamento não é automaticamente permanente: depende de gravidade, resposta e possibilidade de adaptar exposição segura.\n\nA alternativa A está incorreta: Antibiótico tópico não é obrigatório sem infecção e pode sensibilizar; tratamento deve ser individualizado.\n\nA alternativa B está incorreta: Teste epicutâneo ajuda na dermatite alérgica, mas requer técnica/interpretação apropriadas e não confirma todo eczema irritativo.\n\nA alternativa C está correta: Reconhece que suspeita de doença relacionada ao trabalho já exige avaliar proteção e capacidade laboral.\n\nA alternativa D está incorreta: Subnotificação é problema relevante; não há base para afirmar registro elevado e poucos casos não notificados.\n\nGabarito oficial definitivo do INEP: C"
+    },
+    "takeHomeMessage": "Suspeita de dermatite ocupacional exige rever exposição e proteção, não apenas prescrever pomada ou esperar teste.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2023-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT006-MS-DERMATOSES",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Saúde Coletiva",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Saúde Coletiva",
+      "Saúde do trabalhador",
+      "Dermatite ocupacional por equipamento de proteção"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-006",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

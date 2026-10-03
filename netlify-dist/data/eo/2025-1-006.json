@@ -1,1 +1,83 @@
-{"schemaVersion":"2.0","objectId":"0caf561e-fb5f-5598-99be-66518ec87bba","questionId":"2025-1-006","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «omeprazol, subcitrato de bismuto coloidal, doxiciclina e metronidazol por 14 dias».\n\nNo cenário — Mulher de 38 anos, com deficiência congênita de IgA, é atendida em ambulatório de clínica médica devido a insucesso terapêutico no tratamento de infecção por Helicobacter pylori. Apresentava diagnóstico de úlcera duodenal, tendo sido prescrito omeprazol, amoxicilina e claritromicina. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («pantoprazol, amoxicilina e levofloxacino por 7 dias») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («omeprazol, claritromicina e levofloxacino por 14 dias») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («pantoprazol, subcitrato de bismuto coloidal, furazolidona e levofloxacino por 10 dias») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Mulher de 38 anos, com deficiência congênita de IgA, é atendida em ambulatório de clínica médica devido a insucesso terapêutico no tratamento de infecção por Helicobacter pylori. Apresentava diagnóstico de úlcera duodenal, tendo sido prescrito omeprazol, amoxicilina e claritromicina. Apesar da melhora clínica, observou-se persistência da infecção em teste respiratório com C13.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («omeprazol, subcitrato de bismuto coloidal, doxiciclina e metronidazol por 14 dias») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "0caf561e-fb5f-5598-99be-66518ec87bba",
+  "questionId": "2025-1-006",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Persistência no teste respiratório confirma que melhora sintomática não equivale a erradicação. Após falha com claritromicina e exposição repetida a macrolídeos e fluoroquinolonas, repetir empiricamente essas classes é pouco apropriado. C é a opção que evita ambas e oferece terapia quádrupla com bismuto durante quatorze dias. A deficiência de IgA não é o fator central de escolha entre esses antibióticos. Contudo, doxiciclina não é substituta universalmente recomendada da tetraciclina: a opção oficial requer ressalva frente às diretrizes.\n\n⚠ PONTO DE ATENÇÃO\n\nPreservado C. ACG 2024 recomenda terapia quádrupla otimizada com tetraciclina e desaconselha substituição por doxiciclina; o consenso irlandês de 2024 admite doxiciclina quando tetraciclina não está disponível. Portanto, a alternativa não equivale automaticamente ao esquema otimizado de qualquer diretriz.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Reutiliza levofloxacino diante de exposição prévia e propõe duração curta para um resgate empírico."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Reúne justamente macrolídeo e fluoroquinolona já associados ao risco de resistência."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Mantém levofloxacino e não é a escolha empírica preferida no cenário descrito."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 6\n\nResposta C — omeprazol, subcitrato de bismuto coloidal, doxiciclina e metronidazol por 14 dias\n\nClínica Médica › Gastroenterologia › Resgate após falha de erradicação do Helicobacter pylori\n\nPersistência no teste respiratório confirma que melhora sintomática não equivale a erradicação. Após falha com claritromicina e exposição repetida a macrolídeos e fluoroquinolonas, repetir empiricamente essas classes é pouco apropriado. C é a opção que evita ambas e oferece terapia quádrupla com bismuto durante quatorze dias. A deficiência de IgA não é o fator central de escolha entre esses antibióticos. Contudo, doxiciclina não é substituta universalmente recomendada da tetraciclina: a opção oficial requer ressalva frente às diretrizes.\n\nA alternativa A está incorreta: Reutiliza levofloxacino diante de exposição prévia e propõe duração curta para um resgate empírico.\n\nA alternativa B está incorreta: Reúne justamente macrolídeo e fluoroquinolona já associados ao risco de resistência.\n\nA alternativa C está correta: É a melhor opção oferecida por excluir essas classes e usar bismuto; a composição não deve ser generalizada sem considerar a ressalva.\n\nA alternativa D está incorreta: Mantém levofloxacino e não é a escolha empírica preferida no cenário descrito.\n\n⚠ PONTO DE ATENÇÃO\n\nPreservado C. ACG 2024 recomenda terapia quádrupla otimizada com tetraciclina e desaconselha substituição por doxiciclina; o consenso irlandês de 2024 admite doxiciclina quando tetraciclina não está disponível. Portanto, a alternativa não equivale automaticamente ao esquema otimizado de qualquer diretriz.\n\nGabarito oficial definitivo do INEP: C"
+    },
+    "takeHomeMessage": "Após falha, evitar reutilização empírica de antibióticos com resistência provável; verificar composição e disponibilidade do esquema de resgate.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2025-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT005-ACG-HPYLORI",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "COMMENT005-IRLANDA-HPYLORI",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Clínica Médica",
+      "Gastroenterologia",
+      "Resgate após falha de erradicação do Helicobacter pylori"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-005",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": true
+    }
+  }
+}

@@ -5,14 +5,30 @@
   "officialAnswer": "C",
   "annulled": false,
   "clinicalRationale": {
-    "correctRationale": "Gabarito definitivo: C. A justificativa clínica e a análise individual das alternativas permanecem pendentes de revisão.",
-    "alternativeRationales": []
+    "correctRationale": "Criança de dois anos, crise generalizada de sete minutos, sem recorrência descrita e recuperação neurológica, preenche o padrão de convulsão febril simples. A classificação simples usa duração menor que quinze minutos, ausência de focalidade e de repetição em 24 horas. Depois da resolução, a prioridade é investigar a febre e tratar a causa, alternativa C. Não há achados que imponham neuroimagem, EEG ou punção lombar de rotina. Se a crise estivesse em curso por mais de cinco minutos, a conduta aguda seria tratar a convulsão; isso não a tornaria automaticamente complexa.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Acerta a classificação, mas TC e punção não são obrigatórias sem suspeita de infecção intracraniana ou outros sinais de alarme."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Sete minutos não atinge o critério de quinze minutos; EEG de rotina não é indicado para uma crise febril simples."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Não há critério descrito de crise complexa nem indicação automática de ressonância/internação."
+      }
+    ]
   },
   "educationalContent": {
     "comment": {
-      "body": "Gabarito definitivo: C. A justificativa clínica e a análise individual das alternativas permanecem pendentes de revisão."
+      "body": "QUESTÃO 8\n\nResposta C — Convulsão febril simples; investigar o quadro febril e tratar o paciente de acordo com os resultados encontrados\n\nPediatria › Neurologia Pediátrica › Convulsão febril simples\n\nCriança de dois anos, crise generalizada de sete minutos, sem recorrência descrita e recuperação neurológica, preenche o padrão de convulsão febril simples. A classificação simples usa duração menor que quinze minutos, ausência de focalidade e de repetição em 24 horas. Depois da resolução, a prioridade é investigar a febre e tratar a causa, alternativa C. Não há achados que imponham neuroimagem, EEG ou punção lombar de rotina. Se a crise estivesse em curso por mais de cinco minutos, a conduta aguda seria tratar a convulsão; isso não a tornaria automaticamente complexa.\n\nA alternativa A está incorreta: Acerta a classificação, mas TC e punção não são obrigatórias sem suspeita de infecção intracraniana ou outros sinais de alarme.\n\nA alternativa B está incorreta: Sete minutos não atinge o critério de quinze minutos; EEG de rotina não é indicado para uma crise febril simples.\n\nA alternativa C está correta: Classifica corretamente e dirige a investigação ao foco febril e à condição clínica.\n\nA alternativa D está incorreta: Não há critério descrito de crise complexa nem indicação automática de ressonância/internação.\n\nGabarito oficial definitivo do INEP: C"
     },
-    "takeHomeMessage": null,
+    "takeHomeMessage": "O limiar para tratar uma crise em curso (cinco minutos) não é o mesmo usado para classificá-la como complexa (quinze minutos).",
     "keyPoints": [],
     "mnemonic": {
       "applicable": false,
@@ -21,19 +37,19 @@
   },
   "references": [
     {
-      "referenceId": "REF-2026-0016",
-      "role": "primary",
+      "referenceId": "COMMENT-INEP-2024-1-KEY",
+      "role": "official-key",
       "supports": [
-        "correctRationale",
-        "comment"
+        "officialAnswer"
       ]
     },
     {
-      "referenceId": "REF-2026-0001",
-      "role": "supporting",
+      "referenceId": "COMMENT005-AAP-FEBRIL",
+      "role": "primary",
       "supports": [
         "correctRationale",
-        "comment"
+        "comment",
+        "alternativeRationales"
       ]
     }
   ],
@@ -42,8 +58,12 @@
     "difficultyLevel": "medium",
     "cognitiveLevel": "application",
     "editorialReview": {
-      "status": "pending",
-      "allAlternativesCovered": false
+      "status": "validated",
+      "batchId": "editorial-005",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
     },
     "keySynchronization": {
       "questionId": "2024-1-008",
@@ -54,6 +74,11 @@
       "document": "provas/2024_1_GB.pdf",
       "verifiedAt": "2026-10-03",
       "reason": "Educational object disagreed with preserved bank and audited definitive key."
-    }
+    },
+    "taxonomy": [
+      "Pediatria",
+      "Neurologia Pediátrica",
+      "Convulsão febril simples"
+    ]
   }
 }

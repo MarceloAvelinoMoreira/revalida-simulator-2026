@@ -1,1 +1,83 @@
-{"schemaVersion":"2.0","objectId":"16709925-ef90-5228-a607-9ced0fe25dfb","questionId":"2022-1-013","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «tríplice viral aos 12 meses e uma dose da vacina tetraviral aos 15 meses».\n\nNo cenário — Uma menina com 11 meses de idade comparece à consulta de puericultura na Unidade Básica de Saúde. A mãe questiona como deve seguir a vacinação, especificamente no caso do sarampo, uma vez que a criança recebeu uma dose dessa vacina aos 8 meses de idade, quando teve contato com um caso suspeito da doença. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («tríplice viral aos 12 meses e uma dose da vacina tetraviral aos 18 meses») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («antissarampo aos 12 meses e uma dose da vacina tríplice viral aos 15 meses») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («antissarampo aos 18 meses e outra dose da vacina tetraviral aos 18 meses») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Uma menina com 11 meses de idade comparece à consulta de puericultura na Unidade Básica de Saúde. A mãe questiona como deve seguir a vacinação, especificamente no caso do sarampo, uma vez que a criança recebeu uma dose dessa vacina aos 8 meses de idade, quando teve contato com um caso suspeito da doença. De acordo com o estabelecido pelo Ministério da Saúde, essa criança deve receber uma dose da vacina\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («tríplice viral aos 12 meses e uma dose da vacina tetraviral aos 15 meses») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "16709925-ef90-5228-a607-9ced0fe25dfb",
+  "questionId": "2022-1-013",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "A dose administrada aos oito meses em situação de exposição é dose zero: não substitui as duas doses do calendário a partir de doze meses. A alternativa A mantém tríplice viral aos doze meses e tetraviral aos quinze, conforme o calendário da prova. A antecipação protege em situação epidemiológica especial, mas a resposta imunológica nessa idade não permite contabilizá-la como conclusão do esquema habitual.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Adia sem justificativa a segunda dose de rotina para dezoito meses."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Propõe vacina monovalente como rotina aos doze meses, em lugar da tríplice prevista."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Adia a proteção de rotina e apresenta um esquema que não corresponde ao calendário indicado."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 13\n\nResposta A — tríplice viral aos 12 meses e uma dose da vacina tetraviral aos 15 meses\n\nPediatria › Infectologia Pediátrica › Dose zero contra sarampo\n\nA dose administrada aos oito meses em situação de exposição é dose zero: não substitui as duas doses do calendário a partir de doze meses. A alternativa A mantém tríplice viral aos doze meses e tetraviral aos quinze, conforme o calendário da prova. A antecipação protege em situação epidemiológica especial, mas a resposta imunológica nessa idade não permite contabilizá-la como conclusão do esquema habitual.\n\nA alternativa A está correta: Mantém as duas doses de rotina nas idades previstas, apesar da dose antecipada.\n\nA alternativa B está incorreta: Adia sem justificativa a segunda dose de rotina para dezoito meses.\n\nA alternativa C está incorreta: Propõe vacina monovalente como rotina aos doze meses, em lugar da tríplice prevista.\n\nA alternativa D está incorreta: Adia a proteção de rotina e apresenta um esquema que não corresponde ao calendário indicado.\n\nGabarito oficial definitivo do INEP: A"
+    },
+    "takeHomeMessage": "Vacina de sarampo antes dos doze meses em situação especial é dose zero, não substitui doses de rotina.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2022-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT006-MS-PNI2022",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "COMMENT006-MS-DOSEZERO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Pediatria",
+      "Infectologia Pediátrica",
+      "Dose zero contra sarampo"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-006",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

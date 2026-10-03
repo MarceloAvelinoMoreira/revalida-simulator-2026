@@ -1,1 +1,83 @@
-{"schemaVersion":"2.0","objectId":"ed915733-6edf-5cbb-a50d-82de38bed638","questionId":"2022-1-010","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «gorro descartável, óculos de proteção ou protetor facial, máscara PFF2 (N95 ou equivalente), avental de mangas compridas, luva de procedimento e calçados fechados».\n\nNo cenário — Diante da pandemia da COVID-19, e segundo o guia de vigilância epidemiológica emergência de saúde pública de importância nacional pela doença pelo coronavírus 2019 — COVID-19 (2021), o Ministério da Saúde emitiu orientações de biossegurança durante a investigação de infecções respiratórias a partir de pacientes com suspeita de infecção por SARS-CoV-2. Nesta circunstância, para a coleta de material potencialmente gerador de aerossol, constitui a primeira linha de proteção destinada aos profissionais da saúde, os seguintes equipamentos de proteção individual (EPI): — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Medicina Preventiva e Social, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («gorro descartável, protetor facial, máscara PFF2 e avental de pano») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («óculos de proteção, máscara cirúrgica e avental de mangas compridas») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («gorro descartável, óculos de proteção ou protetor facial, máscara de pano/tecido (dupla camada), avental de mangas compridas, luva de procedimento e calçados fechados») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Medicina Preventiva e Social. O enunciado descreve: Diante da pandemia da COVID-19, e segundo o guia de vigilância epidemiológica emergência de saúde pública de importância nacional pela doença pelo coronavírus 2019 — COVID-19 (2021), o Ministério da Saúde emitiu orientações de biossegurança durante a investigação de infecções respiratórias a partir de pacientes com suspeita de infecção por SARS-CoV-2. Nesta circunstância, para a coleta de material potencialmente gerador de aerossol, constitui a primeira linha de proteção destinada aos profissionais da saúde, os seguintes equipamentos de proteção individual (EPI):\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («gorro descartável, óculos de proteção ou protetor facial, máscara PFF2 (N95 ou equivalente), avental de mangas compridas, luva de procedimento e calçados fechados») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de medicina preventiva e social, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Medicina Preventiva e Social.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0004","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Medicina Preventiva e Social","difficultyLevel":"medium","cognitiveLevel":"recall"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "ed915733-6edf-5cbb-a50d-82de38bed638",
+  "questionId": "2022-1-010",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "A coleta potencialmente geradora de aerossóis exige proteção respiratória com PFF2/N95 ou equivalente, além de proteção ocular e barreiras de contato. Entre os conjuntos oferecidos, C é o único que inclui respirador apropriado, óculos ou protetor facial, avental de mangas compridas, luvas, gorro e calçados fechados. Deve haver colocação e retirada corretas, higiene das mãos e ajuste do respirador; protetor facial não substitui proteção respiratória. O comentário considera o contexto de biossegurança da pandemia indicado no enunciado.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Embora inclua PFF2 e protetor facial, o conjunto é incompleto e o avental precisa atender às características de barreira exigidas, não apenas ser de pano."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Máscara cirúrgica não substitui o respirador em procedimento gerador de aerossóis e faltam outros componentes do conjunto."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Máscara de tecido não fornece a proteção respiratória ocupacional requerida nesse procedimento."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 10\n\nResposta C — gorro descartável, óculos de proteção ou protetor facial, máscara PFF2 (N95 ou equivalente), avental de mangas compridas, luva de procedimento e calçados fechados\n\nSaúde Coletiva › Biossegurança › Proteção em procedimentos geradores de aerossóis\n\nA coleta potencialmente geradora de aerossóis exige proteção respiratória com PFF2/N95 ou equivalente, além de proteção ocular e barreiras de contato. Entre os conjuntos oferecidos, C é o único que inclui respirador apropriado, óculos ou protetor facial, avental de mangas compridas, luvas, gorro e calçados fechados. Deve haver colocação e retirada corretas, higiene das mãos e ajuste do respirador; protetor facial não substitui proteção respiratória. O comentário considera o contexto de biossegurança da pandemia indicado no enunciado.\n\nA alternativa A está incorreta: Embora inclua PFF2 e protetor facial, o conjunto é incompleto e o avental precisa atender às características de barreira exigidas, não apenas ser de pano.\n\nA alternativa B está incorreta: Máscara cirúrgica não substitui o respirador em procedimento gerador de aerossóis e faltam outros componentes do conjunto.\n\nA alternativa C está correta: Reúne proteção respiratória, ocular e de contato compatíveis com a situação apresentada.\n\nA alternativa D está incorreta: Máscara de tecido não fornece a proteção respiratória ocupacional requerida nesse procedimento.\n\nGabarito oficial definitivo do INEP: C"
+    },
+    "takeHomeMessage": "Aerossol pede respirador adequado e conjunto de barreiras; máscara cirúrgica ou de tecido não é equivalente a PFF2/N95.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2022-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT005-ANVISA-EPI2022",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "COMMENT005-ANVISA-MASCARA2020",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Saúde Coletiva",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "recall",
+    "taxonomy": [
+      "Saúde Coletiva",
+      "Biossegurança",
+      "Proteção em procedimentos geradores de aerossóis"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-005",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

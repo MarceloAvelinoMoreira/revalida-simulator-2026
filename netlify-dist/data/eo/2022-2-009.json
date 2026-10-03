@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"561055b6-9745-5632-9610-810ae7e2f272","questionId":"2022-2-009","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «Pólipo endometrial; histeroscopia diagnóstica».\n\nNo cenário — Mulher de 23 anos de idade procurou o ambulatório de ginecologia, com queixa de aumento da intensidade e duração do fluxo menstrual há 8 meses. Nulípara, tem como antecedentes três abortos espontâneos, nos quais não precisou realizar curetagem uterina. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Ginecologia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Patologia cervical; colposcopia») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Gestação ectópica; laparotomia exploratória») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: indicar intervenção invasiva sem esgotar o critério clínico do enunciado. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Miomatose uterina; laparoscopia diagnóstica») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Ginecologia. O enunciado descreve: Mulher de 23 anos de idade procurou o ambulatório de ginecologia, com queixa de aumento da intensidade e duração do fluxo menstrual há 8 meses. Nulípara, tem como antecedentes três abortos espontâneos, nos quais não precisou realizar curetagem uterina. No exame físico, não apresentou qualquer alteração.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («Pólipo endometrial; histeroscopia diagnóstica») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de ginecologia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Ginecologia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"D: Pólipo endometrial; histeroscopia diagnóstica"}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Ginecologia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "561055b6-9745-5632-9610-810ae7e2f272",
+  "questionId": "2022-2-009",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Sangramento menstrual aumentado com lesão focal hiperecoica, regular e intracavitária sugere pólipo endometrial. A histeroscopia permite inspeção direta, definição da lesão e planejamento de retirada com estudo histológico, alternativa D. Espessura endometrial isolada varia com o ciclo e não estabelece câncer. Antecedente de abortos não confirma a etiologia deles, mas reforça a relevância de investigar a cavidade uterina. Colpocitologia com alterações benignas não explica o achado intracavitário.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Colposcopia investiga colo; não avalia a lesão endometrial mostrada na ultrassonografia."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Não há quadro sugestivo de gestação ectópica ou indicação de laparotomia por esse relato crônico."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Mioma submucoso é diferencial, mas a descrição favorece pólipo; laparoscopia examina o exterior, não a cavidade uterina."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 9\n\nResposta D — Pólipo endometrial; histeroscopia diagnóstica\n\nGinecologia e Obstetrícia › Ginecologia › Pólipo endometrial\n\nSangramento menstrual aumentado com lesão focal hiperecoica, regular e intracavitária sugere pólipo endometrial. A histeroscopia permite inspeção direta, definição da lesão e planejamento de retirada com estudo histológico, alternativa D. Espessura endometrial isolada varia com o ciclo e não estabelece câncer. Antecedente de abortos não confirma a etiologia deles, mas reforça a relevância de investigar a cavidade uterina. Colpocitologia com alterações benignas não explica o achado intracavitário.\n\nA alternativa A está incorreta: Colposcopia investiga colo; não avalia a lesão endometrial mostrada na ultrassonografia.\n\nA alternativa B está incorreta: Não há quadro sugestivo de gestação ectópica ou indicação de laparotomia por esse relato crônico.\n\nA alternativa C está incorreta: Mioma submucoso é diferencial, mas a descrição favorece pólipo; laparoscopia examina o exterior, não a cavidade uterina.\n\nA alternativa D está correta: Combina hipótese coerente com método capaz de visualizar e amostrar a lesão intracavitária.\n\nGabarito oficial definitivo do INEP: D"
+    },
+    "takeHomeMessage": "Lesão focal intracavitária e sangramento anormal pedem avaliação endometrial; histeroscopia não é equivalente a laparoscopia.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2022-2-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT005-NICE-HISTEROSCOPIA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Ginecologia",
+      "Pólipo endometrial"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-005",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

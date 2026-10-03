@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"b482023d-4e53-57d9-a137-49b3bf4ba85a","questionId":"2026-1-015","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «Suspender ibuprofeno e iniciar anti-histamínico oral».\n\nNo cenário — do. TEM IGP Ve SRISIS Adolescente de 15 anos, sexo masculino, procura Unidade Básica de Saúde relatando manchas cutâneas pruriginosas iniciadas nas últimas 24 horas, comprometendo todo o corpo. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («| Iniciar corticoide sistêmico e reavaliar em 5 dias») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Iniciar corticoide tópico e solicitar testes cutâneos de contato») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Iniciar aciclovir oral e permanganato de potássio em compressas na pele») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: do. TEM IGP Ve SRISIS Adolescente de 15 anos, sexo masculino, procura Unidade Básica de Saúde relatando manchas cutâneas pruriginosas iniciadas nas últimas 24 horas, comprometendo todo o corpo. Relata diagnóstico recente de amigdalite, tendo iniciado por conta própria ibuprofeno há 7 dias.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («Suspender ibuprofeno e iniciar anti-histamínico oral») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"B: Suspender ibuprofeno e iniciar anti-histamínico oral"}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"high","cognitiveLevel":"analysis"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "b482023d-4e53-57d9-a137-49b3bf4ba85a",
+  "questionId": "2026-1-015",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Exantema simétrico pruriginoso iniciado após sete dias de ibuprofeno, sem lesão mucosa, febre, instabilidade ou alterações hematológicas/hepáticas relevantes, favorece erupção medicamentosa maculopapular. Suspender o suspeito e oferecer anti-histamínico para prurido, B, é a conduta mais apropriada entre as opções. É preciso reavaliar se houver progressão, bolhas, erosões, febre ou manifestações sistêmicas. Creatinina deve ser interpretada com contexto e referência; não se deve ignorar evolução renal se aparecer.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Corticoide sistêmico não é necessário de rotina nessa apresentação aparentemente não grave e não substitui retirada do agente."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Teste de contato não é investigação imediata de rotina de exantema sistêmico e não deve atrasar suspensão do medicamento."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Não há vesículas ou padrão que indique herpes/varicela e justifique aciclovir."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 15\n\nResposta B — Suspender ibuprofeno e iniciar anti-histamínico oral\n\nClínica Médica › Dermatologia › Exantema medicamentoso sem sinais de gravidade\n\nExantema simétrico pruriginoso iniciado após sete dias de ibuprofeno, sem lesão mucosa, febre, instabilidade ou alterações hematológicas/hepáticas relevantes, favorece erupção medicamentosa maculopapular. Suspender o suspeito e oferecer anti-histamínico para prurido, B, é a conduta mais apropriada entre as opções. É preciso reavaliar se houver progressão, bolhas, erosões, febre ou manifestações sistêmicas. Creatinina deve ser interpretada com contexto e referência; não se deve ignorar evolução renal se aparecer.\n\nA alternativa A está incorreta: Corticoide sistêmico não é necessário de rotina nessa apresentação aparentemente não grave e não substitui retirada do agente.\n\nA alternativa B está correta: Remove a exposição provável e oferece alívio sintomático, com acompanhamento e orientação de alarme.\n\nA alternativa C está incorreta: Teste de contato não é investigação imediata de rotina de exantema sistêmico e não deve atrasar suspensão do medicamento.\n\nA alternativa D está incorreta: Não há vesículas ou padrão que indique herpes/varicela e justifique aciclovir.\n\nGabarito oficial definitivo do INEP: B"
+    },
+    "takeHomeMessage": "Exantema após novo medicamento pede revisar exposição e retirar suspeito; lesões mucosas e sintomas sistêmicos mudam a urgência.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2026-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT006-NHS-FARMACODERMIA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "high",
+    "cognitiveLevel": "analysis",
+    "taxonomy": [
+      "Clínica Médica",
+      "Dermatologia",
+      "Exantema medicamentoso sem sinais de gravidade"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-006",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

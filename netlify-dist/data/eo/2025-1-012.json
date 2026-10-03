@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"a316c33d-7faf-50bb-9160-567d4f9e767e","questionId":"2025-1-012","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «Atresia esofágica».\n\nNo cenário — Recém-nascido a termo, do sexo masculino, nascido de parto via vaginal, Apgar 9/10, apresenta salivação excessiva e muco no canto da boca após o nascimento. Durante a amamentação, apresenta regurgitação, cianose, tosse e insuficiência respiratória. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Obstetrícia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Atresia gástrica») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Atresia intestinal») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Atresia pancreática») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Obstetrícia. O enunciado descreve: Recém-nascido a termo, do sexo masculino, nascido de parto via vaginal, Apgar 9/10, apresenta salivação excessiva e muco no canto da boca após o nascimento. Durante a amamentação, apresenta regurgitação, cianose, tosse e insuficiência respiratória. Na sala de parto, não foi realizada passagem de sonda pelas narinas, nem pela boca.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («Atresia esofágica») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de obstetrícia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Obstetrícia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: Atresia esofágica"}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Obstetrícia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "a316c33d-7faf-50bb-9160-567d4f9e767e",
+  "questionId": "2025-1-012",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Polidrâmnio pré-natal, salivação excessiva e tosse/cianose com a primeira alimentação sugerem interrupção do trajeto esofágico, alternativa A. O recém-nascido não consegue conduzir secreções e leite ao estômago; fístula traqueoesofágica frequentemente associada pode agravar o comprometimento respiratório. É necessário suspender alimentação oral e avaliar urgentemente, com passagem cuidadosa de sonda e imagem conforme protocolo. O relato não permite definir o subtipo anatômico da atresia apenas pelos sintomas.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Obstrução gástrica produz sobretudo vômitos; não explica tão bem a impossibilidade de manejar saliva e a tosse inicial à deglutição."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Atresia intestinal pode causar distensão e vômitos, frequentemente biliosos conforme localização, e não esse padrão de alimentação."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Não corresponde à causa típica de interrupção esofágica com salivação e engasgos apresentada."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 12\n\nResposta A — Atresia esofágica\n\nPediatria › Cirurgia Pediátrica › Atresia esofágica\n\nPolidrâmnio pré-natal, salivação excessiva e tosse/cianose com a primeira alimentação sugerem interrupção do trajeto esofágico, alternativa A. O recém-nascido não consegue conduzir secreções e leite ao estômago; fístula traqueoesofágica frequentemente associada pode agravar o comprometimento respiratório. É necessário suspender alimentação oral e avaliar urgentemente, com passagem cuidadosa de sonda e imagem conforme protocolo. O relato não permite definir o subtipo anatômico da atresia apenas pelos sintomas.\n\nA alternativa A está correta: Explica acúmulo de saliva e dificuldade imediatamente ao deglutir, associados a polidrâmnio.\n\nA alternativa B está incorreta: Obstrução gástrica produz sobretudo vômitos; não explica tão bem a impossibilidade de manejar saliva e a tosse inicial à deglutição.\n\nA alternativa C está incorreta: Atresia intestinal pode causar distensão e vômitos, frequentemente biliosos conforme localização, e não esse padrão de alimentação.\n\nA alternativa D está incorreta: Não corresponde à causa típica de interrupção esofágica com salivação e engasgos apresentada.\n\nGabarito oficial definitivo do INEP: A"
+    },
+    "takeHomeMessage": "Salivação excessiva e cianose/tosse na primeira mamada, especialmente com polidrâmnio, exigem excluir atresia esofágica.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2025-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT005-CHOP-ATRESIA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Pediatria",
+      "Cirurgia Pediátrica",
+      "Atresia esofágica"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-005",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

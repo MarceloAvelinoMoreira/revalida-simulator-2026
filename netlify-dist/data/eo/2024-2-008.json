@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"b8c6b514-e044-575e-9940-2dd75f75a4a4","questionId":"2024-2-008","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «monitorar a glicemia capilar para avaliar se o paciente apresentará esse quadro».\n\nNo cenário — Um recém-nascido a termo, com 6 horas de vida, com peso de nascimento de 4.200 gramas, é internado em alojamento conjunto. Sabe-se que sua mãe possui diagnóstico de diabetes gestacional. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («administrar fórmula infantil de forma complementar ao aleitamento materno para evitar esse quadro») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: impor restrição desnecessária que não resolve o núcleo do caso. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («realizar reposição de glicose venosa, caso a glicemia capilar seja menor ou igual 60 mg/dL») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («iniciar reposição de glicose venosa, caso o paciente apresente letargia ou crise convulsiva») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Um recém-nascido a termo, com 6 horas de vida, com peso de nascimento de 4.200 gramas, é internado em alojamento conjunto. Sabe-se que sua mãe possui diagnóstico de diabetes gestacional. Considerando-se o risco do recém-nascido desenvolver um quadro de hipoglicemia neonatal, a conduta inicial correta deve ser\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («monitorar a glicemia capilar para avaliar se o paciente apresentará esse quadro») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "b8c6b514-e044-575e-9940-2dd75f75a4a4",
+  "questionId": "2024-2-008",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Filho de mãe com diabetes gestacional e peso elevado tem risco de hipoglicemia por hiperinsulinismo. Como não são descritos sintomas nem glicemia baixa, a conduta inicial é monitorização, alternativa A, junto a alimentação precoce e avaliação clínica. Não se deve esperar convulsão para investigar. Os limiares de intervenção dependem das horas de vida, sintomas e protocolo; glicemia de 60 mg/dL não é indicação universal de glicose intravenosa nas primeiras horas.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Fórmula não é complemento obrigatório para todo filho de mãe diabética; preservar aleitamento e suplementar conforme avaliação."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Transforma 60 mg/dL em limiar venoso universal, desconsiderando idade pós-natal, sintomas e alternativas de manejo."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Sintomas graves exigem ação imediata e avaliação da glicemia, mas esperar sintomas não é estratégia inicial de rastreamento."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 8\n\nResposta A — monitorar a glicemia capilar para avaliar se o paciente apresentará esse quadro\n\nPediatria › Neonatologia › Rastreio de hipoglicemia neonatal\n\nFilho de mãe com diabetes gestacional e peso elevado tem risco de hipoglicemia por hiperinsulinismo. Como não são descritos sintomas nem glicemia baixa, a conduta inicial é monitorização, alternativa A, junto a alimentação precoce e avaliação clínica. Não se deve esperar convulsão para investigar. Os limiares de intervenção dependem das horas de vida, sintomas e protocolo; glicemia de 60 mg/dL não é indicação universal de glicose intravenosa nas primeiras horas.\n\nA alternativa A está correta: Permite reconhecer precocemente hipoglicemia em recém-nascido de risco ainda assintomático.\n\nA alternativa B está incorreta: Fórmula não é complemento obrigatório para todo filho de mãe diabética; preservar aleitamento e suplementar conforme avaliação.\n\nA alternativa C está incorreta: Transforma 60 mg/dL em limiar venoso universal, desconsiderando idade pós-natal, sintomas e alternativas de manejo.\n\nA alternativa D está incorreta: Sintomas graves exigem ação imediata e avaliação da glicemia, mas esperar sintomas não é estratégia inicial de rastreamento.\n\nGabarito oficial definitivo do INEP: A"
+    },
+    "takeHomeMessage": "Recém-nascido de risco precisa de rastreio e alimentação; via venosa não é definida por um limiar único para qualquer idade.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2024-2-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT005-CPS-GLICOSE",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Pediatria",
+      "Neonatologia",
+      "Rastreio de hipoglicemia neonatal"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-005",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

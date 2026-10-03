@@ -1,6 +1,6 @@
 # Comentários — auditoria e primeiro lote
 
-Registro histórico do primeiro lote. Para o estado atualizado (75 resoluções novas e 924 pendentes), consulte [a continuação da auditoria](comentarios-auditoria-continuacao.md).
+Registro histórico do primeiro lote. Para o estado atualizado (125 resoluções novas e 874 pendentes), consulte [a auditoria dos lotes 5 e 6](comentarios-auditoria-lote6.md).
 
 Data: 03/10/2026. **Situação: parcial. A missão completa ainda não foi concluída.**
 

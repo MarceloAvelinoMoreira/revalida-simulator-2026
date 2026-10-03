@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"72a285b9-4438-5e33-8c0b-bb832764cd1d","questionId":"2024-2-009","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «Indicar o uso de estradiol por via transdérmica, para a redução do risco de osteoporose».\n\nNo cenário — Uma paciente de 55 anos, histerectomizada, vai à consulta referindo sintomas climatéricos intensos há 2 anos. Ela relata fazer tratamento com anti-inflamatório para osteoartrite coxofemoral, nega ter hipertensão, diabetes e dislipidemia. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Ginecologia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Orientar a TH isolada com raloxifeno por via oral, devido aos seus benefícios para a cognição») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Receitar a TH combinada, estradiol e progesterona, via oral, para proteção endometrial») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Prescrever tratamentos não hormonais, pois ela é histerectomizada e usuária crônica de anti-inflamatórios») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Ginecologia. O enunciado descreve: Uma paciente de 55 anos, histerectomizada, vai à consulta referindo sintomas climatéricos intensos há 2 anos. Ela relata fazer tratamento com anti-inflamatório para osteoartrite coxofemoral, nega ter hipertensão, diabetes e dislipidemia. Nega antecedentes familiares de câncer de mama ou de ovários, mas relata ter antecedentes de doença de Alzheimer por parte de sua mãe e de sua tia materna.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («Indicar o uso de estradiol por via transdérmica, para a redução do risco de osteoporose») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de ginecologia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Ginecologia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Ginecologia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "72a285b9-4438-5e33-8c0b-bb832764cd1d",
+  "questionId": "2024-2-009",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Sintomas climatéricos intensos em mulher de 55 anos sem contraindicação descrita permitem discutir terapia hormonal após avaliação individual. Em ausência de útero, estrogênio isolado é em geral suficiente; estradiol transdérmico, B, é uma opção para sintomas e também reduz perda óssea durante o uso. História familiar de Alzheimer não indica TH para prevenção de demência. O uso de anti-inflamatório não cria contraindicação automática. Devem-se esclarecer benefícios, riscos e reavaliar periodicamente.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Raloxifeno não é tratamento adequado dos sintomas vasomotores e não deve ser prescrito para proteção cognitiva."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Proteção endometrial com progesterona não é necessária de rotina após histerectomia total, salvo situações especiais."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Histerectomia não impede TH e anti-inflamatório não obriga tratamento exclusivamente não hormonal."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 9\n\nResposta B — Indicar o uso de estradiol por via transdérmica, para a redução do risco de osteoporose\n\nGinecologia e Obstetrícia › Ginecologia › Terapia hormonal após histerectomia\n\nSintomas climatéricos intensos em mulher de 55 anos sem contraindicação descrita permitem discutir terapia hormonal após avaliação individual. Em ausência de útero, estrogênio isolado é em geral suficiente; estradiol transdérmico, B, é uma opção para sintomas e também reduz perda óssea durante o uso. História familiar de Alzheimer não indica TH para prevenção de demência. O uso de anti-inflamatório não cria contraindicação automática. Devem-se esclarecer benefícios, riscos e reavaliar periodicamente.\n\nA alternativa A está incorreta: Raloxifeno não é tratamento adequado dos sintomas vasomotores e não deve ser prescrito para proteção cognitiva.\n\nA alternativa B está correta: Estradiol pode tratar sintomas e favorecer preservação óssea; a via transdérmica é uma opção coerente com o caso.\n\nA alternativa C está incorreta: Proteção endometrial com progesterona não é necessária de rotina após histerectomia total, salvo situações especiais.\n\nA alternativa D está incorreta: Histerectomia não impede TH e anti-inflamatório não obriga tratamento exclusivamente não hormonal.\n\nGabarito oficial definitivo do INEP: B"
+    },
+    "takeHomeMessage": "Após histerectomia total, TH costuma usar estrogênio isolado; não indicar hormônio para prevenir Alzheimer.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2024-2-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT005-NICE-MENOPAUSA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Ginecologia",
+      "Terapia hormonal após histerectomia"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-005",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

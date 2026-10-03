@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"01dac9af-bfd9-5d54-a0ea-1d985c91f397","questionId":"2026-1-014","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «Hormônio estimulante da tireoide e tiroxina livre».\n\nNo cenário — di TEMA IRS PO Ve SRIDES Mulher de 42 anos buscou Unidade Básica de Saúde com queixas de humor deprimido, anedonia, fadiga intensa, dificuldade de concentração e ganho de peso, associados a ressecamento da pele, constipação intestinal e irregularidade menstrual, por 2 meses. Foi diagnosticada com transtorno depressivo maior e começou tratamento com antidepressivo adequado, porém sem resposta clínica significativa após 12 semanas. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Fator Antinuclear, antiproteína P ribossomal e anti-Smith») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Cortisol salivar noturno e hormônio adrenocorticotrófico plasmático») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Pesquisa de anticorpo antitreponêmico») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: di TEMA IRS PO Ve SRIDES Mulher de 42 anos buscou Unidade Básica de Saúde com queixas de humor deprimido, anedonia, fadiga intensa, dificuldade de concentração e ganho de peso, associados a ressecamento da pele, constipação intestinal e irregularidade menstrual, por 2 meses. Foi diagnosticada com transtorno depressivo maior e começou tratamento com antidepressivo adequado, porém sem resposta clínica significativa após 12 semanas. Em consulta de retorno, relata manutenção dos sintomas, nega uso de outros medicamentos ou de drogas.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («Hormônio estimulante da tireoide e tiroxina livre») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"B: Hormônio estimulante da tireoide e tiroxina livre"}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "01dac9af-bfd9-5d54-a0ea-1d985c91f397",
+  "questionId": "2026-1-014",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Ganho de peso, pele seca, constipação e irregularidade menstrual associados a fadiga e sintomas depressivos apontam para hipotireoidismo, especialmente após resposta insatisfatória ao antidepressivo. TSH e T4 livre, alternativa B, permitem reconhecer disfunção tireoidiana e diferenciar hipotireoidismo manifesto de subclínico. Resistência aparente ao tratamento não prova doença endócrina, mas os sinais sistêmicos justificam investigar essa hipótese antes de apenas intensificar psicofármacos.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Autoanticorpos de lúpus são apropriados se houver suspeita clínica dessa doença; o conjunto descrito favorece tireoide, não manifestações típicas de LES."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Hipercortisolismo exige quadro e testes próprios; não é a principal hipótese e ACTH isolado não é o rastreamento inicial usual."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Sífilis pode ter manifestações neurológicas, mas não é a hipótese que melhor explica esse agrupamento de sinais sistêmicos."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 14\n\nResposta B — Hormônio estimulante da tireoide e tiroxina livre\n\nClínica Médica › Endocrinologia › Hipotireoidismo no diferencial de depressão\n\nGanho de peso, pele seca, constipação e irregularidade menstrual associados a fadiga e sintomas depressivos apontam para hipotireoidismo, especialmente após resposta insatisfatória ao antidepressivo. TSH e T4 livre, alternativa B, permitem reconhecer disfunção tireoidiana e diferenciar hipotireoidismo manifesto de subclínico. Resistência aparente ao tratamento não prova doença endócrina, mas os sinais sistêmicos justificam investigar essa hipótese antes de apenas intensificar psicofármacos.\n\nA alternativa A está incorreta: Autoanticorpos de lúpus são apropriados se houver suspeita clínica dessa doença; o conjunto descrito favorece tireoide, não manifestações típicas de LES.\n\nA alternativa B está correta: Pesquisa diretamente a causa endócrina que integra sintomas psíquicos e somáticos apresentados.\n\nA alternativa C está incorreta: Hipercortisolismo exige quadro e testes próprios; não é a principal hipótese e ACTH isolado não é o rastreamento inicial usual.\n\nA alternativa D está incorreta: Sífilis pode ter manifestações neurológicas, mas não é a hipótese que melhor explica esse agrupamento de sinais sistêmicos.\n\nGabarito oficial definitivo do INEP: B"
+    },
+    "takeHomeMessage": "Depressão acompanhada de pele seca, constipação e ganho de peso pede avaliação tireoidiana, não apenas troca de antidepressivo.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2026-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT005-NICE-TIREOIDE",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Clínica Médica",
+      "Endocrinologia",
+      "Hipotireoidismo no diferencial de depressão"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-005",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

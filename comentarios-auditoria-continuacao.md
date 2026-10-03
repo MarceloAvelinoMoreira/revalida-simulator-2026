@@ -1,5 +1,7 @@
 # Comentários — continuação da auditoria
 
+Registro histórico dos lotes 3 e 4. O estado atual está em [auditoria dos lotes 5 e 6](comentarios-auditoria-lote6.md): 125 resoluções novas acumuladas e 874 pendentes.
+
 Data: 03/10/2026. Situação: parcial; a solicitação de todas as alternativas ainda não está concluída.
 
 ## Resultado deste lote

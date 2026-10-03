@@ -1,1 +1,83 @@
-{"schemaVersion":"2.0","objectId":"51157b76-7ea7-569a-bc9e-08a347e6e0a6","questionId":"2021-019","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «Pentavalente (DTP+Hib+Hep B) e Vip (vacina inativada para poliomielite)».\n\nNo cenário — Lactente, com 6 meses de idade, está sendo atendido na Estratégia da Saúde para puericultura. A médica identifica o registro no cartão apenas da vacina Influenza, que foi feita na rede particular de imunização. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Pentavalente (DTP+Hib+Hep B) e Pneumococia 10») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Pentavalente (DTP+Hib+Hep B), Pneumococia 10 e Rotavírus») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Pentavalente (DTP+Hib+Hep B), VIP (Vacina inativada para poliomieiete) e Pneumocócica 10») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Lactente, com 6 meses de idade, está sendo atendido na Estratégia da Saúde para puericultura. A médica identifica o registro no cartão apenas da vacina Influenza, que foi feita na rede particular de imunização. As demais vacinas a serem administradas até o 5.o mês estavam todas registradas na caderneta.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («Pentavalente (DTP+Hib+Hep B) e Vip (vacina inativada para poliomielite)») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0001","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0016","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"recall"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "51157b76-7ea7-569a-bc9e-08a347e6e0a6",
+  "questionId": "2021-019",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Com doses anteriores em dia, aos seis meses completam-se as terceiras doses de pentavalente e VIP no calendário usado à época, alternativa A. Pneumocócica 10 tinha esquema primário aos dois e quatro meses, com reforço aos doze; rotavírus tinha doses aos dois e quatro meses. A pergunta não descreve atraso que exija resgate dessas vacinas. O registro de influenza não substitui nenhuma dessas doses e seu esquema deve ser conferido separadamente.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Omite VIP e acrescenta pneumocócica fora da dose de rotina para essa idade no esquema completo."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Omite VIP e acrescenta pneumocócica e rotavírus, sem haver atraso descrito."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Inclui as duas vacinas devidas, mas acrescenta pneumocócica como dose de rotina indevida no contexto."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 19\n\nResposta A — Pentavalente (DTP+Hib+Hep B) e Vip (vacina inativada para poliomielite)\n\nPediatria › Infectologia Pediátrica › Calendário vacinal aos seis meses\n\nCom doses anteriores em dia, aos seis meses completam-se as terceiras doses de pentavalente e VIP no calendário usado à época, alternativa A. Pneumocócica 10 tinha esquema primário aos dois e quatro meses, com reforço aos doze; rotavírus tinha doses aos dois e quatro meses. A pergunta não descreve atraso que exija resgate dessas vacinas. O registro de influenza não substitui nenhuma dessas doses e seu esquema deve ser conferido separadamente.\n\nA alternativa A está correta: Inclui precisamente as terceiras doses de penta e poliomielite inativada previstas aos seis meses.\n\nA alternativa B está incorreta: Omite VIP e acrescenta pneumocócica fora da dose de rotina para essa idade no esquema completo.\n\nA alternativa C está incorreta: Omite VIP e acrescenta pneumocócica e rotavírus, sem haver atraso descrito.\n\nA alternativa D está incorreta: Inclui as duas vacinas devidas, mas acrescenta pneumocócica como dose de rotina indevida no contexto.\n\nGabarito oficial definitivo do INEP: A"
+    },
+    "takeHomeMessage": "Leia idade e doses anteriores: aos seis meses, esquema completo prévio aponta para penta 3 e VIP 3.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT006-MS-PENTA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "COMMENT006-MS-PNI2022",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "recall",
+    "taxonomy": [
+      "Pediatria",
+      "Infectologia Pediátrica",
+      "Calendário vacinal aos seis meses"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-006",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

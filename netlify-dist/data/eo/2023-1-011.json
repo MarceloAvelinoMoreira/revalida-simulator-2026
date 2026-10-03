@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"2293c9b1-d9ec-5cc2-8e92-f22b13f2accd","questionId":"2023-1-011","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «púrpura trombocitopênica imunológica grave».\n\nNo cenário — Uma paciente com 30 anos, branca, procura serviço de emergência devido a sangramento gengival e ao aparecimento de pontos avermelhados nos membros inferiores há 15 dias, com piora progressiva das lesões e fadiga. Nega febre, uso de medicamentos e ingesta de bebidas à base de quinino. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («síndrome hemolítico-urêmica (SHU)») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («púrpura trombocitopênica trombótica») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («trombocitopenia induzida por fármaco») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Uma paciente com 30 anos, branca, procura serviço de emergência devido a sangramento gengival e ao aparecimento de pontos avermelhados nos membros inferiores há 15 dias, com piora progressiva das lesões e fadiga. Nega febre, uso de medicamentos e ingesta de bebidas à base de quinino. Foram solicitados exames que mostraram: Hemograma Resultado Valores de referência Mulheres Homens Hemácias 4,0 x 1012/L 0,5-4,3 x 1012/L 0,5-5,0 x 1012/L Hemoglobina 10 g/dL 12,0-16,0 g/dL 13,5-17,5 g/dL Hematócrito 30% 36-46 (%) 41-53 (%) Leucócitos 5,0 x 103/L 3,0-7,0 x 103/L Plaquetas 10 x 103/L 150-400 x 103/L OBS.: foram observadas macroplaquetas na lâmina do esfregaço de sangue.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («púrpura trombocitopênica imunológica grave») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"D: púrpura trombocitopênica imunológica grave"}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"high","cognitiveLevel":"analysis"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "2293c9b1-d9ec-5cc2-8e92-f22b13f2accd",
+  "questionId": "2023-1-011",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Plaquetas de 10.000/mm³, petéquias e hemorragia mucosa com leucócitos preservados, coagulação sem prolongamento e macroplaquetas sugerem destruição periférica de plaquetas. Não há evidência laboratorial de hemólise microangiopática ou lesão renal; D é a principal hipótese. Trombocitopenia imune é diagnóstico de exclusão, exigindo avaliar causas secundárias e confirmar o esfregaço. Sangramento mucoso relevante com contagem tão baixa demanda avaliação hematológica urgente, diferente da simples observação de criança com manifestações apenas cutâneas.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "SHU associa tipicamente anemia hemolítica microangiopática e lesão renal, não demonstradas aqui."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "PTT costuma ter hemólise microangiopática e deficiência grave de ADAMTS13, em geral <10%; os dados não apoiam esse padrão."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Não há exposição medicamentosa relatada que sustente trombocitopenia induzida por fármaco."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 11\n\nResposta D — púrpura trombocitopênica imunológica grave\n\nClínica Médica › Hematologia › Trombocitopenia imune com sangramento mucoso\n\nPlaquetas de 10.000/mm³, petéquias e hemorragia mucosa com leucócitos preservados, coagulação sem prolongamento e macroplaquetas sugerem destruição periférica de plaquetas. Não há evidência laboratorial de hemólise microangiopática ou lesão renal; D é a principal hipótese. Trombocitopenia imune é diagnóstico de exclusão, exigindo avaliar causas secundárias e confirmar o esfregaço. Sangramento mucoso relevante com contagem tão baixa demanda avaliação hematológica urgente, diferente da simples observação de criança com manifestações apenas cutâneas.\n\nA alternativa A está incorreta: SHU associa tipicamente anemia hemolítica microangiopática e lesão renal, não demonstradas aqui.\n\nA alternativa B está incorreta: PTT costuma ter hemólise microangiopática e deficiência grave de ADAMTS13, em geral <10%; os dados não apoiam esse padrão.\n\nA alternativa C está incorreta: Não há exposição medicamentosa relatada que sustente trombocitopenia induzida por fármaco.\n\nA alternativa D está correta: Explica trombocitopenia profunda e sangramento mucocutâneo sem sinais de microangiopatia, após exclusão de outras causas.\n\nGabarito oficial definitivo do INEP: D"
+    },
+    "takeHomeMessage": "PTI é diagnóstico de exclusão; contagem baixa e sangramento mucoso exigem avaliar urgência e diferenciar microangiopatias.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2023-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT006-ASH-PTI2019",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "high",
+    "cognitiveLevel": "analysis",
+    "taxonomy": [
+      "Clínica Médica",
+      "Hematologia",
+      "Trombocitopenia imune com sangramento mucoso"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-006",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"9ac48d6b-e87a-5f03-a11b-36b1888fcf65","questionId":"2026-1-016","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «Notificar o surto imediatamente e realizar a busca ativa de sintomáticos na escola e nos domicílios».\n\nNo cenário — Ve PRISDA Em uma Unidade Básica de Saúde, o médico de família e comunidade atende, na mesma semana, 4 crianças entre 7 e 9 anos com quadro de febre baixa, fadiga, náuseas e icterícia há 4 dias. Exames laboratoriais evidenciam anticorpo IgM anti-HAV. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Determinar o isolamento hospitalar dos casos para interromper a cadeia de transmissão fecal-oral na comunidade») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Prescrever imunoglobulina humana para contatos da escola e domicílio») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Suspender as atividades escolares por 45 dias para aguardar o término do período de incubação viral») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: impor restrição desnecessária que não resolve o núcleo do caso. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Ve PRISDA Em uma Unidade Básica de Saúde, o médico de família e comunidade atende, na mesma semana, 4 crianças entre 7 e 9 anos com quadro de febre baixa, fadiga, náuseas e icterícia há 4 dias. Exames laboratoriais evidenciam anticorpo IgM anti-HAV. A equipe de saúde identifica que todas frequentam a mesma escola, em cuja rua houve um transbordamento de esgoto na semana anterior ao início dos sintomas.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («Notificar o surto imediatamente e realizar a busca ativa de sintomáticos na escola e nos domicílios») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "9ac48d6b-e87a-5f03-a11b-36b1888fcf65",
+  "questionId": "2026-1-016",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Quatro crianças da mesma escola com quadro semelhante e IgM anti-HAV configuram agrupamento que exige notificação imediata e investigação, B. Busca ativa, água segura, higiene e avaliação de contatos integram controle de transmissão fecal-oral. IgM sustenta infecção aguda, mas não identifica sozinho a fonte. O transbordamento recente deve ser investigado sem atribuir causalidade automática: a incubação habitual é de 15 a 50 dias, maior que a semana narrada entre evento e sintomas.\n\n⚠ PONTO DE ATENÇÃO\n\nO gabarito B foi mantido. A cronologia de uma semana não é compatível com atribuir todos os casos diretamente àquele transbordamento, dada a incubação de 15–50 dias. Investigar exposição anterior, persistente e transmissão interpessoal.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Internação é definida pela necessidade clínica, não isolamento hospitalar universal para interromper transmissão."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Profilaxia de contatos pode ser considerada conforme indicação e tempo, mas imunoglobulina universal não substitui a investigação do surto."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Fechar escola por prazo fixo de 45 dias não é medida automática baseada apenas nesse relato."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 16\n\nResposta B — Notificar o surto imediatamente e realizar a busca ativa de sintomáticos na escola e nos domicílios\n\nSaúde Coletiva › Vigilância epidemiológica › Surto de hepatite A\n\nQuatro crianças da mesma escola com quadro semelhante e IgM anti-HAV configuram agrupamento que exige notificação imediata e investigação, B. Busca ativa, água segura, higiene e avaliação de contatos integram controle de transmissão fecal-oral. IgM sustenta infecção aguda, mas não identifica sozinho a fonte. O transbordamento recente deve ser investigado sem atribuir causalidade automática: a incubação habitual é de 15 a 50 dias, maior que a semana narrada entre evento e sintomas.\n\nA alternativa A está incorreta: Internação é definida pela necessidade clínica, não isolamento hospitalar universal para interromper transmissão.\n\nA alternativa B está correta: Aciona vigilância e busca de casos/exposições, permitindo medidas dirigidas no território.\n\nA alternativa C está incorreta: Profilaxia de contatos pode ser considerada conforme indicação e tempo, mas imunoglobulina universal não substitui a investigação do surto.\n\nA alternativa D está incorreta: Fechar escola por prazo fixo de 45 dias não é medida automática baseada apenas nesse relato.\n\n⚠ PONTO DE ATENÇÃO\n\nO gabarito B foi mantido. A cronologia de uma semana não é compatível com atribuir todos os casos diretamente àquele transbordamento, dada a incubação de 15–50 dias. Investigar exposição anterior, persistente e transmissão interpessoal.\n\nGabarito oficial definitivo do INEP: B"
+    },
+    "takeHomeMessage": "Notificar e investigar o surto; plausibilidade de transmissão não prova que um evento recente seja a fonte.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2026-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT006-MS-HAV",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Saúde Coletiva",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Saúde Coletiva",
+      "Vigilância epidemiológica",
+      "Surto de hepatite A"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-006",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": true
+    }
+  }
+}

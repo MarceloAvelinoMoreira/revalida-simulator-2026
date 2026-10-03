@@ -1,1 +1,83 @@
-{"schemaVersion":"2.0","objectId":"49f0fee4-4378-5d1d-b888-65616bbf25f4","questionId":"2023-1-009","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «Na candidíase vaginal, o corrimento no exame direto apresenta aspecto branco, habitualmente espesso ou grumoso, aderido ao colo e às paredes vaginais».\n\nNo cenário — A vulvovaginite constitui uma das doenças mais comuns que motivam as mulheres a procurar o/a ginecologista. Nesse contexto, considerando a importância do diagnóstico etiológico, assinale a opção correta. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Na infecção por clamídea, o corrimento apresenta-se em moderada quantidade com intensa reação inflamatória nas paredes vaginais») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Na tricomoníase, o corrimento é escasso, e o diagnóstico é realizado com base no resultado da bacterioscopia e da cultura de meio vaginal») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Na vaginite citolítica, o pH da vagina é maior que 4,5, o corrimento tem aspecto homogêneo, e a bacterioscopia mostra a presença de germes Gram negativos») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: A vulvovaginite constitui uma das doenças mais comuns que motivam as mulheres a procurar o/a ginecologista. Nesse contexto, considerando a importância do diagnóstico etiológico, assinale a opção correta.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («Na candidíase vaginal, o corrimento no exame direto apresenta aspecto branco, habitualmente espesso ou grumoso, aderido ao colo e às paredes vaginais») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "49f0fee4-4378-5d1d-b888-65616bbf25f4",
+  "questionId": "2023-1-009",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "O padrão branco, espesso ou grumoso é característico de candidíase vulvovaginal, alternativa C, frequentemente associado a prurido e inflamação vulvar. Entretanto, aspecto do corrimento sozinho não confirma etiologia: avaliação do pH, microscopia e, quando indicada, cultura complementam o exame. Candidíase costuma preservar pH ácido. A questão diferencia vaginite de cervicite e impede confundir secreção grumosa com as características mais usuais de tricomoníase e vaginose.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Clamídia produz sobretudo cervicite, muitas vezes assintomática; intensa inflamação das paredes vaginais não é seu padrão definidor."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Tricomoníase pode produzir secreção abundante e inflamatória; não se caracteriza obrigatoriamente por corrimento escasso."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Vaginite citolítica é associada a meio ácido e lactobacilos, não ao conjunto pH elevado e germes Gram-negativos descrito."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 9\n\nResposta C — Na candidíase vaginal, o corrimento no exame direto apresenta aspecto branco, habitualmente espesso ou grumoso, aderido ao colo e às paredes vaginais\n\nGinecologia e Obstetrícia › Ginecologia › Diagnóstico diferencial das vulvovaginites\n\nO padrão branco, espesso ou grumoso é característico de candidíase vulvovaginal, alternativa C, frequentemente associado a prurido e inflamação vulvar. Entretanto, aspecto do corrimento sozinho não confirma etiologia: avaliação do pH, microscopia e, quando indicada, cultura complementam o exame. Candidíase costuma preservar pH ácido. A questão diferencia vaginite de cervicite e impede confundir secreção grumosa com as características mais usuais de tricomoníase e vaginose.\n\nA alternativa A está incorreta: Clamídia produz sobretudo cervicite, muitas vezes assintomática; intensa inflamação das paredes vaginais não é seu padrão definidor.\n\nA alternativa B está incorreta: Tricomoníase pode produzir secreção abundante e inflamatória; não se caracteriza obrigatoriamente por corrimento escasso.\n\nA alternativa C está correta: Descreve a secreção típica da candidíase, que deve ser correlacionada com sintomas e investigação etiológica.\n\nA alternativa D está incorreta: Vaginite citolítica é associada a meio ácido e lactobacilos, não ao conjunto pH elevado e germes Gram-negativos descrito.\n\nGabarito oficial definitivo do INEP: C"
+    },
+    "takeHomeMessage": "Corrimento grumoso com pH ácido sugere candidíase; distinguir vaginite de cervicite ajuda a avaliar os distratores.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2023-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT005-CDC-CANDIDA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "COMMENT005-CDC-CORRIMENTO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Ginecologia",
+      "Diagnóstico diferencial das vulvovaginites"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-005",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

@@ -1002,6 +1002,546 @@
       "confidenceLevel": "high",
       "verifiedAt": "2026-10-03",
       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ffe96aa1-db66-33e4-e053-6394a90a7e4e"
+    },
+    "COMMENT005-AAOS-ESCAFOIDE": {
+      "referenceId": "COMMENT005-AAOS-ESCAFOIDE",
+      "title": "AAOS OrthoInfo — Scaphoid fracture of the wrist",
+      "citation": "https://www.orthoinfo.org/diseases--conditions/scaphoid-fracture-of-the-wrist — Mecanismo, dor na tabaqueira, investigação e complicações da fratura.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.orthoinfo.org/diseases--conditions/scaphoid-fracture-of-the-wrist"
+    },
+    "COMMENT005-CDC-HBV": {
+      "referenceId": "COMMENT005-CDC-HBV",
+      "title": "CDC — Clinical signs and symptoms of hepatitis B",
+      "citation": "https://www.cdc.gov/hepatitis-b/hcp/clinical-signs/index.html — Apresentação de hepatite B aguda; fonte corroboradora atual.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.cdc.gov/hepatitis-b/hcp/clinical-signs/index.html"
+    },
+    "COMMENT005-CDC-PWID": {
+      "referenceId": "COMMENT005-CDC-PWID",
+      "title": "CDC — Viral hepatitis among people who use or inject drugs",
+      "citation": "https://www.cdc.gov/hepatitis/hcp/populations-settings/pwid.html — Risco compartilhado de HBV e HCV na exposição parenteral.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.cdc.gov/hepatitis/hcp/populations-settings/pwid.html"
+    },
+    "COMMENT005-MS-IDOSO": {
+      "referenceId": "COMMENT005-MS-IDOSO",
+      "title": "Ministério da Saúde — Envelhecimento e saúde da pessoa idosa",
+      "citation": "https://bvs.saude.gov.br/bvs/publicacoes/evelhecimento_saude_pessoa_idosa.pdf — Caderno de Atenção Básica, incluindo avaliação funcional e anexo de sobrecarga dos cuidadores (Zarit).",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvs.saude.gov.br/bvs/publicacoes/evelhecimento_saude_pessoa_idosa.pdf"
+    },
+    "COMMENT005-SBD-GESTACAO": {
+      "referenceId": "COMMENT005-SBD-GESTACAO",
+      "title": "Sociedade Brasileira de Diabetes — Rastreamento e diagnóstico da hiperglicemia na gestação",
+      "citation": "https://diretriz.diabetes.org.br/rastreamento-e-diagnostico-da-hiperglicemia-na-gestacao/ — Limiares de DMG e diabetes manifesto; recomendações nacionais que retomam o consenso de 2017.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://diretriz.diabetes.org.br/rastreamento-e-diagnostico-da-hiperglicemia-na-gestacao/"
+    },
+    "COMMENT005-ANVISA-EPI2022": {
+      "referenceId": "COMMENT005-ANVISA-EPI2022",
+      "title": "Anvisa — Nota Técnica GVIMS/GGTES nº 04/2020, atualização de 09/03/2022",
+      "citation": "https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/servicosdesaude/notas-tecnicas/2020/nt-04-2020-para-publicacao-09-03-2022-final.pdf — Proteção dos profissionais em COVID-19; versão próxima da prova, corroborando a indicação de respirador para aerossóis.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/servicosdesaude/notas-tecnicas/2020/nt-04-2020-para-publicacao-09-03-2022-final.pdf"
+    },
+    "COMMENT005-ANVISA-MASCARA2020": {
+      "referenceId": "COMMENT005-ANVISA-MASCARA2020",
+      "title": "Anvisa — Esclarecimento sobre uso de máscaras (2020)",
+      "citation": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2020/esclarecimento-sobre-uso-de-mascaras — Orientação histórica para N95/FFP2 em procedimentos geradores de aerossóis.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2020/esclarecimento-sobre-uso-de-mascaras"
+    },
+    "COMMENT005-TG18-COLANGITE": {
+      "referenceId": "COMMENT005-TG18-COLANGITE",
+      "title": "Tokyo Guidelines 2018 — Management bundles for acute cholangitis and cholecystitis",
+      "citation": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.519 — Antibiótico e suporte imediatos, avaliação da gravidade e modalidades de drenagem.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.519"
+    },
+    "COMMENT005-NICE-HISTEROSCOPIA": {
+      "referenceId": "COMMENT005-NICE-HISTEROSCOPIA",
+      "title": "NICE NG88 — Heavy menstrual bleeding: assessment and management",
+      "citation": "https://www.nice.org.uk/guidance/ng88/chapter/Recommendations — Histeroscopia na suspeita de pólipos, miomas submucosos ou patologia endometrial.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/ng88/chapter/Recommendations"
+    },
+    "COMMENT005-NICE-PANICO": {
+      "referenceId": "COMMENT005-NICE-PANICO",
+      "title": "NICE CG113 — Generalised anxiety disorder and panic disorder in adults",
+      "citation": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations — TCC, antidepressivos e limites do uso de benzodiazepínicos e antipsicóticos no transtorno de pânico.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations"
+    },
+    "COMMENT005-NHS-SJS": {
+      "referenceId": "COMMENT005-NHS-SJS",
+      "title": "NHS — Stevens-Johnson syndrome",
+      "citation": "https://www.nhs.uk/conditions/stevens-johnson-syndrome/ — Fenitoína como desencadeante, manifestações mucocutâneas e necessidade de cuidado hospitalar imediato.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nhs.uk/conditions/stevens-johnson-syndrome/"
+    },
+    "COMMENT005-CDC-CANDIDA": {
+      "referenceId": "COMMENT005-CDC-CANDIDA",
+      "title": "CDC — STI Treatment Guidelines: vulvovaginal candidiasis (2021)",
+      "citation": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm — Secreção grumosa, pH geralmente <4,5 e confirmação com exame microscópico/cultura.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm"
+    },
+    "COMMENT005-CDC-CORRIMENTO": {
+      "referenceId": "COMMENT005-CDC-CORRIMENTO",
+      "title": "CDC — STI Treatment Guidelines: diseases characterized by vaginal symptoms",
+      "citation": "https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm — Investigação etiológica das vaginites, pH e microscopia.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm"
+    },
+    "COMMENT005-MS-SIFILIS": {
+      "referenceId": "COMMENT005-MS-SIFILIS",
+      "title": "Ministério da Saúde — Sífilis em gestantes",
+      "citation": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sifilis/gestantes — Tratamento oportuno e monitorização mensal na gestação.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sifilis/gestantes"
+    },
+    "COMMENT005-MS-IST2020": {
+      "referenceId": "COMMENT005-MS-IST2020",
+      "title": "Ministério da Saúde — Perguntas e respostas: webinários de IST (2020)",
+      "citation": "https://bvsms.saude.gov.br/bvs/publicacoes/perguntas_respostas_ist_webnarios2020.pdf — Sífilis de duração desconhecida: 2,4 milhões UI semanais ×3, 1,2 milhão em cada glúteo.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/perguntas_respostas_ist_webnarios2020.pdf"
+    },
+    "COMMENT005-NICHD-PUBERDADE": {
+      "referenceId": "COMMENT005-NICHD-PUBERDADE",
+      "title": "NICHD — Puberty and precocious puberty",
+      "citation": "https://www.nichd.nih.gov/health/topics/puberty — Faixa habitual de início puberal e definição de puberdade precoce.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nichd.nih.gov/health/topics/puberty"
+    },
+    "COMMENT005-WSES-MESENTERICA": {
+      "referenceId": "COMMENT005-WSES-MESENTERICA",
+      "title": "WSES — Acute mesenteric ischemia: updated guidelines (2022)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9580452/ — Suspeita clínica e angiotomografia imediata na isquemia mesentérica aguda.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9580452/"
+    },
+    "COMMENT005-AAP-FEBRIL": {
+      "referenceId": "COMMENT005-AAP-FEBRIL",
+      "title": "AAP — Neurodiagnostic evaluation of simple febrile seizures (2011)",
+      "citation": "https://publications.aap.org/pediatrics/article/127/2/389/65189/ — Definição de convulsão febril simples e avaliação dirigida à febre; limites de EEG, imagem e punção de rotina.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://publications.aap.org/pediatrics/article/127/2/389/65189/"
+    },
+    "COMMENT005-ACR-BIRADS": {
+      "referenceId": "COMMENT005-ACR-BIRADS",
+      "title": "American College of Radiology — BI-RADS mammography FAQ",
+      "citation": "https://www.acr.org/-/media/ACR/Files/RADS/BI-RADS/Mammography-FAQ.pdf — Categoria 4 como achado suspeito com indicação de considerar biópsia.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.acr.org/-/media/ACR/Files/RADS/BI-RADS/Mammography-FAQ.pdf"
+    },
+    "COMMENT005-CPS-GLICOSE": {
+      "referenceId": "COMMENT005-CPS-GLICOSE",
+      "title": "Canadian Paediatric Society — Screening and management of newborns at risk for low blood glucose",
+      "citation": "https://cps.ca/en/documents/position/newborns-at-risk-for-low-blood-glucose — Risco em filhos de mães diabéticas, monitorização, alimentação e intervenção conforme sintomas/idade.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://cps.ca/en/documents/position/newborns-at-risk-for-low-blood-glucose"
+    },
+    "COMMENT005-NICE-MENOPAUSA": {
+      "referenceId": "COMMENT005-NICE-MENOPAUSA",
+      "title": "NICE NG23 — Menopause: identification and management",
+      "citation": "https://www.nice.org.uk/guidance/ng23/chapter/Recommendations — TH para sintomas, estrogênio isolado após histerectomia, efeitos ósseos e discussão de riscos.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/ng23/chapter/Recommendations"
+    },
+    "COMMENT005-AHA-TAQUI2020": {
+      "referenceId": "COMMENT005-AHA-TAQUI2020",
+      "title": "AHA — Adult tachycardia with a pulse algorithm (2020)",
+      "citation": "https://www.heart.org/en/-/media/CPR-Files/CPR-Guidelines-Files/Algorithms/AlgorithmACLS_Tachycardia_200612.pdf — Instabilidade hemodinâmica como indicação de cardioversão sincronizada; algoritmo vigente à época da prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.heart.org/en/-/media/CPR-Files/CPR-Guidelines-Files/Algorithms/AlgorithmACLS_Tachycardia_200612.pdf"
+    },
+    "COMMENT005-ACG-HPYLORI": {
+      "referenceId": "COMMENT005-ACG-HPYLORI",
+      "title": "ACG — Comentário institucional da diretriz de H. pylori (2024)",
+      "citation": "https://gi.org/journals-publications/ebgi/schoenfeld_sep2024/ — Terapia quádrupla por 14 dias, resistência e recomendação contra substituição rotineira por doxiciclina.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://gi.org/journals-publications/ebgi/schoenfeld_sep2024/"
+    },
+    "COMMENT005-IRLANDA-HPYLORI": {
+      "referenceId": "COMMENT005-IRLANDA-HPYLORI",
+      "title": "Second Irish Helicobacter pylori Working Group consensus (2024)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11198963/ — Consenso primário que admite doxiciclina se tetraciclina estiver indisponível, explicitando diferença entre diretrizes.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11198963/"
+    },
+    "COMMENT005-MS-TABAGISMO": {
+      "referenceId": "COMMENT005-MS-TABAGISMO",
+      "title": "Ministério da Saúde — PCDT do tabagismo (2020)",
+      "citation": "https://www.gov.br/saude/pt-br/assuntos/pcdt/t/tabagismo — Avaliação da dependência, abordagem cognitivo-comportamental e medicamentos para cessação.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/pcdt/t/tabagismo"
+    },
+    "COMMENT005-CHOP-ATRESIA": {
+      "referenceId": "COMMENT005-CHOP-ATRESIA",
+      "title": "Children's Hospital of Philadelphia — Esophageal atresia",
+      "citation": "https://www.chop.edu/conditions-diseases/esophageal-atresia — Sintomas, investigação e associação com fístula traqueoesofágica.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.chop.edu/conditions-diseases/esophageal-atresia"
+    },
+    "COMMENT005-MS-AGROTOXICOS": {
+      "referenceId": "COMMENT005-MS-AGROTOXICOS",
+      "title": "Ministério da Saúde — Diretrizes brasileiras para intoxicações por agrotóxicos, capítulo 3",
+      "citation": "https://www.gov.br/conitec/pt-br/midias/protocolos/diretrizesbrasileiras_agrotoxico_cap3.pdf — Notificação de todos os casos suspeitos, assistência e ações quando relacionadas ao trabalho.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/diretrizesbrasileiras_agrotoxico_cap3.pdf"
+    },
+    "COMMENT005-MS-NOTIFICACAO": {
+      "referenceId": "COMMENT005-MS-NOTIFICACAO",
+      "title": "Ministério da Saúde — Notificação compulsória",
+      "citation": "https://www.gov.br/saude/pt-br/composicao/svsa/notificacao-compulsoria/notificacao-compulsoria/ — Comunicação de suspeita ou confirmação e responsabilidades dos serviços.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/composicao/svsa/notificacao-compulsoria/notificacao-compulsoria/"
+    },
+    "COMMENT005-NIDDK-NEFROTICA": {
+      "referenceId": "COMMENT005-NIDDK-NEFROTICA",
+      "title": "NIDDK — Nephrotic syndrome in adults",
+      "citation": "https://www.niddk.nih.gov/health-information/kidney-disease/nephrotic-syndrome-adults — Proteinúria, hipoalbuminemia, edema e investigação etiológica.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.niddk.nih.gov/health-information/kidney-disease/nephrotic-syndrome-adults"
+    },
+    "COMMENT005-AAP-DOWN": {
+      "referenceId": "COMMENT005-AAP-DOWN",
+      "title": "AAP — Health supervision for children and adolescents with Down syndrome (2022)",
+      "citation": "https://publications.aap.org/pediatrics/article/149/5/e2022057010/186778/Health-Supervision-for-Children-and-Adolescents — Orientação de plotar medidas do lactente em curvas específicas, com avaliação alimentar e clínica.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://publications.aap.org/pediatrics/article/149/5/e2022057010/186778/Health-Supervision-for-Children-and-Adolescents"
+    },
+    "COMMENT005-TRAUMA2023": {
+      "referenceId": "COMMENT005-TRAUMA2023",
+      "title": "European guideline on major bleeding and coagulopathy following trauma, sixth edition (2023)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9977110/ — Controle precoce de hemorragia, reanimação e tranexâmico até três horas após trauma.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9977110/"
+    },
+    "COMMENT005-AGS-BEERS": {
+      "referenceId": "COMMENT005-AGS-BEERS",
+      "title": "AGS — Updated Beers Criteria for potentially inappropriate medication use (2023)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/ — Riscos de amitriptilina e zolpidem em idosos; decisão individualizada de revisão do tratamento.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/"
+    },
+    "COMMENT005-MS-TFD55": {
+      "referenceId": "COMMENT005-MS-TFD55",
+      "title": "Ministério da Saúde — Portaria SAS nº 55, de 24 de fevereiro de 1999",
+      "citation": "https://bvsms.saude.gov.br/bvs/sas/1999/prt0055_24_02_1999.html — Artigos 1º §5º, 4º, 6º e 7º: distância, despesas, autorização e indicação de acompanhante.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/sas/1999/prt0055_24_02_1999.html"
+    },
+    "COMMENT005-NICE-TIREOIDE": {
+      "referenceId": "COMMENT005-NICE-TIREOIDE",
+      "title": "NICE NG145 — Thyroid disease: assessment and management",
+      "citation": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations — Investigação de disfunção tireoidiana em depressão e uso de TSH/T4 livre conforme suspeita clínica.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations"
+    },
+    "COMMENT006-MS-PENTA": {
+      "referenceId": "COMMENT006-MS-PENTA",
+      "title": "Ministério da Saúde — Pentavalente",
+      "citation": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/p/pentavalente/pentavalente — Esquema primário de três doses aos dois, quatro e seis meses.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/p/pentavalente/pentavalente"
+    },
+    "COMMENT006-MS-PNI2022": {
+      "referenceId": "COMMENT006-MS-PNI2022",
+      "title": "Ministério da Saúde — Calendário Nacional de Vacinação (2022)",
+      "citation": "https://www.gov.br/saude/pt-br/campanhas-da-saude/2022/calendario-nacional-de-vacinacao — Tabela histórica, conferida visualmente: VIP/penta aos 2, 4, 6; pneumocócica/rotavírus aos 2, 4; SCR aos 12 e SCRV aos 15 meses.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/campanhas-da-saude/2022/calendario-nacional-de-vacinacao"
+    },
+    "COMMENT006-ACG-HEREDITARIO": {
+      "referenceId": "COMMENT006-ACG-HEREDITARIO",
+      "title": "ACG — Genetic testing and management of hereditary gastrointestinal cancer syndromes (2015)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4695986/ — Critérios familiares, avaliação tumoral e distinção entre Lynch e síndromes de polipose.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4695986/"
+    },
+    "COMMENT006-MS-DOSEZERO": {
+      "referenceId": "COMMENT006-MS-DOSEZERO",
+      "title": "Ministério da Saúde — Orientação de dose zero contra sarampo (2026)",
+      "citation": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/julho/ministerio-da-saude-recomenda-dose-zero-contra-sarampo-em-sao-bernardo-do-campo-sp — Corroboradora atual do conceito de dose zero, que não substitui as doses aos 12 e 15 meses; não utilizada como origem histórica da regra.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/julho/ministerio-da-saude-recomenda-dose-zero-contra-sarampo-em-sao-bernardo-do-campo-sp"
+    },
+    "COMMENT006-ACOG-DISPAREUNIA": {
+      "referenceId": "COMMENT006-ACOG-DISPAREUNIA",
+      "title": "ACOG — When sex is painful",
+      "citation": "https://www.acog.org/womens-health/faqs/when-sex-is-painful — Causas de dor sexual, alterações hormonais, lubrificação e endometriose.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.acog.org/womens-health/faqs/when-sex-is-painful"
+    },
+    "COMMENT006-MS-PNEPS": {
+      "referenceId": "COMMENT006-MS-PNEPS",
+      "title": "Ministério da Saúde — Princípios da Política Nacional de Educação Popular em Saúde",
+      "citation": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/res0015_26_04_2017.html — Diálogo, problematização e construção compartilhada do conhecimento, remetendo à PNEPS-SUS de 2013.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/res0015_26_04_2017.html"
+    },
+    "COMMENT006-ASH-PTI2019": {
+      "referenceId": "COMMENT006-ASH-PTI2019",
+      "title": "ASH — Guidelines for immune thrombocytopenia (2019)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6963252/ — Avaliação e manejo da trombocitopenia imune segundo idade, plaquetas e manifestações hemorrágicas.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6963252/"
+    },
+    "COMMENT006-NHS-MASTOIDITE": {
+      "referenceId": "COMMENT006-NHS-MASTOIDITE",
+      "title": "NHS — Mastoiditis: treatment and aftercare",
+      "citation": "https://www.blmkhealthiertogether.nhs.uk/professionals/gp-primary-care-staff/aftercare/mastoiditis — Antibiótico intravenoso e internação na mastoidite.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.blmkhealthiertogether.nhs.uk/professionals/gp-primary-care-staff/aftercare/mastoiditis"
+    },
+    "COMMENT006-MS-DENGUE": {
+      "referenceId": "COMMENT006-MS-DENGUE",
+      "title": "Ministério da Saúde — Dengue: diagnóstico e manejo clínico, adulto e criança",
+      "citation": "https://bvsms.saude.gov.br/bvs/publicacoes/dengue_diagnostico_manejo_clinico_adulto.pdf — Avaliação diagnóstica e limitações da prova do laço; não usar resultado negativo como exclusão isolada.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/dengue_diagnostico_manejo_clinico_adulto.pdf"
+    },
+    "COMMENT006-NICE-TCE": {
+      "referenceId": "COMMENT006-NICE-TCE",
+      "title": "NICE NG232 — Head injury: assessment and early management (2023)",
+      "citation": "https://www.nice.org.uk/guidance/NG232/chapter/recommendations — Critérios pediátricos para TC, observação e orientações de segurança; sintomas devem ser interpretados em conjunto.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/NG232/chapter/recommendations"
+    },
+    "COMMENT006-NICE-ISC": {
+      "referenceId": "COMMENT006-NICE-ISC",
+      "title": "NICE NG125 — Surgical site infections: prevention and treatment",
+      "citation": "https://www.nice.org.uk/guidance/ng125/chapter/recommendations — Não usar profilaxia rotineiramente em cirurgia limpa não protética e não complicada.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/ng125/chapter/recommendations"
+    },
+    "COMMENT006-MS-ABORTAMENTO": {
+      "referenceId": "COMMENT006-MS-ABORTAMENTO",
+      "title": "Ministério da Saúde — Atenção humanizada ao abortamento",
+      "citation": "https://bvsms.saude.gov.br/bvs/publicacoes/atencao_humanizada_abortamento.pdf — Acolhimento sem julgamento, assistência e dever de sigilo.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/atencao_humanizada_abortamento.pdf"
+    },
+    "COMMENT006-CFM-SIGILO": {
+      "referenceId": "COMMENT006-CFM-SIGILO",
+      "title": "Conselho Federal de Medicina — Código de Ética Médica",
+      "citation": "https://transparencia.cfm.org.br/codigo-de-etica-medica/ — Artigo 73 e sigilo profissional; não revelar segredo que exponha paciente a processo penal.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://transparencia.cfm.org.br/codigo-de-etica-medica/"
+    },
+    "COMMENT006-AAP-PESO": {
+      "referenceId": "COMMENT006-AAP-PESO",
+      "title": "AAP — First office visit, 3–5 days",
+      "citation": "https://www.aap.org/en/patient-care/newborn-infant-and-early-childhood-nutrition/newborn-and-infant-health-assessment-and-promotion/first-office-visit-3-5-days/ — Avaliação da trajetória de perda, alimentação e hidratação; perda >10% exige investigação adicional.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.aap.org/en/patient-care/newborn-infant-and-early-childhood-nutrition/newborn-and-infant-health-assessment-and-promotion/first-office-visit-3-5-days/"
+    },
+    "COMMENT006-NICE-TRAUMA": {
+      "referenceId": "COMMENT006-NICE-TRAUMA",
+      "title": "NICE NG39 — Major trauma: assessment and initial management",
+      "citation": "https://www.nice.org.uk/guidance/ng39/chapter/Recommendations — Descompressão antes da imagem na suspeita de pneumotórax hipertensivo com instabilidade ou comprometimento respiratório grave.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/ng39/chapter/Recommendations"
+    },
+    "COMMENT006-NHS-FARMACODERMIA": {
+      "referenceId": "COMMENT006-NHS-FARMACODERMIA",
+      "title": "Oxford University Hospitals — Cutaneous drug reactions: management",
+      "citation": "https://ouh.quris.com/media/t3xpivtc/milv7n9.pdf — Erupção morbiliforme simétrica, suspensão do medicamento suspeito e distinção de reações graves.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://ouh.quris.com/media/t3xpivtc/milv7n9.pdf"
+    },
+    "COMMENT006-MS-HAV": {
+      "referenceId": "COMMENT006-MS-HAV",
+      "title": "Ministério da Saúde — Hepatite A",
+      "citation": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hepatites-virais/hepatite-a — Transmissão fecal-oral, definição de surto, investigação e incubação de 15 a 50 dias.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hepatites-virais/hepatite-a"
+    },
+    "COMMENT006-NIAMS-HIDRADENITE": {
+      "referenceId": "COMMENT006-NIAMS-HIDRADENITE",
+      "title": "NIAMS — Hidradenitis suppurativa",
+      "citation": "https://www.niams.nih.gov/health-topics/hidradenitis-suppurativa-hs — Distribuição em axilas/virilhas, lesões dolorosas, recorrência e cicatrizes.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.niams.nih.gov/health-topics/hidradenitis-suppurativa-hs"
+    },
+    "COMMENT006-MS-DERMATOSES": {
+      "referenceId": "COMMENT006-MS-DERMATOSES",
+      "title": "Ministério da Saúde — Doenças relacionadas ao trabalho: manual de procedimentos",
+      "citation": "https://bvsms.saude.gov.br/bvs/publicacoes/doencas_relacionadas_trabalho_manual_procedimentos.pdf — Dermatoses ocupacionais, história de exposição, avaliação clínica e melhora com afastamento.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/doencas_relacionadas_trabalho_manual_procedimentos.pdf"
+    },
+    "COMMENT006-WHO-TUNGIASE": {
+      "referenceId": "COMMENT006-WHO-TUNGIASE",
+      "title": "OMS — Tungiasis (2023)",
+      "citation": "https://www.who.int/news-room/fact-sheets/detail/tungiasis — Aspecto, riscos da retirada não estéril, extração por profissional, cuidado da ferida e dimeticona.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/tungiasis"
+    },
+    "COMMENT006-NICE-MIGRANEA": {
+      "referenceId": "COMMENT006-NICE-MIGRANEA",
+      "title": "NICE CG150 — Headaches in over 12s: diagnosis and management",
+      "citation": "https://www.nice.org.uk/guidance/cg150/chapter/recommendations — Características de migrânea com aura e tratamento agudo com triptano conforme avaliação.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/cg150/chapter/recommendations"
+    },
+    "COMMENT006-NICE-INDUCAO": {
+      "referenceId": "COMMENT006-NICE-INDUCAO",
+      "title": "NICE NG207 — Inducing labour",
+      "citation": "https://www.nice.org.uk/guidance/ng207/chapter/Recommendations — Riscos após 41 semanas e decisão compartilhada sobre indução a partir desse marco.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/ng207/chapter/Recommendations"
+    },
+    "COMMENT006-ACOG-DATACAO": {
+      "referenceId": "COMMENT006-ACOG-DATACAO",
+      "title": "ACOG — Methods for estimating the due date (2017)",
+      "citation": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date — Precisão e critérios de redatar pela ultrassonografia entre 22 e 27 semanas.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date"
+    },
+    "COMMENT006-NICE-CTG": {
+      "referenceId": "COMMENT006-NICE-CTG",
+      "title": "NICE NG229 — Fetal monitoring in labour",
+      "citation": "https://www.nice.org.uk/guidance/ng229/chapter/recommendations — Faixa de basal e variabilidade; corroboradora dos parâmetros, não confundida com protocolo completo de teste anteparto.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/ng229/chapter/recommendations"
+    },
+    "COMMENT006-GENEREVIEWS-AIS": {
+      "referenceId": "COMMENT006-GENEREVIEWS-AIS",
+      "title": "GeneReviews — Androgen insensitivity syndrome",
+      "citation": "https://www.ncbi.nlm.nih.gov/books/NBK1429/ — Características diagnósticas em 46,XY, testosterona preservada e ausência de estruturas müllerianas.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1429/"
+    },
+    "COMMENT006-SBIM-IDOSO": {
+      "referenceId": "COMMENT006-SBIM-IDOSO",
+      "title": "SBIm/SBGG — Guia de imunização em geriatria (2022–2023)",
+      "citation": "https://ftp.sbim.org.br/images/guias/guia-geriatria-sbim-sbgg-4a-ed-2022-2023-220828b-web.pdf — Imunização contra herpes-zóster em pessoas idosas, vigente próximo da prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://ftp.sbim.org.br/images/guias/guia-geriatria-sbim-sbgg-4a-ed-2022-2023-220828b-web.pdf"
     }
   }
 }

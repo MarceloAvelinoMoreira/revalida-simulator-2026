@@ -5,14 +5,30 @@
   "officialAnswer": "C",
   "annulled": false,
   "clinicalRationale": {
-    "correctRationale": "Gabarito definitivo: C. A justificativa clínica e a análise individual das alternativas permanecem pendentes de revisão.",
-    "alternativeRationales": []
+    "correctRationale": "A Portaria SAS/MS nº 55/1999, artigo 7º, permite custear acompanhante quando houver indicação médica com justificativa da impossibilidade de deslocamento desacompanhado. O caso já apresenta indicação justificada; maioridade e ausência de perícia de locomoção não sustentam a negativa, alternativa C. O programa segue autorização e fluxos da gestão, mas não restringe acompanhante automaticamente a crianças ou pessoas com incapacidade pericial. A distância descrita de 130 km não é inferior ao limite federal de cinquenta quilômetros.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Cria restrição por idade/perícia não prevista como requisito exclusivo no artigo 7º."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "A portaria contempla transporte, alimentação e pernoite de acompanhante indicado; não estabelece teste de pobreza como essa opção propõe."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Inventa limite de duzentos quilômetros; o artigo 1º, §5º, menciona cinquenta quilômetros e regiões metropolitanas."
+      }
+    ]
   },
   "educationalContent": {
     "comment": {
-      "body": "Gabarito definitivo: C. A justificativa clínica e a análise individual das alternativas permanecem pendentes de revisão."
+      "body": "QUESTÃO 13\n\nResposta C — A negativa ao acompanhante não se sustenta, uma vez que a indicação médica registrada no laudo de TFD é suficiente para justificar o custeio\n\nSaúde Coletiva › Legislação do SUS › Acompanhante no tratamento fora do domicílio\n\nA Portaria SAS/MS nº 55/1999, artigo 7º, permite custear acompanhante quando houver indicação médica com justificativa da impossibilidade de deslocamento desacompanhado. O caso já apresenta indicação justificada; maioridade e ausência de perícia de locomoção não sustentam a negativa, alternativa C. O programa segue autorização e fluxos da gestão, mas não restringe acompanhante automaticamente a crianças ou pessoas com incapacidade pericial. A distância descrita de 130 km não é inferior ao limite federal de cinquenta quilômetros.\n\nA alternativa A está incorreta: Cria restrição por idade/perícia não prevista como requisito exclusivo no artigo 7º.\n\nA alternativa B está incorreta: A portaria contempla transporte, alimentação e pernoite de acompanhante indicado; não estabelece teste de pobreza como essa opção propõe.\n\nA alternativa C está correta: A indicação médica registrada e justificada fundamenta a solicitação; a justificativa da negativa apresentada é inadequada.\n\nA alternativa D está incorreta: Inventa limite de duzentos quilômetros; o artigo 1º, §5º, menciona cinquenta quilômetros e regiões metropolitanas.\n\nGabarito oficial definitivo do INEP: C"
     },
-    "takeHomeMessage": null,
+    "takeHomeMessage": "TFD permite acompanhante com indicação médica justificada; não confundir fluxo de autorização com exigência inexistente de perícia.",
     "keyPoints": [],
     "mnemonic": {
       "applicable": false,
@@ -21,29 +37,33 @@
   },
   "references": [
     {
-      "referenceId": "REF-2026-0014",
-      "role": "primary",
+      "referenceId": "COMMENT-INEP-2026-1-KEY",
+      "role": "official-key",
       "supports": [
-        "correctRationale",
-        "comment"
+        "officialAnswer"
       ]
     },
     {
-      "referenceId": "REF-2026-0001",
-      "role": "supporting",
+      "referenceId": "COMMENT005-MS-TFD55",
+      "role": "primary",
       "supports": [
         "correctRationale",
-        "comment"
+        "comment",
+        "alternativeRationales"
       ]
     }
   ],
   "metadata": {
-    "specialty": "Clínica Médica",
+    "specialty": "Saúde Coletiva",
     "difficultyLevel": "medium",
     "cognitiveLevel": "application",
     "editorialReview": {
-      "status": "pending",
-      "allAlternativesCovered": false
+      "status": "validated",
+      "batchId": "editorial-005",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
     },
     "keySynchronization": {
       "questionId": "2026-1-013",
@@ -54,6 +74,11 @@
       "document": "_master_work/2026-1-gabarito-definitivo.pdf",
       "verifiedAt": "2026-10-03",
       "reason": "Educational object disagreed with preserved bank and audited definitive key."
-    }
+    },
+    "taxonomy": [
+      "Saúde Coletiva",
+      "Legislação do SUS",
+      "Acompanhante no tratamento fora do domicílio"
+    ]
   }
 }
