@@ -6,7 +6,7 @@ O site publicado pelo GitHub Pages usa `index.html` como entrada e mantém os ar
 
 ## Assistente neural — execução e configuração
 
-O cérebro SVG controla o painel existente. Rede de 48 nós e 112 conexões locais, sulcos em duas camadas, sinapses recortadas pela silhueta, uma única animação, pausa em aba inativa e respeito a movimento reduzido. O mesmo botão fica acima da marca no menu (220 px no desktop, 168 px no celular) e retorna ao canto durante o estudo. O desenho vetorial mantém nitidez em telas HiDPI e ao ampliar. As métricas vêm da sessão existente: respondidas = acertos + erros; sequência/temas não disponíveis não são inventados. Histórico enviado: até 8 mensagens recentes, sem banco de questões ou dados pessoais. As mensagens exibidas continuam no painel durante a navegação, como antes; não foi criada uma segunda base de histórico.
+O cérebro fornecido pelo usuário, preservado na resolução original, controla o painel existente. Uma sobreposição SVG tem 48 nós, 200 conexões curvas únicas e 50 pulsos luminosos; imagem e sinapses são recortadas pela silhueta. Há uma única animação, pausa em aba inativa e respeito a movimento reduzido. O mesmo botão fica acima da marca no menu (320 px no desktop, até 240 px no celular) e retorna ao canto durante o estudo. As métricas vêm da sessão existente: respondidas = acertos + erros; sequência/temas não disponíveis não são inventados. Histórico enviado: até 8 mensagens recentes, sem banco de questões ou dados pessoais. As mensagens exibidas continuam no painel durante a navegação, como antes; não foi criada uma segunda base de histórico.
 
 Node.js 22+; sem novas dependências:
 
