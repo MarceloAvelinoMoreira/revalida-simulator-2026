@@ -21,6 +21,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style-assistant-v1.css?v=neural1">
 <link rel="stylesheet" href="css/assistant-brain.css?v=4">
+<link rel="stylesheet" href="css/areas.css?v=2">
 <style>
   .mode-card,
   .year-btn,
@@ -51,7 +52,7 @@
 
   <div class="mode-section">
     <div class="mode-label">Modo de estudo</div>
-    <div class="mode-cards" style="grid-template-columns:repeat(4, minmax(0, 1fr));">
+    <div class="mode-cards" style="grid-template-columns:repeat(3, minmax(0, 1fr));">
       <button type="button" class="mode-card selected" data-mode="all" onclick="selectMode('all', this)">
         <div class="mc-title">Todas as provas</div>
         <div class="mc-desc">Questões de todas as edições, em sequência.</div>
@@ -68,10 +69,19 @@
         <div class="mc-title">Respostas rápidas</div>
         <div class="mc-desc">Veja cada questão e a alternativa correta, sem fazer o simulado.</div>
       </button>
+      <button type="button" class="mode-card" data-mode="area" onclick="selectMode('area', this)">
+        <div class="mc-title">Questões por grande área</div>
+        <div class="mc-desc">Escolha uma área da Medicina e resolva questões de todas as provas.</div>
+      </button>
     </div>
   </div>
 
   <!-- SELEÇÃO DE EDIÇÃO (modo year) -->
+  <div class="mode-section" id="area-selector" style="display:none">
+    <div class="mode-label">Selecione a grande área</div>
+    <div class="year-grid" id="home-area-choices"></div>
+    <button type="button" class="areas-back" id="home-area-details" disabled onclick="AreaStudy.detailsFromHome()">Filtros e desempenho da área</button>
+  </div>
   <div class="mode-section" id="year-selector" style="display:none">
     <div class="mode-label">Selecione a edição</div>
     <div class="year-grid">
@@ -150,6 +160,31 @@
 </div>
 
 <!-- RESPOSTAS RÁPIDAS -->
+<section id="screen-areas" class="screen areas-screen" style="display:none" aria-labelledby="areas-title">
+  <div class="areas-shell">
+    <button type="button" class="areas-back" onclick="AreaStudy.home()">← Menu principal</button>
+    <header class="areas-header"><h1 id="areas-title">Questões por grande área</h1><p>Escolha o que estudar. As questões e seu progresso são os mesmos das provas originais.</p><p id="areas-summary"></p></header>
+    <div id="area-cards" class="area-cards"></div>
+    <section id="area-detail" hidden aria-labelledby="area-title">
+      <h2 id="area-title" tabindex="-1"></h2>
+      <div id="area-stats" class="area-stats"></div>
+      <p class="areas-note">Questões anuladas não entram na taxa de acerto. O histórico disponível da sessão anterior é recuperado automaticamente.</p>
+      <details class="area-breakdown"><summary>Desempenho por subárea</summary><div id="area-subareas"></div></details>
+      <form id="area-filters" class="area-filters" onsubmit="event.preventDefault(); AreaStudy.renderDetail()">
+        <label>Subárea<select id="area-subarea" onchange="AreaStudy.changeSubarea()"></select></label>
+        <label>Tema<select id="area-topic" onchange="AreaStudy.renderDetail()"></select></label>
+        <label>Prova<select id="area-exam" onchange="AreaStudy.renderDetail()"></select></label>
+        <label>Ano<select id="area-year" onchange="AreaStudy.renderDetail()"></select></label>
+        <label>Status<select id="area-status" onchange="AreaStudy.renderDetail()"><option value="">Todas</option><option value="unanswered">Não respondidas</option><option value="answered">Respondidas</option><option value="wrong">Incorretas</option><option value="correct">Corretas</option><option value="annulled">Anuladas</option></select></label>
+        <label class="area-search">Buscar no enunciado<input id="area-query" type="search" maxlength="200" placeholder="Ex.: insuficiência cardíaca" oninput="AreaStudy.renderDetail()"></label>
+      </form>
+      <div class="area-actions"><button type="button" onclick="AreaStudy.start('')">Resolver seleção</button><button type="button" onclick="AreaStudy.start('unanswered')">Não respondidas</button><button type="button" onclick="AreaStudy.start('wrong')">Revisar erros</button><button type="button" onclick="AreaStudy.start('correct')">Revisar acertos</button><button type="button" onclick="AreaStudy.start('rapid')">Respostas rápidas</button></div>
+      <p id="area-match-count" role="status" aria-live="polite"></p>
+      <div id="area-results" class="area-results"></div>
+      <button id="area-more" type="button" class="areas-back" onclick="AreaStudy.more()">Mostrar mais questões</button>
+    </section>
+  </div>
+</section>
 <div id="screen-rapid" class="screen">
   <div class="rapid-shell">
     <header class="rapid-header">
@@ -249,6 +284,8 @@
       </div>
       <div class="nav-buttons">
         <button class="btn-skip" id="btn-skip" onclick="skipQuestion()" title="Pular esta questão">⏭ Pular</button>
+        <button type="button" class="btn-skip" id="btn-retry-question" hidden onclick="retryCurrentQuestion()">Responder novamente</button>
+        <button type="button" class="btn-skip" id="btn-original-exam" hidden onclick="AreaStudy.original()">Ver prova de origem</button>
         <button type="button" class="btn-macete" id="btn-macete" onclick="toggleMacete()" style="display:none" aria-expanded="false" aria-controls="macete-panel">Macete</button>
         <button type="button" class="btn-comment" id="btn-comment" onclick="toggleComment()" style="display:none" aria-expanded="false" aria-controls="comment-panel">Comentário</button>
         <button type="button" class="btn-refs" id="btn-refs" onclick="toggleRefs()" style="display:none" aria-expanded="false" aria-controls="refs-panel">Referências</button>
@@ -363,14 +400,17 @@
 <script src="js/questions-2026-2.js?v=4"></script>
 <script src="js/questions-facisa.js?v=1"></script>
 <script src="js/utils.js?v=2"></script>
-<script src="js/storage.js?v=2"></script>
+<script src="js/storage.js?v=areas1"></script>
 <script src="js/score.js?v=2"></script>
 <script src="js/question-repository.js?v=3"></script>
+<script src="js/question-classification.js?v=2"></script>
+<script src="js/area-repository.js?v=1"></script>
 <script src="js/eo-repository.js?v=6"></script>
 <script src="js/resolver.js?v=3"></script>
-<script src="js/simulator.js?v=6"></script>
+<script src="js/simulator.js?v=areas2"></script>
 <script src="js/review.js?v=3"></script>
-<script src="js/rapid.js?v=3"></script>
+<script src="js/rapid.js?v=areas1"></script>
+<script src="js/areas.js?v=2"></script>
 <script src="js/assistant-public-groq.js?v=1"></script>
 <script src="js/assistant.js?v=public1"></script>
 <script src="js/assistant-brain.js?v=5"></script>

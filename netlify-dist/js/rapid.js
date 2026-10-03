@@ -34,12 +34,19 @@ function openRapidAnswers(year) {
     year,
     label: edition.label,
   }));
+  if (typeof AreaStudy !== 'undefined') AreaStudy.leaveStudy();
+  openRapidQuestionSet(rapidQuestions, edition.label);
+}
+
+function openRapidQuestionSet(list, title) {
+  if (!list.length) return;
+  rapidQuestions = list;
 
   document.getElementById('screen-home').style.display = 'none';
   document.getElementById('screen-quiz').style.display = 'none';
   document.getElementById('screen-result').style.display = 'none';
   document.getElementById('screen-rapid').style.display = 'block';
-  document.getElementById('rapid-title').textContent = `Respostas rápidas · ${edition.label}`;
+  document.getElementById('rapid-title').textContent = `Respostas rápidas · ${title}`;
   document.getElementById('rapid-subtitle').textContent = 'Uma questão por tela: leia o enunciado e confira o gabarito oficial.';
   document.getElementById('rapid-jump').value = '';
   rapidIndex = 0;
@@ -82,7 +89,7 @@ function renderRapidQuestion() {
     ? `<div class="rapid-answer"><span class="rapid-answer-label">Resposta ${rapidEscape(answer.letter)}</span><span class="rapid-answer-text">${rapidEscape(rapidText(answer.text))}</span></div>`
     : '<div class="rapid-answer rapid-annulled"><span class="rapid-answer-label">Questão anulada</span><span class="rapid-answer-text">Não há alternativa correta válida no gabarito oficial.</span></div>';
   list.innerHTML = `<article class="rapid-card" id="rapid-question-${rapidEscape(question.n)}">
-      <div class="rapid-question-label">Questão ${rapidEscape(question.n)}</div>
+      <div class="rapid-question-label">${rapidEscape(question.label)} — Questão ${rapidEscape(question.n)}</div>
       <p class="rapid-question-text">${rapidEscape(rapidText(statement))}</p>
       ${mediaHtml}
       ${answerHtml}
@@ -94,6 +101,7 @@ function renderRapidQuestion() {
 }
 
 function closeRapidAnswers() {
+  if (typeof AreaStudy !== 'undefined' && AreaStudy.returnToArea()) return;
   document.getElementById('screen-rapid').style.display = 'none';
   document.getElementById('screen-home').style.display = 'flex';
   const jump = document.getElementById('rapid-jump');

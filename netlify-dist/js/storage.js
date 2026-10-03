@@ -5,6 +5,7 @@ const RevalidaStorage = (() => {
   const keys = {
     session: PREFIX + "session",
     prefs: PREFIX + "prefs",
+    progress: PREFIX + "progress",
   };
 
   function safeParse(raw) {
@@ -42,7 +43,37 @@ const RevalidaStorage = (() => {
   }
 
   function saveSession(payload) {
+    const progress = loadProgress();
+    (Array.isArray(payload.questions) ? payload.questions : []).forEach((q, i) => {
+      const status = payload.questionStatus && payload.questionStatus[i];
+      const answer = payload.userAnswers && payload.userAnswers[i];
+      if (q?.id && ['correct', 'wrong'].includes(status) && /^[A-E]$/.test(answer || '')) {
+        progress[q.id] = { status, answer };
+      }
+    });
+    set(keys.progress, progress);
     return set(keys.session, { ...payload, updatedAt: new Date().toISOString() });
+  }
+
+  function loadProgress() {
+    const saved = get(keys.progress);
+    const progress = Object.create(null);
+    const validSaved = saved && typeof saved === 'object' && !Array.isArray(saved);
+    if (validSaved) {
+      Object.entries(saved).forEach(([id, value]) => {
+        if (value && ['correct', 'wrong'].includes(value.status) && /^[A-E]$/.test(value.answer || '')) progress[id] = value;
+      });
+    }
+    // Recover the available legacy session once; older overwritten sessions cannot be recovered.
+    if (!validSaved) {
+      const legacy = loadSession();
+      (Array.isArray(legacy?.questions) ? legacy.questions : []).forEach((q, i) => {
+        const status = legacy.questionStatus?.[i], answer = legacy.userAnswers?.[i];
+        if (q?.id && ['correct', 'wrong'].includes(status) && /^[A-E]$/.test(answer || '')) progress[q.id] = {status, answer};
+      });
+      set(keys.progress, progress);
+    }
+    return progress;
   }
 
   function loadSession() {
@@ -61,5 +92,5 @@ const RevalidaStorage = (() => {
     return get(keys.prefs) || {};
   }
 
-  return { keys, get, set, clear, saveSession, loadSession, clearSession, savePrefs, loadPrefs };
+  return { keys, get, set, clear, saveSession, loadSession, clearSession, savePrefs, loadPrefs, loadProgress };
 })();

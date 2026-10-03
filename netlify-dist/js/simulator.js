@@ -363,6 +363,8 @@ function selectMode(mode, el) {
   el.classList.add('selected');
   document.getElementById('year-selector').style.display = (mode === 'year' || mode === 'rapid') ? 'block' : 'none';
   document.getElementById('custom-selector').style.display = mode === 'custom' ? 'block' : 'none';
+  document.getElementById('area-selector').style.display = mode === 'area' ? 'block' : 'none';
+  if (mode === 'area') AreaStudy.renderHomeChoices();
   selectedYear = null;
   selectedQty = null;
   document.querySelectorAll('.year-btn').forEach(b => b.classList.remove('selected'));
@@ -425,6 +427,11 @@ function updateStartBtn() {
   const btn = document.getElementById('start-btn');
   const total = getTotalQuestions();
   const lbl = document.getElementById('custom-total-label');
+  if (selectedMode === 'area') {
+    btn.textContent = 'Iniciar estudo por área';
+    btn.disabled = !AreaStudy.homeSelection();
+    return;
+  }
   if (selectedMode === 'rapid') {
     btn.textContent = 'Abrir respostas rápidas';
     btn.disabled = !selectedYear;
@@ -470,15 +477,37 @@ function persistSession() {
   });
 }
 
-function startQuiz() {
-  if (selectedMode === 'rapid') {
+function startQuiz(questionSet) {
+  if (!Array.isArray(questionSet) && selectedMode === 'area') {
+    AreaStudy.startFromHome();
+    return;
+  }
+  if (!Array.isArray(questionSet) && selectedMode === 'rapid') {
     if (selectedYear && typeof openRapidAnswers === 'function') openRapidAnswers(selectedYear);
     return;
   }
-  buildQuestions();
+  if (Array.isArray(questionSet)) {
+    if (!questionSet.length) return;
+    questions = questionSet;
+    lastQuestions = questions;
+  } else {
+    if (typeof AreaStudy !== 'undefined') AreaStudy.leaveStudy();
+    buildQuestions();
+  }
   currentIndex = 0; correct = 0; wrong = 0; annulled = 0;
   questionStatus = new Array(questions.length).fill('pending');
   userAnswers = new Array(questions.length).fill(null);
+  const savedProgress = RevalidaStorage.loadProgress();
+  questions.forEach((q, i) => {
+    const state = savedProgress[q.id];
+    if (state && !QuestionRepository.isAnnulled(q) && q.opts[state.answer.charCodeAt(0)-65]) {
+      const st = state.answer === q.answer ? 'correct' : 'wrong';
+      questionStatus[i] = st; userAnswers[i] = state.answer;
+      if (st === 'correct') correct++; else wrong++;
+    }
+  });
+  document.getElementById('live-correct').textContent = correct;
+  document.getElementById('live-wrong').textContent = wrong;
   document.getElementById('screen-home').style.display = 'none';
   document.getElementById('screen-result').style.display = 'none';
   document.getElementById('screen-quiz').style.display = 'block';
@@ -496,6 +525,8 @@ function restartQuiz() {
   currentIndex = 0; correct = 0; wrong = 0; annulled = 0;
   questionStatus = new Array(questions.length).fill('pending');
   userAnswers = new Array(questions.length).fill(null);
+  document.getElementById('live-correct').textContent = 0;
+  document.getElementById('live-wrong').textContent = 0;
   document.getElementById('screen-result').style.display = 'none';
   document.getElementById('screen-quiz').style.display = 'block';
   renderQuestion();
@@ -503,6 +534,7 @@ function restartQuiz() {
 }
 
 function goHome() {
+  if (typeof AreaStudy !== 'undefined' && AreaStudy.returnToArea()) return;
   document.getElementById('screen-quiz').style.display = 'none';
   document.getElementById('screen-result').style.display = 'none';
   document.getElementById('screen-rapid').style.display = 'none';
@@ -514,6 +546,10 @@ function renderQuestion() {
   answered = false;
   currentEduView = null;
   const q = questions[currentIndex];
+  const retry = document.getElementById('btn-retry-question');
+  if (retry) retry.hidden = !['correct','wrong'].includes(questionStatus[currentIndex]);
+  const origin = document.getElementById('btn-original-exam');
+  if (origin) origin.hidden = !(typeof AreaStudy !== 'undefined' && AreaStudy.isStudying());
   const total = questions.length;
   const pct = ((currentIndex) / total) * 100;
 
@@ -674,6 +710,18 @@ function handleAnswer(chosen, clickedBtn, q) {
   });
 
   renderQNavGrid();
+  persistSession();
+  if (document.getElementById('btn-retry-question')) document.getElementById('btn-retry-question').hidden = false;
+}
+
+function retryCurrentQuestion() {
+  if (questionStatus[currentIndex] === 'correct') correct--;
+  else if (questionStatus[currentIndex] === 'wrong') wrong--;
+  else return;
+  questionStatus[currentIndex] = 'pending'; userAnswers[currentIndex] = null;
+  document.getElementById('live-correct').textContent = correct;
+  document.getElementById('live-wrong').textContent = wrong;
+  renderQuestion();
   persistSession();
 }
 
