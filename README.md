@@ -6,6 +6,12 @@ O site publicado pelo GitHub Pages usa `index.html` como entrada e mantém os ar
 
 ## Assistente neural — execução e configuração
 
+### Modo público autorizado
+
+O GitHub Pages carrega `assistant-public-groq.js`, com credencial Groq deliberadamente pública por autorização do proprietário. Nesse modo o navegador chama a Groq diretamente, sem backend. A chave pode ser recuperada por visitantes e pelo histórico Git, e utilizada fora do app para consumir a cota. Não há proteção server-side de consumo. Os limites de mensagem, histórico, saída e timeout e o fallback local continuam ativos. A auditoria de secrets deve sinalizar essa exposição: ela é real, não um falso positivo.
+
+Para voltar ao modo protegido, remova a inclusão de `assistant-public-groq.js` em `index.html`, revogue/rotacione a chave exposta e configure o backend descrito abaixo. Apagar o arquivo não remove a credencial do histórico.
+
 O cérebro fornecido pelo usuário, preservado na resolução original, controla o painel existente. Uma sobreposição SVG tem 48 nós, 200 conexões curvas únicas e 50 pulsos luminosos; imagem e sinapses são recortadas pela silhueta. Há uma única animação, pausa em aba inativa e respeito a movimento reduzido. O mesmo botão fica acima da marca no menu (320 px no desktop, até 240 px no celular) e retorna ao canto durante o estudo. As métricas vêm da sessão existente: respondidas = acertos + erros; sequência/temas não disponíveis não são inventados. Histórico enviado: até 8 mensagens recentes, sem banco de questões ou dados pessoais. As mensagens exibidas continuam no painel durante a navegação, como antes; não foi criada uma segunda base de histórico.
 
 Node.js 22+; sem novas dependências:

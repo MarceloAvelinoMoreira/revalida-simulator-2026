@@ -111,16 +111,22 @@ async function askAssistant(message) {
   try {
     const config = window.REVALIDDA_ASSISTANT_CONFIG || {};
     const endpoint = new URL(config.endpoint || "/api/assistant", window.location.origin);
-    // Only a backend assistant route is accepted. Never send questions to a provider URL.
+    // The optional public adapter is explicitly enabled by the site owner.
     if (endpoint.pathname !== "/api/assistant" || endpoint.username || endpoint.password || endpoint.search || endpoint.hash || (endpoint.protocol !== "https:" && !(endpoint.origin === window.location.origin && endpoint.protocol === "http:"))) throw new Error("invalid_backend");
     const relevant = /desempenho|resultado|melhorar|fraco|estatística|progresso/i.test(text);
-    const response = await fetch(endpoint.href, {
-      method: "POST", signal: controller.signal, credentials: "omit",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message: text, history: assistantHistory.slice(-8), context: relevant ? assistantContext() : {} }),
-    });
-    if (!response.ok) throw new Error(response.status === 429 ? "rate_limit" : "unavailable");
-    const data = await response.json();
+    const payload = { message: text, history: assistantHistory.slice(-8), context: relevant ? assistantContext() : {} };
+    let data;
+    if (window.RevaliddaPublicAI) {
+      data = await window.RevaliddaPublicAI.ask(payload, controller.signal);
+    } else {
+      const response = await fetch(endpoint.href, {
+        method: "POST", signal: controller.signal, credentials: "omit",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!response.ok) throw new Error(response.status === 429 ? "rate_limit" : "unavailable");
+      data = await response.json();
+    }
     if (typeof data.reply !== "string" || !data.reply.trim()) throw new Error("unavailable");
     reply = data.reply.slice(0, 6000);
   } catch (error) {
