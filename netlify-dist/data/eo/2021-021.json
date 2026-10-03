@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"337b5a9c-37bd-542a-95dc-bb00dedc4872","questionId":"2021-021","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «colonoscopia com biópsia».\n\nNo cenário — Um homem com 58 anos de idade foi atendido em ambulatório de hospital secundário. Relatava sangramento e muco nas fezes, referia também alteração do hábito intestinal, com aumento do número de evacuações há 5 meses. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («ultrassonografia endorretal») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («ressonância nuclear magnética endorretal») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («enema baritado com duplo contraste») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Um homem com 58 anos de idade foi atendido em ambulatório de hospital secundário. Relatava sangramento e muco nas fezes, referia também alteração do hábito intestinal, com aumento do número de evacuações há 5 meses. O exame físico geral não apresentava particularidades e o toque retal evidenciou tumoração na parede posterior do reto, aproximadamente 7 cm acima da borda anal.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («colonoscopia com biópsia») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"D: colonoscopia com biópsia"}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "337b5a9c-37bd-542a-95dc-bb00dedc4872",
+  "questionId": "2021-021",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Sangramento, muco, alteração persistente do hábito intestinal e uma massa palpável no reto exigem investigação de neoplasia. Antes de definir tratamento, é necessário estabelecer diagnóstico histológico. A colonoscopia permite visualizar a lesão, obter biópsias e avaliar o restante do cólon para lesões sincrônicas, correspondendo à alternativa D. Exames de imagem locais são importantes após o diagnóstico para estadiamento e planejamento, mas não substituem a obtenção de tecido nesse cenário.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Ultrassonografia endorretal pode avaliar profundidade de invasão de tumores selecionados, sobretudo lesões iniciais. Não fornece a confirmação histológica solicitada como passo inicial."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Ressonância da pelve é importante para estadiar câncer retal e planejar tratamento. Mesmo assim, a imagem não substitui biópsia da massa para definir sua natureza."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Enema baritado pode demonstrar alterações de contorno, mas não coleta tecido nem oferece a avaliação direta com biópsia proporcionada pela colonoscopia."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 21\n\nResposta D — colonoscopia com biópsia\n\nCirurgia Geral › Coloproctologia › Diagnóstico de câncer colorretal\n\nSangramento, muco, alteração persistente do hábito intestinal e uma massa palpável no reto exigem investigação de neoplasia. Antes de definir tratamento, é necessário estabelecer diagnóstico histológico. A colonoscopia permite visualizar a lesão, obter biópsias e avaliar o restante do cólon para lesões sincrônicas, correspondendo à alternativa D. Exames de imagem locais são importantes após o diagnóstico para estadiamento e planejamento, mas não substituem a obtenção de tecido nesse cenário.\n\nA alternativa A está incorreta: Ultrassonografia endorretal pode avaliar profundidade de invasão de tumores selecionados, sobretudo lesões iniciais. Não fornece a confirmação histológica solicitada como passo inicial.\n\nA alternativa B está incorreta: Ressonância da pelve é importante para estadiar câncer retal e planejar tratamento. Mesmo assim, a imagem não substitui biópsia da massa para definir sua natureza.\n\nA alternativa C está incorreta: Enema baritado pode demonstrar alterações de contorno, mas não coleta tecido nem oferece a avaliação direta com biópsia proporcionada pela colonoscopia.\n\nA alternativa D está correta: Colonoscopia com biópsia confirma a natureza da lesão e avalia possíveis lesões sincrônicas, permitindo prosseguir ao estadiamento e à definição terapêutica.\n\nGabarito oficial definitivo do INEP: D"
+    },
+    "takeHomeMessage": "Suspeita clínica de câncer colorretal exige confirmação por biópsia; diagnóstico histológico e estadiamento são etapas diferentes.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-MS-ONCO2014",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Cirurgia Geral",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Cirurgia Geral",
+      "Coloproctologia",
+      "Diagnóstico de câncer colorretal"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-002",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

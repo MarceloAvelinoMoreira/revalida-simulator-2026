@@ -27,7 +27,7 @@ const EducationalObjectRepository = (() => {
   async function loadReferences() {
     if (refs) return refs;
     if (!refsPromise) {
-      refsPromise = fetch("data/references.json", { cache: "default" })
+      refsPromise = fetch("data/references.json?v=editorial-20261003", { cache: "default" })
         .then((r) => {
           if (!r.ok) throw new Error("references.json HTTP " + r.status);
           return r.json();
@@ -45,7 +45,7 @@ const EducationalObjectRepository = (() => {
     const idx = await loadIndex();
     const entry = idx.entries && idx.entries[questionId];
     if (!entry) return null;
-    const res = await fetch(entry.path + (entry.path.includes("?") ? "&" : "?") + "v=professor1", { cache: "no-store" });
+    const res = await fetch(entry.path + (entry.path.includes("?") ? "&" : "?") + "v=editorial-20261003", { cache: "no-store" });
     if (!res.ok) throw new Error("EO fetch failed " + questionId + " " + res.status);
     const eo = await res.json();
     eoCache.set(questionId, eo);

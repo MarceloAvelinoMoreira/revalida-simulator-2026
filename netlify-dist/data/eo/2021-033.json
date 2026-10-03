@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"403cf17e-7a26-5b8e-b25f-ebf6a429cee0","questionId":"2021-033","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «Cisto do conduto tireoglosso. Ressecção cirúrgica englobando parte do osso hióde, que evita a recidiva da doença».\n\nNo cenário — Uma criança de 6 anos que procura atendimento na Unidade Local de Saúde do seu bairro por apresentar, há cerca de 30 dias, tumoração cervical na linha média, móvel à deglutição e indolor. A mãe refere que observou um crescimento progressivo da lesão, mas sem nenhum sinal flogístico desde o início do quadro. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Higroma cístico cervical ou linfangioma. Deve ser tratado com aspiração e injeção de bleomicina ou OK 432 na lesão») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Câncer primário de tireoide. Encaminhamento ao oncologista para mapeamento com medicina nuclear») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Cisto do 3.o arco branquial. Ressecção cirúrgica incluindo a secção do ramo clavicuar do músculo esternocleidomastoídeo») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Uma criança de 6 anos que procura atendimento na Unidade Local de Saúde do seu bairro por apresentar, há cerca de 30 dias, tumoração cervical na linha média, móvel à deglutição e indolor. A mãe refere que observou um crescimento progressivo da lesão, mas sem nenhum sinal flogístico desde o início do quadro. Referenciada para atendimento em um ambulatório de cirurgia pediátrica, no momento do exame físico, a criança estava hígida sem nenhum outro achado a não ser a tumoração na linha média do pescoço, acima da cartilagem cricoide, arredondada, móvel e de consistência fibroelástica.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («Cisto do conduto tireoglosso. Ressecção cirúrgica englobando parte do osso hióde, que evita a recidiva da doença») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "403cf17e-7a26-5b8e-b25f-ebf6a429cee0",
+  "questionId": "2021-033",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "A massa cervical mediana, indolor, fibroelástica e móvel à deglutição em uma criança sugere persistência do ducto tireoglosso, trajeto embrionário da descida da tireoide. A relação com o osso hioide explica sua mobilidade e também a necessidade de tratar o trajeto, não apenas retirar o cisto. A operação de Sistrunk remove o cisto, o trajeto e a porção central do hioide, reduzindo recidiva em comparação com exérese simples. Esse diagnóstico e essa conduta correspondem à alternativa C. Antes da cirurgia, a ultrassonografia ajuda a caracterizar a lesão e confirmar a presença de tireoide em posição habitual.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Malformações linfáticas, tradicionalmente chamadas higromas císticos, são frequentemente laterais, multiloculadas e menos delimitadas. Escleroterapia pode ser indicada nesse diagnóstico, mas a massa mediana móvel do caso favorece cisto tireoglosso."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Câncer de tireoide requer investigação de um nódulo tireoidiano suspeito, e não pode ser diagnosticado apenas por uma massa mediana. O padrão descrito é típico de lesão congênita do ducto tireoglosso; encaminhamento oncológico sem essa avaliação não é a conduta inicial."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Anomalias branquiais geralmente se apresentam lateralmente no pescoço. A localização mediana e a mobilidade à deglutição não favorecem um cisto do terceiro arco, e a secção muscular descrita não é o tratamento do cisto tireoglosso."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 33\n\nResposta C — Cisto do conduto tireoglosso. Ressecção cirúrgica englobando parte do osso hióde, que evita a recidiva da doença\n\nCirurgia Geral › Cirurgia pediátrica › Cisto do ducto tireoglosso\n\nA massa cervical mediana, indolor, fibroelástica e móvel à deglutição em uma criança sugere persistência do ducto tireoglosso, trajeto embrionário da descida da tireoide. A relação com o osso hioide explica sua mobilidade e também a necessidade de tratar o trajeto, não apenas retirar o cisto. A operação de Sistrunk remove o cisto, o trajeto e a porção central do hioide, reduzindo recidiva em comparação com exérese simples. Esse diagnóstico e essa conduta correspondem à alternativa C. Antes da cirurgia, a ultrassonografia ajuda a caracterizar a lesão e confirmar a presença de tireoide em posição habitual.\n\nA alternativa A está incorreta: Malformações linfáticas, tradicionalmente chamadas higromas císticos, são frequentemente laterais, multiloculadas e menos delimitadas. Escleroterapia pode ser indicada nesse diagnóstico, mas a massa mediana móvel do caso favorece cisto tireoglosso.\n\nA alternativa B está incorreta: Câncer de tireoide requer investigação de um nódulo tireoidiano suspeito, e não pode ser diagnosticado apenas por uma massa mediana. O padrão descrito é típico de lesão congênita do ducto tireoglosso; encaminhamento oncológico sem essa avaliação não é a conduta inicial.\n\nA alternativa C está correta: A ressecção incluindo a porção central do hioide é o princípio da operação de Sistrunk. A conexão do trajeto embrionário com esse osso justifica a retirada e a prevenção de recidiva.\n\nA alternativa D está incorreta: Anomalias branquiais geralmente se apresentam lateralmente no pescoço. A localização mediana e a mobilidade à deglutição não favorecem um cisto do terceiro arco, e a secção muscular descrita não é o tratamento do cisto tireoglosso.\n\nGabarito oficial definitivo do INEP: C"
+    },
+    "takeHomeMessage": "Massa cervical mediana móvel à deglutição sugere cisto tireoglosso; Sistrunk remove também a porção central do hioide.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-CHOP-TIREOGLOSSO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Cirurgia Geral",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Cirurgia Geral",
+      "Cirurgia pediátrica",
+      "Cisto do ducto tireoglosso"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-001",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

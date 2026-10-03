@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"dc9f49ea-fe18-48c1-aad2-e69191e3a40f","questionId":"2021-025","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «solicitar histeroscopia diagnóstica».\n\nNo cenário — Mulher, 51 anos, de menopausa há 3 anos, com queixa de sangramento uterino recorrente, em pequena quantidade, há 3 meses. Na maioria das vezes, os episódios de sangramento iniciam durante ou após as relações sexuais. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Ginecologia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («realizar exérese imediata da lesão com pinça») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: indicar intervenção invasiva sem esgotar o critério clínico do enunciado. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («realizar eletrocauterização da lesão») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («iniciar tratamento com solução de ácido tricloroacético») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Ginecologia. O enunciado descreve: Mulher, 51 anos, de menopausa há 3 anos, com queixa de sangramento uterino recorrente, em pequena quantidade, há 3 meses. Na maioria das vezes, os episódios de sangramento iniciam durante ou após as relações sexuais. A paciente é diabética e faz uso de insulina.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («solicitar histeroscopia diagnóstica») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de ginecologia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Ginecologia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: solicitar histeroscopia diagnóstica"}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Ginecologia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "dc9f49ea-fe18-48c1-aad2-e69191e3a40f",
+  "questionId": "2021-025",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Sangramento pós-menopausa exige investigação, mesmo quando discreto. A lesão polipoide exterioriza-se pelo colo, mas sua base e sua extensão não são visíveis; pode ter origem endometrial. A histeroscopia permite examinar a cavidade, localizar a implantação e planejar remoção completa com avaliação histológica, correspondente a A. Citologias cervicais normais não excluem doença endometrial nem definem a benignidade de uma lesão visível. Diabetes e sangramento pós-menopausa reforçam a importância de não destruir ou retirar às cegas a lesão sem caracterizá-la.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Exérese direta com pinça pode ser usada em pólipos cervicais selecionados com base acessível. Aqui a implantação não é conhecida, trazendo risco de remoção incompleta e de não avaliar a cavidade uterina."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Eletrocauterizar antes de caracterizar e obter tecido pode destruir material diagnóstico e não investigar a origem do sangramento."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Ácido tricloroacético é empregado em lesões específicas, como determinados condilomas, não no manejo de pólipo de origem indefinida associado a sangramento pós-menopausa."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 25\n\nResposta A — solicitar histeroscopia diagnóstica\n\nGinecologia e Obstetrícia › Ginecologia › Sangramento pós-menopausa e pólipo uterino\n\nSangramento pós-menopausa exige investigação, mesmo quando discreto. A lesão polipoide exterioriza-se pelo colo, mas sua base e sua extensão não são visíveis; pode ter origem endometrial. A histeroscopia permite examinar a cavidade, localizar a implantação e planejar remoção completa com avaliação histológica, correspondente a A. Citologias cervicais normais não excluem doença endometrial nem definem a benignidade de uma lesão visível. Diabetes e sangramento pós-menopausa reforçam a importância de não destruir ou retirar às cegas a lesão sem caracterizá-la.\n\nA alternativa A está correta: Histeroscopia identifica origem e extensão da formação polipoide e viabiliza investigação histológica dirigida, apropriada quando a lesão não pode ser vista integralmente.\n\nA alternativa B está incorreta: Exérese direta com pinça pode ser usada em pólipos cervicais selecionados com base acessível. Aqui a implantação não é conhecida, trazendo risco de remoção incompleta e de não avaliar a cavidade uterina.\n\nA alternativa C está incorreta: Eletrocauterizar antes de caracterizar e obter tecido pode destruir material diagnóstico e não investigar a origem do sangramento.\n\nA alternativa D está incorreta: Ácido tricloroacético é empregado em lesões específicas, como determinados condilomas, não no manejo de pólipo de origem indefinida associado a sangramento pós-menopausa.\n\nGabarito oficial definitivo do INEP: A"
+    },
+    "takeHomeMessage": "Pólipo exteriorizado pelo colo com base não visível e sangramento pós-menopausa requer investigação da cavidade e histologia.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-ACOG-HISTEROSCOPIA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Ginecologia",
+      "Sangramento pós-menopausa e pólipo uterino"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-002",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

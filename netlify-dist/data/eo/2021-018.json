@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"2ce79785-f368-4434-a0b1-06088b615bff","questionId":"2021-018","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «orientar não usar a levotiroxina, pois trata-se de um caso de hipotireoidismo subclínico».\n\nNo cenário — Uma mulher de 30 anos de idade vem a consulta com o endocrinologista para acompanhamento de hipotireoidismo. Há 6 meses ela procurou o médico da Unidade Básica de Saúde próxima a sua residência devido à constipação (evacuava a cada 3 dias, com fezes ressecadas e com dor ao evacuar). — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («insistir com o uso da levotiroxina, pois trata-se de um caso de hipotireoidismo primário») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («insistir com o uso da levotiroxina, pois trata-se de um caso de hipotireoidismo secundário») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («iniciar a levotiroxina apenas após realizar cintilografia, para confirmação do diagnóstico») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Uma mulher de 30 anos de idade vem a consulta com o endocrinologista para acompanhamento de hipotireoidismo. Há 6 meses ela procurou o médico da Unidade Básica de Saúde próxima a sua residência devido à constipação (evacuava a cada 3 dias, com fezes ressecadas e com dor ao evacuar). A paciente era sedentária e apresentava erros alimentares evidentes, com baixa ingesta de água durante o dia e pouco consumo de frutas e verduras.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («orientar não usar a levotiroxina, pois trata-se de um caso de hipotireoidismo subclínico») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0019","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0014","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "2ce79785-f368-4434-a0b1-06088b615bff",
+  "questionId": "2021-018",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "TSH discretamente elevado em duas avaliações, com T4 livre normal, caracteriza hipotireoidismo subclínico. A constipação resolveu com medidas de estilo de vida antes de qualquer levotiroxina; a paciente está assintomática e não há gestação ou outra indicação específica descrita. Nesse cenário, não há razão para insistir na reposição imediata, sendo C a melhor opção. Deve-se acompanhar TSH e contexto clínico e considerar anticorpos antitireoidianos quando pertinente. A decisão de tratar hipotireoidismo subclínico é individualizada: a letra não significa que todo caso com esse diagnóstico deva permanecer sem tratamento.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Hipotireoidismo primário manifesto geralmente combina TSH elevado com T4 livre baixo. Aqui o T4 livre normal e a ausência de sintomas não sustentam reposição obrigatória imediata."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Hipotireoidismo central, ou secundário, cursa com T4 livre baixo e TSH baixo ou inadequadamente normal, podendo ocasionalmente ser discretamente elevado. Não é o padrão laboratorial apresentado."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Cintilografia não é necessária para confirmar esse diagnóstico bioquímico. É empregada em outros problemas, como investigação funcional de determinados nódulos e tireotoxicose."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 18\n\nResposta C — orientar não usar a levotiroxina, pois trata-se de um caso de hipotireoidismo subclínico\n\nClínica Médica › Endocrinologia › Hipotireoidismo subclínico\n\nTSH discretamente elevado em duas avaliações, com T4 livre normal, caracteriza hipotireoidismo subclínico. A constipação resolveu com medidas de estilo de vida antes de qualquer levotiroxina; a paciente está assintomática e não há gestação ou outra indicação específica descrita. Nesse cenário, não há razão para insistir na reposição imediata, sendo C a melhor opção. Deve-se acompanhar TSH e contexto clínico e considerar anticorpos antitireoidianos quando pertinente. A decisão de tratar hipotireoidismo subclínico é individualizada: a letra não significa que todo caso com esse diagnóstico deva permanecer sem tratamento.\n\nA alternativa A está incorreta: Hipotireoidismo primário manifesto geralmente combina TSH elevado com T4 livre baixo. Aqui o T4 livre normal e a ausência de sintomas não sustentam reposição obrigatória imediata.\n\nA alternativa B está incorreta: Hipotireoidismo central, ou secundário, cursa com T4 livre baixo e TSH baixo ou inadequadamente normal, podendo ocasionalmente ser discretamente elevado. Não é o padrão laboratorial apresentado.\n\nA alternativa C está correta: Reconhece a alteração subclínica leve e evita tratamento automático sem indicação clínica adicional. Acompanhamento não deve ser confundido com ignorar o achado.\n\nA alternativa D está incorreta: Cintilografia não é necessária para confirmar esse diagnóstico bioquímico. É empregada em outros problemas, como investigação funcional de determinados nódulos e tireotoxicose.\n\nGabarito oficial definitivo do INEP: C"
+    },
+    "takeHomeMessage": "TSH alto com T4 livre normal define hipotireoidismo subclínico; elevação leve e ausência de sintomas não impõem levotiroxina imediata.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-NICE-TIREOIDE",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Clínica Médica",
+      "Endocrinologia",
+      "Hipotireoidismo subclínico"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-002",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

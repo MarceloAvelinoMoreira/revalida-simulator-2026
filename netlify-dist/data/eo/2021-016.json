@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"e588c0e5-fd62-5297-9c5b-62af2ace4f60","questionId":"2021-016","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «Competência cultural».\n\nNo cenário — Uma paciente, de 66 anos de idade, vem em consulta com médico de família e comunidade de uma equipe de Saúde da Família Fluvial, referindo estar preocupada com o controle de seu diabetes mellitus. Como a equipe ficou um longo período sem visitar a comunidade devido a condições climáticas desfavoráveis, a paciente refere ter associado o uso de algumas plantas medicinais aos medicamentos prescritos em última consulta. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Medicina de Família e Comunidade, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Longitudinalidade») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Integralidade») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Orientação para a comunidade») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Medicina de Família e Comunidade. O enunciado descreve: Uma paciente, de 66 anos de idade, vem em consulta com médico de família e comunidade de uma equipe de Saúde da Família Fluvial, referindo estar preocupada com o controle de seu diabetes mellitus. Como a equipe ficou um longo período sem visitar a comunidade devido a condições climáticas desfavoráveis, a paciente refere ter associado o uso de algumas plantas medicinais aos medicamentos prescritos em última consulta. Ela informa que a curandeira da comunidade orientou quais chás ela deveria tomar.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («Competência cultural») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de medicina de família e comunidade, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Medicina de Família e Comunidade.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"C: Competência cultural"}},"references":[{"referenceId":"REF-2026-0015","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0003","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Medicina de Família e Comunidade","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "e588c0e5-fd62-5297-9c5b-62af2ace4f60",
+  "questionId": "2021-016",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "O elemento distintivo é a negociação do cuidado diante de práticas e crenças locais. O médico escuta o uso de plantas orientado pela curandeira, avalia segurança e interações e integra essa prática ao acompanhamento do diabetes sem substituir o tratamento prescrito. Essa capacidade de adaptar a comunicação e o cuidado ao contexto cultural corresponde à competência cultural, alternativa C. O enunciado afirma que as plantas avaliadas não oferecem risco; isso não autoriza generalizar segurança a qualquer chá ou planta medicinal.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Longitudinalidade é a relação de cuidado mantida ao longo do tempo. Pode existir nessa equipe, mas não é o aspecto especificamente ilustrado pela negociação de práticas culturais."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Integralidade envolve atender necessidades diversas e articular ações de promoção, prevenção e tratamento. É um conceito amplo; o dado mais específico aqui é reconhecer e incorporar o contexto cultural."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Orientação comunitária utiliza conhecimento das necessidades coletivas para planejar serviços. Atuar em uma comunidade fluvial, por si só, não é o que a pergunta destaca; o foco é o encontro clínico culturalmente sensível."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 16\n\nResposta C — Competência cultural\n\nSaúde Coletiva › Atenção Primária › Competência cultural\n\nO elemento distintivo é a negociação do cuidado diante de práticas e crenças locais. O médico escuta o uso de plantas orientado pela curandeira, avalia segurança e interações e integra essa prática ao acompanhamento do diabetes sem substituir o tratamento prescrito. Essa capacidade de adaptar a comunicação e o cuidado ao contexto cultural corresponde à competência cultural, alternativa C. O enunciado afirma que as plantas avaliadas não oferecem risco; isso não autoriza generalizar segurança a qualquer chá ou planta medicinal.\n\nA alternativa A está incorreta: Longitudinalidade é a relação de cuidado mantida ao longo do tempo. Pode existir nessa equipe, mas não é o aspecto especificamente ilustrado pela negociação de práticas culturais.\n\nA alternativa B está incorreta: Integralidade envolve atender necessidades diversas e articular ações de promoção, prevenção e tratamento. É um conceito amplo; o dado mais específico aqui é reconhecer e incorporar o contexto cultural.\n\nA alternativa C está correta: Competência cultural permite compreender valores, práticas e modos de vida e construir um plano aceitável e seguro junto à paciente.\n\nA alternativa D está incorreta: Orientação comunitária utiliza conhecimento das necessidades coletivas para planejar serviços. Atuar em uma comunidade fluvial, por si só, não é o que a pergunta destaca; o foco é o encontro clínico culturalmente sensível.\n\nGabarito oficial definitivo do INEP: C"
+    },
+    "takeHomeMessage": "Competência cultural combina respeito às práticas da pessoa com avaliação de segurança e negociação do cuidado.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-MS-PCATOOL2010",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Saúde Coletiva",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Saúde Coletiva",
+      "Atenção Primária",
+      "Competência cultural"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-002",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"ef1f7b83-eb6c-4cb4-9e7e-f15f1fc537d2","questionId":"2021-014","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «Preparar o local e o momento adequados, perguntar ao paciente o que ele sabe e/ou percebe acerca de sua condição atual, perguntar ao paciente se ele deseja saber sobre o diagnóstico ou se prefere que seja comunicado a sua família em um primeiro momento. Caso deseje saber, o médico deve informar e acolher as reações do paciente».\n\nNo cenário — Paciente masculino, 50 anos, notou aparecimento de nódulo endurecido em fossa supraclavicular esquerda. Foi realizada biópsia que evidenciou linfonodo metastático de adenocarcinoma de provável origem gastrointestinal. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Cirurgia Geral, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Manter apenas os familiares informados sobre o diagnóstico, pois, tais informações, além de não mudarem o prognóstico do paciente, podem desencadear quadro depressivo em um momento no qual ele deverá se manter otimista para lidar com sua doença. É conhecido o fato de que pacientes deprimidos têm menor sobrevida relacionada ao câncer») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Informar que, pelo fato de o paciente já possuir metástase à distância, nada pode ser feito do ponto de vista terapêutico. Informar que o paciente tem, baseado em dados estatísticos, cerca de 6 meses de vida. Tal informação é de suma importância para que o paciente possa tomar medidas legais acerca de seu falecimento») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Dizer inicialmente para o paciente que existem chances reais de cura no intuito de o manter engajado e otimista. Revelar ao paciente sobre seu prognóstico somente quando este vier apresentar sinais e/ou sintomas relacionados ao estágio avançado da doença. Quanto maior o período sem o paciente saber de sua doença, menor será o sofrimento») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Cirurgia Geral. O enunciado descreve: Paciente masculino, 50 anos, notou aparecimento de nódulo endurecido em fossa supraclavicular esquerda. Foi realizada biópsia que evidenciou linfonodo metastático de adenocarcinoma de provável origem gastrointestinal. Realizou endoscopia digestiva alta que mostrou lesão gástrica compatível com linite plástica.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («Preparar o local e o momento adequados, perguntar ao paciente o que ele sabe e/ou percebe acerca de sua condição atual, perguntar ao paciente se ele deseja saber sobre o diagnóstico ou se prefere que seja comunicado a sua família em um primeiro momento. Caso deseje saber, o médico deve informar e acolher as reações do paciente») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de cirurgia geral, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Cirurgia Geral.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0012","role":"primary","supports":["correctRationale","comment","takeHomeMessage"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["comment"]}],"metadata":{"specialty":"Cirurgia Geral","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "ef1f7b83-eb6c-4cb4-9e7e-f15f1fc537d2",
+  "questionId": "2021-014",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Há uma notícia de câncer gástrico com metástase, mas a preferência do paciente sobre receber informações ainda não foi explorada. O primeiro passo é estabelecer um ambiente reservado, verificar o que ele compreende, perguntar quanto deseja saber e oferecer informação clara com acolhimento. A família pode participar conforme a vontade do paciente, não substituir automaticamente sua autonomia. A alternativa B descreve esse processo. O Código de Ética Médica exige informação sobre diagnóstico e prognóstico; prognóstico desfavorável não autoriza mentira, abandono ou exclusão do paciente das decisões.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "A família não pode impor ocultação indiscriminada ao paciente capaz. O receio de tristeza não justifica, por si só, negar informação; a comunicação deve ser ajustada à vontade e às necessidades do paciente."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Doença metastática não significa ausência de tratamento ou de cuidados. Fixar seis meses de vida sem avaliação individual é inadequado; controle de sintomas, terapias oncológicas quando indicadas e cuidados paliativos permanecem possíveis."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Prometer cura para manter otimismo é enganar o paciente. Esperança pode ser sustentada por objetivos realistas de cuidado, sem falsear diagnóstico ou prognóstico."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 14\n\nResposta B — Preparar o local e o momento adequados, perguntar ao paciente o que ele sabe e/ou percebe acerca de sua condição atual, perguntar ao paciente se ele deseja saber sobre o diagnóstico ou se prefere que seja comunicado a sua família em um primeiro momento. Caso deseje saber, o médico deve informar e acolher as reações do paciente\n\nSaúde Coletiva › Ética médica › Comunicação de más notícias\n\nHá uma notícia de câncer gástrico com metástase, mas a preferência do paciente sobre receber informações ainda não foi explorada. O primeiro passo é estabelecer um ambiente reservado, verificar o que ele compreende, perguntar quanto deseja saber e oferecer informação clara com acolhimento. A família pode participar conforme a vontade do paciente, não substituir automaticamente sua autonomia. A alternativa B descreve esse processo. O Código de Ética Médica exige informação sobre diagnóstico e prognóstico; prognóstico desfavorável não autoriza mentira, abandono ou exclusão do paciente das decisões.\n\nA alternativa A está incorreta: A família não pode impor ocultação indiscriminada ao paciente capaz. O receio de tristeza não justifica, por si só, negar informação; a comunicação deve ser ajustada à vontade e às necessidades do paciente.\n\nA alternativa B está correta: Explora compreensão e preferência, informa com honestidade quando desejado e acolhe a reação. Isso permite decisões compartilhadas e participação familiar consentida.\n\nA alternativa C está incorreta: Doença metastática não significa ausência de tratamento ou de cuidados. Fixar seis meses de vida sem avaliação individual é inadequado; controle de sintomas, terapias oncológicas quando indicadas e cuidados paliativos permanecem possíveis.\n\nA alternativa D está incorreta: Prometer cura para manter otimismo é enganar o paciente. Esperança pode ser sustentada por objetivos realistas de cuidado, sem falsear diagnóstico ou prognóstico.\n\nGabarito oficial definitivo do INEP: B"
+    },
+    "takeHomeMessage": "Comunicar más notícias exige privacidade, compreensão das preferências, honestidade e acolhimento; a família não substitui a autonomia do paciente.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-CFM-ETICA2018",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Saúde Coletiva",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Saúde Coletiva",
+      "Ética médica",
+      "Comunicação de más notícias"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-002",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

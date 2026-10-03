@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"368404db-da18-450b-84ec-992db7c7942f","questionId":"2021-006","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «Mamas normodesenvolvidas».\n\nNo cenário — Adolescente, 16 anos de idade, com amenorreia primária, sem outras queixas. Ao exame físico foi constatada ausência de canal vaginal. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Ginecologia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Ausência de ovários») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Gônadas em fita») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Hipertrofia clitoridiana») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Ginecologia. O enunciado descreve: Adolescente, 16 anos de idade, com amenorreia primária, sem outras queixas. Ao exame físico foi constatada ausência de canal vaginal. Ultrassonografia pélvica mostrou ausência de útero.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («Mamas normodesenvolvidas») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de ginecologia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Ginecologia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: Mamas normodesenvolvidas"}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0019","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Ginecologia","difficultyLevel":"high","cognitiveLevel":"analysis"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "368404db-da18-450b-84ec-992db7c7942f",
+  "questionId": "2021-006",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Amenorreia primária, ausência de útero e de canal vaginal em uma adolescente 46XX sugerem agenesia mülleriana, conhecida como síndrome de Mayer-Rokitansky-Küster-Hauser. A alteração afeta estruturas derivadas dos ductos de Müller; os ovários têm origem embrionária diferente e habitualmente preservam a produção hormonal. Assim, a adolescente pode apresentar puberdade e mamas normalmente desenvolvidas, mas não menstruar por ausência de útero. A alternativa A é a esperada. O cariótipo é decisivo para diferenciar esse quadro de causas 46XY de ausência uterina, como a insensibilidade androgênica completa.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Ausência de ovários não faz parte da definição da agenesia mülleriana. A ausência de útero não permite concluir ausência das gônadas."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Gônadas em fita sugerem disgenesia gonadal, frequentemente com deficiência de estrogênio e desenvolvimento mamário insuficiente, não o padrão esperado de agenesia mülleriana isolada."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Hipertrofia clitoridiana indica virilização e exige investigação de excesso androgênico. Não é um achado esperado da agenesia mülleriana."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 6\n\nResposta A — Mamas normodesenvolvidas\n\nGinecologia e Obstetrícia › Ginecologia › Amenorreia e agenesia mülleriana\n\nAmenorreia primária, ausência de útero e de canal vaginal em uma adolescente 46XX sugerem agenesia mülleriana, conhecida como síndrome de Mayer-Rokitansky-Küster-Hauser. A alteração afeta estruturas derivadas dos ductos de Müller; os ovários têm origem embrionária diferente e habitualmente preservam a produção hormonal. Assim, a adolescente pode apresentar puberdade e mamas normalmente desenvolvidas, mas não menstruar por ausência de útero. A alternativa A é a esperada. O cariótipo é decisivo para diferenciar esse quadro de causas 46XY de ausência uterina, como a insensibilidade androgênica completa.\n\nA alternativa A está correta: Mamas normodesenvolvidas refletem a ação estrogênica dos ovários funcionantes, compatível com a agenesia uterovaginal.\n\nA alternativa B está incorreta: Ausência de ovários não faz parte da definição da agenesia mülleriana. A ausência de útero não permite concluir ausência das gônadas.\n\nA alternativa C está incorreta: Gônadas em fita sugerem disgenesia gonadal, frequentemente com deficiência de estrogênio e desenvolvimento mamário insuficiente, não o padrão esperado de agenesia mülleriana isolada.\n\nA alternativa D está incorreta: Hipertrofia clitoridiana indica virilização e exige investigação de excesso androgênico. Não é um achado esperado da agenesia mülleriana.\n\nGabarito oficial definitivo do INEP: A"
+    },
+    "takeHomeMessage": "Útero ausente e cariótipo 46XX podem coexistir com ovários funcionantes e mamas normais.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-ACOG-MULLER",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "high",
+    "cognitiveLevel": "analysis",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Ginecologia",
+      "Amenorreia e agenesia mülleriana"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-002",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

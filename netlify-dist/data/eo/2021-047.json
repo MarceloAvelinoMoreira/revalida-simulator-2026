@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"59443ca0-8812-5fbe-a286-d328f8fb6494","questionId":"2021-047","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «regionalização».\n\nNo cenário — De acordo com a portaria n. 2.436, de 21 de setembro de 2017, que aprovou a Política Nacional de Atenção Básica, estabelecendo a revisão de diretrizes para a organização da Atenção Básica, no âmbito do Sistema Único de Saúde (SUS), é diretriz do SUS e da Rede de Atenção à Saúde a ser operacionalizada na Atenção Básica — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Medicina de Família e Comunidade, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («adaptação») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («integralidade») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («determinação») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Medicina de Família e Comunidade. O enunciado descreve: De acordo com a portaria n. 2.436, de 21 de setembro de 2017, que aprovou a Política Nacional de Atenção Básica, estabelecendo a revisão de diretrizes para a organização da Atenção Básica, no âmbito do Sistema Único de Saúde (SUS), é diretriz do SUS e da Rede de Atenção à Saúde a ser operacionalizada na Atenção Básica\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («regionalização») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de medicina de família e comunidade, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Medicina de Família e Comunidade.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: regionalização"}},"references":[{"referenceId":"REF-2026-0015","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0003","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Medicina de Família e Comunidade","difficultyLevel":"low","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "59443ca0-8812-5fbe-a286-d328f8fb6494",
+  "questionId": "2021-047",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "A questão exige distinguir as categorias usadas no artigo 3º da Portaria nº 2.436/2017, e não apenas reconhecer valores importantes do SUS. Nesse dispositivo, universalidade, equidade e integralidade aparecem como princípios; regionalização e hierarquização aparecem entre as diretrizes. Regionalizar organiza os pontos de atenção em regiões de saúde e permite planejar fluxos e referências, com a atenção básica articulando o cuidado na rede. Portanto, regionalização, alternativa A, é a resposta que corresponde à categoria solicitada. A norma de 2017, expressamente indicada no enunciado, é a referência histórica pertinente.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Adaptação não é uma das diretrizes enumeradas no artigo citado. Ajustar o trabalho às características locais é necessário, mas não substitui o nome normativo solicitado."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Integralidade é um princípio expressamente previsto, mas a pergunta solicita uma diretriz. A alternativa seria adequada se o enunciado pedisse um dos princípios listados no artigo 3º."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Determinação não figura como diretriz nessa enumeração. Determinantes sociais da saúde orientam a compreensão das necessidades da população, mas constituem outro conceito."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 47\n\nResposta A — regionalização\n\nSaúde Coletiva › Atenção Primária › Princípios e diretrizes da PNAB\n\nA questão exige distinguir as categorias usadas no artigo 3º da Portaria nº 2.436/2017, e não apenas reconhecer valores importantes do SUS. Nesse dispositivo, universalidade, equidade e integralidade aparecem como princípios; regionalização e hierarquização aparecem entre as diretrizes. Regionalizar organiza os pontos de atenção em regiões de saúde e permite planejar fluxos e referências, com a atenção básica articulando o cuidado na rede. Portanto, regionalização, alternativa A, é a resposta que corresponde à categoria solicitada. A norma de 2017, expressamente indicada no enunciado, é a referência histórica pertinente.\n\nA alternativa A está correta: Regionalização integra, com hierarquização, a lista de diretrizes da PNAB. A organização territorial da rede é a função cobrada nesta alternativa.\n\nA alternativa B está incorreta: Adaptação não é uma das diretrizes enumeradas no artigo citado. Ajustar o trabalho às características locais é necessário, mas não substitui o nome normativo solicitado.\n\nA alternativa C está incorreta: Integralidade é um princípio expressamente previsto, mas a pergunta solicita uma diretriz. A alternativa seria adequada se o enunciado pedisse um dos princípios listados no artigo 3º.\n\nA alternativa D está incorreta: Determinação não figura como diretriz nessa enumeração. Determinantes sociais da saúde orientam a compreensão das necessidades da população, mas constituem outro conceito.\n\nGabarito oficial definitivo do INEP: A"
+    },
+    "takeHomeMessage": "Na PNAB de 2017: universalidade, equidade e integralidade são princípios; regionalização e hierarquização são diretrizes.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-MS-PNAB2017",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Saúde Coletiva",
+    "difficultyLevel": "low",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Saúde Coletiva",
+      "Atenção Primária",
+      "Princípios e diretrizes da PNAB"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-001",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

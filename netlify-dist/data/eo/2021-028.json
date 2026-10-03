@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"d8f88ff3-4a1b-579b-837e-8ec4abb754b6","questionId":"2021-028","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «Soro anti-crotálico».\n\nNo cenário — Uma criança com 7 anos de idade, moradora de zona rural, relata acidente por animal desconhecido há 4 horas. No momento, refere formigamento no local da picada, boca seca, diplopia, dificuldade de deglutição, dores musculares generalizadas, oligúria e urina com coloração vermelha escura. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Soro anti-botrópico») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Soro anti-escorpiônico») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Soro anti-elapídico») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Uma criança com 7 anos de idade, moradora de zona rural, relata acidente por animal desconhecido há 4 horas. No momento, refere formigamento no local da picada, boca seca, diplopia, dificuldade de deglutição, dores musculares generalizadas, oligúria e urina com coloração vermelha escura. Ao exame físico, apresenta ptose palpebral bilateral e midríase.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («Soro anti-crotálico») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"C: Soro anti-crotálico"}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "d8f88ff3-4a1b-579b-837e-8ec4abb754b6",
+  "questionId": "2021-028",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Ptose, diplopia e disfagia indicam efeito neurotóxico; mialgia, mioglobinúria e urina escura indicam lesão muscular e rabdomiólise. A associação de neurotoxicidade com miotoxicidade é característica do acidente crotálico. A oligúria sinaliza risco de lesão renal e exige atendimento imediato, soroterapia e monitorização. O soro anticrotálico, alternativa C, é o antiveneno específico entre as opções, mesmo sem identificação visual da serpente. Não se deve esperar o restante dos exames para tratar um quadro clínico compatível.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Acidente botrópico costuma produzir manifestações locais mais marcantes, como dor, edema e sangramento, além de coagulopatia. Não é o padrão neuro-miotóxico dominante descrito."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Escorpionismo pode causar dor local intensa e manifestações autonômicas e cardiovasculares. A combinação de ptose com rabdomiólise e mioglobinúria favorece acidente crotálico."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Acidente elapídico também pode ser neuroparalítico, mas a miotoxicidade importante com mioglobinúria é a pista que diferencia o acidente crotálico neste caso."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 28\n\nResposta C — Soro anti-crotálico\n\nPediatria › Toxicologia › Acidente crotálico\n\nPtose, diplopia e disfagia indicam efeito neurotóxico; mialgia, mioglobinúria e urina escura indicam lesão muscular e rabdomiólise. A associação de neurotoxicidade com miotoxicidade é característica do acidente crotálico. A oligúria sinaliza risco de lesão renal e exige atendimento imediato, soroterapia e monitorização. O soro anticrotálico, alternativa C, é o antiveneno específico entre as opções, mesmo sem identificação visual da serpente. Não se deve esperar o restante dos exames para tratar um quadro clínico compatível.\n\nA alternativa A está incorreta: Acidente botrópico costuma produzir manifestações locais mais marcantes, como dor, edema e sangramento, além de coagulopatia. Não é o padrão neuro-miotóxico dominante descrito.\n\nA alternativa B está incorreta: Escorpionismo pode causar dor local intensa e manifestações autonômicas e cardiovasculares. A combinação de ptose com rabdomiólise e mioglobinúria favorece acidente crotálico.\n\nA alternativa C está correta: Soro anticrotálico neutraliza veneno de Crotalus e é a opção indicada para esse padrão clínico. A dose depende da classificação da gravidade, não de uma redução por se tratar de criança.\n\nA alternativa D está incorreta: Acidente elapídico também pode ser neuroparalítico, mas a miotoxicidade importante com mioglobinúria é a pista que diferencia o acidente crotálico neste caso.\n\nGabarito oficial definitivo do INEP: C"
+    },
+    "takeHomeMessage": "Neuroparalisia associada a mialgia e mioglobinúria sugere acidente crotálico; antiveneno deve ser administrado prontamente.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-MS-OFIDISMO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Pediatria",
+      "Toxicologia",
+      "Acidente crotálico"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-002",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

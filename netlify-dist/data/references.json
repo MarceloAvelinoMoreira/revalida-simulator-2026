@@ -201,6 +201,186 @@
       "publicationYear": 2026,
       "hierarchyLevel": 7,
       "sigla": "ACLS"
+    },
+    "COMMENT-MS-MAGNESIO": {
+      "referenceId": "COMMENT-MS-MAGNESIO",
+      "title": "Ministério da Saúde — Gestação de alto risco: manual técnico",
+      "citation": "https://bvsms.saude.gov.br/bvs/publicacoes/gestacao_alto_risco.pdf — Cuidados com sulfato de magnésio; suspensão por arreflexia, baixa frequência respiratória ou oligúria; gluconato de cálcio como antídoto.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/gestacao_alto_risco.pdf"
+    },
+    "COMMENT-AAP-AHT": {
+      "referenceId": "COMMENT-AAP-AHT",
+      "title": "American Academy of Pediatrics — Abusive Head Trauma",
+      "citation": "https://www.aap.org/en/patient-care/child-abuse-and-neglect/abusive-head-trauma/ — Diagnóstico de trauma craniano abusivo e avaliação de achados intracranianos e retinianos em conjunto.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.aap.org/en/patient-care/child-abuse-and-neglect/abusive-head-trauma/"
+    },
+    "COMMENT-CHOP-TIREOGLOSSO": {
+      "referenceId": "COMMENT-CHOP-TIREOGLOSSO",
+      "title": "Children's Hospital of Philadelphia — Thyroglossal Duct Cyst",
+      "citation": "https://www.chop.edu/conditions-diseases/thyroglossal-duct-cyst — Apresentação, avaliação e operação de Sistrunk com retirada da porção central do hioide.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.chop.edu/conditions-diseases/thyroglossal-duct-cyst"
+    },
+    "COMMENT-INCA-PROSTATA": {
+      "referenceId": "COMMENT-INCA-PROSTATA",
+      "title": "INCA — Cartilha sobre câncer de próstata",
+      "citation": "https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/cartilha_cancer_prostata_2017.pdf — Orientação brasileira contrária ao rastreamento populacional de homens assintomáticos, já aplicável à época da prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/cartilha_cancer_prostata_2017.pdf"
+    },
+    "COMMENT-MS-PNAB2017": {
+      "referenceId": "COMMENT-MS-PNAB2017",
+      "title": "Ministério da Saúde — Portaria nº 2.436, de 21 de setembro de 2017",
+      "citation": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prt2436_22_09_2017.html — Artigo 3º e anexo: princípios, diretrizes e organização da Atenção Básica.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prt2436_22_09_2017.html"
+    },
+    "COMMENT-INEP2021-KEY": {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "title": "INEP — Revalida 2021: gabarito definitivo",
+      "citation": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "sourceType": "official-answer-key",
+      "confidenceLevel": "high",
+      "publicationYear": 2021,
+      "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf"
+    },
+    "COMMENT-ACOG-MULLER": {
+      "referenceId": "COMMENT-ACOG-MULLER",
+      "title": "ACOG — Müllerian Agenesis: Diagnosis, Management, and Treatment (2018)",
+      "citation": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/01/mullerian-agenesis-diagnosis-management-and-treatment — Desenvolvimento mamário normal e diferenciação diagnóstica na agenesia mülleriana.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/01/mullerian-agenesis-diagnosis-management-and-treatment"
+    },
+    "COMMENT-NCI-PANCREAS": {
+      "referenceId": "COMMENT-NCI-PANCREAS",
+      "title": "National Cancer Institute — Pancreatic Cancer Treatment (PDQ)",
+      "citation": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq — Apresentação clínica, icterícia e investigação do câncer pancreático.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq"
+    },
+    "COMMENT-CFM-ETICA2018": {
+      "referenceId": "COMMENT-CFM-ETICA2018",
+      "title": "Conselho Federal de Medicina — Código de Ética Médica, Resolução 2.217/2018",
+      "citation": "https://www.sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2018/2217_2018.pdf — Artigos sobre autonomia, informação ao paciente e cuidado em doenças incuráveis.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2018/2217_2018.pdf"
+    },
+    "COMMENT-SBP-PAC2018": {
+      "referenceId": "COMMENT-SBP-PAC2018",
+      "title": "Sociedade Brasileira de Pediatria — Pneumonia adquirida na comunidade na infância (2018)",
+      "citation": "https://www.sbp.com.br/fileadmin/user_upload/Pneumologia_-_20981d-DC_-_Pneumonia_adquirida_na_comunidade-ok.pdf — Tratamento da PAC não complicada e indicações de macrolídeos e hospitalização, em documento anterior à prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.sbp.com.br/fileadmin/user_upload/Pneumologia_-_20981d-DC_-_Pneumonia_adquirida_na_comunidade-ok.pdf"
+    },
+    "COMMENT-MS-PCATOOL2010": {
+      "referenceId": "COMMENT-MS-PCATOOL2010",
+      "title": "Ministério da Saúde — Manual de avaliação da Atenção Primária à Saúde: PCATool-Brasil",
+      "citation": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_avaliacao_atencao_primaria.pdf — Definições dos atributos essenciais e derivados da Atenção Primária, incluindo competência cultural.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_avaliacao_atencao_primaria.pdf"
+    },
+    "COMMENT-BTF-CIRURGIA": {
+      "referenceId": "COMMENT-BTF-CIRURGIA",
+      "title": "Brain Trauma Foundation — Guidelines for the Surgical Management of TBI",
+      "citation": "https://braintrauma.org/coma/guidelines/surgical — Indicações de evacuação urgente de hematoma extradural e de lesões com deterioração neurológica.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://braintrauma.org/coma/guidelines/surgical"
+    },
+    "COMMENT-NICE-TIREOIDE": {
+      "referenceId": "COMMENT-NICE-TIREOIDE",
+      "title": "NICE NG145 — Thyroid disease: assessment and management",
+      "citation": "https://www.nice.org.uk/guidance/NG145/chapter/recommendations — Recomendações de 2019 sobre tratamento individualizado do hipotireoidismo subclínico.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/NG145/chapter/recommendations"
+    },
+    "COMMENT-MS-ONCO2014": {
+      "referenceId": "COMMENT-MS-ONCO2014",
+      "title": "Ministério da Saúde — Diretrizes diagnósticas e terapêuticas em oncologia (2014)",
+      "citation": "https://www.gov.br/saude/pt-br/acesso-a-informacao/acoes-e-programas/pnsp/materiais-de-apoio/arquivos/livro-pcdt-oncologia-2014.pdf/%40%40download/file/livro-pcdt-oncologia-2014.pdf — Colonoscopia como método diagnóstico preferencial por avaliar o cólon e permitir biópsias.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/acoes-e-programas/pnsp/materiais-de-apoio/arquivos/livro-pcdt-oncologia-2014.pdf/%40%40download/file/livro-pcdt-oncologia-2014.pdf"
+    },
+    "COMMENT-NICE-CALCULOS": {
+      "referenceId": "COMMENT-NICE-CALCULOS",
+      "title": "NICE CG188 — Gallstone disease: diagnosis and management (2014)",
+      "citation": "https://www.nice.org.uk/guidance/cg188/evidence/full-guideline-pdf-193302253 — Indicação de colecistectomia laparoscópica em cálculos vesiculares sintomáticos.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/cg188/evidence/full-guideline-pdf-193302253"
+    },
+    "COMMENT-MS-OFIDISMO": {
+      "referenceId": "COMMENT-MS-OFIDISMO",
+      "title": "Ministério da Saúde — Tratamento dos acidentes ofídicos",
+      "citation": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/animais-peconhentos/acidentes-ofidicos/tratamento — Classificação clínica dos acidentes, manifestações crotálicas e soros específicos.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/animais-peconhentos/acidentes-ofidicos/tratamento"
+    },
+    "COMMENT-FEBRASGO-PROLACTINA": {
+      "referenceId": "COMMENT-FEBRASGO-PROLACTINA",
+      "title": "FEBRASGO — A hiperprolactinemia no consultório do ginecologista",
+      "citation": "https://www.febrasgo.org.br/noticia/a-hiperprolactinemia-no-consultorio-do-ginecologista-como-e-quando-o-tratamento-medicamentoso-e-indicado/ — Investigação de hiperprolactinemia sintomática e exclusão de causas medicamentosas, fisiológicas e patológicas.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.febrasgo.org.br/noticia/a-hiperprolactinemia-no-consultorio-do-ginecologista-como-e-quando-o-tratamento-medicamentoso-e-indicado/"
+    },
+    "COMMENT-SBP-KAWASAKI": {
+      "referenceId": "COMMENT-SBP-KAWASAKI",
+      "title": "Sociedade Brasileira de Pediatria — Doença de Kawasaki",
+      "citation": "https://www.sbp.com.br/fileadmin/user_upload/_22196c-DocCient_-_Doenca_de_Kawasaki.pdf — Critérios clínicos da doença e complicações coronarianas.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.sbp.com.br/fileadmin/user_upload/_22196c-DocCient_-_Doenca_de_Kawasaki.pdf"
+    },
+    "COMMENT-ESHRE-ENDOMETRIOSE": {
+      "referenceId": "COMMENT-ESHRE-ENDOMETRIOSE",
+      "title": "ESHRE — Guideline: endometriosis (2022)",
+      "citation": "https://academic.oup.com/hropen/article/2022/2/hoac009/6537540 — Imagem por ultrassom ou ressonância na investigação e limites de um resultado negativo; usada como corroboradora posterior à prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://academic.oup.com/hropen/article/2022/2/hoac009/6537540"
+    },
+    "COMMENT-ACOG-HISTEROSCOPIA": {
+      "referenceId": "COMMENT-ACOG-HISTEROSCOPIA",
+      "title": "ACOG — The Use of Hysteroscopy for the Diagnosis and Treatment of Intrauterine Pathology (2020)",
+      "citation": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/03/the-use-of-hysteroscopy-for-the-diagnosis-and-treatment-of-intrauterine-pathology — Histeroscopia diagnóstica e terapêutica em pólipos e sangramento uterino anormal.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/03/the-use-of-hysteroscopy-for-the-diagnosis-and-treatment-of-intrauterine-pathology"
     }
   }
 }

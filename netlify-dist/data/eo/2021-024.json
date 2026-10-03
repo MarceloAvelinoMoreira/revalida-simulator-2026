@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"6cf37daa-26e6-5f80-ba6f-8cd6820d6168","questionId":"2021-024","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «Compensar melhor a glicemia e indicar tratamento operatório eletivo».\n\nNo cenário — Uma mulher com 61 anos de idade, acompanhada pela filha, foi atendida em ambulatório de hospital secundário referindo ter apresentado dor no hipocôndrio direito e vômitos por 3 dias, há 30 dias. Relatava fazer uso de metformina 500 mg, 2 vezes por dia e atenolol 50 mg por dia. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Indicar tratamento operatório se apresentar dor novamente») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Tratar as doenças clínicas e realizar controle com ultrassonografia anual») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: confundir tratamento de manutenção com tratamento da fase aguda. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Encaminhar ao pronto-socorro para tratamento operatório») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Uma mulher com 61 anos de idade, acompanhada pela filha, foi atendida em ambulatório de hospital secundário referindo ter apresentado dor no hipocôndrio direito e vômitos por 3 dias, há 30 dias. Relatava fazer uso de metformina 500 mg, 2 vezes por dia e atenolol 50 mg por dia. Trouxe ultrassonografia que descrevia vesícula biliar com paredes discretamente espessadas e presença de colelitíase.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («Compensar melhor a glicemia e indicar tratamento operatório eletivo») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"D: Compensar melhor a glicemia e indicar tratamento operatório eletivo"}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "6cf37daa-26e6-5f80-ba6f-8cd6820d6168",
+  "questionId": "2021-024",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "A paciente teve episódio compatível com dor biliar e apresenta cálculos na ultrassonografia. Embora esteja sem dor há trinta dias, não se trata de colelitíase incidental assintomática. Na consulta atual não há febre, leucocitose, dor abdominal ou instabilidade que sustentem uma urgência inflamatória. A conduta é planejar colecistectomia eletiva com avaliação e otimização das comorbidades, alternativa D. A glicemia isolada de 120 mg/dL não demonstra, por si só, descompensação grave nem define o risco operatório; a expressão sobre compensação deve ser entendida como preparo perioperatório, não como diagnóstico laboratorial fechado.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Esperar nova crise deixa a paciente exposta a recorrência e complicações. Um episódio sintomático associado a cálculos já sustenta avaliação para cirurgia eletiva."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Observação pode ser adequada para cálculos realmente assintomáticos em muitos pacientes. A história de dor biliar diferencia este caso; acompanhamento ultrassonográfico não resolve os sintomas prévios nem remove os cálculos."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Não há sinais atuais de colecistite aguda ou outra complicação que indiquem pronto-socorro e cirurgia urgente. A consulta permite programação eletiva."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 24\n\nResposta D — Compensar melhor a glicemia e indicar tratamento operatório eletivo\n\nCirurgia Geral › Cirurgia hepatobiliopancreática › Colelitíase sintomática\n\nA paciente teve episódio compatível com dor biliar e apresenta cálculos na ultrassonografia. Embora esteja sem dor há trinta dias, não se trata de colelitíase incidental assintomática. Na consulta atual não há febre, leucocitose, dor abdominal ou instabilidade que sustentem uma urgência inflamatória. A conduta é planejar colecistectomia eletiva com avaliação e otimização das comorbidades, alternativa D. A glicemia isolada de 120 mg/dL não demonstra, por si só, descompensação grave nem define o risco operatório; a expressão sobre compensação deve ser entendida como preparo perioperatório, não como diagnóstico laboratorial fechado.\n\nA alternativa A está incorreta: Esperar nova crise deixa a paciente exposta a recorrência e complicações. Um episódio sintomático associado a cálculos já sustenta avaliação para cirurgia eletiva.\n\nA alternativa B está incorreta: Observação pode ser adequada para cálculos realmente assintomáticos em muitos pacientes. A história de dor biliar diferencia este caso; acompanhamento ultrassonográfico não resolve os sintomas prévios nem remove os cálculos.\n\nA alternativa C está incorreta: Não há sinais atuais de colecistite aguda ou outra complicação que indiquem pronto-socorro e cirurgia urgente. A consulta permite programação eletiva.\n\nA alternativa D está correta: Combina planejamento de tratamento definitivo com avaliação clínica das comorbidades antes da operação. É a melhor opção entre as propostas.\n\nGabarito oficial definitivo do INEP: D"
+    },
+    "takeHomeMessage": "Colelitíase com episódio de dor biliar é sintomática, mesmo fora da crise; programe cirurgia eletiva quando não há complicação aguda.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-NICE-CALCULOS",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Cirurgia Geral",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Cirurgia Geral",
+      "Cirurgia hepatobiliopancreática",
+      "Colelitíase sintomática"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-002",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"51d57b31-d6d6-5991-aa2b-436cff61063e","questionId":"2021-009","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «Neoplasia de cabeça de pâncreas».\n\nNo cenário — Paciente de 60 anos de idade, masculino, procura hospital de atenção secundária com história de “olhos amarelados” há cerca de 4 semanas. Refere “desconforto” discreto em epigástrio e hipocôndrio direito. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Pancreatite aguda») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Colangite») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Abscesso hepático») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Paciente de 60 anos de idade, masculino, procura hospital de atenção secundária com história de “olhos amarelados” há cerca de 4 semanas. Refere “desconforto” discreto em epigástrio e hipocôndrio direito. Nega febre.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («Neoplasia de cabeça de pâncreas») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"D: Neoplasia de cabeça de pâncreas"}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "51d57b31-d6d6-5991-aa2b-436cff61063e",
+  "questionId": "2021-009",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Icterícia intensa com evolução de semanas, emagrecimento e vesícula palpável indolor sugerem obstrução biliar distal de causa neoplásica. Esse conjunto é classicamente associado ao sinal de Courvoisier. Um tumor na cabeça do pâncreas pode obstruir o colédoco e produzir esse padrão, tornando D a hipótese mais provável. Ausência de febre, dor intensa e Murphy positivo reduz a coerência das causas inflamatórias propostas. Trata-se de uma hipótese clínica: exames de imagem e avaliação especializada são necessários para localizar a obstrução, confirmar sua causa e estadiar eventual tumor.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Pancreatite aguda costuma cursar com dor epigástrica aguda importante, frequentemente irradiada para o dorso, e exige critérios clínicos, laboratoriais ou de imagem. Não é a melhor explicação para emagrecimento e icterícia progressiva praticamente indolor."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Colangite aguda é infecção das vias biliares, geralmente com febre e sinais inflamatórios associados à obstrução. A ausência de febre e o curso descrito favorecem neoplasia; a tríade de Charcot não é obrigatória, mas não há elementos infecciosos suficientes aqui."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Abscesso hepático costuma causar febre, dor e resposta inflamatória. Não explica tão bem a distensão indolor da vesícula por obstrução distal."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 9\n\nResposta D — Neoplasia de cabeça de pâncreas\n\nCirurgia Geral › Cirurgia hepatobiliopancreática › Icterícia obstrutiva e câncer de pâncreas\n\nIcterícia intensa com evolução de semanas, emagrecimento e vesícula palpável indolor sugerem obstrução biliar distal de causa neoplásica. Esse conjunto é classicamente associado ao sinal de Courvoisier. Um tumor na cabeça do pâncreas pode obstruir o colédoco e produzir esse padrão, tornando D a hipótese mais provável. Ausência de febre, dor intensa e Murphy positivo reduz a coerência das causas inflamatórias propostas. Trata-se de uma hipótese clínica: exames de imagem e avaliação especializada são necessários para localizar a obstrução, confirmar sua causa e estadiar eventual tumor.\n\nA alternativa A está incorreta: Pancreatite aguda costuma cursar com dor epigástrica aguda importante, frequentemente irradiada para o dorso, e exige critérios clínicos, laboratoriais ou de imagem. Não é a melhor explicação para emagrecimento e icterícia progressiva praticamente indolor.\n\nA alternativa B está incorreta: Colangite aguda é infecção das vias biliares, geralmente com febre e sinais inflamatórios associados à obstrução. A ausência de febre e o curso descrito favorecem neoplasia; a tríade de Charcot não é obrigatória, mas não há elementos infecciosos suficientes aqui.\n\nA alternativa C está incorreta: Abscesso hepático costuma causar febre, dor e resposta inflamatória. Não explica tão bem a distensão indolor da vesícula por obstrução distal.\n\nA alternativa D está correta: Neoplasia da cabeça pancreática integra a icterícia obstrutiva, o emagrecimento e a vesícula palpável indolor. É a melhor hipótese entre as alternativas, sem dispensar confirmação diagnóstica.\n\nGabarito oficial definitivo do INEP: D"
+    },
+    "takeHomeMessage": "Icterícia progressiva com emagrecimento e vesícula palpável indolor sugere obstrução biliar neoplásica distal.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-NCI-PANCREAS",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Cirurgia Geral",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Cirurgia Geral",
+      "Cirurgia hepatobiliopancreática",
+      "Icterícia obstrutiva e câncer de pâncreas"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-002",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

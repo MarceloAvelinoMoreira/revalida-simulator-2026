@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"45cc0e72-ad62-5eed-979f-0918c3018b27","questionId":"2021-038","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «Doença de Kawasaki; aneurisma coronariano».\n\nNo cenário — Um menino de 4 anos de idade, previamente hígido e com acompanhamento pediátrico regular, chega ao pronto atendimento com queixa de febre (temperatura axilar superior a 38,5 °C em todos os picos) há 6 dias acompanhada de conjuntivite bilateral não exsudativa. Nega uso prévio de medicações nesses últimos dias, exceto o antitérmico habitual para controle da febre. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Escarlatina; glomerulonefrite difusa aguda») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Mononucleose; síndrome de Guillain-Barré») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Sarampo; panencefalite esclerosante subaguda») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Um menino de 4 anos de idade, previamente hígido e com acompanhamento pediátrico regular, chega ao pronto atendimento com queixa de febre (temperatura axilar superior a 38,5 °C em todos os picos) há 6 dias acompanhada de conjuntivite bilateral não exsudativa. Nega uso prévio de medicações nesses últimos dias, exceto o antitérmico habitual para controle da febre. Nega viagens recentes ou contato com indivíduos sabidamente doentes.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («Doença de Kawasaki; aneurisma coronariano») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"B: Doença de Kawasaki; aneurisma coronariano"}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"high","cognitiveLevel":"analysis"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "45cc0e72-ad62-5eed-979f-0918c3018b27",
+  "questionId": "2021-038",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Febre por seis dias, conjuntivite bilateral não exsudativa, alterações de lábios e língua, exantema polimórfico, alterações de extremidades e linfonodo cervical formam o conjunto clássico da doença de Kawasaki. Há febre prolongada e múltiplos critérios mucocutâneos; o tamanho descrito do linfonodo não é necessário para sustentar a hipótese, pois os outros quatro critérios estão presentes. A complicação especialmente importante é o comprometimento coronariano, incluindo aneurismas, tornando B correta. Reconhecimento precoce orienta avaliação cardíaca e tratamento, sem aguardar aparecimento de aneurisma para agir.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Escarlatina pode causar língua em morango e exantema, mas costuma acompanhar faringite estreptocócica e não explica tão bem conjuntivite não purulenta e edema de mãos e pés. Glomerulonefrite pode seguir infecção estreptocócica, mas não é o par diagnóstico-complicação deste caso."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Mononucleose costuma cursar com faringite, adenomegalia e por vezes hepatoesplenomegalia. O padrão mucocutâneo e de extremidades é mais coerente com Kawasaki."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Sarampo pode causar febre, conjuntivite e exantema, e panencefalite esclerosante subaguda é uma complicação tardia possível. Entretanto, não explica o conjunto de lábios fissurados, língua alterada e edema endurecido de extremidades tão bem quanto Kawasaki."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 38\n\nResposta B — Doença de Kawasaki; aneurisma coronariano\n\nPediatria › Reumatologia Pediátrica › Doença de Kawasaki\n\nFebre por seis dias, conjuntivite bilateral não exsudativa, alterações de lábios e língua, exantema polimórfico, alterações de extremidades e linfonodo cervical formam o conjunto clássico da doença de Kawasaki. Há febre prolongada e múltiplos critérios mucocutâneos; o tamanho descrito do linfonodo não é necessário para sustentar a hipótese, pois os outros quatro critérios estão presentes. A complicação especialmente importante é o comprometimento coronariano, incluindo aneurismas, tornando B correta. Reconhecimento precoce orienta avaliação cardíaca e tratamento, sem aguardar aparecimento de aneurisma para agir.\n\nA alternativa A está incorreta: Escarlatina pode causar língua em morango e exantema, mas costuma acompanhar faringite estreptocócica e não explica tão bem conjuntivite não purulenta e edema de mãos e pés. Glomerulonefrite pode seguir infecção estreptocócica, mas não é o par diagnóstico-complicação deste caso.\n\nA alternativa B está correta: Doença de Kawasaki reúne os achados clínicos apresentados, e aneurisma coronariano é uma complicação característica e relevante para acompanhamento.\n\nA alternativa C está incorreta: Mononucleose costuma cursar com faringite, adenomegalia e por vezes hepatoesplenomegalia. O padrão mucocutâneo e de extremidades é mais coerente com Kawasaki.\n\nA alternativa D está incorreta: Sarampo pode causar febre, conjuntivite e exantema, e panencefalite esclerosante subaguda é uma complicação tardia possível. Entretanto, não explica o conjunto de lábios fissurados, língua alterada e edema endurecido de extremidades tão bem quanto Kawasaki.\n\nGabarito oficial definitivo do INEP: B"
+    },
+    "takeHomeMessage": "Febre prolongada com conjuntivite não exsudativa, alterações orais, exantema e alterações de extremidades sugere Kawasaki; vigie as coronárias.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-SBP-KAWASAKI",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "high",
+    "cognitiveLevel": "analysis",
+    "taxonomy": [
+      "Pediatria",
+      "Reumatologia Pediátrica",
+      "Doença de Kawasaki"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-002",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

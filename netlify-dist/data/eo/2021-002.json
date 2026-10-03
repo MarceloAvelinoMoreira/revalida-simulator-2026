@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"cb750eae-593d-42e4-9c1d-09c08c6e0824","questionId":"2021-002","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «síndrome de Shaken Baby (bebê sacudido) decorrente de maus-tratos».\n\nNo cenário — Um recém-nascido com 20 dias de vida dá entrada em serviço médico de urgência com história referida de queda da cama após ter rolado para fora dela há 6 horas. Pais referem hipoatividade desde então. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («traumatismo crânio encefálico decorrente da queda da cama») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («acidente vascular cerebral decorrente de malformação vascular») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («tromboembolismo gorduroso resultante da queda») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Um recém-nascido com 20 dias de vida dá entrada em serviço médico de urgência com história referida de queda da cama após ter rolado para fora dela há 6 horas. Pais referem hipoatividade desde então. Ao exame, está em regular estado geral e apresenta hematoma subgaleal em região parietal.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («síndrome de Shaken Baby (bebê sacudido) decorrente de maus-tratos») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"C: síndrome de Shaken Baby (bebê sacudido) decorrente de maus-tratos"}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"analysis"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "cb750eae-593d-42e4-9c1d-09c08c6e0824",
+  "questionId": "2021-002",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "A história de um recém-nascido de 20 dias ter rolado para fora da cama é incompatível com o desenvolvimento motor habitual nessa idade. Associada a hipoatividade, hemorragia intracraniana e hemorragias retinianas bilaterais, ela torna o trauma craniano abusivo a principal hipótese entre as opções. A alternativa C emprega a denominação histórica síndrome do bebê sacudido. O termo trauma craniano abusivo é mais abrangente, pois inclui sacudimento e outros mecanismos. A ausência de fratura não exclui lesão infligida. Na prática, é necessária avaliação pediátrica, neurológica e oftalmológica, investigação de diagnósticos diferenciais e proteção da criança; um achado isolado não prova autoria nem mecanismo.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Atribuir o conjunto apenas à queda descrita ignora a incompatibilidade do relato com a idade e as lesões associadas. Trauma acidental permanece no diagnóstico diferencial, mas a explicação oferecida não é a mais provável neste caso."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Uma malformação vascular pode causar hemorragia intracraniana, mas não explica de modo tão coerente o relato incompatível, o hematoma subgaleal e as hemorragias retinianas. Sua investigação depende da avaliação clínica e da neuroimagem."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Embolia gordurosa costuma relacionar-se a trauma importante com fraturas de ossos longos ou pelve, frequentemente com comprometimento respiratório. Não corresponde ao cenário neonatal apresentado."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 2\n\nResposta C — síndrome de Shaken Baby (bebê sacudido) decorrente de maus-tratos\n\nPediatria › Proteção à criança › Trauma craniano abusivo\n\nA história de um recém-nascido de 20 dias ter rolado para fora da cama é incompatível com o desenvolvimento motor habitual nessa idade. Associada a hipoatividade, hemorragia intracraniana e hemorragias retinianas bilaterais, ela torna o trauma craniano abusivo a principal hipótese entre as opções. A alternativa C emprega a denominação histórica síndrome do bebê sacudido. O termo trauma craniano abusivo é mais abrangente, pois inclui sacudimento e outros mecanismos. A ausência de fratura não exclui lesão infligida. Na prática, é necessária avaliação pediátrica, neurológica e oftalmológica, investigação de diagnósticos diferenciais e proteção da criança; um achado isolado não prova autoria nem mecanismo.\n\nA alternativa A está incorreta: Atribuir o conjunto apenas à queda descrita ignora a incompatibilidade do relato com a idade e as lesões associadas. Trauma acidental permanece no diagnóstico diferencial, mas a explicação oferecida não é a mais provável neste caso.\n\nA alternativa B está incorreta: Uma malformação vascular pode causar hemorragia intracraniana, mas não explica de modo tão coerente o relato incompatível, o hematoma subgaleal e as hemorragias retinianas. Sua investigação depende da avaliação clínica e da neuroimagem.\n\nA alternativa C está correta: Trauma craniano abusivo é a hipótese que melhor integra a idade, o mecanismo pouco plausível e a associação de lesões. Deve ser investigado de forma multidisciplinar, sem reduzir o diagnóstico a uma única hemorragia.\n\nA alternativa D está incorreta: Embolia gordurosa costuma relacionar-se a trauma importante com fraturas de ossos longos ou pelve, frequentemente com comprometimento respiratório. Não corresponde ao cenário neonatal apresentado.\n\nGabarito oficial definitivo do INEP: C"
+    },
+    "takeHomeMessage": "No lactente, compare o mecanismo informado com o desenvolvimento motor e com o conjunto das lesões; suspeita de abuso exige investigação e proteção.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-AAP-AHT",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "analysis",
+    "taxonomy": [
+      "Pediatria",
+      "Proteção à criança",
+      "Trauma craniano abusivo"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-001",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}
