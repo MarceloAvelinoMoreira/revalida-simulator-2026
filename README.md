@@ -15,7 +15,7 @@ Node.js 22+; sem novas dependências:
 node scripts/serve.cjs
 ```
 
-Acesse `http://127.0.0.1:8790/`. O processo carrega `.env` nativamente. Configure `AI_PROVIDER=xai`, `XAI_API_KEY` e `AI_MODEL=grok-4.3` somente no servidor. Sem credencial, o endpoint responde com erro controlado e o painel continua com apoio local. Reinicie o processo após alterar `.env`.
+Acesse `http://127.0.0.1:8790/`. O processo carrega `.env` nativamente. Configure `AI_PROVIDER=groq`, `GROQ_API_KEY` e `AI_MODEL=openai/gpt-oss-20b` somente no servidor. Sem credencial, o endpoint responde com erro controlado e o painel continua com apoio local. Reinicie o processo após alterar `.env`.
 
 ```powershell
 node --test scripts/test-assistant*.cjs scripts/test-brain.cjs
@@ -27,7 +27,7 @@ O build gera `tmp/site` por cópia allowlisted dos arquivos estáticos (não há
 
 ### Produção
 
-GitHub Pages é apenas estático e **não executa** `/api/assistant`. Para IA real, implante este repositório em Netlify com o `netlify.toml` da raiz; ele publica `tmp/site`, instala a função e mapeia `POST /api/assistant`. Configure `AI_PROVIDER=xai`, `XAI_API_KEY` e, opcionalmente, `AI_MODEL` (padrão `grok-4.3`) como variáveis de ambiente **de Functions**, nunca no build público. Endpoint e autenticação seguem a [documentação oficial xAI](https://docs.x.ai/developers/rest-api-reference/inference/chat-completions). O backend também preserva suporte a `AI_PROVIDER=groq`, com `GROQ_API_KEY` e modelo `openai/gpt-oss-20b`; a credencial é enviada exclusivamente ao provedor selecionado.
+GitHub Pages é apenas estático e **não executa** `/api/assistant`. Para IA real, implante este repositório em Netlify com o `netlify.toml` da raiz; ele publica `tmp/site`, instala a função e mapeia `POST /api/assistant`. Configure `AI_PROVIDER=groq`, `GROQ_API_KEY` e, opcionalmente, `AI_MODEL` (padrão `openai/gpt-oss-20b`) como variáveis de ambiente **de Functions**, nunca no build público. Endpoint e autenticação seguem a [documentação oficial Groq](https://console.groq.com/docs/openai). O backend também preserva suporte a `AI_PROVIDER=xai`, com `XAI_API_KEY` e modelo `grok-4.3`; a credencial é enviada exclusivamente ao provedor selecionado.
 
 Se mantiver o frontend no GitHub Pages, hospede a mesma função no Netlify e configure apenas a URL pública do seu backend (sem qualquer segredo) **antes** de carregar `assistant.js`:
 
