@@ -19,7 +19,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style-assistant-v1.css?v=2">
+<link rel="stylesheet" href="css/style-assistant-v1.css?v=neural1">
+<link rel="stylesheet" href="css/assistant-brain.css?v=3">
 <style>
   .mode-card,
   .year-btn,
@@ -43,17 +44,7 @@
 
 <!-- HOME -->
 <div id="screen-home" class="screen">
-  <div class="assistant-hero" aria-label="Assistente virtual REVALIDDA">
-    <button type="button" class="assistant-mascot-button" onclick="toggleAssistant(true)" aria-label="Abrir assistente virtual">
-      <span class="assistant-mascot" aria-hidden="true">
-        <span class="mascot-antenna"></span>
-        <span class="mascot-head"><span class="mascot-screen">›_</span></span>
-        <span class="mascot-body"><span class="mascot-chest">›_</span></span>
-        <span class="mascot-arm mascot-arm-left"></span>
-        <span class="mascot-arm mascot-arm-right"></span>
-      </span>
-    </button>
-  </div>
+  <div id="assistant-brain-home" class="assistant-brain-home"></div>
   <div class="logo">REVALIDDA</div>
   <div class="brand-byline">Simulator · Marcelo Avelino</div>
   <div class="tagline">Simulado oficial do REVALIDA · Knowledge Base v1.0</div>
@@ -320,10 +311,29 @@
 <div id="review-overlay" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(6,12,20,.92);backdrop-filter:blur(6px);overflow-y:auto;"></div>
 
 <!-- ASSISTENTE VIRTUAL -->
-<button type="button" class="assistant-launcher" id="assistant-launcher" onclick="toggleAssistant()" aria-label="Abrir assistente virtual" title="Assistente virtual" aria-controls="assistant-panel" aria-expanded="false">
-  <img src="assets/app-icon-robot.png" alt="" width="56" height="56">
+<button type="button" class="assistant-launcher" id="assistant-launcher" onclick="toggleAssistant()" aria-label="Abrir assistente virtual REVALIDDA" title="Abrir Assistente REVALIDDA" aria-controls="assistant-panel" aria-expanded="false">
+  <svg class="neural-brain" viewBox="0 0 100 110" aria-hidden="true" focusable="false">
+    <defs>
+      <path id="brain-outline" d="M48 14C39 5 29 10 27 19C17 16 10 25 13 35C3 40 5 52 10 57C3 67 10 80 19 81C18 94 32 101 43 95L48 89Z M52 14C61 5 71 10 73 19C83 16 90 25 87 35C97 40 95 52 90 57C97 67 90 80 81 81C82 94 68 101 57 95L52 89Z"/>
+      <clipPath id="brain-clip"><use href="#brain-outline"/></clipPath>
+      <radialGradient id="brain-fill" cx="48%" cy="42%" r="65%"><stop stop-color="#183f6b"/><stop offset=".6" stop-color="#10243f"/><stop offset="1" stop-color="#071325"/></radialGradient>
+      <linearGradient id="brain-rim" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c6f6ff"/><stop offset=".45" stop-color="#57bfff"/><stop offset="1" stop-color="#657de6"/></linearGradient>
+      <radialGradient id="synapse-glow"><stop stop-color="#beffff" stop-opacity=".85"/><stop offset=".4" stop-color="#3abaff" stop-opacity=".4"/><stop offset="1" stop-color="#3abaff" stop-opacity="0"/></radialGradient>
+    </defs>
+    <use href="#brain-outline" fill="url(#brain-fill)" stroke="url(#brain-rim)" stroke-width="1.2"/>
+    <g class="brain-sulci" clip-path="url(#brain-clip)" fill="none" stroke="#69aed5" stroke-width=".85" stroke-linecap="round" opacity=".85">
+      <path d="M28 20C40 18 41 25 35 31S22 29 20 39M14 36C20 34 27 42 24 49S12 48 13 59M43 21C47 29 40 39 34 40S29 50 36 54M11 66C19 58 26 61 28 70S21 76 22 83M43 48C48 58 42 61 39 69S45 78 44 88M28 87C27 77 34 74 37 80S37 93 31 94"/>
+      <path d="M72 20C60 18 59 25 65 31S78 29 80 39M86 36C80 34 73 42 76 49S88 48 87 59M57 21C53 29 60 39 66 40S71 50 64 54M89 66C81 58 74 61 72 70S79 76 78 83M57 48C52 58 58 61 61 69S55 78 56 88M72 87C73 77 66 74 63 80S63 93 69 94"/>
+    </g>
+    <g class="brain-cortex-detail" clip-path="url(#brain-clip)" fill="none" stroke="#72caff" stroke-width=".38" stroke-linecap="round" opacity=".6">
+      <path d="M30 15C26 24 34 27 40 23M20 25C19 31 27 34 30 29M11 43C18 38 20 44 17 49M29 34C38 29 44 34 40 39M25 43C28 38 34 39 33 46M12 55C19 51 27 54 24 60M35 48C42 46 46 48 42 53M30 54C23 59 30 64 36 59M9 69C14 63 21 68 17 74M24 66C31 60 35 66 32 71M35 68C40 65 45 68 42 73M20 78C14 84 23 89 27 85M33 83C37 78 43 82 39 87M31 94C35 96 40 93 41 89"/>
+      <path d="M70 15C74 24 66 27 60 23M80 25C81 31 73 34 70 29M89 43C82 38 80 44 83 49M71 34C62 29 56 34 60 39M75 43C72 38 66 39 67 46M88 55C81 51 73 54 76 60M65 48C58 46 54 48 58 53M70 54C77 59 70 64 64 59M91 69C86 63 79 68 83 74M76 66C69 60 65 66 68 71M65 68C60 65 55 68 58 73M80 78C86 84 77 89 73 85M67 83C63 78 57 82 61 87M69 94C65 96 60 93 59 89"/>
+    </g>
+    <g id="brain-network" clip-path="url(#brain-clip)"></g>
+  </svg>
+  <span class="brain-tooltip" aria-hidden="true">Abrir Assistente REVALIDDA</span>
 </button>
-<aside class="assistant-panel" id="assistant-panel" aria-label="Assistente virtual" aria-hidden="true">
+<aside class="assistant-panel" id="assistant-panel" aria-label="Assistente virtual" aria-hidden="true" inert>
   <header class="assistant-header">
     <div class="assistant-avatar" aria-hidden="true">✦</div>
     <div class="assistant-heading">
@@ -351,7 +361,7 @@
   </div>
 
   <form class="assistant-form" onsubmit="submitAssistant(event)">
-    <input id="assistant-input" type="text" autocomplete="off" placeholder="Pergunte sobre seu desempenho..." aria-label="Pergunta para o assistente">
+    <input id="assistant-input" type="text" maxlength="2000" autocomplete="off" placeholder="Pergunte sobre seu desempenho..." aria-label="Pergunta para o assistente">
     <button type="submit" aria-label="Enviar pergunta">↑</button>
   </form>
 </aside>
@@ -369,7 +379,8 @@
 <script src="js/simulator.js?v=6"></script>
 <script src="js/review.js?v=3"></script>
 <script src="js/rapid.js?v=3"></script>
-<script src="js/assistant.js?v=2"></script>
+<script src="js/assistant.js?v=neural1"></script>
+<script src="js/assistant-brain.js?v=3"></script>
 <script src="js/app.js?v=2"></script>
 </body>
 </html>

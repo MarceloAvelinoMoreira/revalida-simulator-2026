@@ -1,16 +1,9 @@
-/*
- * Virtual assistant adapter.
- * Configure window.REVALIDDA_ASSISTANT_CONFIG.endpoint when the external API is ready.
- * Expected response: { reply: string, stats?: { accuracy, answered, streak }, suggestions?: string[] }
- */
-window.REVALIDDA_ASSISTANT_CONFIG = window.REVALIDDA_ASSISTANT_CONFIG || {
-  endpoint: "",
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-};
+// Public configuration contains ONLY the backend URL, never provider credentials.
+window.REVALIDDA_ASSISTANT_CONFIG = { endpoint: window.REVALIDDA_ASSISTANT_CONFIG?.endpoint || "/api/assistant" };
 
 let assistantOpen = false;
 let assistantBusy = false;
+const assistantHistory = [];
 
 function assistantEscape(value) {
   return String(value || "")
@@ -28,21 +21,20 @@ function assistantContext() {
     totalQuestions: total,
     selectedEdition: typeof selectedYear !== "undefined" ? selectedYear : null,
     selectedMode: typeof selectedMode !== "undefined" ? selectedMode : null,
-    session: session || null,
-    url: window.location.href,
+    ...(session ? { correct: Number(session.correct) || 0, wrong: Number(session.wrong) || 0, answered: (Number(session.correct) || 0) + (Number(session.wrong) || 0) } : {}),
   };
 }
 
 function assistantStats() {
   const session = typeof RevalidaStorage !== "undefined" ? RevalidaStorage.loadSession() : null;
   const correctCount = Number(session && session.correct) || 0;
-  const answeredCount = Number(session && session.currentIndex) || 0;
+  const answeredCount = correctCount + (Number(session && session.wrong) || 0);
   const accuracy = answeredCount ? `${Math.round((correctCount / answeredCount) * 100)}%` : "—";
-  return { accuracy, answered: answeredCount, streak: "—" };
+  return { accuracy, answered: session ? answeredCount : "—", streak: "—" };
 }
 
-function renderAssistantStats(stats) {
-  const current = { ...assistantStats(), ...(stats || {}) };
+function renderAssistantStats() {
+  const current = assistantStats();
   document.getElementById("assistant-accuracy").textContent = current.accuracy ?? "—";
   document.getElementById("assistant-answered").textContent = current.answered ?? 0;
   document.getElementById("assistant-streak").textContent = current.streak ?? "—";
@@ -56,9 +48,17 @@ function toggleAssistant(force) {
   panel.classList.toggle("is-open", assistantOpen);
   panel.setAttribute("aria-hidden", String(!assistantOpen));
   launcher.setAttribute("aria-expanded", String(assistantOpen));
+  launcher.setAttribute("aria-label", `${assistantOpen ? "Fechar" : "Abrir"} assistente virtual REVALIDDA`);
+  launcher.title = assistantOpen ? "Fechar Assistente REVALIDDA" : "Abrir Assistente REVALIDDA";
+  const tooltip = launcher.querySelector?.(".brain-tooltip");
+  if (tooltip) tooltip.textContent = launcher.title;
+  panel.inert = !assistantOpen;
+  window.RevaliddaBrain?.burst();
   if (assistantOpen) {
     renderAssistantStats();
-    window.setTimeout(() => document.getElementById("assistant-input")?.focus(), 80);
+    document.getElementById("assistant-input")?.focus();
+  } else {
+    launcher.focus();
   }
 }
 
@@ -87,57 +87,52 @@ function fallbackAssistantReply(message) {
   const normalized = message.toLowerCase();
   const stats = assistantStats();
   if (normalized.includes("desempenho") || normalized.includes("resultado")) {
-    return `Seu resumo atual: ${stats.answered} questões respondidas e aproveitamento de ${stats.accuracy}. Continue praticando para eu identificar padrões mais confiáveis.`;
+    if (stats.answered === "—") return "Não há dados de uma sessão de estudo disponíveis para calcular seu desempenho. Responda algumas questões para gerar um resumo real.";
+    return `Seu resumo atual: ${stats.answered} ${stats.answered === 1 ? "questão respondida" : "questões respondidas"} e aproveitamento de ${stats.accuracy}. Continue praticando para eu identificar padrões mais confiáveis.`;
   }
   if (normalized.includes("melhorar") || normalized.includes("fraco")) {
-    return "Quando a API estiver conectada, vou cruzar seus erros por edição, tema e tipo de questão. Por enquanto, revise as questões erradas e repita os temas com menor segurança.";
+    return "Ainda não há dados consolidados por tema para apontar seus pontos fracos. Revise as questões erradas e anote os assuntos em que teve dúvida.";
   }
-  return "Posso conversar sobre seu desempenho, pontos fracos, sequência de estudos e próximas questões. Configure o endpoint da API em REVALIDDA_ASSISTANT_CONFIG para respostas personalizadas.";
+  return "Dica de estudo: identifique o que o enunciado pede, destaque os achados decisivos e compare cada alternativa antes de responder. A IA está indisponível no momento; este é o modo local de apoio.";
 }
 
 async function askAssistant(message) {
   const text = String(message || "").trim();
   if (!text || assistantBusy) return;
+  if (text.length > 2000) { setAssistantStatus("Use até 2000 caracteres por mensagem."); return; }
   if (!assistantOpen) toggleAssistant(true);
   appendAssistantMessage(text, "user");
   assistantBusy = true;
+  document.getElementById("assistant-panel").setAttribute("aria-busy", "true");
   setAssistantStatus("Analisando seus dados...");
+  const controller = new AbortController();
+  const timer = window.setTimeout(() => controller.abort(), 10000);
+  let reply;
   try {
     const config = window.REVALIDDA_ASSISTANT_CONFIG || {};
-    if (!config.endpoint) {
-      await new Promise((resolve) => window.setTimeout(resolve, 260));
-      appendAssistantMessage(fallbackAssistantReply(text), "bot");
-      renderAssistantStats();
-      return;
-    }
-    const requestBody = config.provider === "groq"
-      ? {
-          model: config.model || "openai/gpt-oss-20b",
-          temperature: 0.4,
-          messages: [
-            { role: "system", content: config.systemPrompt || "Você é um assistente de estudos." },
-            { role: "user", content: `${text}\n\nDados atuais do estudante: ${JSON.stringify(assistantContext())}` },
-          ],
-        }
-      : { message: text, context: assistantContext() };
-    const response = await fetch(config.endpoint, {
-      method: config.method || "POST",
-      headers: config.headers || { "Content-Type": "application/json" },
-      body: JSON.stringify(requestBody),
+    const endpoint = new URL(config.endpoint || "/api/assistant", window.location.origin);
+    // Only a backend assistant route is accepted. Never send questions to a provider URL.
+    if (endpoint.pathname !== "/api/assistant" || endpoint.username || endpoint.password || endpoint.search || endpoint.hash || (endpoint.protocol !== "https:" && !(endpoint.origin === window.location.origin && endpoint.protocol === "http:"))) throw new Error("invalid_backend");
+    const relevant = /desempenho|resultado|melhorar|fraco|estatística|progresso/i.test(text);
+    const response = await fetch(endpoint.href, {
+      method: "POST", signal: controller.signal, credentials: "omit",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message: text, history: assistantHistory.slice(-8), context: relevant ? assistantContext() : {} }),
     });
-    if (!response.ok) throw new Error(`assistant_api_${response.status}`);
+    if (!response.ok) throw new Error(response.status === 429 ? "rate_limit" : "unavailable");
     const data = await response.json();
-    const reply = data.reply || data.message || data.choices?.[0]?.message?.content || "Recebi sua solicitação, mas a API não retornou uma resposta.";
-    appendAssistantMessage(reply, "bot");
-    renderAssistantStats(data.stats);
-    if (Array.isArray(data.suggestions)) {
-      document.getElementById("assistant-suggestions").innerHTML = data.suggestions.slice(0, 3).map((item) => `<button type="button" onclick="askAssistant('${assistantEscape(item).replace(/'/g, "\\'")}')">${assistantEscape(item)}</button>`).join("");
-    }
+    if (typeof data.reply !== "string" || !data.reply.trim()) throw new Error("unavailable");
+    reply = data.reply.slice(0, 6000);
   } catch (error) {
-    appendAssistantMessage("Não consegui consultar o assistente agora. Verifique o endpoint da API e tente novamente.", "bot");
-    console.warn("REVALIDDA assistant:", error);
+    reply = (error.message === "rate_limit" ? "Limite temporário atingido. Aguarde um minuto.\n\n" : "") + fallbackAssistantReply(text);
   } finally {
+    window.clearTimeout(timer);
+    appendAssistantMessage(reply, "bot");
+    assistantHistory.push({ role: "user", content: text }, { role: "assistant", content: reply.slice(0, 2000) });
+    if (assistantHistory.length > 8) assistantHistory.splice(0, assistantHistory.length - 8);
+    renderAssistantStats();
     assistantBusy = false;
+    document.getElementById("assistant-panel").setAttribute("aria-busy", "false");
     setAssistantStatus("Posso analisar seu desempenho e sugerir o próximo passo.");
   }
 }
@@ -150,4 +145,8 @@ function submitAssistant(event) {
   askAssistant(value);
 }
 
-document.addEventListener("DOMContentLoaded", () => renderAssistantStats());
+document.addEventListener("DOMContentLoaded", () => {
+  renderAssistantStats();
+  document.getElementById("assistant-panel").inert = true;
+  document.addEventListener("keydown", event => { if (event.key === "Escape" && assistantOpen) toggleAssistant(false); });
+});
