@@ -7,6 +7,15 @@ const QuestionEoResolver = (() => {
     if (!question) {
       return { ok: false, error: "question_not_found", questionId };
     }
+    if (question.sourceCommentImported) {
+      return {
+        ok: true,
+        questionId,
+        question,
+        eo: null,
+        view: { ...buildFallbackView(question), compatibility: { ok: true, warnings: [] }, sourceCommentImported: true },
+      };
+    }
     let eo = null;
     let eoError = null;
     try {

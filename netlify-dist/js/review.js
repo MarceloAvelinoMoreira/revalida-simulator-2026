@@ -127,6 +127,12 @@ window.rvJustify=async function(i){
   try{
     var resolved = await QuestionEoResolver.resolve(q.id);
     var view = resolved.view || {};
+    if (view.sourceCommentImported) {
+      box.textContent = view.comment;
+      btn.innerHTML='✦ Ocultar justificativa';
+      btn.classList.remove('loading');
+      return;
+    }
     var parts = [];
     if(view.takeHome) parts.push('Mensagem final:\n'+view.takeHome);
     if(view.correctRationale) parts.push('Justificativa:\n'+view.correctRationale);

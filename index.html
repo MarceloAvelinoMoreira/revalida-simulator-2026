@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style-assistant-v1.css">
+<link rel="stylesheet" href="css/style-assistant-v1.css?v=2">
 <style>
   .mode-card,
   .year-btn,
@@ -225,18 +225,6 @@
       <div class="question-text abnt-prose" id="question-text"></div>
       <div class="question-media" id="question-media" style="display:none"></div>
       <div class="options" id="options-container"></div>
-      <div class="quiz-assistant-rail" aria-label="Assistente acompanhando a questão">
-        <div class="quiz-assistant-caption">Copiloto de revisão</div>
-        <button type="button" class="quiz-assistant-runner" onclick="toggleAssistant(true)" aria-label="Abrir assistente durante a prova">
-          <span class="assistant-mascot assistant-mascot-compact" aria-hidden="true">
-            <span class="mascot-antenna"></span>
-            <span class="mascot-head"><span class="mascot-screen">›_</span></span>
-            <span class="mascot-body"><span class="mascot-chest">›_</span></span>
-            <span class="mascot-arm mascot-arm-left"></span>
-            <span class="mascot-arm mascot-arm-right"></span>
-          </span>
-        </button>
-      </div>
       <div class="feedback-box" id="feedback-box"></div>
       <div class="ai-box" id="ai-box" aria-live="polite">
         <div class="ai-box-header">
@@ -332,9 +320,8 @@
 <div id="review-overlay" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(6,12,20,.92);backdrop-filter:blur(6px);overflow-y:auto;"></div>
 
 <!-- ASSISTENTE VIRTUAL -->
-<button type="button" class="assistant-launcher" id="assistant-launcher" onclick="toggleAssistant()" aria-controls="assistant-panel" aria-expanded="false">
-  <span class="assistant-launcher-dot"></span>
-  <span>Assistente</span>
+<button type="button" class="assistant-launcher" id="assistant-launcher" onclick="toggleAssistant()" aria-label="Abrir assistente virtual" title="Assistente virtual" aria-controls="assistant-panel" aria-expanded="false">
+  <img src="assets/app-icon-robot.png" alt="" width="56" height="56">
 </button>
 <aside class="assistant-panel" id="assistant-panel" aria-label="Assistente virtual" aria-hidden="true">
   <header class="assistant-header">
@@ -371,16 +358,16 @@
 </div>
 
 <script src="js/questions.js?v=2"></script>
-<script src="js/questions-2026-2.js?v=3"></script>
+<script src="js/questions-2026-2.js?v=4"></script>
 <script src="js/questions-facisa.js?v=1"></script>
 <script src="js/utils.js?v=2"></script>
 <script src="js/storage.js?v=2"></script>
 <script src="js/score.js?v=2"></script>
 <script src="js/question-repository.js?v=3"></script>
 <script src="js/eo-repository.js?v=2"></script>
-<script src="js/resolver.js?v=2"></script>
+<script src="js/resolver.js?v=3"></script>
 <script src="js/simulator.js?v=6"></script>
-<script src="js/review.js?v=2"></script>
+<script src="js/review.js?v=3"></script>
 <script src="js/rapid.js?v=3"></script>
 <script src="js/assistant.js?v=2"></script>
 <script src="js/app.js?v=2"></script>
