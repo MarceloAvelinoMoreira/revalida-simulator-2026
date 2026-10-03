@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"423cb848-3611-5e84-9c43-5ebad9322ae2","questionId":"2026-1-008","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «anticorpos IgM por sorologia para Chikungunya».\n\nNo cenário — Se TEM 1OIUOUE Ve MRISIO Mulher, 58 anos, residente em área urbana com acúmulo de água parada e presença frequente de insetos, procura Unidade de Pronto Atendimento por dor articular intensa e persistente. Há 18 dias apresentou episódio de febre (38,8 “C), com duração de 3 dias, associado à mialgia importante. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («antígeno NS1 para dengue») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («RNA viral por RT-PCR do Zika vírus») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («antígeno viral por ELISA para febre amarela») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Se TEM 1OIUOUE Ve MRISIO Mulher, 58 anos, residente em área urbana com acúmulo de água parada e presença frequente de insetos, procura Unidade de Pronto Atendimento por dor articular intensa e persistente. Há 18 dias apresentou episódio de febre (38,8 “C), com duração de 3 dias, associado à mialgia importante. Após a resolução da febre, evoluiu com dor, edema e limitação funcional em punhos e tornozelos bilateralmente.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («anticorpos IgM por sorologia para Chikungunya») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"C: anticorpos IgM por sorologia para Chikungunya"}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"high","cognitiveLevel":"analysis"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "423cb848-3611-5e84-9c43-5ebad9322ae2",
+  "questionId": "2026-1-008",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Febre breve seguida de poliartralgia com edema e limitação persistentes em punhos e tornozelos é compatível com chikungunya. Aos dezoito dias do início, a viremia já não é a janela preferencial para diagnóstico molecular em sangue; sorologia IgM é a opção adequada entre as propostas, alternativa C. Ausência de exantema não exclui o diagnóstico. O resultado deve ser interpretado conforme exposição, momento de coleta e desempenho do teste; o caso clínico não torna toda sorologia positiva uma prova isolada sem contexto.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "NS1 é marcador de dengue utilizado sobretudo na fase inicial; não é o exame dirigido ao padrão articular tardio apresentado."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "RT-PCR para Zika investiga outro vírus e não corresponde à principal hipótese nem à janela sanguínea do quadro."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Antígeno para febre amarela não é o teste que confirma a hipótese predominante, sem sinais clínicos que a sustentem."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 8\n\nResposta C — anticorpos IgM por sorologia para Chikungunya\n\nClínica Médica › Infectologia › Janela diagnóstica da chikungunya\n\nFebre breve seguida de poliartralgia com edema e limitação persistentes em punhos e tornozelos é compatível com chikungunya. Aos dezoito dias do início, a viremia já não é a janela preferencial para diagnóstico molecular em sangue; sorologia IgM é a opção adequada entre as propostas, alternativa C. Ausência de exantema não exclui o diagnóstico. O resultado deve ser interpretado conforme exposição, momento de coleta e desempenho do teste; o caso clínico não torna toda sorologia positiva uma prova isolada sem contexto.\n\nA alternativa A está incorreta: NS1 é marcador de dengue utilizado sobretudo na fase inicial; não é o exame dirigido ao padrão articular tardio apresentado.\n\nA alternativa B está incorreta: RT-PCR para Zika investiga outro vírus e não corresponde à principal hipótese nem à janela sanguínea do quadro.\n\nA alternativa C está correta: IgM para chikungunya é detectável após os primeiros dias e se adequa ao momento convalescente descrito.\n\nA alternativa D está incorreta: Antígeno para febre amarela não é o teste que confirma a hipótese predominante, sem sinais clínicos que a sustentem.\n\nGabarito oficial definitivo do INEP: C"
+    },
+    "takeHomeMessage": "O dia de doença muda o teste: chikungunya tardia/convalescente favorece sorologia, não investigação molecular inicial indiscriminada.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2026-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT004-MS-CHIK2024",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "high",
+    "cognitiveLevel": "analysis",
+    "taxonomy": [
+      "Clínica Médica",
+      "Infectologia",
+      "Janela diagnóstica da chikungunya"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-004",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

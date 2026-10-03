@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"6703cf49-6101-5634-a699-425156f136fa","questionId":"2025-1-009","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «Suspender losartana e iniciar metildopa e AAS; realizar pesquisa de lesão de órgãos-alvo».\n\nNo cenário — Gestante de 39 anos, G4P3, 12 semanas de gestação, comparece à primeira consulta de pré-natal na atenção primária. A paciente é hipertensa crônica há 2 anos, faz uso de losartana e apresenta índice de massa corporal (IMC) de 35 kg/m², encontra-se assintomática. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Obstetrícia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Manter losartana e iniciar AAS; solicitar exames para avaliar a função hepática») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Suspender losartana; indicar avaliação cardiológica detalhada») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: impor restrição desnecessária que não resolve o núcleo do caso. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Manter losartana; realizar pesquisa de hipertensão secundária») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Obstetrícia. O enunciado descreve: Gestante de 39 anos, G4P3, 12 semanas de gestação, comparece à primeira consulta de pré-natal na atenção primária. A paciente é hipertensa crônica há 2 anos, faz uso de losartana e apresenta índice de massa corporal (IMC) de 35 kg/m², encontra-se assintomática. Considerando esse contexto, assinale a conduta inicial e a avaliação a ser realizada.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («Suspender losartana e iniciar metildopa e AAS; realizar pesquisa de lesão de órgãos-alvo») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de obstetrícia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Obstetrícia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Obstetrícia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "6703cf49-6101-5634-a699-425156f136fa",
+  "questionId": "2025-1-009",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Losartana é contraindicada na gestação e deve ser substituída por anti-hipertensivo apropriado. Hipertensão crônica, obesidade e idade elevada também aumentam risco de pré-eclâmpsia, tornando pertinente prevenção com AAS em baixa dose a partir dessa fase, conforme protocolo, e avaliação basal de órgãos-alvo. A alternativa A contempla essas ações. Metildopa é uma opção, não a única disponível; pressão, exames, tolerabilidade e acesso orientam o esquema. O cuidado precisa ser articulado ao pré-natal de alto risco, sem abandonar acompanhamento na APS.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Manter losartana expõe a risco fetal; AAS e função hepática não neutralizam essa contraindicação."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Suspender é necessário, mas deixar sem plano anti-hipertensivo e sem prevenção/avaliação proposta torna a conduta incompleta frente a A."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Investigar causas secundárias pode ser indicado por sinais específicos, mas manter losartana é inadequado independentemente dessa investigação."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 9\n\nResposta A — Suspender losartana e iniciar metildopa e AAS; realizar pesquisa de lesão de órgãos-alvo\n\nGinecologia e Obstetrícia › Obstetrícia › Hipertensão crônica no pré-natal\n\nLosartana é contraindicada na gestação e deve ser substituída por anti-hipertensivo apropriado. Hipertensão crônica, obesidade e idade elevada também aumentam risco de pré-eclâmpsia, tornando pertinente prevenção com AAS em baixa dose a partir dessa fase, conforme protocolo, e avaliação basal de órgãos-alvo. A alternativa A contempla essas ações. Metildopa é uma opção, não a única disponível; pressão, exames, tolerabilidade e acesso orientam o esquema. O cuidado precisa ser articulado ao pré-natal de alto risco, sem abandonar acompanhamento na APS.\n\nA alternativa A está correta: Retira o BRA contraindicado, fornece opção anti-hipertensiva adequada, considera prevenção de pré-eclâmpsia e estabelece avaliação de lesão prévia.\n\nA alternativa B está incorreta: Manter losartana expõe a risco fetal; AAS e função hepática não neutralizam essa contraindicação.\n\nA alternativa C está incorreta: Suspender é necessário, mas deixar sem plano anti-hipertensivo e sem prevenção/avaliação proposta torna a conduta incompleta frente a A.\n\nA alternativa D está incorreta: Investigar causas secundárias pode ser indicado por sinais específicos, mas manter losartana é inadequado independentemente dessa investigação.\n\nGabarito oficial definitivo do INEP: A"
+    },
+    "takeHomeMessage": "Pré-natal em hipertensa crônica exige revisar fármacos fetotóxicos, avaliar órgãos-alvo e prevenir pré-eclâmpsia conforme risco.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2025-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT004-FEBRASGO-HAC",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Obstetrícia",
+      "Hipertensão crônica no pré-natal"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-004",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

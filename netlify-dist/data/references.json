@@ -381,6 +381,627 @@
       "confidenceLevel": "high",
       "verifiedAt": "2026-10-03",
       "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/03/the-use-of-hysteroscopy-for-the-diagnosis-and-treatment-of-intrauterine-pathology"
+    },
+    "COMMENT003-MS-TBHIV": {
+      "referenceId": "COMMENT003-MS-TBHIV",
+      "title": "Ministério da Saúde — Manual de recomendações para o controle da tuberculose no Brasil (2019)",
+      "citation": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tuberculose/publicacoes/manual-de-recomendacoes-para-o-controle-da-tuberculose-no-brasil.pdf/%40%40download/file — Coinfecção TB-HIV, tratamento e investigação por genotipagem em falha virológica.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/t/tuberculose/publicacoes/manual-de-recomendacoes-para-o-controle-da-tuberculose-no-brasil.pdf/%40%40download/file"
+    },
+    "COMMENT003-MS-CERUME": {
+      "referenceId": "COMMENT003-MS-CERUME",
+      "title": "Ministério da Saúde — Cadernos de Atenção Primária 30: Procedimentos",
+      "citation": "https://bvsms.saude.gov.br/bvs/publicacoes/cadernos_atencao_primaria_30_procedimentos.pdf — Técnica de remoção de cerume por irrigação, incluindo solução a 37 °C e scalp de aproximadamente 4 cm.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/cadernos_atencao_primaria_30_procedimentos.pdf"
+    },
+    "COMMENT003-MS-NASF": {
+      "referenceId": "COMMENT003-MS-NASF",
+      "title": "Ministério da Saúde — Diretrizes do NASF, Cadernos de Atenção Básica 27",
+      "citation": "https://bvsms.saude.gov.br/bvs/publicacoes/caderno_atencao_basica_diretrizes_nasf.pdf — Modelo histórico cobrado na prova: atendimentos compartilhados e projetos terapêuticos singulares.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/caderno_atencao_basica_diretrizes_nasf.pdf"
+    },
+    "COMMENT003-NCI-PANCREAS": {
+      "referenceId": "COMMENT003-NCI-PANCREAS",
+      "title": "National Cancer Institute — Pancreatic Cancer Treatment (PDQ)",
+      "citation": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq — Icterícia e investigação diagnóstica do câncer pancreático; associação clínico-anatômica com obstrução distal.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq"
+    },
+    "COMMENT-INEP-2022-1-KEY": {
+      "referenceId": "COMMENT-INEP-2022-1-KEY",
+      "title": "INEP — Revalida 2022/1: gabarito definitivo",
+      "citation": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos — Documento definitivo conferido: provas/2022-1_GB.pdf",
+      "sourceType": "official-answer-key",
+      "confidenceLevel": "high",
+      "publicationYear": 2022,
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos"
+    },
+    "COMMENT003-ASH-ITP2019": {
+      "referenceId": "COMMENT003-ASH-ITP2019",
+      "title": "American Society of Hematology — Guidelines for immune thrombocytopenia (2019)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6963252/ — Recomendações pediátricas de observação na ausência de sangramento relevante; contexto histórico da prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6963252/"
+    },
+    "COMMENT003-INCA-MAMA-HIST": {
+      "referenceId": "COMMENT003-INCA-MAMA-HIST",
+      "title": "INCA — Rastreamento do câncer de mama na população-alvo, dados 2022",
+      "citation": "https://www.gov.br/inca/pt-br/assuntos/gestor-e-profissional-de-saude/controle-do-cancer-de-mama/dados-e-numeros/rastreamento-do-cancer-de-mama-na-populacao-alvo — Recomendação histórica de 50 a 69 anos, bienal.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/inca/pt-br/assuntos/gestor-e-profissional-de-saude/controle-do-cancer-de-mama/dados-e-numeros/rastreamento-do-cancer-de-mama-na-populacao-alvo"
+    },
+    "COMMENT003-MS-MAMA2025": {
+      "referenceId": "COMMENT003-MS-MAMA2025",
+      "title": "Ministério da Saúde — Nota Técnica 626/2025: acesso à mamografia",
+      "citation": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2025/nota-tecnica-no-626-2025-cgcan-decan-saes-ms.pdf/%40%40download/file — Atualização posterior: rastreamento populacional de 50 a 74 anos, bienal.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2025/nota-tecnica-no-626-2025-cgcan-decan-saes-ms.pdf/%40%40download/file"
+    },
+    "COMMENT003-EAU-BEXIGA": {
+      "referenceId": "COMMENT003-EAU-BEXIGA",
+      "title": "European Association of Urology — Bladder cancer: diagnosis",
+      "citation": "https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/diagnosis — Papel da cistoscopia e da histologia; fonte atual corroboradora, sem atribuir estágio pela clínica.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/diagnosis"
+    },
+    "COMMENT-INEP-2022-2-KEY": {
+      "referenceId": "COMMENT-INEP-2022-2-KEY",
+      "title": "INEP — Revalida 2022/2: gabarito definitivo",
+      "citation": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos — Documento definitivo conferido: provas/2022-2_GB.pdf",
+      "sourceType": "official-answer-key",
+      "confidenceLevel": "high",
+      "publicationYear": 2022,
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos"
+    },
+    "COMMENT003-MS-ALIMENTACAO2019": {
+      "referenceId": "COMMENT003-MS-ALIMENTACAO2019",
+      "title": "Ministério da Saúde — Guia alimentar para crianças brasileiras menores de 2 anos (2019)",
+      "citation": "https://www.gov.br/saude/pt-br/composicao/saps/promocao-da-saude/guias-alimentares/publicacoes/guia_da_crianca_2019.pdf/%40%40download/file — Alimentação complementar, texturas, frutas, carnes, ovos e bebidas.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/composicao/saps/promocao-da-saude/guias-alimentares/publicacoes/guia_da_crianca_2019.pdf/%40%40download/file"
+    },
+    "COMMENT003-WHO-HPP2009": {
+      "referenceId": "COMMENT003-WHO-HPP2009",
+      "title": "WHO — Guidelines for the management of postpartum haemorrhage and retained placenta",
+      "citation": "https://iris.who.int/bitstream/handle/10665/44171/9789241598514_eng.pdf — Documento anterior à prova: avaliação de causas e manejo de placenta/tecido retido.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://iris.who.int/bitstream/handle/10665/44171/9789241598514_eng.pdf"
+    },
+    "COMMENT003-INCA-PROSTATA": {
+      "referenceId": "COMMENT003-INCA-PROSTATA",
+      "title": "INCA — Câncer de próstata: vamos falar sobre isso? (2017)",
+      "citation": "https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/cartilha_cancer_prostata_2017.pdf — Posição brasileira sobre rastreamento e decisão informada, anterior à prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/cartilha_cancer_prostata_2017.pdf"
+    },
+    "COMMENT-INEP-2023-1-KEY": {
+      "referenceId": "COMMENT-INEP-2023-1-KEY",
+      "title": "INEP — Revalida 2023/1: gabarito definitivo",
+      "citation": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos — Documento definitivo conferido: provas/2023_1_GB.pdf",
+      "sourceType": "official-answer-key",
+      "confidenceLevel": "high",
+      "publicationYear": 2023,
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos"
+    },
+    "COMMENT003-GOAT-CASE": {
+      "referenceId": "COMMENT003-GOAT-CASE",
+      "title": "Paediatrics & Child Health — Case 2: You look like you’ve seen a goat (2007)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2528716/ — Relato clínico primário de anemia por dieta exclusiva com leite de cabra e deficiência de folato; não afirma deficiência conjunta de B12 em todos os casos.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2528716/"
+    },
+    "COMMENT003-PCOS2023": {
+      "referenceId": "COMMENT003-PCOS2023",
+      "title": "International evidence-based guideline — Polycystic ovary syndrome (2023)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/10505534/ — Algoritmo de exclusão com TSH, prolactina e 17-OH progesterona; preservada a nomenclatura histórica da prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/10505534/"
+    },
+    "COMMENT003-SBC-HA2020": {
+      "referenceId": "COMMENT003-SBC-HA2020",
+      "title": "Sociedade Brasileira de Cardiologia — Diretrizes Brasileiras de Hipertensão Arterial 2020",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/9949730/ — Seção de encefalopatia hipertensiva e uso de nitroprussiato no contexto brasileiro da prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/9949730/"
+    },
+    "COMMENT-INEP-2023-2-KEY": {
+      "referenceId": "COMMENT-INEP-2023-2-KEY",
+      "title": "INEP — Revalida 2023/2: gabarito definitivo",
+      "citation": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos — Documento definitivo conferido: provas/2023_2_GB.pdf",
+      "sourceType": "official-answer-key",
+      "confidenceLevel": "high",
+      "publicationYear": 2023,
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos"
+    },
+    "COMMENT003-MS-CIRURGIACHECK": {
+      "referenceId": "COMMENT003-MS-CIRURGIACHECK",
+      "title": "Ministério da Saúde — Protocolo para cirurgia segura",
+      "citation": "https://www.gov.br/saude/pt-br/composicao/saes/seguranca-do-paciente/protocolos-de-seguranca-do-paciente/protocolo-cirurgia-segura.pdf/view — Itens e fases do checklist de segurança cirúrgica, protocolo nacional.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/composicao/saes/seguranca-do-paciente/protocolos-de-seguranca-do-paciente/protocolo-cirurgia-segura.pdf/view"
+    },
+    "COMMENT003-MS-OSTEO": {
+      "referenceId": "COMMENT003-MS-OSTEO",
+      "title": "Ministério da Saúde — PCDT Osteoporose, Portaria Conjunta 19",
+      "citation": "https://www.gov.br/conitec/pt-br/midias/protocolos/portariaconjuntano19pcdtosteoporose.pdf — Medidas não medicamentosas, avaliação de risco e indicação de tratamento; atualização corroboradora posterior à prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/portariaconjuntano19pcdtosteoporose.pdf"
+    },
+    "COMMENT003-IDSA-CISTITE": {
+      "referenceId": "COMMENT003-IDSA-CISTITE",
+      "title": "IDSA/ESCMID — Acute uncomplicated cystitis and pyelonephritis, update 2010",
+      "citation": "https://academic.oup.com/cid/article/52/5/561/388773 — Nitrofurantoína como opção de primeira linha na cistite não complicada, diretriz anterior à prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://academic.oup.com/cid/article/52/5/561/388773"
+    },
+    "COMMENT-INEP-2024-1-KEY": {
+      "referenceId": "COMMENT-INEP-2024-1-KEY",
+      "title": "INEP — Revalida 2024/1: gabarito definitivo",
+      "citation": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos — Documento definitivo conferido: provas/2024_1_GB.pdf",
+      "sourceType": "official-answer-key",
+      "confidenceLevel": "high",
+      "publicationYear": 2024,
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos"
+    },
+    "COMMENT003-AUA-TRAUMA": {
+      "referenceId": "COMMENT003-AUA-TRAUMA",
+      "title": "American Urological Association — Urotrauma guideline (2014)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4104146/ — Investigação contrastada e drenagem urinária no trauma; recomendações anteriores à prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4104146/"
+    },
+    "COMMENT003-AAO-NISTAGMO": {
+      "referenceId": "COMMENT003-AAO-NISTAGMO",
+      "title": "American Academy of Ophthalmology — Nystagmus, EyeWiki",
+      "citation": "https://eyewiki.aao.org/Nystagmus — Caracterização clínica e avaliação etiológica do nistagmo; fonte atual corroboradora.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://eyewiki.aao.org/Nystagmus"
+    },
+    "COMMENT003-NICE-LITIASE": {
+      "referenceId": "COMMENT003-NICE-LITIASE",
+      "title": "NICE NG118 — Renal and ureteric stones (2019)",
+      "citation": "https://www.nice.org.uk/guidance/NG118/chapter/recommendations — Analgesia inicial e critérios de avaliação/intervenção na litíase.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/NG118/chapter/recommendations"
+    },
+    "COMMENT003-NICE-FLUIDOS": {
+      "referenceId": "COMMENT003-NICE-FLUIDOS",
+      "title": "NICE CG174 — Intravenous fluid therapy in adults in hospital",
+      "citation": "https://www.nice.org.uk/guidance/cg174/chapter/recommendations — Reposição de perdas com avaliação de estado volêmico, sem prescrição indiscriminada de volume.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/cg174/chapter/recommendations"
+    },
+    "COMMENT-INEP-2024-2-KEY": {
+      "referenceId": "COMMENT-INEP-2024-2-KEY",
+      "title": "INEP — Revalida 2024/2: gabarito definitivo",
+      "citation": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos — Documento definitivo conferido: provas/2024_2_GB.pdf",
+      "sourceType": "official-answer-key",
+      "confidenceLevel": "high",
+      "publicationYear": 2024,
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos"
+    },
+    "COMMENT003-ESVS-VENOSA2022": {
+      "referenceId": "COMMENT003-ESVS-VENOSA2022",
+      "title": "ESVS — Chronic venous disease guidelines (2022)",
+      "citation": "https://esvs.org/wp-content/uploads/2023/03/ESVS-2022-CVD-Guidelines.pdf — Compressão, avaliação arterial, exercício e tratamento de úlcera venosa ativa.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://esvs.org/wp-content/uploads/2023/03/ESVS-2022-CVD-Guidelines.pdf"
+    },
+    "COMMENT003-MS-LEOPOLD": {
+      "referenceId": "COMMENT003-MS-LEOPOLD",
+      "title": "Ministério da Saúde — Atenção ao pré-natal de baixo risco, Caderno 32",
+      "citation": "https://bvsms.saude.gov.br/bvs/publicacoes/cadernos_atencao_basica_32_prenatal.pdf — Palpação obstétrica e identificação de situação e apresentação pelas manobras de Leopold.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/cadernos_atencao_basica_32_prenatal.pdf"
+    },
+    "COMMENT003-WSES-ULCERA2020": {
+      "referenceId": "COMMENT003-WSES-ULCERA2020",
+      "title": "World Society of Emergency Surgery — Perforated and bleeding peptic ulcer guidelines (2020)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6947898/ — Diagnóstico, reanimação e tratamento operatório na perfuração com peritonite/pneumoperitônio.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6947898/"
+    },
+    "COMMENT-INEP-2025-1-KEY": {
+      "referenceId": "COMMENT-INEP-2025-1-KEY",
+      "title": "INEP — Revalida 2025/1: gabarito definitivo",
+      "citation": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos — Documento definitivo conferido: _master_work/2025-1-gabarito-definitivo.pdf",
+      "sourceType": "official-answer-key",
+      "confidenceLevel": "high",
+      "publicationYear": 2025,
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos"
+    },
+    "COMMENT003-NICE-GESTACAOINICIAL": {
+      "referenceId": "COMMENT003-NICE-GESTACAOINICIAL",
+      "title": "NICE NG126 — Ectopic pregnancy and miscarriage: full guideline",
+      "citation": "https://www.nice.org.uk/guidance/ng126/evidence/full-guideline-pdf-6772587518 — Avaliação do sangramento, ultrassonografia e limites do beta-hCG para localização e viabilidade.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/ng126/evidence/full-guideline-pdf-6772587518"
+    },
+    "COMMENT003-CDC-ESCABIOSE2021": {
+      "referenceId": "COMMENT003-CDC-ESCABIOSE2021",
+      "title": "CDC — Ectoparasitic infections, STI Treatment Guidelines (2021)",
+      "citation": "https://www.cdc.gov/std/treatment-guidelines/ectoparasitic.htm — Ivermectina de 200 µg/kg, repetição, contatos e medidas ambientais; documento anterior à prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/ectoparasitic.htm"
+    },
+    "COMMENT003-NICE-IC": {
+      "referenceId": "COMMENT003-NICE-IC",
+      "title": "NICE NG106 — Chronic heart failure in adults",
+      "citation": "https://www.nice.org.uk/guidance/ng106/chapter/recommendations — Terapias para fração de ejeção reduzida e antagonistas mineralocorticoides, com monitorização.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/ng106/chapter/recommendations"
+    },
+    "COMMENT-INEP-2025-2-KEY": {
+      "referenceId": "COMMENT-INEP-2025-2-KEY",
+      "title": "INEP — Revalida 2025/2: gabarito definitivo",
+      "citation": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos — Documento definitivo conferido: provas/2025_2_gb.pdf",
+      "sourceType": "official-answer-key",
+      "confidenceLevel": "high",
+      "publicationYear": 2025,
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos"
+    },
+    "COMMENT003-NIDDK-ATR": {
+      "referenceId": "COMMENT003-NIDDK-ATR",
+      "title": "NIDDK — Renal Tubular Acidosis",
+      "citation": "https://www.niddk.nih.gov/health-information/kidney-disease/renal-tubular-acidosis — Tipos de acidose tubular, bicarbonato, alterações de potássio, crescimento e raquitismo.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.niddk.nih.gov/health-information/kidney-disease/renal-tubular-acidosis"
+    },
+    "COMMENT003-ESHRE-ENDO2022": {
+      "referenceId": "COMMENT003-ESHRE-ENDO2022",
+      "title": "ESHRE — Guideline: endometriosis (2022)",
+      "citation": "https://academic.oup.com/hropen/article/2022/2/hoac009/6537540 — Sintomas que orientam suspeita diagnóstica e limites da imagem negativa, diretriz anterior à prova.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://academic.oup.com/hropen/article/2022/2/hoac009/6537540"
+    },
+    "COMMENT003-NICE-ENXAQUECA": {
+      "referenceId": "COMMENT003-NICE-ENXAQUECA",
+      "title": "NICE CG150 — Headaches in over 12s: diagnosis and management",
+      "citation": "https://www.nice.org.uk/guidance/cg150/chapter/recommendations — Diagnóstico clínico e escolha individualizada de prevenção da enxaqueca.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/cg150/chapter/recommendations"
+    },
+    "COMMENT-INEP-2026-1-KEY": {
+      "referenceId": "COMMENT-INEP-2026-1-KEY",
+      "title": "INEP — Revalida 2026/1: gabarito definitivo",
+      "citation": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos — Documento definitivo conferido: _master_work/2026-1-gabarito-definitivo.pdf",
+      "sourceType": "official-answer-key",
+      "confidenceLevel": "high",
+      "publicationYear": 2026,
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos"
+    },
+    "COMMENT003-AAP-SONO": {
+      "referenceId": "COMMENT003-AAP-SONO",
+      "title": "American Academy of Pediatrics — Nightmares, night terrors and sleepwalking",
+      "citation": "https://www.healthychildren.org/English/ages-stages/preschool/Pages/Nightmares-and-Night-Terrors.aspx — Diferenças clínicas entre terrores noturnos, pesadelos e sonambulismo.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.healthychildren.org/English/ages-stages/preschool/Pages/Nightmares-and-Night-Terrors.aspx"
+    },
+    "COMMENT003-NICE-DELIRIUM": {
+      "referenceId": "COMMENT003-NICE-DELIRIUM",
+      "title": "NICE CG103 — Delirium: prevention, diagnosis and management",
+      "citation": "https://www.nice.org.uk/guidance/cg103/chapter/Recommendations — Fratura de quadril, idade, avaliação da dor e intervenções para reduzir fatores precipitantes.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/cg103/chapter/Recommendations"
+    },
+    "COMMENT004-MS-DIARREIA": {
+      "referenceId": "COMMENT004-MS-DIARREIA",
+      "title": "Ministério da Saúde — Doenças diarreicas agudas",
+      "citation": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda/ — Prevenção institucional e individual, avaliação e tratamento oportunos; corroboradora atual.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda/"
+    },
+    "COMMENT004-WSES-INF2017": {
+      "referenceId": "COMMENT004-WSES-INF2017",
+      "title": "WSES — Management of intra-abdominal infections (2017)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5504840/ — Diagnóstico por imagem e controle de abscessos intra-abdominais pós-operatórios.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5504840/"
+    },
+    "COMMENT004-MS-PTS": {
+      "referenceId": "COMMENT004-MS-PTS",
+      "title": "Ministério da Saúde — Cadernos HumanizaSUS",
+      "citation": "https://bvsms.saude.gov.br/bvs/publicacoes/cadernos_humanizaSUS.pdf — Projeto terapêutico singular, necessidades biopsicossociais e corresponsabilidade.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/cadernos_humanizaSUS.pdf"
+    },
+    "COMMENT004-WSES-FIGADO2020": {
+      "referenceId": "COMMENT004-WSES-FIGADO2020",
+      "title": "WSES — Liver trauma guidelines (2020)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/7106618/ — Critérios de tratamento não operatório, monitorização e imagem de seguimento.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/7106618/"
+    },
+    "COMMENT004-IDSA-ARTRITE2023": {
+      "referenceId": "COMMENT004-IDSA-ARTRITE2023",
+      "title": "PIDS/IDSA — Acute bacterial arthritis in pediatrics (2023)",
+      "citation": "https://www.idsociety.org/practice-guideline/acute-bacterial-arthritis-in-pediatrics2/ — Ultrassonografia e aspiração articular; diretriz posterior usada como corroboradora, não como publicação vigente em 2022.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.idsociety.org/practice-guideline/acute-bacterial-arthritis-in-pediatrics2/"
+    },
+    "COMMENT004-MS-DEPRESSAO": {
+      "referenceId": "COMMENT004-MS-DEPRESSAO",
+      "title": "Ministério da Saúde — Depressão no adulto: manejo inicial na APS",
+      "citation": "https://linhasdecuidado.saude.gov.br/portal/depressao/unidade-de-atencao-primaria/manejo-inicial-conduta/ — Avaliação de risco suicida, condições de urgência e articulação do cuidado.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://linhasdecuidado.saude.gov.br/portal/depressao/unidade-de-atencao-primaria/manejo-inicial-conduta/"
+    },
+    "COMMENT004-KDIGO-PA2021": {
+      "referenceId": "COMMENT004-KDIGO-PA2021",
+      "title": "KDIGO — Blood pressure in CKD guideline (2021)",
+      "citation": "https://kdigo.org/guidelines/blood-pressure-in-ckd/ — Recomendação de IECA/BRA em hipertensão com albuminúria A2 e monitorização.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://kdigo.org/guidelines/blood-pressure-in-ckd/"
+    },
+    "COMMENT004-WSES-DIV2020": {
+      "referenceId": "COMMENT004-WSES-DIV2020",
+      "title": "WSES — Acute colonic diverticulitis guidelines (2020)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/7206757/ — Tratamento de abscessos, limiar aproximado de 4–5 cm e drenagem quando viável.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/7206757/"
+    },
+    "COMMENT004-CONASS-SINDEMIA": {
+      "referenceId": "COMMENT004-CONASS-SINDEMIA",
+      "title": "CONASS — O lado oculto de uma pandemia, Eugênio Vilaça Mendes",
+      "citation": "https://www.conass.org.br/biblioteca/download/7982/ — Documento citado pelo próprio enunciado: terceira onda, cuidado crônico e perspectiva sindêmica.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.conass.org.br/biblioteca/download/7982/"
+    },
+    "COMMENT004-PARKINSON-NONMOTOR": {
+      "referenceId": "COMMENT004-PARKINSON-NONMOTOR",
+      "title": "Parkinson’s Foundation — Non-movement symptoms",
+      "citation": "https://www.parkinson.org/understanding-parkinsons/non-movement-symptoms — Sintomas não motores, sono, fadiga, anosmia e apatia; fonte clínica corroboradora atual.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.parkinson.org/understanding-parkinsons/non-movement-symptoms"
+    },
+    "COMMENT004-MS-PNAB": {
+      "referenceId": "COMMENT004-MS-PNAB",
+      "title": "Ministério da Saúde — PNAB, Portaria 2.436/2017",
+      "citation": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prt2436_22_09_2017.html — Territorialização, equidade, população adscrita e organização do cuidado na Atenção Básica.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prt2436_22_09_2017.html"
+    },
+    "COMMENT004-EAACI-URTICARIA": {
+      "referenceId": "COMMENT004-EAACI-URTICARIA",
+      "title": "EAACI/GA²LEN/EuroGuiDerm/APAAACI — Urticaria guideline",
+      "citation": "https://eaaci.org/guidelines-position-papers/the-international-eaaci-ga%C2%B2len-euroguiderm-apaaaci-guideline-for-the-definition-classification-diagnosis-and-management-of-urticaria/ — Tratamento com anti-histamínicos e distinção da abordagem de anafilaxia.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://eaaci.org/guidelines-position-papers/the-international-eaaci-ga%C2%B2len-euroguiderm-apaaaci-guideline-for-the-definition-classification-diagnosis-and-management-of-urticaria/"
+    },
+    "COMMENT004-EAACI-ANAFILAXIA": {
+      "referenceId": "COMMENT004-EAACI-ANAFILAXIA",
+      "title": "EAACI — Anaphylaxis guideline, 2021 update",
+      "citation": "https://eaaci.org/guidelines-position-papers/eaaci-guidelines-anaphylaxis-2021-update/ — Adrenalina intramuscular como primeira linha na anafilaxia.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://eaaci.org/guidelines-position-papers/eaaci-guidelines-anaphylaxis-2021-update/"
+    },
+    "COMMENT004-AUA-URETRA": {
+      "referenceId": "COMMENT004-AUA-URETRA",
+      "title": "American Urological Association — Urotrauma guideline (2014)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4104146/ — Uretrografia retrógrada diante de sangue no meato após trauma pélvico.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4104146/"
+    },
+    "COMMENT004-NICE-ABORTAMENTO": {
+      "referenceId": "COMMENT004-NICE-ABORTAMENTO",
+      "title": "NICE NG126 — Ectopic pregnancy and miscarriage",
+      "citation": "https://www.nice.org.uk/guidance/ng126/resources/ectopic-pregnancy-and-miscarriage-diagnosis-and-initial-management-pdf-66141662244037 — Opções expectante, medicamentosa e cirúrgica, informação e seguimento na perda gestacional.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/ng126/resources/ectopic-pregnancy-and-miscarriage-diagnosis-and-initial-management-pdf-66141662244037"
+    },
+    "COMMENT004-LEI8142": {
+      "referenceId": "COMMENT004-LEI8142",
+      "title": "Presidência da República — Lei 8.142, de 28 de dezembro de 1990",
+      "citation": "https://www.planalto.gov.br/ccivil_03/leis/l8142.htm — Artigo 4º: requisitos para transferências de recursos; composição paritária do conselho.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8142.htm"
+    },
+    "COMMENT004-EAU-RIM": {
+      "referenceId": "COMMENT004-EAU-RIM",
+      "title": "EAU — Renal cell carcinoma: diagnostic evaluation",
+      "citation": "https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/diagnostic-evaluation — Detecção incidental e papel do realce na avaliação de massa renal sólida; corroboradora atual.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/diagnostic-evaluation"
+    },
+    "COMMENT004-FEBRASGO-HAC": {
+      "referenceId": "COMMENT004-FEBRASGO-HAC",
+      "title": "FEBRASGO — Hipertensão arterial crônica e gravidez, Protocolo 40",
+      "citation": "https://www.febrasgo.org.br/images/pec/Protocolos-assistenciais/Protocolos-assistenciais-obstetricia.pdf/n40---O---Hipertensao-arterial-cronica-e-gravidez.pdf — Tratamento, avaliação da hipertensão crônica e prevenção de pré-eclâmpsia.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.febrasgo.org.br/images/pec/Protocolos-assistenciais/Protocolos-assistenciais-obstetricia.pdf/n40---O---Hipertensao-arterial-cronica-e-gravidez.pdf"
+    },
+    "COMMENT004-MS-ESPORO": {
+      "referenceId": "COMMENT004-MS-ESPORO",
+      "title": "Ministério da Saúde — Esporotricose humana",
+      "citation": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esporotricose-humana — Transmissão, formas clínicas, diagnóstico e duração individualizada do tratamento antifúngico.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/e/esporotricose-humana"
+    },
+    "COMMENT004-NICE-AR": {
+      "referenceId": "COMMENT004-NICE-AR",
+      "title": "NICE NG100 — Rheumatoid arthritis in adults",
+      "citation": "https://www.nice.org.uk/guidance/ng100/chapter/Recommendations — Investigação de sinovite e início precoce de tratamento modificador com metotrexato ou alternativas apropriadas.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.nice.org.uk/guidance/ng100/chapter/Recommendations"
+    },
+    "COMMENT004-WSES-HERNIA2017": {
+      "referenceId": "COMMENT004-WSES-HERNIA2017",
+      "title": "WSES — Emergency repair of complicated abdominal wall hernias (2017)",
+      "citation": "https://pmc.ncbi.nlm.nih.gov/articles/5545868/ — Encarceramento, estrangulamento, risco de hérnia femoral e avaliação urgente.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/5545868/"
+    },
+    "COMMENT004-MS-DO": {
+      "referenceId": "COMMENT004-MS-DO",
+      "title": "Ministério da Saúde — Declaração de óbito: manual de preenchimento",
+      "citation": "https://bvsms.saude.gov.br/bvs/publicacoes/declaracao_obito_manual_preenchimento.pdf — Emissão e registros de morte por causa externa.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/declaracao_obito_manual_preenchimento.pdf"
+    },
+    "COMMENT004-MS-VISAT": {
+      "referenceId": "COMMENT004-MS-VISAT",
+      "title": "Ministério da Saúde — Coleção VISAT, volume 2",
+      "citation": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/saude-do-trabalhador/colecao-visat-volume-2.pdf — Investigação de acidente de trabalho e articulação de registros.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/saude-do-trabalhador/colecao-visat-volume-2.pdf"
+    },
+    "COMMENT004-ESOCIAL-CAT": {
+      "referenceId": "COMMENT004-ESOCIAL-CAT",
+      "title": "eSocial — Manual Web Geral: comunicação de acidente de trabalho",
+      "citation": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral — Em acidente com morte, a comunicação deve ser imediata; CAT não se confunde com Sinan.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral"
+    },
+    "COMMENT004-DAILYMED-LITIO": {
+      "referenceId": "COMMENT004-DAILYMED-LITIO",
+      "title": "DailyMed — Lithium carbonate: prescribing information",
+      "citation": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c84cce95-cfcb-4426-aac6-d2f48f946ada — Toxicidade neurológica, interação com diuréticos e interrupção/avaliação do tratamento.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c84cce95-cfcb-4426-aac6-d2f48f946ada"
+    },
+    "COMMENT004-MS-CHIK2024": {
+      "referenceId": "COMMENT004-MS-CHIK2024",
+      "title": "Ministério da Saúde — Chikungunya: manejo clínico, 2ª edição (2024)",
+      "citation": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2024/guia-chikungunya-manejo-clinico-2o-edicao.pdf — Janelas diagnósticas: sorologia IgM após o sexto dia e avaliação na convalescença.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2024/guia-chikungunya-manejo-clinico-2o-edicao.pdf"
+    },
+    "COMMENT003-ACOG-EARLYLOSS2018": {
+      "referenceId": "COMMENT003-ACOG-EARLYLOSS2018",
+      "title": "ACOG — Early pregnancy loss (2018)",
+      "citation": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/11/early-pregnancy-loss — Repouso não é recomendado como prevenção de perda gestacional precoce.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/11/early-pregnancy-loss"
+    },
+    "COMMENT004-DAILYMED-AMLODIPINO": {
+      "referenceId": "COMMENT004-DAILYMED-AMLODIPINO",
+      "title": "DailyMed — Amlodipine besylate: prescribing information",
+      "citation": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ffe96aa1-db66-33e4-e053-6394a90a7e4e — Dose máxima usual de anlodipino em adultos: 10 mg uma vez ao dia.",
+      "sourceType": "primary-document",
+      "confidenceLevel": "high",
+      "verifiedAt": "2026-10-03",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ffe96aa1-db66-33e4-e053-6394a90a7e4e"
     }
   }
 }

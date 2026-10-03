@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"4a964a7b-cffc-49c9-bf6e-584a92d4962c","questionId":"2022-2-003","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «As frutas, in natura, raspadas, amassadas ou picadas devem ser introduzidas como fontes de fibras».\n\nNo cenário — Lactente de 6 meses está sendo atendido na unidade básica de saúde para consulta de puericultura. A criança, nascida com 39 semanas, encontra-se em aleitamento materno exclusivo e com desenvolvimento neuropsicomotor adequado. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («A carne deve ser triturada e peneirada, para garantir oferta adequada de ferro, zinco e vitamina B12») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Os sucos devem ser introduzidos na rotina alimentar, uma vez ao dia, sendo importante fonte de vitaminas e fibras») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («A gema do ovo, por ser uma importante fonte proteica, deve ser oferecida de imediato, ao passo que a clara, devido ao seu poder alergênico, deve ser oferecida somente após 12 meses de idade») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Lactente de 6 meses está sendo atendido na unidade básica de saúde para consulta de puericultura. A criança, nascida com 39 semanas, encontra-se em aleitamento materno exclusivo e com desenvolvimento neuropsicomotor adequado. Sua genitora solicita orientações para iniciar a alimentação complementar.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («As frutas, in natura, raspadas, amassadas ou picadas devem ser introduzidas como fontes de fibras») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"low","cognitiveLevel":"recall"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "4a964a7b-cffc-49c9-bf6e-584a92d4962c",
+  "questionId": "2022-2-003",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Aos seis meses, o aleitamento materno continua e inicia-se alimentação complementar variada, com textura apropriada ao desenvolvimento. Fruta in natura amassada, raspada ou em pedaços seguros preserva fibras e favorece aprendizado alimentar, alternativa B. Os alimentos não precisam ser liquidificados ou peneirados; a progressão da consistência integra o cuidado. Oferta responsiva e supervisão reduzem risco de engasgo. O caso não descreve alergia alimentar que exija uma restrição específica.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Peneirar a carne não garante nutrientes e pode retirar parte do alimento. Ela deve ser bem cozida e apresentada em consistência adequada, sem peneiramento rotineiro."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Suco não equivale à fruta inteira e não é recomendado como rotina nessa idade; pode substituir água e alimentos nutritivos e tem menor oferta de fibras."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Não se recomenda adiar rotineiramente a clara até doze meses para prevenir alergia. Ovo bem cozido pode integrar a alimentação complementar, observadas condições individuais."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 3\n\nResposta B — As frutas, in natura, raspadas, amassadas ou picadas devem ser introduzidas como fontes de fibras\n\nPediatria › Nutrologia Pediátrica › Introdução alimentar aos seis meses\n\nAos seis meses, o aleitamento materno continua e inicia-se alimentação complementar variada, com textura apropriada ao desenvolvimento. Fruta in natura amassada, raspada ou em pedaços seguros preserva fibras e favorece aprendizado alimentar, alternativa B. Os alimentos não precisam ser liquidificados ou peneirados; a progressão da consistência integra o cuidado. Oferta responsiva e supervisão reduzem risco de engasgo. O caso não descreve alergia alimentar que exija uma restrição específica.\n\nA alternativa A está incorreta: Peneirar a carne não garante nutrientes e pode retirar parte do alimento. Ela deve ser bem cozida e apresentada em consistência adequada, sem peneiramento rotineiro.\n\nA alternativa B está correta: Frutas in natura oferecem fibras e podem ser preparadas conforme a habilidade da criança, com tamanho e textura seguros.\n\nA alternativa C está incorreta: Suco não equivale à fruta inteira e não é recomendado como rotina nessa idade; pode substituir água e alimentos nutritivos e tem menor oferta de fibras.\n\nA alternativa D está incorreta: Não se recomenda adiar rotineiramente a clara até doze meses para prevenir alergia. Ovo bem cozido pode integrar a alimentação complementar, observadas condições individuais.\n\nGabarito oficial definitivo do INEP: B"
+    },
+    "takeHomeMessage": "Introdução alimentar aos seis meses prioriza comida e fruta in natura com textura segura, sem sucos ou peneiramento de rotina.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2022-2-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT003-MS-ALIMENTACAO2019",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "low",
+    "cognitiveLevel": "recall",
+    "taxonomy": [
+      "Pediatria",
+      "Nutrologia Pediátrica",
+      "Introdução alimentar aos seis meses"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-003",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

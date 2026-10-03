@@ -1,1 +1,92 @@
-{"schemaVersion":"2.0","objectId":"8607f5ea-ab77-58da-a298-f2920fc4e33e","questionId":"2026-1-006","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «Encaminhar o corpo ao IML para a emissão da declaração de óbito, notificar o acidente de trabalho ao Sinan e orientar a empresa a registrar imediatamente a comunicação de acidente de trabalho».\n\nNo cenário — e ITEM IGAUDÃE Ve PRLLIL Um trabalhador da construção civil, 38 anos, caiu de um andaime de aproximadamente 4 metros de altura Os colegas de trabalho o levaram imediatamente para a Unidade de Pronto Atendimento mais próxima. Na chegada, o paciente apresentava rebaixamento do nível de consciência, sangramento no couro cabeludo e sinais sugestivos de traumatismo cranioencefálico grave. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Cirurgia Geral, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Preencher a declaração de óbito, formalizar imediatamente a comunicação de acidente de trabalho, sem a necessidade de notificar o acidente de trabalho, já que os dados estarão registrados na declaração de óbito») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: indicar intervenção invasiva sem esgotar o critério clínico do enunciado. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Encaminhar o corpo para a emissão da declaração de óbito pelo IML, que também realizará a notificação do acidente de trabalho ao Sinan e registrará a comunicação de acidente de trabalho») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Preencher a declaração de óbito, realizar a notificação compulsória de acidente de trabalho ao Sinan, a qual já servirá como comunicação de acidente de trabalho, visto que os dados são os mesmos nos dois documentos») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Cirurgia Geral. O enunciado descreve: e ITEM IGAUDÃE Ve PRLLIL Um trabalhador da construção civil, 38 anos, caiu de um andaime de aproximadamente 4 metros de altura Os colegas de trabalho o levaram imediatamente para a Unidade de Pronto Atendimento mais próxima. Na chegada, o paciente apresentava rebaixamento do nível de consciência, sangramento no couro cabeludo e sinais sugestivos de traumatismo cranioencefálico grave. Durante as manobras iniciais de estabilização, ele evoluiu para parada cardiorrespiratória, sem resposta às manobras de reanimação, vindo a óbito na própria unidade.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («Encaminhar o corpo ao IML para a emissão da declaração de óbito, notificar o acidente de trabalho ao Sinan e orientar a empresa a registrar imediatamente a comunicação de acidente de trabalho») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de cirurgia geral, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Cirurgia Geral.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0026","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Cirurgia Geral","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "8607f5ea-ab77-58da-a298-f2920fc4e33e",
+  "questionId": "2026-1-006",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Queda de andaime com trauma fatal é morte por causa externa relacionada ao trabalho. Em localidade com referência médico-legal, a declaração de óbito cabe ao serviço de medicina legal/IML, não se tornando morte natural por ocorrer dentro da UPA. A equipe deve notificar o acidente ao Sinan e orientar emissão imediata da CAT pela empresa, alternativa D. DO, notificação sanitária e CAT têm finalidades diferentes e não substituem uns aos outros; atendimento e registros clínicos precisam ser preservados.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "O atendimento hospitalar não transfere automaticamente ao assistente a emissão de DO de causa externa quando há serviço médico-legal. DO não dispensa notificação."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Encaminhar ao IML é adequado, mas não se deve transferir ao instituto a responsabilidade da equipe pela notificação sanitária e à empresa pela CAT."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Sinan não equivale a CAT, e a causa externa exige fluxo médico-legal para DO no contexto dado."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 6\n\nResposta D — Encaminhar o corpo ao IML para a emissão da declaração de óbito, notificar o acidente de trabalho ao Sinan e orientar a empresa a registrar imediatamente a comunicação de acidente de trabalho\n\nSaúde Coletiva › Saúde do Trabalhador › Óbito por acidente e notificações distintas\n\nQueda de andaime com trauma fatal é morte por causa externa relacionada ao trabalho. Em localidade com referência médico-legal, a declaração de óbito cabe ao serviço de medicina legal/IML, não se tornando morte natural por ocorrer dentro da UPA. A equipe deve notificar o acidente ao Sinan e orientar emissão imediata da CAT pela empresa, alternativa D. DO, notificação sanitária e CAT têm finalidades diferentes e não substituem uns aos outros; atendimento e registros clínicos precisam ser preservados.\n\nA alternativa A está incorreta: O atendimento hospitalar não transfere automaticamente ao assistente a emissão de DO de causa externa quando há serviço médico-legal. DO não dispensa notificação.\n\nA alternativa B está incorreta: Encaminhar ao IML é adequado, mas não se deve transferir ao instituto a responsabilidade da equipe pela notificação sanitária e à empresa pela CAT.\n\nA alternativa C está incorreta: Sinan não equivale a CAT, e a causa externa exige fluxo médico-legal para DO no contexto dado.\n\nA alternativa D está correta: Distingue corretamente o fluxo da DO, a notificação ao Sinan e a comunicação previdenciária imediata em acidente fatal.\n\nGabarito oficial definitivo do INEP: D"
+    },
+    "takeHomeMessage": "Óbito por acidente exige fluxo médico-legal; DO, Sinan e CAT são registros diferentes.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2026-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT004-MS-DO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "COMMENT004-MS-VISAT",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "COMMENT004-ESOCIAL-CAT",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Saúde Coletiva",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Saúde Coletiva",
+      "Saúde do Trabalhador",
+      "Óbito por acidente e notificações distintas"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-004",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

@@ -1,1 +1,59 @@
-{"schemaVersion":"2.0","objectId":"8e405661-c5af-5151-be49-bb3b72f41e0c","questionId":"2024-1-084","officialAnswer":"X","annulled":true,"clinicalRationale":{"correctRationale":"Questão ANULADA (officialAnswer=X). Não há alternativa A–E válida para pontuação.\n\nUse o enunciado apenas para estudar o problema clínico: Uma mulher com 70 anos foi encaminhada para o ambulatório de patologia cervical/vulvar por causa de uma lesão avermelhada, pruriginosa, próxima ao clitóris. Fez uso de corticosteroides tópicos e sistêmicos, com melhora parcial do prurido, mas sem alteração da lesão. Também fez uso oral de fluconazol, sem resposta ao tratamento.\n\nNão eleja gabarito. Preserve o raciocínio e registre a anulação.","alternativeRationales":[{"alternativeId":"A","verdict":"annulled","explanation":"Item anulado. A proposta «vulvoscopia e realizar a biópsia da lesão» pode ser analisada quanto a benefício, risco e timing, sem qualquer pontuação de letra."},{"alternativeId":"B","verdict":"annulled","explanation":"Item anulado. A proposta «testes alérgicos e iniciar clobetasol tópico» pode ser analisada quanto a benefício, risco e timing, sem qualquer pontuação de letra."},{"alternativeId":"C","verdict":"annulled","explanation":"Item anulado. A proposta «cultura de fungos e tratar com cetoconazol tópico» pode ser analisada quanto a benefício, risco e timing, sem qualquer pontuação de letra."},{"alternativeId":"D","verdict":"annulled","explanation":"Item anulado. A proposta «teste de azul de toluidina e indicar vulvectomia simples» pode ser analisada quanto a benefício, risco e timing, sem qualquer pontuação de letra."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Esta questão foi anulada no gabarito definitivo. Ainda assim, o cenário permanece útil como aula de método.\n\nEm Clínica Médica, organize o caso a partir do enunciado: Uma mulher com 70 anos foi encaminhada para o ambulatório de patologia cervical/vulvar por causa de uma lesão avermelhada, pruriginosa, próxima ao clitóris. Fez uso de corticosteroides tópicos e sistêmicos, com melhora parcial do prurido, mas sem alteração da lesão.\n\nTreine hipótese, achados críticos e conduta possível — sem inventar letra pontuável. O valor educacional está no raciocínio clínico, não na pontuação."},"takeHomeMessage":"Questão anulada: aprenda o método clínico; não invente letra.","keyPoints":["Reconhecer que anulação impede gabarito A–E.","Extrair do enunciado o núcleo diagnóstico/terapêutico mesmo sem pontuação.","Separar achados críticos de ruído textual.","Praticar priorização de conduta sem forçar resposta."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"high","cognitiveLevel":"analysis"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "8e405661-c5af-5151-be49-bb3b72f41e0c",
+  "questionId": "2024-1-084",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Gabarito definitivo: A. A justificativa clínica e a análise individual das alternativas permanecem pendentes de revisão.",
+    "alternativeRationales": []
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "Gabarito definitivo: A. A justificativa clínica e a análise individual das alternativas permanecem pendentes de revisão."
+    },
+    "takeHomeMessage": null,
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "REF-2026-0014",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment"
+      ]
+    },
+    {
+      "referenceId": "REF-2026-0001",
+      "role": "supporting",
+      "supports": [
+        "correctRationale",
+        "comment"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "high",
+    "cognitiveLevel": "analysis",
+    "editorialReview": {
+      "status": "pending",
+      "allAlternativesCovered": false
+    },
+    "keySynchronization": {
+      "questionId": "2024-1-084",
+      "previousAnswer": "X",
+      "previousAnnulled": true,
+      "officialAnswer": "A",
+      "annulled": false,
+      "document": "provas/2024_1_GB.pdf",
+      "verifiedAt": "2026-10-03",
+      "reason": "Educational object disagreed with preserved bank and audited definitive key."
+    }
+  }
+}

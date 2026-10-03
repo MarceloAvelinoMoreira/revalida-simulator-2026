@@ -1,1 +1,59 @@
-{"schemaVersion":"2.0","objectId":"0f89cd52-fbb3-5a51-b1dc-28454098d90b","questionId":"2024-1-051","officialAnswer":"X","annulled":true,"clinicalRationale":{"correctRationale":"Questão ANULADA (officialAnswer=X). Não há alternativa A–E válida para pontuação.\n\nUse o enunciado apenas para estudar o problema clínico: Um homem com anos refere, em consulta, apresentar múltiplas lesões dolorosas por todo o corpo e febre intermitente há semanas. Ao exame físico, verificam-se: temperatura axilar de 38 °C e frequência cardíaca de 89 bpm, nódulos cutâneos múltiplos, dolorosos, firmes, eritematosos, medindo cerca de 2 x 2 cm cada um, que estão distribuídos bilateralmente em braços, antebraços, coxas e dorso; rarefação dos pelos nos supercílios, edema e dor nas articulações do pulso e do tornozelo. Realizado exame anatomopatológico de uma lesão nodular, o resultado evidenciou granulomas dérmicos e vasculite leucocitoclástica.\n\nNão eleja gabarito. Preserve o raciocínio e registre a anulação.","alternativeRationales":[{"alternativeId":"A","verdict":"annulled","explanation":"Item anulado. A proposta «Reação hansênica tipo 2» pode ser analisada quanto a benefício, risco e timing, sem qualquer pontuação de letra."},{"alternativeId":"B","verdict":"annulled","explanation":"Item anulado. A proposta «Granulomatose de Wegner» pode ser analisada quanto a benefício, risco e timing, sem qualquer pontuação de letra."},{"alternativeId":"C","verdict":"annulled","explanation":"Item anulado. A proposta «Leishmaniose tegumentar americana» pode ser analisada quanto a benefício, risco e timing, sem qualquer pontuação de letra."},{"alternativeId":"D","verdict":"annulled","explanation":"Item anulado. A proposta «Manifestação cutânea de retocolite ulcerativa» pode ser analisada quanto a benefício, risco e timing, sem qualquer pontuação de letra."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Esta questão foi anulada no gabarito definitivo. Ainda assim, o cenário permanece útil como aula de método.\n\nEm Clínica Médica, organize o caso a partir do enunciado: Um homem com anos refere, em consulta, apresentar múltiplas lesões dolorosas por todo o corpo e febre intermitente há semanas. Ao exame físico, verificam-se: temperatura axilar de 38 °C e frequência cardíaca de 89 bpm, nódulos cutâneos múltiplos, dolorosos, firmes, eritematosos, medindo cerca de 2 x 2 cm cada um, que estão distribuídos bilateralmente em braços, antebraços, coxas e dorso; rarefação dos pelos nos supercílios, edema e dor nas articulações do pulso e do tornozelo.\n\nTreine hipótese, achados críticos e conduta possível — sem inventar letra pontuável. O valor educacional está no raciocínio clínico, não na pontuação."},"takeHomeMessage":"Questão anulada: aprenda o método clínico; não invente letra.","keyPoints":["Reconhecer que anulação impede gabarito A–E.","Extrair do enunciado o núcleo diagnóstico/terapêutico mesmo sem pontuação.","Separar achados críticos de ruído textual.","Praticar priorização de conduta sem forçar resposta."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"high","cognitiveLevel":"analysis"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "0f89cd52-fbb3-5a51-b1dc-28454098d90b",
+  "questionId": "2024-1-051",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Gabarito definitivo: A. A justificativa clínica e a análise individual das alternativas permanecem pendentes de revisão.",
+    "alternativeRationales": []
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "Gabarito definitivo: A. A justificativa clínica e a análise individual das alternativas permanecem pendentes de revisão."
+    },
+    "takeHomeMessage": null,
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "REF-2026-0014",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment"
+      ]
+    },
+    {
+      "referenceId": "REF-2026-0001",
+      "role": "supporting",
+      "supports": [
+        "correctRationale",
+        "comment"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "high",
+    "cognitiveLevel": "analysis",
+    "editorialReview": {
+      "status": "pending",
+      "allAlternativesCovered": false
+    },
+    "keySynchronization": {
+      "questionId": "2024-1-051",
+      "previousAnswer": "X",
+      "previousAnnulled": true,
+      "officialAnswer": "A",
+      "annulled": false,
+      "document": "provas/2024_1_GB.pdf",
+      "verifiedAt": "2026-10-03",
+      "reason": "Educational object disagreed with preserved bank and audited definitive key."
+    }
+  }
+}

@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"32398521-033b-54cd-b52c-3032ff8c4d92","questionId":"2025-1-005","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «Incremento da frequência de limpeza geral da unidade e higienização adequada das roupas de uso pessoal, de cama e de banho; uso de ivermectina 6 mg, dose conforme o peso, repetindo em 15 dias, para todos da cela».\n\nNo cenário — A médica de uma penitenciária avalia homem de 26 anos, com 98 kg, que relata compartilhar a cela com 12 pessoas (a qual comportaria no máximo 5). O paciente queixa-se de prurido cutâneo há 2 dias com piora no período noturno. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Restrição de visitas aos detentos e isolamento dos casos nas celas, sem permissão de saída; uso de ivermectina 6 mg, 01 comprimido via oral, repetindo em 15 dias, para todos da cela») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Isolamento dos casos na enfermaria da unidade e lavagem frequente das roupas de cama, de banho e de vestuário com água quente (pelo menos a 30 °C); uso de sprays inseticidas e fumigantes») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Realização de palestras educativas para os detentos sobre medidas preventivas e aumento do tempo de banho de sol; uso de fluconazol 150 mg por semana durante 1 mês, para todos da cela») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: A médica de uma penitenciária avalia homem de 26 anos, com 98 kg, que relata compartilhar a cela com 12 pessoas (a qual comportaria no máximo 5). O paciente queixa-se de prurido cutâneo há 2 dias com piora no período noturno. Ao exame físico, a médica identifica pápulas eritematosas com escoriações em região de prega em braços e em região posterior de joelhos.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («Incremento da frequência de limpeza geral da unidade e higienização adequada das roupas de uso pessoal, de cama e de banho; uso de ivermectina 6 mg, dose conforme o peso, repetindo em 15 dias, para todos da cela») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "32398521-033b-54cd-b52c-3032ff8c4d92",
+  "questionId": "2025-1-005",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Prurido noturno, pápulas escoriadas em dobras e convivência em cela superlotada sugerem escabiose. O controle exige tratar casos e contatos próximos simultaneamente e higienizar roupas e objetos apropriados, alternativa D. Ivermectina oral é calculada por peso: 200 µg/kg × 98 kg = 19.600 µg, ou 19,6 mg por dose antes de ajuste à apresentação e prescrição. Portanto, 6 mg descreve a força do comprimido, não uma dose única suficiente para esse paciente. A repetição prevista na alternativa aborda a limitação do efeito sobre ovos; protocolos usuais usam intervalo de aproximadamente uma a duas semanas.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Um comprimido de 6 mg subestima a dose para 98 kg. Restrições indiscriminadas de circulação não substituem tratamento simultâneo e medidas ambientais."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Sprays inseticidas e fumigação não são recomendados para eliminar escabiose humana. Água a apenas 30 °C não caracteriza lavagem quente adequada para descontaminação."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Fluconazol trata infecções fúngicas, não o ácaro Sarcoptes scabiei. Educação ajuda, mas banho de sol não é tratamento etiológico."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 5\n\nResposta D — Incremento da frequência de limpeza geral da unidade e higienização adequada das roupas de uso pessoal, de cama e de banho; uso de ivermectina 6 mg, dose conforme o peso, repetindo em 15 dias, para todos da cela\n\nSaúde Coletiva › Saúde em ambientes coletivos › Escabiose e tratamento de contatos\n\nPrurido noturno, pápulas escoriadas em dobras e convivência em cela superlotada sugerem escabiose. O controle exige tratar casos e contatos próximos simultaneamente e higienizar roupas e objetos apropriados, alternativa D. Ivermectina oral é calculada por peso: 200 µg/kg × 98 kg = 19.600 µg, ou 19,6 mg por dose antes de ajuste à apresentação e prescrição. Portanto, 6 mg descreve a força do comprimido, não uma dose única suficiente para esse paciente. A repetição prevista na alternativa aborda a limitação do efeito sobre ovos; protocolos usuais usam intervalo de aproximadamente uma a duas semanas.\n\nA alternativa A está incorreta: Um comprimido de 6 mg subestima a dose para 98 kg. Restrições indiscriminadas de circulação não substituem tratamento simultâneo e medidas ambientais.\n\nA alternativa B está incorreta: Sprays inseticidas e fumigação não são recomendados para eliminar escabiose humana. Água a apenas 30 °C não caracteriza lavagem quente adequada para descontaminação.\n\nA alternativa C está incorreta: Fluconazol trata infecções fúngicas, não o ácaro Sarcoptes scabiei. Educação ajuda, mas banho de sol não é tratamento etiológico.\n\nA alternativa D está correta: Combina medidas ambientais e tratamento simultâneo dos expostos com dose de ivermectina ajustada ao peso; a prescrição individual deve observar contraindicações e protocolo local.\n\nGabarito oficial definitivo do INEP: D"
+    },
+    "takeHomeMessage": "Na escabiose em coletividade, trate casos e contatos juntos; ivermectina é dosada por peso, não pelo número fixo de um comprimido.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2025-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT003-CDC-ESCABIOSE2021",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Saúde Coletiva",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Saúde Coletiva",
+      "Saúde em ambientes coletivos",
+      "Escabiose e tratamento de contatos"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-003",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

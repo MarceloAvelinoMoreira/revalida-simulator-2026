@@ -1,1 +1,59 @@
-{"schemaVersion":"2.0","objectId":"e8746ed2-b826-539e-ba05-a15d919162fb","questionId":"2026-1-013","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «Agiu dentro de sua autonomia, pois o custeio de acompanhante não é obrigatório, salvo em caso de menoridade, idade avançada ou incapacidade física comprovada por perícia».\n\nNo cenário — Vi PRISES Mulher de 32 anos, residente em município de pequeno porte a 130 km da capital, portadora de doença oncológica rara, necessita realizar quimioterapia e radioterapia indisponíveis em sua cidade, sendo encaminhada para a capital por meio de Tratamento Fora do Domicílio (TFD). O tratamento será ambulatorial, em 6ciclos, com permanência de 5 dias a cada 21 dias. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («A análise foi adequada quanto ao transporte do acompanhante, visto que a ajuda de custo para alimentação e pernoite dependeria de comprovação da necessidade econômica») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («A negativa ao acompanhante não se sustenta, uma vez que a indicação médica registrada no laudo de TFD é suficiente para justificar o custeio») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Acontrovérsia não está na solicitação de acompanhante, mas no próprio TFD, pois o deslocamento intermunicipal inferior a 200 km não caracterizaria situação passível de encaminhamento») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Vi PRISES Mulher de 32 anos, residente em município de pequeno porte a 130 km da capital, portadora de doença oncológica rara, necessita realizar quimioterapia e radioterapia indisponíveis em sua cidade, sendo encaminhada para a capital por meio de Tratamento Fora do Domicílio (TFD). O tratamento será ambulatorial, em 6ciclos, com permanência de 5 dias a cada 21 dias. Embora esteja clinicamente estável, há indicação médica de acompanhante em razão da debilidade física esperada e por se tratar do primeiro deslocamento para TFD.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («Agiu dentro de sua autonomia, pois o custeio de acompanhante não é obrigatório, salvo em caso de menoridade, idade avançada ou incapacidade física comprovada por perícia») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "e8746ed2-b826-539e-ba05-a15d919162fb",
+  "questionId": "2026-1-013",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Gabarito definitivo: C. A justificativa clínica e a análise individual das alternativas permanecem pendentes de revisão.",
+    "alternativeRationales": []
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "Gabarito definitivo: C. A justificativa clínica e a análise individual das alternativas permanecem pendentes de revisão."
+    },
+    "takeHomeMessage": null,
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "REF-2026-0014",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment"
+      ]
+    },
+    {
+      "referenceId": "REF-2026-0001",
+      "role": "supporting",
+      "supports": [
+        "correctRationale",
+        "comment"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "editorialReview": {
+      "status": "pending",
+      "allAlternativesCovered": false
+    },
+    "keySynchronization": {
+      "questionId": "2026-1-013",
+      "previousAnswer": "A",
+      "previousAnnulled": false,
+      "officialAnswer": "C",
+      "annulled": false,
+      "document": "_master_work/2026-1-gabarito-definitivo.pdf",
+      "verifiedAt": "2026-10-03",
+      "reason": "Educational object disagreed with preserved bank and audited definitive key."
+    }
+  }
+}

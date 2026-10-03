@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"48bd909e-3539-576e-9965-e26b59539251","questionId":"2021-003","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «avaliar eventual resistência do HIV aos antirretrovirais em uso, sem atrasar início do tratamento da tuberculose».\n\nNo cenário — Um homem, de 37 anos de idade, com AIDS/HIV diagnosticada há 3 anos, compareceu à consulta com o médico da UBS próxima de sua casa, trazendo resultados de exames solicitados na consulta anterior. O teste rápido molecular para tuberculose feito no escarro confirmou o diagnóstico de tuberculose pulmonar e sensibilidade à rifampicina. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Medicina de Família e Comunidade, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («avaliar eventual resistência do HIV aos antirretrovirais em uso para depois desse resultado iniciar o tratamento da tuberculose») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («avaliar eventual resistência aos antirretrovirais não é necessário, pois a carga viral está abaixo de 100 000 cópias») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («avaliar eventual resistência do HIV através da quantificação de linfócitos CD4») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Medicina de Família e Comunidade. O enunciado descreve: Um homem, de 37 anos de idade, com AIDS/HIV diagnosticada há 3 anos, compareceu à consulta com o médico da UBS próxima de sua casa, trazendo resultados de exames solicitados na consulta anterior. O teste rápido molecular para tuberculose feito no escarro confirmou o diagnóstico de tuberculose pulmonar e sensibilidade à rifampicina. A carga viral para HIV apresentou resultado de 98 000 cópias por mililitro.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («avaliar eventual resistência do HIV aos antirretrovirais em uso, sem atrasar início do tratamento da tuberculose») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de medicina de família e comunidade, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Medicina de Família e Comunidade.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0015","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0003","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Medicina de Família e Comunidade","difficultyLevel":"low","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "48bd909e-3539-576e-9965-e26b59539251",
+  "questionId": "2021-003",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "O teste molecular confirma tuberculose pulmonar com sensibilidade à rifampicina; o tratamento da tuberculose não deve aguardar a investigação da viremia do HIV. A carga viral de 98.000 cópias/mL em uma pessoa acompanhada por HIV exige revisar adesão, esquema em uso, interações e possível falha virológica, com genotipagem quando indicada. A alternativa B combina as duas prioridades, sem transformar o exame de resistência em condição para iniciar o tratamento da infecção ativa. O diagnóstico de HIV há três anos, isoladamente, não prova que o paciente tomou regularmente antirretrovirais; essa informação precisa ser verificada na consulta.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Adiar o tratamento da tuberculose até o resultado da resistência do HIV prolonga uma infecção ativa e transmissível. A investigação antirretroviral deve ocorrer em paralelo."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Não existe um limiar de 100.000 cópias/mL abaixo do qual se possa dispensar investigação de falha. A interpretação depende do tratamento e da evolução da carga viral."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "A contagem de CD4 avalia comprometimento imunológico, não mutações de resistência do HIV. Resistência é investigada por genotipagem, no contexto clínico apropriado."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 3\n\nResposta B — avaliar eventual resistência do HIV aos antirretrovirais em uso, sem atrasar início do tratamento da tuberculose\n\nClínica Médica › Infectologia › Coinfecção HIV e tuberculose\n\nO teste molecular confirma tuberculose pulmonar com sensibilidade à rifampicina; o tratamento da tuberculose não deve aguardar a investigação da viremia do HIV. A carga viral de 98.000 cópias/mL em uma pessoa acompanhada por HIV exige revisar adesão, esquema em uso, interações e possível falha virológica, com genotipagem quando indicada. A alternativa B combina as duas prioridades, sem transformar o exame de resistência em condição para iniciar o tratamento da infecção ativa. O diagnóstico de HIV há três anos, isoladamente, não prova que o paciente tomou regularmente antirretrovirais; essa informação precisa ser verificada na consulta.\n\nA alternativa A está incorreta: Adiar o tratamento da tuberculose até o resultado da resistência do HIV prolonga uma infecção ativa e transmissível. A investigação antirretroviral deve ocorrer em paralelo.\n\nA alternativa B está correta: Permite início oportuno do tratamento da tuberculose e avaliação da resposta ao tratamento do HIV, incluindo adesão e eventual resistência.\n\nA alternativa C está incorreta: Não existe um limiar de 100.000 cópias/mL abaixo do qual se possa dispensar investigação de falha. A interpretação depende do tratamento e da evolução da carga viral.\n\nA alternativa D está incorreta: A contagem de CD4 avalia comprometimento imunológico, não mutações de resistência do HIV. Resistência é investigada por genotipagem, no contexto clínico apropriado.\n\nGabarito oficial definitivo do INEP: B"
+    },
+    "takeHomeMessage": "Tuberculose confirmada deve ser tratada prontamente; investigar falha do tratamento do HIV não é motivo para adiar esse cuidado.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT003-MS-TBHIV",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "low",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Clínica Médica",
+      "Infectologia",
+      "Coinfecção HIV e tuberculose"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-003",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2021_GB_objetiva_1.pdf",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

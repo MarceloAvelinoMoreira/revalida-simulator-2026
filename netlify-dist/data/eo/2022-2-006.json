@@ -1,1 +1,83 @@
-{"schemaVersion":"2.0","objectId":"69147dcb-b2d4-486c-9f30-771c6e57597d","questionId":"2022-2-006","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «adicionar inibidor da enzima conversora ou bloqueador do receptor de angiotensina II».\n\nNo cenário — Uma paciente de 62 anos de idade foi encaminhada ao ambulatório de nefrologia de um hospital universitário para ajuste no tratamento anti-hipertensivo, em razão de suposta nefropatia hipertensiva estágio 3. A paciente tem hipertensão arterial sistêmica (HAS) há longa data e faz tratamento com hidroclorotiazida 25 mg/dia e anlodipino 10 mg duas vezes ao dia. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («trocar a hidroclorotiazida por diurético de alça e aumentar a dose do bloqueador de canal de cálcio») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («iniciar espironolactona e carvedilol») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («mantê-lo sem alterações e trabalhar a adesão ao tratamento») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Uma paciente de 62 anos de idade foi encaminhada ao ambulatório de nefrologia de um hospital universitário para ajuste no tratamento anti-hipertensivo, em razão de suposta nefropatia hipertensiva estágio 3. A paciente tem hipertensão arterial sistêmica (HAS) há longa data e faz tratamento com hidroclorotiazida 25 mg/dia e anlodipino 10 mg duas vezes ao dia. Recentemente, seus exames de sangue revelaram pequena retenção de escórias nitrogenadas, sendo o cálculo estimado da taxa de filtração glomerular de 54 ml/min/1,73 m2.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («adicionar inibidor da enzima conversora ou bloqueador do receptor de angiotensina II») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0023","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0056","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "69147dcb-b2d4-486c-9f30-771c6e57597d",
+  "questionId": "2022-2-006",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "TFG de 54 mL/min/1,73 m² corresponde a G3a e albuminúria de 120 mg/g a A2, no contexto de doença crônica referido. Com hipertensão não controlada e albuminúria, adicionar IECA ou BRA é a melhor opção, alternativa A, com monitorização de creatinina e potássio. Não se associa IECA com BRA. O esquema precisa também ser reconciliado: anlodipino 10 mg duas vezes ao dia excede a dose máxima habitual de 10 mg/dia, devendo ser confirmado e revisto em vez de aumentado.\n\n⚠ PONTO DE ATENÇÃO\n\nMantido o gabarito A. O enunciado informa anlodipino 20 mg/dia; essa dose excede a máxima usual de 10 mg/dia. A análise não endossa mantê-la sem conferência da prescrição.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "TFG de 54 não exige substituir automaticamente tiazídico por diurético de alça; aumentar um anlodipino já acima da dose habitual é inadequado."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Espironolactona pode integrar hipertensão resistente em condições selecionadas, mas não substitui a indicação de IECA/BRA e aumenta atenção à hipercalemia."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Trabalhar adesão é importante, mas não resolve a ausência de bloqueio renina-angiotensina nem a necessidade de revisar o esquema."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 6\n\nResposta A — adicionar inibidor da enzima conversora ou bloqueador do receptor de angiotensina II\n\nClínica Médica › Nefrologia › Hipertensão e doença renal com albuminúria\n\nTFG de 54 mL/min/1,73 m² corresponde a G3a e albuminúria de 120 mg/g a A2, no contexto de doença crônica referido. Com hipertensão não controlada e albuminúria, adicionar IECA ou BRA é a melhor opção, alternativa A, com monitorização de creatinina e potássio. Não se associa IECA com BRA. O esquema precisa também ser reconciliado: anlodipino 10 mg duas vezes ao dia excede a dose máxima habitual de 10 mg/dia, devendo ser confirmado e revisto em vez de aumentado.\n\nA alternativa A está correta: Bloqueio do sistema renina-angiotensina é apropriado na hipertensão com DRC e albuminúria, observadas contraindicações e monitorização.\n\nA alternativa B está incorreta: TFG de 54 não exige substituir automaticamente tiazídico por diurético de alça; aumentar um anlodipino já acima da dose habitual é inadequado.\n\nA alternativa C está incorreta: Espironolactona pode integrar hipertensão resistente em condições selecionadas, mas não substitui a indicação de IECA/BRA e aumenta atenção à hipercalemia.\n\nA alternativa D está incorreta: Trabalhar adesão é importante, mas não resolve a ausência de bloqueio renina-angiotensina nem a necessidade de revisar o esquema.\n\n⚠ PONTO DE ATENÇÃO\n\nMantido o gabarito A. O enunciado informa anlodipino 20 mg/dia; essa dose excede a máxima usual de 10 mg/dia. A análise não endossa mantê-la sem conferência da prescrição.\n\nGabarito oficial definitivo do INEP: A"
+    },
+    "takeHomeMessage": "Hipertensão com albuminúria favorece IECA ou BRA, com controle de potássio e creatinina e revisão das doses existentes.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2022-2-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT004-KDIGO-PA2021",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "COMMENT004-DAILYMED-AMLODIPINO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Clínica Médica",
+      "Nefrologia",
+      "Hipertensão e doença renal com albuminúria"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-004",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": true
+    }
+  }
+}

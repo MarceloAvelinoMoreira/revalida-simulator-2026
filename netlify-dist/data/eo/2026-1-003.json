@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"b90ceb7e-4c30-558e-bb51-5a901aa0fff0","questionId":"2026-1-003","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «dor não controlada».\n\nNo cenário — Se ITEM 1GAVIDE Ve PRLLSU Mulher de 88 anos é trazida à Unidade de Pronto Atendimento (UPA) pelo SAMU, com queixa de dor intensa em quadril direito após queda da própria altura. Possui antecedentes de hipertensão arterial sistêmica e diabetes mellitus, em acompanhamento regular. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Cirurgia Geral, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («hipoxemia») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («comorbidades prévias») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («hipoglicemia») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Cirurgia Geral. O enunciado descreve: Se ITEM 1GAVIDE Ve PRLLSU Mulher de 88 anos é trazida à Unidade de Pronto Atendimento (UPA) pelo SAMU, com queixa de dor intensa em quadril direito após queda da própria altura. Possui antecedentes de hipertensão arterial sistêmica e diabetes mellitus, em acompanhamento regular. Nega outras comorbidades ou uso prévio de psicotrópicos.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («dor não controlada») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de cirurgia geral, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Cirurgia Geral.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"C: dor não controlada"}},"references":[{"referenceId":"REF-2026-0026","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Cirurgia Geral","difficultyLevel":"high","cognitiveLevel":"analysis"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "b90ceb7e-4c30-558e-bb51-5a901aa0fff0",
+  "questionId": "2026-1-003",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Desatenção, discurso desconexo e alternância entre agitação e apatia instalados em horas sugerem delirium. Idade avançada e fratura aumentam vulnerabilidade; a dor importante apesar da analgesia é o precipitante mais evidente entre as opções, alternativa C. Glicemia de 120 mg/dL não indica hipoglicemia, e não foi demonstrada hipoxemia relevante como explicação principal. A investigação deve continuar buscando causas concomitantes, pois delirium é frequentemente multifatorial. Tomografia normal não exclui o diagnóstico, que é clínico, nem substitui tratamento da dor e cuidados ambientais.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Saturação de 94% merece avaliação conforme contexto, mas o enunciado não demonstra insuficiência respiratória que a torne a causa principal. Dor não controlada é mais claramente documentada."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Hipertensão e diabetes prévias são condições de vulnerabilidade, não uma mudança aguda suficiente para explicar o início do quadro sem descompensação descrita."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Glicemia capilar de 120 mg/dL não caracteriza hipoglicemia. Não se deve atribuir alteração mental à queda glicêmica sem evidência."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 3\n\nResposta C — dor não controlada\n\nClínica Médica › Geriatria › Delirium precipitado por dor\n\nDesatenção, discurso desconexo e alternância entre agitação e apatia instalados em horas sugerem delirium. Idade avançada e fratura aumentam vulnerabilidade; a dor importante apesar da analgesia é o precipitante mais evidente entre as opções, alternativa C. Glicemia de 120 mg/dL não indica hipoglicemia, e não foi demonstrada hipoxemia relevante como explicação principal. A investigação deve continuar buscando causas concomitantes, pois delirium é frequentemente multifatorial. Tomografia normal não exclui o diagnóstico, que é clínico, nem substitui tratamento da dor e cuidados ambientais.\n\nA alternativa A está incorreta: Saturação de 94% merece avaliação conforme contexto, mas o enunciado não demonstra insuficiência respiratória que a torne a causa principal. Dor não controlada é mais claramente documentada.\n\nA alternativa B está incorreta: Hipertensão e diabetes prévias são condições de vulnerabilidade, não uma mudança aguda suficiente para explicar o início do quadro sem descompensação descrita.\n\nA alternativa C está correta: Dor persistente da fratura é um fator precipitante tratável de delirium e deve ser abordada com analgesia adequada e reavaliação.\n\nA alternativa D está incorreta: Glicemia capilar de 120 mg/dL não caracteriza hipoglicemia. Não se deve atribuir alteração mental à queda glicêmica sem evidência.\n\nGabarito oficial definitivo do INEP: C"
+    },
+    "takeHomeMessage": "Delirium exige distinguir predisposição de precipitante: no idoso com fratura, procure e trate dor e outras causas agudas.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2026-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT003-NICE-DELIRIUM",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "high",
+    "cognitiveLevel": "analysis",
+    "taxonomy": [
+      "Clínica Médica",
+      "Geriatria",
+      "Delirium precipitado por dor"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-003",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

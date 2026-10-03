@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"1d20aa93-d19c-56eb-a241-dadbe09d0496","questionId":"2024-2-002","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «o uso de meias de média compressão e a elevação das pernas».\n\nNo cenário — Uma paciente de 45 anos, multípara, é atendida na unidade básica de saúde relatando dores e aparecimento de edema em membros inferiores, no período vespertino, há 3 anos. Ao exame físico, o médico observa dermatite ocre no terço inferior dos membros inferiores associada a uma lesão circular de 2 cm, superficial, com bordas elevadas e com tecido de granulação, localizada na região maleolar interna da perna direita. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («a deambulação e o uso de meias de baixa compressão») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («a utilização de bota de Unna e a realização de atividade física intensa») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («a realização de desbridamento e o repouso em Trendelemburg») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Uma paciente de 45 anos, multípara, é atendida na unidade básica de saúde relatando dores e aparecimento de edema em membros inferiores, no período vespertino, há 3 anos. Ao exame físico, o médico observa dermatite ocre no terço inferior dos membros inferiores associada a uma lesão circular de 2 cm, superficial, com bordas elevadas e com tecido de granulação, localizada na região maleolar interna da perna direita. Com base nessas informações, a conduta médica adequada para o caso é indicar\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («o uso de meias de média compressão e a elevação das pernas») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"B: o uso de meias de média compressão e a elevação das pernas"}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "1d20aa93-d19c-56eb-a241-dadbe09d0496",
+  "questionId": "2024-2-002",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Edema vespertino crônico, dermatite ocre e úlcera superficial na região maleolar medial sugerem insuficiência venosa crônica com lesão de estase. Elevação das pernas e compressão melhoram retorno venoso e reduzem hipertensão venosa, tornando B a melhor opção entre as alternativas. Antes de comprimir, deve-se avaliar perfusão arterial e contraindicações; curativo, mobilidade e acompanhamento também integram o cuidado. A descrição de tecido de granulação não indica, por si só, necessidade de desbridamento.\n\n⚠ PONTO DE ATENÇÃO\n\nB é a melhor alternativa da prova. Na prática, uma úlcera venosa ativa requer individualização do sistema e da pressão de compressão; a diretriz ESVS 2022 recomenda sistemas efetivos, frequentemente com pressão alvo de pelo menos 40 mmHg no tornozelo quando a perfusão arterial permite. A expressão média compressão da questão não define sozinha um esquema completo.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Deambular favorece a bomba da panturrilha, mas a proposta de baixa compressão é menos apropriada para esse quadro que o conjunto de B."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Bota de Unna pode ser utilizada em úlceras venosas, porém a recomendação indiscriminada de atividade intensa torna o conjunto menos adequado. Exercício deve ser ajustado à capacidade e à ferida."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Granulação não é tecido necrótico a ser automaticamente removido. Repouso prolongado em Trendelemburg não substitui o tratamento compressivo e a mobilidade apropriada."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 2\n\nResposta B — o uso de meias de média compressão e a elevação das pernas\n\nCirurgia Geral › Cirurgia Vascular › Insuficiência venosa e úlcera de estase\n\nEdema vespertino crônico, dermatite ocre e úlcera superficial na região maleolar medial sugerem insuficiência venosa crônica com lesão de estase. Elevação das pernas e compressão melhoram retorno venoso e reduzem hipertensão venosa, tornando B a melhor opção entre as alternativas. Antes de comprimir, deve-se avaliar perfusão arterial e contraindicações; curativo, mobilidade e acompanhamento também integram o cuidado. A descrição de tecido de granulação não indica, por si só, necessidade de desbridamento.\n\nA alternativa A está incorreta: Deambular favorece a bomba da panturrilha, mas a proposta de baixa compressão é menos apropriada para esse quadro que o conjunto de B.\n\nA alternativa B está correta: Associa compressão terapêutica e elevação, medidas dirigidas ao mecanismo venoso, com avaliação arterial prévia.\n\nA alternativa C está incorreta: Bota de Unna pode ser utilizada em úlceras venosas, porém a recomendação indiscriminada de atividade intensa torna o conjunto menos adequado. Exercício deve ser ajustado à capacidade e à ferida.\n\nA alternativa D está incorreta: Granulação não é tecido necrótico a ser automaticamente removido. Repouso prolongado em Trendelemburg não substitui o tratamento compressivo e a mobilidade apropriada.\n\n⚠ PONTO DE ATENÇÃO\n\nB é a melhor alternativa da prova. Na prática, uma úlcera venosa ativa requer individualização do sistema e da pressão de compressão; a diretriz ESVS 2022 recomenda sistemas efetivos, frequentemente com pressão alvo de pelo menos 40 mmHg no tornozelo quando a perfusão arterial permite. A expressão média compressão da questão não define sozinha um esquema completo.\n\nGabarito oficial definitivo do INEP: B"
+    },
+    "takeHomeMessage": "Úlcera maleolar medial com dermatite ocre sugere estase venosa; compressão exige avaliação arterial e planejamento individual.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2024-2-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT003-ESVS-VENOSA2022",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Cirurgia Geral",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Cirurgia Geral",
+      "Cirurgia Vascular",
+      "Insuficiência venosa e úlcera de estase"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-003",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": true
+    }
+  }
+}

@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"f86d8f57-2f83-41be-98bd-8596b6d5b04f","questionId":"2023-1-004","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «Dosar TSH, T4 livre, prolactina e 17 hidroxiprogesterona, para descartar patologias sistêmicas».\n\nNo cenário — Uma paciente com 21 anos, nuligesta, comparece à consulta em um centro de saúde com queixa de amenorreia há 6 meses, acne com pústulas, aumento de pelos, principalmente na face e nos membros inferiores. Relata dificuldade em perder peso e ciclos menstruais irregulares e longos desde a menarca. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Ginecologia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Dosar cortisol livre, dehidroepiandrosterona e perfil metabólico, para confirmar perfil androgênico») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Prescrever etinilestradiol 10 mg 1 vez ao dia, por 10 dias, para descartar causas uterinas de amenorreia») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Iniciar espironolactona 50 mg 2 vezes ao dia e solicitar ultrassonografia, para confirmar diagnóstico de síndrome dos ovários policísticos») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Ginecologia. O enunciado descreve: Uma paciente com 21 anos, nuligesta, comparece à consulta em um centro de saúde com queixa de amenorreia há 6 meses, acne com pústulas, aumento de pelos, principalmente na face e nos membros inferiores. Relata dificuldade em perder peso e ciclos menstruais irregulares e longos desde a menarca. Afirma ser sexualmente ativa.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («Dosar TSH, T4 livre, prolactina e 17 hidroxiprogesterona, para descartar patologias sistêmicas») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de ginecologia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Ginecologia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0019","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Ginecologia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "f86d8f57-2f83-41be-98bd-8596b6d5b04f",
+  "questionId": "2023-1-004",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Irregularidade menstrual crônica, amenorreia, hirsutismo, acne e obesidade sugerem síndrome dos ovários policísticos, mas esse é um diagnóstico que exige excluir causas alternativas. A gestação foi afastada inicialmente. TSH e avaliação tireoidiana, prolactina e 17-hidroxiprogesterona pesquisam disfunção tireoidiana, hiperprolactinemia e hiperplasia adrenal congênita não clássica, alternativa A. Avaliação metabólica também é importante, porém não substitui essa exclusão. A ultrassonografia isolada não confirma o diagnóstico e, em adultas com disfunção ovulatória e hiperandrogenismo, pode não ser necessária para preencher os critérios.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Cortisol e andrógenos adrenais podem ser solicitados conforme suspeita de Cushing ou tumor adrenal; não constituem um painel que confirme automaticamente SOP."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Etinilestradiol de 10 mg não é uma conduta diagnóstica apropriada para excluir causas uterinas e não substitui a investigação endócrina."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Espironolactona trata manifestações androgênicas em situações selecionadas e exige atenção à contracepção. Iniciá-la não exclui outros diagnósticos; ultrassom sozinho não confirma SOP."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 4\n\nResposta A — Dosar TSH, T4 livre, prolactina e 17 hidroxiprogesterona, para descartar patologias sistêmicas\n\nGinecologia e Obstetrícia › Endocrinologia Ginecológica › Exclusão de diagnósticos na suspeita de SOP\n\nIrregularidade menstrual crônica, amenorreia, hirsutismo, acne e obesidade sugerem síndrome dos ovários policísticos, mas esse é um diagnóstico que exige excluir causas alternativas. A gestação foi afastada inicialmente. TSH e avaliação tireoidiana, prolactina e 17-hidroxiprogesterona pesquisam disfunção tireoidiana, hiperprolactinemia e hiperplasia adrenal congênita não clássica, alternativa A. Avaliação metabólica também é importante, porém não substitui essa exclusão. A ultrassonografia isolada não confirma o diagnóstico e, em adultas com disfunção ovulatória e hiperandrogenismo, pode não ser necessária para preencher os critérios.\n\nA alternativa A está correta: Reúne exames de exclusão de causas que podem mimetizar o quadro. É a etapa diagnóstica inicial mais adequada entre as propostas.\n\nA alternativa B está incorreta: Cortisol e andrógenos adrenais podem ser solicitados conforme suspeita de Cushing ou tumor adrenal; não constituem um painel que confirme automaticamente SOP.\n\nA alternativa C está incorreta: Etinilestradiol de 10 mg não é uma conduta diagnóstica apropriada para excluir causas uterinas e não substitui a investigação endócrina.\n\nA alternativa D está incorreta: Espironolactona trata manifestações androgênicas em situações selecionadas e exige atenção à contracepção. Iniciá-la não exclui outros diagnósticos; ultrassom sozinho não confirma SOP.\n\nGabarito oficial definitivo do INEP: A"
+    },
+    "takeHomeMessage": "Suspeita de SOP exige excluir gestação e causas endócrinas; ultrassom e resposta ao tratamento não são testes confirmatórios isolados.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2023-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT003-PCOS2023",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Endocrinologia Ginecológica",
+      "Exclusão de diagnósticos na suspeita de SOP"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-003",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

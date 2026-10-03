@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"77cb5960-c3b4-5267-b1bc-0ac6274025dc","questionId":"2025-2-005","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «Esporotricose; itraconazol por 120 dias».\n\nNo cenário — Homem de 28 anos, estudante universitário, residente em zona urbana, comparece à Unidade Básica de Saúde (UBS) referindo aparecimento de lesão cutânea em região dorsal da mão, cerca de 1 mês após ter sofrido arranhadura de gato de rua. A lesão apresenta úlceras com presença de crostas além de nodulações próximas. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Medicina de Família e Comunidade, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Furunculose; cefalexina por 7 dias») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Herpes-zoster; aciclovir por 10 dias») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Paracoccidioidomicose; anfotericina B por 30 dias») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Medicina de Família e Comunidade. O enunciado descreve: Homem de 28 anos, estudante universitário, residente em zona urbana, comparece à Unidade Básica de Saúde (UBS) referindo aparecimento de lesão cutânea em região dorsal da mão, cerca de 1 mês após ter sofrido arranhadura de gato de rua. A lesão apresenta úlceras com presença de crostas além de nodulações próximas. Foi submetido à biópsia da lesão cutânea e cultura de material.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («Esporotricose; itraconazol por 120 dias») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de medicina de família e comunidade, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Medicina de Família e Comunidade.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"C: Esporotricose; itraconazol por 120 dias"}},"references":[{"referenceId":"REF-2026-0015","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0003","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Medicina de Família e Comunidade","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "77cb5960-c3b4-5267-b1bc-0ac6274025dc",
+  "questionId": "2025-2-005",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Lesão ulcerada e nódulos após arranhadura de gato, com inflamação granulomatosa, favorecem esporotricose cutânea/linfocutânea. Itraconazol é uma opção central para essas formas, alternativa C. Corpos asteroides ajudam no contexto, mas não são exclusivos; cultura e correlação clínica são importantes. Os 120 dias da alternativa representam duração compatível com tratamento por meses, não prazo imutável para qualquer paciente: resposta clínica e forma da doença orientam duração e seguimento.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Furunculose é infecção bacteriana de folículo; não integra tão bem a evolução nodular e granulomatosa após arranhadura."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Herpes-zóster produz padrão vesicular doloroso em distribuição neural, diferente do quadro de inoculação e nódulos."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Paracoccidioidomicose tem outro contexto epidemiológico e clínico; anfotericina não é a escolha padrão para esta forma cutânea localizada de esporotricose."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 5\n\nResposta C — Esporotricose; itraconazol por 120 dias\n\nClínica Médica › Infectologia › Esporotricose por inoculação zoonótica\n\nLesão ulcerada e nódulos após arranhadura de gato, com inflamação granulomatosa, favorecem esporotricose cutânea/linfocutânea. Itraconazol é uma opção central para essas formas, alternativa C. Corpos asteroides ajudam no contexto, mas não são exclusivos; cultura e correlação clínica são importantes. Os 120 dias da alternativa representam duração compatível com tratamento por meses, não prazo imutável para qualquer paciente: resposta clínica e forma da doença orientam duração e seguimento.\n\nA alternativa A está incorreta: Furunculose é infecção bacteriana de folículo; não integra tão bem a evolução nodular e granulomatosa após arranhadura.\n\nA alternativa B está incorreta: Herpes-zóster produz padrão vesicular doloroso em distribuição neural, diferente do quadro de inoculação e nódulos.\n\nA alternativa C está correta: Esporotricose é transmitida por inoculação e pode relacionar-se a gatos; itraconazol trata formas cutâneas apropriadas.\n\nA alternativa D está incorreta: Paracoccidioidomicose tem outro contexto epidemiológico e clínico; anfotericina não é a escolha padrão para esta forma cutânea localizada de esporotricose.\n\nGabarito oficial definitivo do INEP: C"
+    },
+    "takeHomeMessage": "Arranhadura de gato com úlcera e nódulos sugere esporotricose; confirmação e resposta orientam tratamento de meses.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2025-2-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT004-MS-ESPORO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Clínica Médica",
+      "Infectologia",
+      "Esporotricose por inoculação zoonótica"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-004",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

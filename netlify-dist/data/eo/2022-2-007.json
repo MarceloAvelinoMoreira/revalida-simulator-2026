@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"995176fe-1de4-4ec9-b07c-48471c43993d","questionId":"2022-2-007","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «Antibioticoterapia venosa e drenagem do abscesso».\n\nNo cenário — Homem de 55 anos de idade apresenta quadro de dor em fossa ilíaca esquerda. No exame físico, apresentava bom estado geral, frequência cardíaca de 90 batimentos por minuto, pressão arterial de 130 × 80 mmHg, frequência respiratória de 20 incursões respiratórias por minuto e temperatura axilar de 37,9 °C. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Cirurgia Geral, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Internação e antibioticoterapia venosa exclusiva») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Alta hospitalar e antibioticoterapia oral ambulatorial») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: liberar o paciente ou optar por manejo ambulatorial cedo demais. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Laparotomia exploradora e procedimento de Hartmann») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: indicar intervenção invasiva sem esgotar o critério clínico do enunciado. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Cirurgia Geral. O enunciado descreve: Homem de 55 anos de idade apresenta quadro de dor em fossa ilíaca esquerda. No exame físico, apresentava bom estado geral, frequência cardíaca de 90 batimentos por minuto, pressão arterial de 130 × 80 mmHg, frequência respiratória de 20 incursões respiratórias por minuto e temperatura axilar de 37,9 °C. O paciente realizou tomografia de abdome e pelve, que mostrou ausência de líquido livre e gás na cavidade peritoneal, discreta distensão de alças de delgado e cólons direito e transverso, espessamento de cólon descendente e abscesso pericolônico de 6 cm próximo à goteira parietocólica esquerda.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («Antibioticoterapia venosa e drenagem do abscesso») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de cirurgia geral, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Cirurgia Geral.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"B: Antibioticoterapia venosa e drenagem do abscesso"}},"references":[{"referenceId":"REF-2026-0026","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0067","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Cirurgia Geral","difficultyLevel":"high","cognitiveLevel":"analysis"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "995176fe-1de4-4ec9-b07c-48471c43993d",
+  "questionId": "2022-2-007",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Dor em fossa ilíaca esquerda e espessamento colônico com abscesso pericolônico de 6 cm sugerem diverticulite complicada localizada. A estabilidade e a ausência descrita de peritonite difusa permitem antibiótico associado a drenagem, preferencialmente percutânea quando viável, alternativa B. O tamanho da coleção torna tratamento apenas medicamentoso menos adequado que controle do foco. Cirurgia é considerada se drenagem não for possível, houver falha ou deterioração; não é automaticamente o primeiro passo em todo abscesso.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Antibiótico isolado pode ser suficiente em coleções menores ou quando drenagem é inviável com vigilância apropriada, mas não é a melhor opção para 6 cm acessível."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Alta com antibiótico oral não contempla adequadamente coleção de grande porte que necessita avaliação para drenagem."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Hartmann pode ser usado em cenários graves selecionados, especialmente peritonite/instabilidade; não é obrigatório no quadro localizado e estável descrito."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 7\n\nResposta B — Antibioticoterapia venosa e drenagem do abscesso\n\nCirurgia Geral › Coloproctologia › Diverticulite com abscesso\n\nDor em fossa ilíaca esquerda e espessamento colônico com abscesso pericolônico de 6 cm sugerem diverticulite complicada localizada. A estabilidade e a ausência descrita de peritonite difusa permitem antibiótico associado a drenagem, preferencialmente percutânea quando viável, alternativa B. O tamanho da coleção torna tratamento apenas medicamentoso menos adequado que controle do foco. Cirurgia é considerada se drenagem não for possível, houver falha ou deterioração; não é automaticamente o primeiro passo em todo abscesso.\n\nA alternativa A está incorreta: Antibiótico isolado pode ser suficiente em coleções menores ou quando drenagem é inviável com vigilância apropriada, mas não é a melhor opção para 6 cm acessível.\n\nA alternativa B está correta: Combina antimicrobiano e controle do foco por drenagem, apropriados ao abscesso grande e localizado.\n\nA alternativa C está incorreta: Alta com antibiótico oral não contempla adequadamente coleção de grande porte que necessita avaliação para drenagem.\n\nA alternativa D está incorreta: Hartmann pode ser usado em cenários graves selecionados, especialmente peritonite/instabilidade; não é obrigatório no quadro localizado e estável descrito.\n\nGabarito oficial definitivo do INEP: B"
+    },
+    "takeHomeMessage": "Diverticulite com abscesso grande geralmente exige antibiótico e avaliação para drenagem, não apenas mudar a via do antibiótico.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2022-2-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT004-WSES-DIV2020",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Cirurgia Geral",
+    "difficultyLevel": "high",
+    "cognitiveLevel": "analysis",
+    "taxonomy": [
+      "Cirurgia Geral",
+      "Coloproctologia",
+      "Diverticulite com abscesso"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-004",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

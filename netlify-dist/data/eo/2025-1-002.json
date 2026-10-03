@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"1b9b211e-9cc5-5bcc-b642-e2e5f946413e","questionId":"2025-1-002","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «Úlcera gástrica perfurada».\n\nNo cenário — Homem de 42 anos, em uso crônico de anti-inflamatório não esteroide por doença reumática, dá entrada no pronto-socorro com 6 horas de evolução de dor epigástrica de forte intensidade. Sinais vitais: Exame Resultado Frequência cardíaca 110 bpm Pressão arterial 90 x 50 mmHg Frequência respiratória 22 irpm Temperatura axilar 36,5 oC Ao exame físico, abdome tenso, com descompressão brusca dolorosa nos quatro quadrantes. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Pancreatite aguda») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Colecistite aguda») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Diverticulite aguda») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Homem de 42 anos, em uso crônico de anti-inflamatório não esteroide por doença reumática, dá entrada no pronto-socorro com 6 horas de evolução de dor epigástrica de forte intensidade. Sinais vitais: Exame Resultado Frequência cardíaca 110 bpm Pressão arterial 90 x 50 mmHg Frequência respiratória 22 irpm Temperatura axilar 36,5 oC Ao exame físico, abdome tenso, com descompressão brusca dolorosa nos quatro quadrantes. O hemograma apresenta valores dentro da normalidade e a tomografia de abdome evidencia líquido livre intraperitoneal com ar no recesso hepatofrênico.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («Úlcera gástrica perfurada») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: Úlcera gástrica perfurada"}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "1b9b211e-9cc5-5bcc-b642-e2e5f946413e",
+  "questionId": "2025-1-002",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Dor epigástrica aguda, sinais de peritonite difusa, hipotensão e ar livre descrito na tomografia indicam abdome agudo perfurativo. O uso crônico de anti-inflamatório aumenta a plausibilidade de úlcera péptica complicada, alternativa A. O hemograma normal nas primeiras horas não exclui perfuração nem reduz a urgência. Reanimação e avaliação cirúrgica devem ser imediatas. A imagem não foi anexada a essa questão no banco: a interpretação se baseia no achado de pneumoperitônio explicitamente descrito, sem inventar localização de uma perfuração visível.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Pancreatite pode causar dor epigástrica intensa, mas não explica tão bem o pneumoperitônio e a exposição ulcerogênica. Exigiria critérios próprios."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Colecistite costuma produzir quadro focal em hipocôndrio direito; ar livre com peritonite difusa favorece perfuração de víscera oca."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Diverticulite perfurada também pode produzir ar livre, mas a apresentação epigástrica e o uso de anti-inflamatório favorecem a hipótese péptica entre as opções."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 2\n\nResposta A — Úlcera gástrica perfurada\n\nCirurgia Geral › Abdome agudo › Perfuração de úlcera péptica\n\nDor epigástrica aguda, sinais de peritonite difusa, hipotensão e ar livre descrito na tomografia indicam abdome agudo perfurativo. O uso crônico de anti-inflamatório aumenta a plausibilidade de úlcera péptica complicada, alternativa A. O hemograma normal nas primeiras horas não exclui perfuração nem reduz a urgência. Reanimação e avaliação cirúrgica devem ser imediatas. A imagem não foi anexada a essa questão no banco: a interpretação se baseia no achado de pneumoperitônio explicitamente descrito, sem inventar localização de uma perfuração visível.\n\nA alternativa A está correta: Úlcera perfurada explica pneumoperitônio, peritonite e exposição a anti-inflamatório. A localização gástrica é a opção dada, sem confirmação anatômica apenas pelo ar livre.\n\nA alternativa B está incorreta: Pancreatite pode causar dor epigástrica intensa, mas não explica tão bem o pneumoperitônio e a exposição ulcerogênica. Exigiria critérios próprios.\n\nA alternativa C está incorreta: Colecistite costuma produzir quadro focal em hipocôndrio direito; ar livre com peritonite difusa favorece perfuração de víscera oca.\n\nA alternativa D está incorreta: Diverticulite perfurada também pode produzir ar livre, mas a apresentação epigástrica e o uso de anti-inflamatório favorecem a hipótese péptica entre as opções.\n\nGabarito oficial definitivo do INEP: A"
+    },
+    "takeHomeMessage": "Peritonite com ar livre é perfuração até investigação adequada; hemograma inicialmente normal não afasta emergência cirúrgica.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2025-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT003-WSES-ULCERA2020",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Cirurgia Geral",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Cirurgia Geral",
+      "Abdome agudo",
+      "Perfuração de úlcera péptica"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-003",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

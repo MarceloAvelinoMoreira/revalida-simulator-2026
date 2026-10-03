@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"158025af-a999-50a8-a43c-d0d6c31e09ec","questionId":"2022-1-003","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «Observação clínica ambulatorial».\n\nNo cenário — Um menino com 5 anos de idade, acompanhado da mãe, é atendido em unidade de saúde. A mãe relata o aparecimento abrupto de manchas arroxeadas indolores nos membros inferiores da criança há 2 dias, sem outras queixas. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Terapia com corticosteroide») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Internação para esplenectomia») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Administração de imunoglobulina») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Um menino com 5 anos de idade, acompanhado da mãe, é atendido em unidade de saúde. A mãe relata o aparecimento abrupto de manchas arroxeadas indolores nos membros inferiores da criança há 2 dias, sem outras queixas. Há 1 mês, conta que o filho apresentou quadro de resfriado comum, para o qual fez uso somente de soro fisiológico para lavagem nasal.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («Observação clínica ambulatorial») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"C: Observação clínica ambulatorial"}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0034","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "158025af-a999-50a8-a43c-d0d6c31e09ec",
+  "questionId": "2022-1-003",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Petéquias e equimoses após infecção viral, com plaquetas de 64.000/mm³ e sem sangramento de mucosas ou órgão interno, sugerem trombocitopenia imune. Em crianças com quadro inicial e manifestações apenas cutâneas, observação ambulatorial com orientação e seguimento é preferível ao tratamento automático, alternativa C. A decisão considera gravidade do sangramento, acesso ao acompanhamento e qualidade de vida, não somente a contagem. O baço palpável no rebordo não demonstra esplenomegalia importante; se surgirem aumento significativo, alterações de outras séries ou sinais sistêmicos, o diagnóstico deve ser revisto.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Corticosteroide pode ser utilizado em situações selecionadas de sangramento ou repercussão clínica, mas não é obrigatório em uma criança com manifestações apenas cutâneas."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Esplenectomia não é tratamento inicial de trombocitopenia imune recém-diagnosticada na infância. É medida excepcional em doença persistente/refratária após avaliação especializada."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Imunoglobulina pode elevar rapidamente plaquetas quando isso é necessário por sangramento ou outra indicação específica. Não há essa urgência no caso."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 3\n\nResposta C — Observação clínica ambulatorial\n\nPediatria › Hematologia Pediátrica › Trombocitopenia imune com sangramento leve\n\nPetéquias e equimoses após infecção viral, com plaquetas de 64.000/mm³ e sem sangramento de mucosas ou órgão interno, sugerem trombocitopenia imune. Em crianças com quadro inicial e manifestações apenas cutâneas, observação ambulatorial com orientação e seguimento é preferível ao tratamento automático, alternativa C. A decisão considera gravidade do sangramento, acesso ao acompanhamento e qualidade de vida, não somente a contagem. O baço palpável no rebordo não demonstra esplenomegalia importante; se surgirem aumento significativo, alterações de outras séries ou sinais sistêmicos, o diagnóstico deve ser revisto.\n\nA alternativa A está incorreta: Corticosteroide pode ser utilizado em situações selecionadas de sangramento ou repercussão clínica, mas não é obrigatório em uma criança com manifestações apenas cutâneas.\n\nA alternativa B está incorreta: Esplenectomia não é tratamento inicial de trombocitopenia imune recém-diagnosticada na infância. É medida excepcional em doença persistente/refratária após avaliação especializada.\n\nA alternativa C está correta: Observação com instruções de retorno e seguimento hematológico evita exposição desnecessária a tratamentos no quadro leve apresentado.\n\nA alternativa D está incorreta: Imunoglobulina pode elevar rapidamente plaquetas quando isso é necessário por sangramento ou outra indicação específica. Não há essa urgência no caso.\n\nGabarito oficial definitivo do INEP: C"
+    },
+    "takeHomeMessage": "Na trombocitopenia imune pediátrica com sangramento apenas cutâneo, observar pode ser melhor que tratar a contagem isolada.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2022-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT003-ASH-ITP2019",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Pediatria",
+      "Hematologia Pediátrica",
+      "Trombocitopenia imune com sangramento leve"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-003",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}

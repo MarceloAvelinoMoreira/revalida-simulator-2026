@@ -1,1 +1,74 @@
-{"schemaVersion":"2.0","objectId":"4cd7061d-771c-5798-97f8-52a1719c0539","questionId":"2024-2-004","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «longitudinal e cefálica».\n\nNo cenário — Um médico de uma unidade básica de saúde realiza consulta pré-natal em gestante com idade gestacional de 30 semanas. Ao realizar o terceiro tempo da manobra de Leopold, na região suprapúbica, identifica estrutura fetal óssea arredondada, regular e compatível com calota craniana. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Obstetrícia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («transversal e cefálica») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («longitudinal e pélvica») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («transversal e córmica») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Obstetrícia. O enunciado descreve: Um médico de uma unidade básica de saúde realiza consulta pré-natal em gestante com idade gestacional de 30 semanas. Ao realizar o terceiro tempo da manobra de Leopold, na região suprapúbica, identifica estrutura fetal óssea arredondada, regular e compatível com calota craniana. Nesse caso, é correto afirmar que a situação e a apresentação fetais são, respectivamente,\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («longitudinal e cefálica») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de obstetrícia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Obstetrícia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"D: longitudinal e cefálica"}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Obstetrícia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "4cd7061d-771c-5798-97f8-52a1719c0539",
+  "questionId": "2024-2-004",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "O terceiro tempo de Leopold identifica o polo fetal no estreito superior da pelve. Uma estrutura óssea arredondada compatível com a calota craniana na região suprapúbica corresponde à cabeça como polo apresentante. No contexto da questão, isso indica apresentação cefálica e situação longitudinal, alternativa D. Situação compara os eixos fetal e materno; apresentação identifica a parte fetal voltada à entrada da pelve. Esses conceitos não devem ser confundidos com posição ou variedade de posição, que não foram determinadas no enunciado.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Na situação transversal, os polos ficam lateralizados e a apresentação habitual é córmica, não uma cabeça alinhada à entrada pélvica."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Situação longitudinal pode ocorrer na apresentação pélvica, mas o polo identificado é craniano, não a pelve fetal."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Situação transversal e apresentação córmica são uma combinação possível, porém não correspondem ao achado de calota craniana suprapúbica."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 4\n\nResposta D — longitudinal e cefálica\n\nGinecologia e Obstetrícia › Obstetrícia › Situação e apresentação fetais\n\nO terceiro tempo de Leopold identifica o polo fetal no estreito superior da pelve. Uma estrutura óssea arredondada compatível com a calota craniana na região suprapúbica corresponde à cabeça como polo apresentante. No contexto da questão, isso indica apresentação cefálica e situação longitudinal, alternativa D. Situação compara os eixos fetal e materno; apresentação identifica a parte fetal voltada à entrada da pelve. Esses conceitos não devem ser confundidos com posição ou variedade de posição, que não foram determinadas no enunciado.\n\nA alternativa A está incorreta: Na situação transversal, os polos ficam lateralizados e a apresentação habitual é córmica, não uma cabeça alinhada à entrada pélvica.\n\nA alternativa B está incorreta: Situação longitudinal pode ocorrer na apresentação pélvica, mas o polo identificado é craniano, não a pelve fetal.\n\nA alternativa C está incorreta: Situação transversal e apresentação córmica são uma combinação possível, porém não correspondem ao achado de calota craniana suprapúbica.\n\nA alternativa D está correta: Situação longitudinal e apresentação cefálica integram corretamente o polo craniano voltado à pelve materna.\n\nGabarito oficial definitivo do INEP: D"
+    },
+    "takeHomeMessage": "Situação é relação entre eixos; apresentação é o polo voltado à pelve. Cabeça suprapúbica sugere apresentação cefálica.",
+    "keyPoints": [],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2024-2-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT003-MS-LEOPOLD",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Obstetrícia",
+      "Situação e apresentação fetais"
+    ],
+    "editorialReview": {
+      "status": "validated",
+      "batchId": "editorial-003",
+      "reviewedAt": "2026-10-03",
+      "keySource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/revalida/provas-e-gabaritos",
+      "allAlternativesCovered": true,
+      "attention": false
+    }
+  }
+}
