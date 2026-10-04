@@ -22,8 +22,9 @@
 <link rel="stylesheet" href="css/style-assistant-v1.css?v=neural1">
 <link rel="stylesheet" href="css/assistant-brain.css?v=4">
 <link rel="stylesheet" href="css/areas.css?v=2">
-<link rel="stylesheet" href="css/statistics.css?v=1">
+<link rel="stylesheet" href="css/statistics.css?v=2">
 <link rel="stylesheet" href="css/study-buttons.css?v=1">
+<link rel="stylesheet" href="css/quiz-clock.css?v=1">
 <style>
   .mode-card,
   .year-btn,
@@ -169,6 +170,7 @@
   </div>
 
   <button class="start-btn" id="start-btn" onclick="startQuiz()">Iniciar simulado</button>
+  <button type="button" id="resume-quiz-btn" onclick="resumeQuiz()" hidden>Retomar simulado salvo</button>
 </div>
 
 <!-- RESPOSTAS RÁPIDAS -->
@@ -180,6 +182,14 @@
     <div id="statistics-summary" class="area-stats" aria-label="Resumo do desempenho"></div>
     <p id="statistics-empty" class="statistics-empty" hidden>Você ainda não respondeu questões neste navegador. Inicie uma prova ou um estudo por área para acompanhar seu desempenho aqui.</p>
     <p class="areas-note">Cada questão conta uma vez, usando a sua última resposta. Questões anuladas não entram na taxa de acerto nem no progresso.</p>
+    <section aria-labelledby="statistics-timing-title">
+      <h2 id="statistics-timing-title">Ritmo de estudo</h2>
+      <div id="statistics-timing-summary" class="area-stats" aria-label="Resumo dos tempos de resposta"></div>
+      <p class="areas-note">A estimativa para uma prova de 100 questões é sua média por resposta × 100, considerando acertos e erros cronometrados. É uma projeção, não a média de provas completas: não inclui pausas, leitura de comentários depois da resposta nem revisão final.</p>
+      <p id="statistics-timing-insight" class="statistics-timing-insight"></p>
+      <div id="statistics-timing-areas" class="statistics-table-wrap" role="region" aria-label="Tempos por grande área" tabindex="0"></div>
+      <p class="areas-note">Cada questão usa o tempo da última resposta registrada. Questões antigas sem tempo e anuladas ficam fora das médias; a comparação de áreas inclui somente acertos com grande área definida. Poucas respostas podem tornar a estimativa pouco representativa. Tempos no formato horas:minutos:segundos.</p>
+    </section>
     <section aria-labelledby="statistics-areas-title"><h2 id="statistics-areas-title">Desempenho por grande área</h2><div id="statistics-areas" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por área" tabindex="0"></div></section>
     <section aria-labelledby="statistics-exams-title"><h2 id="statistics-exams-title">Desempenho por prova</h2><div id="statistics-exams" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por prova" tabindex="0"></div></section>
     <p class="areas-note">Os dados permanecem ao fechar a aba ou o navegador, no mesmo dispositivo, perfil e endereço do site. Limpar os dados do site, usar navegação privada ou trocar de navegador pode remover ou separar esse histórico. Não há sincronização entre dispositivos.</p>
@@ -272,6 +282,13 @@
     </aside>
     <!-- ÁREA PRINCIPAL DA QUESTÃO -->
     <div class="quiz-body">
+      <div class="quiz-clock" role="group" aria-label="Cronômetros do simulado">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 8v5l3 2M9 2h6M12 2v3"/></svg>
+        <div><span>Total da prova</span><strong id="quiz-time-total">00:00:00</strong></div>
+        <div><span>Nesta questão</span><strong id="quiz-time-question">00:00:00</strong></div>
+        <div><span>Média por resposta</span><strong id="quiz-time-average">—</strong></div>
+      </div>
+      <p class="quiz-clock-note">Média das respostas cronometradas nesta sessão. Ao sair ou fechar a prova, os tempos ficam pausados.</p>
       <div class="question-num" id="question-num">Questão 1</div>
       <div class="question-text abnt-prose" id="question-text"></div>
       <div class="question-media" id="question-media" style="display:none"></div>
@@ -425,18 +442,19 @@
 <script src="js/questions-2026-2.js?v=4"></script>
 <script src="js/questions-facisa.js?v=1"></script>
 <script src="js/utils.js?v=2"></script>
-<script src="js/storage.js?v=stats1"></script>
+<script src="js/storage.js?v=timing2"></script>
 <script src="js/score.js?v=2"></script>
 <script src="js/question-repository.js?v=3"></script>
 <script src="js/question-classification.js?v=2"></script>
 <script src="js/area-repository.js?v=1"></script>
 <script src="js/eo-repository.js?v=6"></script>
 <script src="js/resolver.js?v=3"></script>
-<script src="js/simulator.js?v=areas2"></script>
+<script src="js/quiz-clock.js?v=1"></script>
+<script src="js/simulator.js?v=clock1"></script>
 <script src="js/review.js?v=3"></script>
 <script src="js/rapid.js?v=areas1"></script>
 <script src="js/areas.js?v=stats1"></script>
-<script src="js/statistics.js?v=1"></script>
+<script src="js/statistics.js?v=timing2"></script>
 <script src="js/assistant-public-groq.js?v=1"></script>
 <script src="js/assistant.js?v=public1"></script>
 <script src="js/assistant-brain.js?v=5"></script>

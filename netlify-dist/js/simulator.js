@@ -424,6 +424,11 @@ function getTotalQuestions() {
 }
 
 function updateStartBtn() {
+  const resume = document.getElementById('resume-quiz-btn');
+  if (resume) {
+    const saved = RevalidaStorage.loadSession();
+    resume.hidden = !saved?.timing || saved.timing.finished || !saved.questions?.length;
+  }
   const btn = document.getElementById('start-btn');
   const total = getTotalQuestions();
   const lbl = document.getElementById('custom-total-label');
@@ -473,11 +478,12 @@ function persistSession() {
     annulled,
     questionStatus,
     userAnswers,
+    timing: typeof QuizClock !== 'undefined' ? QuizClock.snapshot() : null,
     questions: questions.map(q => ({ id: q.id, year: q.year, label: q.label, n: q.n })),
   });
 }
 
-function startQuiz(questionSet) {
+function startQuiz(questionSet, resumeSession) {
   if (!Array.isArray(questionSet) && selectedMode === 'area') {
     AreaStudy.startFromHome();
     return;
@@ -506,9 +512,25 @@ function startQuiz(questionSet) {
       if (st === 'correct') correct++; else wrong++;
     }
   });
+  if (resumeSession) {
+    currentIndex = Number.isInteger(resumeSession.currentIndex) ? Math.max(0,Math.min(questions.length-1,resumeSession.currentIndex)) : 0;
+    correct = 0; wrong = 0; annulled = 0;
+    questions.forEach((q,i) => {
+      const status = resumeSession.questionStatus?.[i], answer = resumeSession.userAnswers?.[i];
+      questionStatus[i] = 'pending'; userAnswers[i] = null;
+      if (QuestionRepository.isAnnulled(q)) {
+        if (status === 'annulled') { questionStatus[i] = 'annulled'; annulled++; }
+      } else if (['correct','wrong'].includes(status) && /^[A-E]$/.test(answer || '') && q.opts[answer.charCodeAt(0)-65]) {
+        questionStatus[i] = answer === q.answer ? 'correct' : 'wrong'; userAnswers[i] = answer;
+        if (questionStatus[i] === 'correct') correct++; else wrong++;
+      } else if (status === 'skipped') questionStatus[i] = 'skipped';
+    });
+  }
+  if (typeof QuizClock !== 'undefined') { QuizClock.reset(resumeSession?.timing); QuizClock.start(); }
   document.getElementById('live-correct').textContent = correct;
   document.getElementById('live-wrong').textContent = wrong;
   document.getElementById('screen-home').style.display = 'none';
+  ['areas','rapid','statistics'].forEach(name => { const screen = document.getElementById('screen-'+name); if (screen) screen.style.display = 'none'; });
   document.getElementById('screen-result').style.display = 'none';
   document.getElementById('screen-quiz').style.display = 'block';
   if (typeof EducationalObjectRepository !== 'undefined') {
@@ -518,9 +540,12 @@ function startQuiz(questionSet) {
   renderQuestion();
   renderQNavGrid();
   persistSession();
+  document.querySelector('.quiz-body')?.scrollTo(0,0);
+  window.scrollTo(0,0);
 }
 
 function restartQuiz() {
+  if (typeof QuizClock !== 'undefined') { QuizClock.reset(); QuizClock.start(); }
   questions = lastQuestions;
   currentIndex = 0; correct = 0; wrong = 0; annulled = 0;
   questionStatus = new Array(questions.length).fill('pending');
@@ -531,9 +556,21 @@ function restartQuiz() {
   document.getElementById('screen-quiz').style.display = 'block';
   renderQuestion();
   renderQNavGrid();
+  persistSession();
+}
+
+function resumeQuiz() {
+  const saved = RevalidaStorage.loadSession();
+  if (!saved?.timing || saved.timing.finished || !Array.isArray(saved.questions)) return;
+  const list = saved.questions.map(q => QuestionRepository.getById(q.id));
+  if (!list.length || list.some(q => !q)) return;
+  if (typeof AreaStudy !== 'undefined') AreaStudy.leaveStudy();
+  selectedMode = saved.selectedMode; selectedYear = saved.selectedYear; selectedQty = saved.selectedQty;
+  startQuiz(list,saved);
 }
 
 function goHome() {
+  if (typeof QuizClock !== 'undefined') { QuizClock.stop(); persistSession(); }
   if (typeof AreaStudy !== 'undefined' && AreaStudy.returnToArea()) return;
   document.getElementById('screen-quiz').style.display = 'none';
   document.getElementById('screen-result').style.display = 'none';
@@ -546,6 +583,7 @@ function renderQuestion() {
   answered = false;
   currentEduView = null;
   const q = questions[currentIndex];
+  if (typeof QuizClock !== 'undefined') QuizClock.visit(q.id,!QuestionRepository.isAnnulled(q) && (!['correct','wrong'].includes(questionStatus[currentIndex]) || q.id in (QuizClock.snapshot()?.answeredMs || {})));
   const retry = document.getElementById('btn-retry-question');
   if (retry) retry.hidden = !['correct','wrong'].includes(questionStatus[currentIndex]);
   const origin = document.getElementById('btn-original-exam');
@@ -666,6 +704,7 @@ function renderQuestion() {
 
 function handleAnswer(chosen, clickedBtn, q) {
   if (answered) return;
+  if (typeof QuizClock !== 'undefined') QuizClock.answer(q.id);
   answered = true;
 
   const allBtns = document.querySelectorAll('.option-btn');
@@ -718,6 +757,7 @@ function retryCurrentQuestion() {
   if (questionStatus[currentIndex] === 'correct') correct--;
   else if (questionStatus[currentIndex] === 'wrong') wrong--;
   else return;
+  if (typeof QuizClock !== 'undefined') QuizClock.retry(questions[currentIndex].id);
   questionStatus[currentIndex] = 'pending'; userAnswers[currentIndex] = null;
   document.getElementById('live-correct').textContent = correct;
   document.getElementById('live-wrong').textContent = wrong;
@@ -751,6 +791,7 @@ function goToQuestion(idx) {
   if (idx < 0 || idx >= questions.length) return;
   currentIndex = idx;
   renderQuestion();
+  persistSession();
   // close panel on mobile
   document.getElementById('qnav-panel').classList.remove('open');
   const body = document.querySelector('.quiz-body');
@@ -767,12 +808,14 @@ function nextQuestion() {
     showResult();
   } else {
     renderQuestion();
+    persistSession();
     document.querySelector('.quiz-body').scrollTo(0, 0);
     window.scrollTo(0, 0);
   }
 }
 
 function showResult() {
+  if (typeof QuizClock !== 'undefined') QuizClock.finish();
   document.getElementById('screen-quiz').style.display = 'none';
   document.getElementById('screen-result').style.display = 'block';
 

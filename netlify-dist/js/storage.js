@@ -49,7 +49,12 @@ const RevalidaStorage = (() => {
       const status = payload.questionStatus && payload.questionStatus[i];
       const answer = payload.userAnswers && payload.userAnswers[i];
       if (q?.id && ['correct', 'wrong'].includes(status) && /^[A-E]$/.test(answer || '')) {
+        const elapsed = payload.timing?.answeredMs?.[q.id];
+        const previous = progress[q.id];
+        const elapsedMs = Number.isFinite(elapsed) && elapsed >= 0 ? elapsed
+          : previous?.answer === answer ? previous.elapsedMs : undefined;
         progress[q.id] = { status, answer };
+        if (Number.isFinite(elapsedMs) && elapsedMs >= 0) progress[q.id].elapsedMs = elapsedMs;
       }
     });
     const progressSaved = set(keys.progress, progress);

@@ -3,17 +3,39 @@ const fs = require('node:fs'), path = require('node:path'), vm = require('node:v
 const root = path.resolve(__dirname,'..');
 function setup(initial = {}) {
   const saved = new Map(Object.entries(initial)), nodes = new Map(), listeners = new Map();
+  let clockTime = 0, clockId = 0;
+  const clockLoops = new Map();
   const node = id => {
     if (!nodes.has(id)) nodes.set(id,{style:{},classList:{add(){},remove(){}},textContent:'',innerHTML:'',value:'',hidden:false,children:[],setAttribute(){},focus(){},scrollTo(){},appendChild(child){this.children.push(child);}});
     return nodes.get(id);
   };
-  const c = vm.createContext({console, setTimeout,clearTimeout, window:{scrollTo(){},addEventListener:(name,fn)=>listeners.set(name,fn)}, localStorage:{getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v),removeItem:k=>saved.delete(k)},document:{getElementById:node,createElement:()=>node('button'+Math.random()),querySelectorAll:()=>[],querySelector:()=>node('query'),addEventListener(){}},insertSoftHyphens:s=>s,formatProseHtml:s=>s});
-  for (const f of ['questions.js','questions-2026-2.js','questions-facisa.js','utils.js','storage.js','question-repository.js','question-classification.js','area-repository.js','simulator.js','rapid.js','areas.js','statistics.js']) vm.runInContext(fs.readFileSync(path.join(root,'netlify-dist/js',f),'utf8'),c);
+  const c = vm.createContext({console, setTimeout,clearTimeout,performance:{now:()=>clockTime},setInterval:fn=>{clockLoops.set(++clockId,fn);return clockId;},clearInterval:id=>clockLoops.delete(id), window:{scrollTo(){},addEventListener:(name,fn)=>listeners.set(name,fn)}, localStorage:{getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v),removeItem:k=>saved.delete(k)},document:{getElementById:node,createElement:()=>node('button'+Math.random()),querySelectorAll:()=>[],querySelector:()=>node('query'),addEventListener(){}},insertSoftHyphens:s=>s,formatProseHtml:s=>s});
+  for (const f of ['questions.js','questions-2026-2.js','questions-facisa.js','utils.js','storage.js','score.js','question-repository.js','question-classification.js','area-repository.js','quiz-clock.js','simulator.js','rapid.js','areas.js','statistics.js']) vm.runInContext(fs.readFileSync(path.join(root,'netlify-dist/js',f),'utf8'),c);
   const run = source=>vm.runInContext(source,c);
   // Tests never call a provider. Educational rendering is checked separately below.
   run('loadEduForCurrent = async () => null; syncExtraButtons = () => {}; renderTakeHome = () => {}; renderKeyPoints = () => {}; renderAltRationales = () => {};');
-  return {run,node,saved,c,listeners};
+  return {run,node,saved,c,listeners,advance:ms=>{clockTime+=ms;for(const fn of clockLoops.values())fn();},clockLoops};
 }
+
+test('quiz clock hooks: answer, navigation, retry, menu pause, reload resume and completion',()=>{
+  const a=setup();
+  a.run('startQuiz(QuestionRepository.getAllQuestions().filter(q=>!QuestionRepository.isAnnulled(q)).slice(0,2))');
+  a.advance(12000);a.run('handleAnswer(questions[0].answer,document.createElement("button"),questions[0])');
+  assert.equal(a.node('quiz-time-average').textContent,'00:00:12');
+  a.advance(5000);assert.equal(a.node('quiz-time-question').textContent,'00:00:12');
+  a.run('nextQuestion()');a.advance(4000);a.run('goHome()');a.advance(60000);
+  const b=setup(Object.fromEntries(a.saved));b.run('resumeQuiz()');
+  assert.equal(b.run('currentIndex'),1);assert.equal(b.run('correct'),1);
+  assert.equal(b.run('QuizClock.snapshot().totalMs'),21000);
+  b.advance(6000);b.run('handleAnswer(questions[1].answer,document.createElement("button"),questions[1])');
+  assert.equal(b.node('quiz-time-average').textContent,'00:00:11');
+  b.run('retryCurrentQuestion()');b.advance(2000);b.run('handleAnswer(questions[1].answer,document.createElement("button"),questions[1])');
+  assert.equal(b.node('quiz-time-average').textContent,'00:00:07');
+  b.run('showResult()');assert.equal(b.clockLoops.size,0);
+  assert.equal(b.run('RevalidaStorage.loadSession().timing.finished'),true);
+  b.run('restartQuiz()');assert.equal(b.run('QuizClock.snapshot().totalMs'),0);
+  assert.equal(b.clockLoops.size,1);
+});
 test('all IDs audited once; five actual counts; original content, keys, comments and media untouched',()=>{
   const {run}=setup();
   const report=JSON.parse(fs.readFileSync(path.join(root,'netlify-dist/data/question-classification-report.json')));
@@ -172,4 +194,47 @@ test('statistics update when answers change in another tab',()=>{
   listeners.get('storage')({key:'revalida.sim.v1.progress'});
   assert.match(node('statistics-summary').innerHTML,/Respondidas<\/span><strong>1/);
   assert.equal(node('statistics-empty').hidden,true);
+});
+
+test('time statistics: 100-question projection, correct-only area comparison, persistence across exams',()=>{
+  const a=setup();
+  a.run(`const timedA=AreaRepository.filter({area:'clinica_medica'}).find(q=>!QuestionRepository.isAnnulled(q));
+    const timedB=AreaRepository.filter({area:'cirurgia'}).find(q=>!QuestionRepository.isAnnulled(q));
+    const timedWrong=AreaRepository.filter({area:'cirurgia'}).find(q=>!QuestionRepository.isAnnulled(q) && q.id!==timedB.id);
+    const wrongLetter=timedWrong.answer==='A'?'B':'A';
+    RevalidaStorage.saveSession({questions:[timedA,timedB,timedWrong],questionStatus:['correct','correct','wrong'],userAnswers:[timedA.answer,timedB.answer,wrongLetter],timing:{answeredMs:{[timedA.id]:60000,[timedB.id]:120000,[timedWrong.id]:180000}}});`);
+  const t=a.run('StudyStatistics.snapshot().timing');
+  assert.equal(t.count,3);assert.equal(t.meanMs,120000);assert.equal(t.exam100Ms,12000000);
+  assert.equal(t.slowest[0].name,'Cirurgia');assert.equal(t.fastest[0].name,'Clínica Médica');
+  assert.equal(t.areas.find(row=>row.name==='Cirurgia').count,1);
+  // Navigating or starting another exam must not erase earlier recorded timing.
+  a.run('RevalidaStorage.saveSession({questions:[timedA],questionStatus:["correct"],userAnswers:[timedA.answer]})');
+  const b=setup(Object.fromEntries(a.saved));
+  assert.equal(b.run('StudyStatistics.snapshot().timing.exam100Ms'),12000000);
+  b.run('StudyStatistics.open()');assert.match(b.node('statistics-timing-summary').innerHTML,/03:20:00/);
+  assert.match(b.node('statistics-timing-insight').textContent,/Maior tempo.*Cirurgia.*Menor tempo.*Clínica Médica/);
+});
+
+test('time statistics exclude legacy, invalid timing, unknown IDs and cancelled answers; zero and ties are valid',()=>{
+  const a=setup();
+  a.run(`const qa=AreaRepository.filter({area:'clinica_medica'}).find(q=>!QuestionRepository.isAnnulled(q));
+    const qb=AreaRepository.filter({area:'pediatria'}).find(q=>!QuestionRepository.isAnnulled(q));
+    const cancelled=AreaRepository.all.find(q=>QuestionRepository.isAnnulled(q));
+    RevalidaStorage.saveSession({questions:[qa,qb,cancelled,{id:'unknown'}],questionStatus:['correct','correct','correct','correct'],userAnswers:[qa.answer,qb.answer,'A','A'],timing:{answeredMs:{[qa.id]:0,[qb.id]:0,[cancelled.id]:3000,unknown:2000}}});`);
+  assert.equal(a.run('StudyStatistics.snapshot().timing.count'),2);
+  assert.equal(a.run('StudyStatistics.snapshot().timing.slowest.length'),2);
+  a.run('StudyStatistics.open()');assert.match(a.node('statistics-timing-insight').textContent,/empatadas/);
+  a.run(`const p=RevalidaStorage.loadProgress();p[qa.id].elapsedMs=-1;p[qb.id].elapsedMs='60000';RevalidaStorage.set(RevalidaStorage.keys.progress,p)`);
+  assert.equal(a.run('StudyStatistics.snapshot().timing.exam100Ms'),null);
+  a.run('StudyStatistics.render()');assert.match(a.node('statistics-timing-summary').innerHTML,/Sem dados/);
+  assert.match(a.node('statistics-timing-summary').innerHTML,/Respostas cronometradas<\/span><strong>0/);
+});
+
+test('new answer replaces recorded time; untimed changed answer cannot reuse old duration',()=>{
+  const a=setup();a.run(`const q=QuestionRepository.getById('2021-003');
+    RevalidaStorage.saveSession({questions:[q],questionStatus:['correct'],userAnswers:[q.answer],timing:{answeredMs:{[q.id]:40000}}});
+    RevalidaStorage.saveSession({questions:[q],questionStatus:['correct'],userAnswers:[q.answer],timing:{answeredMs:{[q.id]:20000}}});`);
+  assert.equal(a.run('StudyStatistics.snapshot().timing.meanMs'),20000);
+  a.run(`RevalidaStorage.saveSession({questions:[q],questionStatus:['wrong'],userAnswers:[q.answer==='A'?'B':'A']})`);
+  assert.equal(a.run('StudyStatistics.snapshot().timing.count'),0);
 });
