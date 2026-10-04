@@ -15,7 +15,7 @@ const AreaStudy = (() => {
   function detailsFromHome() { if (homeArea) choose(homeArea); }
   function startFromHome() { if (homeArea) {choose(homeArea); start('');} }
   function screens(active) {
-    ['home','areas','quiz','rapid','result'].forEach(name=>el('screen-'+name).style.display = name === active ? (name === 'home' ? 'flex' : 'block') : 'none');
+    ['home','areas','quiz','rapid','result','statistics'].forEach(name=>el('screen-'+name).style.display = name === active ? (name === 'home' ? 'flex' : 'block') : 'none');
   }
   function open() {
     studying = false; screens('areas');

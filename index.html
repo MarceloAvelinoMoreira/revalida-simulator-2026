@@ -22,6 +22,8 @@
 <link rel="stylesheet" href="css/style-assistant-v1.css?v=neural1">
 <link rel="stylesheet" href="css/assistant-brain.css?v=4">
 <link rel="stylesheet" href="css/areas.css?v=2">
+<link rel="stylesheet" href="css/statistics.css?v=1">
+<link rel="stylesheet" href="css/study-buttons.css?v=1">
 <style>
   .mode-card,
   .year-btn,
@@ -54,24 +56,34 @@
     <div class="mode-label">Modo de estudo</div>
     <div class="mode-cards" style="grid-template-columns:repeat(3, minmax(0, 1fr));">
       <button type="button" class="mode-card selected" data-mode="all" onclick="selectMode('all', this)">
+        <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h6a2 2 0 0 1 2 2v15a3 3 0 0 0-3-2H4zM20 4h-6a2 2 0 0 0-2 2v15a3 3 0 0 1 3-2h5z"/></svg></span>
         <div class="mc-title">Todas as provas</div>
         <div class="mc-desc">Questões de todas as edições, em sequência.</div>
       </button>
       <button type="button" class="mode-card" data-mode="year" onclick="selectMode('year', this)">
+        <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 4h11v16H5V7M8 3v5H4M9 12h6M9 16h6"/></svg></span>
         <div class="mc-title">Prova específica</div>
         <div class="mc-desc">Selecione uma edição para praticar.</div>
       </button>
       <button type="button" class="mode-card" data-mode="custom" onclick="selectMode('custom', this)">
+        <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h3c5 0 5 12 10 12h3M17 15l3 3-3 3M4 18h3c5 0 5-12 10-12h3M17 3l3 3-3 3"/></svg></span>
         <div class="mc-title">Personalizado</div>
         <div class="mc-desc">Sorteio aleatório entre edições, na quantidade desejada.</div>
       </button>
       <button type="button" class="mode-card rapid-mode-card" data-mode="rapid" onclick="selectMode('rapid', this)">
+        <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m13 3-8 11h6l-1 7 9-12h-6z"/></svg></span>
         <div class="mc-title">Respostas rápidas</div>
         <div class="mc-desc">Veja cada questão e a alternativa correta, sem fazer o simulado.</div>
       </button>
       <button type="button" class="mode-card" data-mode="area" onclick="selectMode('area', this)">
+        <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/></svg></span>
         <div class="mc-title">Questões por grande área</div>
         <div class="mc-desc">Escolha uma área da Medicina e resolva questões de todas as provas.</div>
+      </button>
+      <button type="button" class="study-tool-card" onclick="StudyStatistics.open()">
+        <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 3v17h17M8 16v-4M13 16V8M18 16V5"/></svg></span>
+        <div class="mc-title">Estatísticas</div>
+        <div class="mc-desc">Veja seu desempenho e progresso salvos neste navegador.</div>
       </button>
     </div>
   </div>
@@ -160,6 +172,19 @@
 </div>
 
 <!-- RESPOSTAS RÁPIDAS -->
+<section id="screen-statistics" class="screen" style="display:none" aria-labelledby="statistics-title">
+  <div class="areas-shell statistics-shell">
+    <button type="button" class="areas-back" onclick="StudyStatistics.home()">← Menu principal</button>
+    <header class="areas-header"><h1 id="statistics-title" tabindex="-1">Estatísticas de estudo</h1><p>Seu desempenho em todas as provas e grandes áreas, salvo neste navegador.</p></header>
+    <p id="statistics-storage" class="statistics-storage" role="status"></p>
+    <div id="statistics-summary" class="area-stats" aria-label="Resumo do desempenho"></div>
+    <p id="statistics-empty" class="statistics-empty" hidden>Você ainda não respondeu questões neste navegador. Inicie uma prova ou um estudo por área para acompanhar seu desempenho aqui.</p>
+    <p class="areas-note">Cada questão conta uma vez, usando a sua última resposta. Questões anuladas não entram na taxa de acerto nem no progresso.</p>
+    <section aria-labelledby="statistics-areas-title"><h2 id="statistics-areas-title">Desempenho por grande área</h2><div id="statistics-areas" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por área" tabindex="0"></div></section>
+    <section aria-labelledby="statistics-exams-title"><h2 id="statistics-exams-title">Desempenho por prova</h2><div id="statistics-exams" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por prova" tabindex="0"></div></section>
+    <p class="areas-note">Os dados permanecem ao fechar a aba ou o navegador, no mesmo dispositivo, perfil e endereço do site. Limpar os dados do site, usar navegação privada ou trocar de navegador pode remover ou separar esse histórico. Não há sincronização entre dispositivos.</p>
+  </div>
+</section>
 <section id="screen-areas" class="screen areas-screen" style="display:none" aria-labelledby="areas-title">
   <div class="areas-shell">
     <button type="button" class="areas-back" onclick="AreaStudy.home()">← Menu principal</button>
@@ -400,7 +425,7 @@
 <script src="js/questions-2026-2.js?v=4"></script>
 <script src="js/questions-facisa.js?v=1"></script>
 <script src="js/utils.js?v=2"></script>
-<script src="js/storage.js?v=areas1"></script>
+<script src="js/storage.js?v=stats1"></script>
 <script src="js/score.js?v=2"></script>
 <script src="js/question-repository.js?v=3"></script>
 <script src="js/question-classification.js?v=2"></script>
@@ -410,7 +435,8 @@
 <script src="js/simulator.js?v=areas2"></script>
 <script src="js/review.js?v=3"></script>
 <script src="js/rapid.js?v=areas1"></script>
-<script src="js/areas.js?v=2"></script>
+<script src="js/areas.js?v=stats1"></script>
+<script src="js/statistics.js?v=1"></script>
 <script src="js/assistant-public-groq.js?v=1"></script>
 <script src="js/assistant.js?v=public1"></script>
 <script src="js/assistant-brain.js?v=5"></script>

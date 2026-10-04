@@ -1,0 +1,22 @@
+/* Keep existing REVALIDDA palette/type; the statistics table is intentionally quiet. */
+.home-study-tools {width:100%;max-width:640px;margin:0 0 24px;}
+.home-study-tools button {width:100%;font-weight:600;}
+.statistics-storage {padding:12px 16px;color:#b6dacb;background:#10251f;border-left:3px solid #5da88c;border-radius:4px;line-height:1.6;}
+.statistics-storage.storage-warning {color:#f0ce91;background:#2b2318;border-color:#d7a04a;}
+.statistics-empty {padding:20px;border:1px solid #38506b;border-radius:8px;line-height:1.6;color:#bcd8f4;}
+.statistics-shell [hidden] {display:none!important;}
+.statistics-shell section {margin-top:32px;}
+.statistics-table-wrap {overflow-x:auto;max-width:100%;}
+.statistics-table-wrap:focus-visible {outline:2px solid #a1dcff;outline-offset:4px;}
+.statistics-table-wrap table {border-collapse:collapse;width:100%;font-size:14px;text-align:left;}
+.statistics-table-wrap caption {text-align:left;color:#a9bdd2;padding:0 0 14px;}
+.statistics-table-wrap th,.statistics-table-wrap td {padding:16px 12px;border-bottom:1px solid #2b3c51;}
+.statistics-table-wrap thead th {color:#a9bdd2;font-weight:500;font-size:13px;}
+.statistics-table-wrap tbody th {font-weight:500;min-width:185px;}
+.statistics-table-wrap td {font-variant-numeric:tabular-nums;white-space:nowrap;}
+.statistics-table-wrap progress {display:block;width:100%;min-width:90px;height:6px;accent-color:#62afff;margin-bottom:6px;}
+.statistics-table-wrap progress::-webkit-progress-bar {background:#24374f;border-radius:3px;}
+.statistics-table-wrap progress::-webkit-progress-value {background:#62afff;border-radius:3px;}
+.statistics-table-wrap progress::-moz-progress-bar {background:#62afff;border-radius:3px;}
+.statistics-table-wrap td:last-child span {font-size:12px;color:#bcd8f4;}
+@media(max-width:600px){.statistics-shell h2{font-size:23px;}.statistics-table-wrap th,.statistics-table-wrap td{padding:12px 10px;}.statistics-table-wrap tbody th{min-width:145px;}}

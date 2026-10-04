@@ -2,6 +2,7 @@
 
 const RevalidaStorage = (() => {
   const PREFIX = "revalida.sim.v1.";
+  let progressWriteFailed = false;
   const keys = {
     session: PREFIX + "session",
     prefs: PREFIX + "prefs",
@@ -51,8 +52,10 @@ const RevalidaStorage = (() => {
         progress[q.id] = { status, answer };
       }
     });
-    set(keys.progress, progress);
-    return set(keys.session, { ...payload, updatedAt: new Date().toISOString() });
+    const progressSaved = set(keys.progress, progress);
+    progressWriteFailed = !progressSaved;
+    const sessionSaved = set(keys.session, { ...payload, updatedAt: new Date().toISOString() });
+    return progressSaved && sessionSaved;
   }
 
   function loadProgress() {
@@ -71,7 +74,7 @@ const RevalidaStorage = (() => {
         const status = legacy.questionStatus?.[i], answer = legacy.userAnswers?.[i];
         if (q?.id && ['correct', 'wrong'].includes(status) && /^[A-E]$/.test(answer || '')) progress[q.id] = {status, answer};
       });
-      set(keys.progress, progress);
+      progressWriteFailed = !set(keys.progress, progress);
     }
     return progress;
   }
@@ -92,5 +95,14 @@ const RevalidaStorage = (() => {
     return get(keys.prefs) || {};
   }
 
-  return { keys, get, set, clear, saveSession, loadSession, clearSession, savePrefs, loadPrefs, loadProgress };
+  function progressPersistenceAvailable() {
+    try {
+      // Verify storage without deleting data or replacing an existing progress record.
+      const raw = localStorage.getItem(keys.progress);
+      localStorage.setItem(keys.progress, raw === null ? '{}' : raw);
+      return !progressWriteFailed;
+    } catch (_) { return false; }
+  }
+
+  return { keys, get, set, clear, saveSession, loadSession, clearSession, savePrefs, loadPrefs, loadProgress, progressPersistenceAvailable };
 })();
