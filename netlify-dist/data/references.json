@@ -1542,6 +1542,718 @@
       "confidenceLevel": "high",
       "verifiedAt": "2026-10-03",
       "url": "https://ftp.sbim.org.br/images/guias/guia-geriatria-sbim-sbgg-4a-ed-2022-2023-220828b-web.pdf"
+    },
+    "COMMENT-L7-IDSA-AMR": {
+      "referenceId": "COMMENT-L7-IDSA-AMR",
+      "title": "IDSA — orientação sobre infecções por Gram-negativos resistentes, 2026",
+      "url": "https://www.idsociety.org/practice-guideline/amr-guidance/",
+      "publicationYear": 2026,
+      "citation": "IDSA — orientação sobre infecções por Gram-negativos resistentes, 2026",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L7-CDC-PID": {
+      "referenceId": "COMMENT-L7-CDC-PID",
+      "title": "CDC — Pelvic Inflammatory Disease, STI Treatment Guidelines 2021",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/pid.htm",
+      "publicationYear": 2021,
+      "citation": "CDC — Pelvic Inflammatory Disease, STI Treatment Guidelines 2021",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L7-CDC-CHLAMYDIA": {
+      "referenceId": "COMMENT-L7-CDC-CHLAMYDIA",
+      "title": "CDC — Chlamydial Infections, STI Treatment Guidelines 2021",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+      "publicationYear": 2021,
+      "citation": "CDC — Chlamydial Infections, STI Treatment Guidelines 2021",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L7-NICE-UTI": {
+      "referenceId": "COMMENT-L7-NICE-UTI",
+      "title": "NICE NG224 — Urinary tract infection in under 16s, recomendações de imagem",
+      "url": "https://www.nice.org.uk/guidance/ng224/chapter/Recommendations",
+      "publicationYear": 2022,
+      "citation": "NICE NG224 — Urinary tract infection in under 16s, recomendações de imagem",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L7-NICE-VTE": {
+      "referenceId": "COMMENT-L7-NICE-VTE",
+      "title": "NICE NG158 — Venous thromboembolic diseases, diagnóstico e manejo",
+      "url": "https://www.nice.org.uk/guidance/ng158/chapter/Recommendations",
+      "publicationYear": 2020,
+      "citation": "NICE NG158 — Venous thromboembolic diseases, diagnóstico e manejo",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L7-NINDS-PD": {
+      "referenceId": "COMMENT-L7-NINDS-PD",
+      "title": "NINDS — Parkinson's Disease: Challenges, Progress, and Promise",
+      "url": "https://www.ninds.nih.gov/current-research/focus-disorders/parkinsons-disease-research/parkinsons-disease-challenges-progress-and-promise",
+      "citation": "NINDS — Parkinson's Disease: Challenges, Progress, and Promise",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L7-NINDS-PSP": {
+      "referenceId": "COMMENT-L7-NINDS-PSP",
+      "title": "NINDS — Progressive Supranuclear Palsy",
+      "url": "https://www.ninds.nih.gov/health-information/disorders/progressive-supranuclear-palsy-psp",
+      "citation": "NINDS — Progressive Supranuclear Palsy",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L7-NIH-HD": {
+      "referenceId": "COMMENT-L7-NIH-HD",
+      "title": "NIH — Huntington's Disease",
+      "url": "https://health.nih.gov/health-topics-a-z/huntington-disease",
+      "citation": "NIH — Huntington's Disease",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-DIVERTICULITE": {
+      "referenceId": "COMMENT-L8-DIVERTICULITE",
+      "title": "NICE NG147 — Diverticular disease: diagnóstico e justificativa das recomendações",
+      "url": "https://www.nice.org.uk/guidance/ng147/chapter/Rationale-and-impact",
+      "publicationYear": 2019,
+      "citation": "NICE NG147 — Diverticular disease: diagnóstico e justificativa das recomendações",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-TRICHURIS": {
+      "referenceId": "COMMENT-L8-TRICHURIS",
+      "title": "CDC DPDx — Trichuriasis",
+      "url": "https://www.cdc.gov/dpdx/trichuriasis/",
+      "citation": "CDC DPDx — Trichuriasis",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-HELMINTOS": {
+      "referenceId": "COMMENT-L8-HELMINTOS",
+      "title": "CDC — Clinical Care of Soil-transmitted Helminths",
+      "url": "https://www.cdc.gov/sth/hcp/clinical-care/index.html",
+      "publicationYear": 2024,
+      "citation": "CDC — Clinical Care of Soil-transmitted Helminths",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-MAGNESIO": {
+      "referenceId": "COMMENT-L8-MAGNESIO",
+      "title": "Hospital de Clínicas UFTM — Manejo das Síndromes Hipertensivas na Gestação, versão 2",
+      "url": "https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-sudeste/hc-uftm/documentos/protocolos-assistenciais/PRT.HCUFTMUMUL.003ManejodasSindromesHipertensivasnaGestacaoversao2.pdf",
+      "citation": "Hospital de Clínicas UFTM — Manejo das Síndromes Hipertensivas na Gestação, versão 2",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-B12": {
+      "referenceId": "COMMENT-L8-B12",
+      "title": "NICE NG239 — Vitamin B12 deficiency in over 16s",
+      "url": "https://www.nice.org.uk/guidance/ng239/chapter/recommendations",
+      "publicationYear": 2024,
+      "citation": "NICE NG239 — Vitamin B12 deficiency in over 16s",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-PNAB": {
+      "referenceId": "COMMENT-L8-PNAB",
+      "title": "Ministério da Saúde — Portaria 2.436, de 22 de setembro de 2017, PNAB",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prt2436_22_09_2017.html",
+      "publicationYear": 2017,
+      "citation": "Ministério da Saúde — Portaria 2.436, de 22 de setembro de 2017, PNAB",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-HAS": {
+      "referenceId": "COMMENT-L8-HAS",
+      "title": "Ministério da Saúde — Hipertensão arterial",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hipertensao",
+      "citation": "Ministério da Saúde — Hipertensão arterial",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-AVC": {
+      "referenceId": "COMMENT-L8-AVC",
+      "title": "Ministério da Saúde — PCDT Acidente Vascular Cerebral Isquêmico Agudo",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/pcdt/a/acidente-vascular-cerebral-isquemico-agudo",
+      "publicationYear": 2023,
+      "citation": "Ministério da Saúde — PCDT Acidente Vascular Cerebral Isquêmico Agudo",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-AVC-HIST": {
+      "referenceId": "COMMENT-L8-AVC-HIST",
+      "title": "Ministério da Saúde — Protocolos Clínicos e Diretrizes Terapêuticas, volume III",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/protocolos_clinicos_diretrizes_terapeuticas_v3.pdf",
+      "citation": "Ministério da Saúde — Protocolos Clínicos e Diretrizes Terapêuticas, volume III",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-GRAVES": {
+      "referenceId": "COMMENT-L8-GRAVES",
+      "title": "American Thyroid Association — Graves' Disease",
+      "url": "https://www.thyroid.org/graves-disease/",
+      "citation": "American Thyroid Association — Graves' Disease",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-TIREOIDE": {
+      "referenceId": "COMMENT-L8-TIREOIDE",
+      "title": "American Thyroid Association — Hyperthyroidism",
+      "url": "https://www.thyroid.org/hyperthyroidism/",
+      "citation": "American Thyroid Association — Hyperthyroidism",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-QUEIMADURA": {
+      "referenceId": "COMMENT-L8-QUEIMADURA",
+      "title": "American Burn Association — Advanced Burn Life Support Provider Manual 2018",
+      "url": "https://ameriburn.org/wp-content/uploads/2019/08/2018-abls-providermanual.pdf",
+      "publicationYear": 2018,
+      "citation": "American Burn Association — Advanced Burn Life Support Provider Manual 2018",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-CONVULSAO": {
+      "referenceId": "COMMENT-L8-CONVULSAO",
+      "title": "AAP — Febrile Seizures: Clinical Practice Guideline for Long-term Management, 2008",
+      "url": "https://publications.aap.org/pediatrics/article-abstract/121/6/1281/72767",
+      "publicationYear": 2008,
+      "citation": "AAP — Febrile Seizures: Clinical Practice Guideline for Long-term Management, 2008",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-CONVULSAO-AVAL": {
+      "referenceId": "COMMENT-L8-CONVULSAO-AVAL",
+      "title": "AAP — Revised Guidelines for Evaluation of Simple Febrile Seizure, 2011",
+      "url": "https://publications.aap.org/aapgrandrounds/article/25/6/72/90476/Revised-AAP-Guidelines-for-Evaluation-of-Simple",
+      "publicationYear": 2011,
+      "citation": "AAP — Revised Guidelines for Evaluation of Simple Febrile Seizure, 2011",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-HPV": {
+      "referenceId": "COMMENT-L8-HPV",
+      "title": "WHO — Immunization in Practice, HPV e rastreamento",
+      "url": "https://iris.who.int/bitstream/handle/10665/193412/9789241549097_eng.pdf",
+      "citation": "WHO — Immunization in Practice, HPV e rastreamento",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-HPV-AUTO": {
+      "referenceId": "COMMENT-L8-HPV-AUTO",
+      "title": "WHO — HPV self-sampling as part of cervical cancer screening, atualização 2022",
+      "url": "https://www.who.int/publications/i/item/WHO-SRH-23.1",
+      "publicationYear": 2022,
+      "citation": "WHO — HPV self-sampling as part of cervical cancer screening, atualização 2022",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-SBP-RN": {
+      "referenceId": "COMMENT-L8-SBP-RN",
+      "title": "SBP — Reanimação do recém-nascido ≥34 semanas, diretrizes 2022",
+      "url": "https://www.sbp.com.br/fileadmin/user_upload/sbp/2022/maio/20/DiretrizesSBP-Reanimacao-RNigualMaior34semanas-MAIO2022.pdf",
+      "publicationYear": 2022,
+      "citation": "SBP — Reanimação do recém-nascido ≥34 semanas, diretrizes 2022",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-LEPTO": {
+      "referenceId": "COMMENT-L8-LEPTO",
+      "title": "Ministério da Saúde — Guia de Vigilância Epidemiológica, 7ª edição, Leptospirose",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_vigilancia_epidemiologica_7ed.pdf",
+      "publicationYear": 2009,
+      "citation": "Ministério da Saúde — Guia de Vigilância Epidemiológica, 7ª edição, Leptospirose",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L8-LEPTO-PR": {
+      "referenceId": "COMMENT-L8-LEPTO-PR",
+      "title": "Secretaria da Saúde do Paraná — Leptospirose",
+      "url": "https://www.saude.pr.gov.br/Pagina/Leptospirose",
+      "citation": "Secretaria da Saúde do Paraná — Leptospirose",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L9-LGV": {
+      "referenceId": "COMMENT-L9-LGV",
+      "title": "CDC — STI Treatment Guidelines: Lymphogranuloma Venereum",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/lgv.htm",
+      "publicationYear": 2021,
+      "citation": "CDC — STI Treatment Guidelines: Lymphogranuloma Venereum",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L9-COLO": {
+      "referenceId": "COMMENT-L9-COLO",
+      "title": "INCA — Diretrizes brasileiras para o rastreamento do câncer do colo do útero, 2016",
+      "url": "https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/diretrizesparaorastreamentodocancerdocolodoutero_2016_corrigido.pdf",
+      "publicationYear": 2016,
+      "citation": "INCA — Diretrizes brasileiras para o rastreamento do câncer do colo do útero, 2016",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L9-PILORO": {
+      "referenceId": "COMMENT-L9-PILORO",
+      "title": "Royal Children's Hospital — Clinical Practice Guidelines: Pyloric stenosis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_Stenosis/",
+      "citation": "Royal Children's Hospital — Clinical Practice Guidelines: Pyloric stenosis",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L9-DPP": {
+      "referenceId": "COMMENT-L9-DPP",
+      "title": "Ministério da Saúde — Linhas de cuidado: manejo inicial no pré-natal de baixo risco, urgências",
+      "url": "https://linhasdecuidado.saude.gov.br/portal/pre-natal-baixo-risco/servico-de-atendimento-movel/manejo-inicial/",
+      "citation": "Ministério da Saúde — Linhas de cuidado: manejo inicial no pré-natal de baixo risco, urgências",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L9-CESAREA": {
+      "referenceId": "COMMENT-L9-CESAREA",
+      "title": "HUAB-UFRN — Protocolo de indicação de cesárea",
+      "url": "https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-nordeste/huab-ufrn/documentos-institucionais/arquivos-documentos-institucionais-geral/prt-dmed-010-protocolo-de-indicacao-de-cesarea.pdf",
+      "publicationYear": 2025,
+      "citation": "HUAB-UFRN — Protocolo de indicação de cesárea",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "COMMENT-L9-DENGUE": {
+      "referenceId": "COMMENT-L9-DENGUE",
+      "title": "Secretaria de Saúde de Roraima — Manual de manejo clínico da dengue",
+      "url": "https://vigilancia.saude.rr.gov.br/wp-content/cgvs/apps/apps_saude/manual_dengue/main.html",
+      "citation": "Secretaria de Saúde de Roraima — Manual de manejo clínico da dengue",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-TB": {
+      "referenceId": "L10-TB",
+      "title": "Ministério da Saúde — Manual de recomendações para o controle da tuberculose, 2019",
+      "url": "https://www.gov.br/aids/pt-br/central-de-conteudo/publicacoes/2020/manual-de-recomendacoes-para-o-controle-da-tuberculose-no-brasil",
+      "publicationYear": 2019,
+      "citation": "Ministério da Saúde — Manual de recomendações para o controle da tuberculose, 2019",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-MAMA": {
+      "referenceId": "L10-MAMA",
+      "title": "NCI — Breast cancer: causes and risk factors",
+      "url": "https://www.cancer.gov/types/breast/causes-risk-factors",
+      "citation": "NCI — Breast cancer: causes and risk factors",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-BRCA": {
+      "referenceId": "L10-BRCA",
+      "title": "NCI — BRCA gene changes: cancer risk and genetic testing",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
+      "citation": "NCI — BRCA gene changes: cancer risk and genetic testing",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-HAC": {
+      "referenceId": "L10-HAC",
+      "title": "Ministério da Saúde — Triagem neonatal: hiperplasia adrenal congênita",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/triagem_neonatal_hiperplasia_adrenal_congenita.pdf",
+      "citation": "Ministério da Saúde — Triagem neonatal: hiperplasia adrenal congênita",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-CHC": {
+      "referenceId": "L10-CHC",
+      "title": "FSRH — Combined hormonal contraception, 2019, atualização 2023",
+      "url": "https://www.fsrh.org/Common/Uploaded%20files/documents/fsrh-guideline-combined-hormonal-contraception-october-2023.pdf",
+      "publicationYear": 2023,
+      "citation": "FSRH — Combined hormonal contraception, 2019, atualização 2023",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-COVID": {
+      "referenceId": "L10-COVID",
+      "title": "UNA-SUS — Acervo oficial COVID-19: protocolos e Fast-Track APS de 2020",
+      "url": "https://www.unasus.gov.br/especial/covid19/profissionais",
+      "citation": "UNA-SUS — Acervo oficial COVID-19: protocolos e Fast-Track APS de 2020",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-GOLD": {
+      "referenceId": "L10-GOLD",
+      "title": "GOLD — Digital report publicado em novembro de 2020",
+      "url": "https://goldcopd.org/digital-gold-report/",
+      "publicationYear": 2020,
+      "citation": "GOLD — Digital report publicado em novembro de 2020",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-FERIDA": {
+      "referenceId": "L10-FERIDA",
+      "title": "IDSA — Skin and soft tissue infections, surgical site drainage",
+      "url": "https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/",
+      "publicationYear": 2014,
+      "citation": "IDSA — Skin and soft tissue infections, surgical site drainage",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-CONST": {
+      "referenceId": "L10-CONST",
+      "title": "NICE CG99 — Constipation in children: recommendations",
+      "url": "https://www.nice.org.uk/guidance/cg99/chapter/Recommendations",
+      "citation": "NICE CG99 — Constipation in children: recommendations",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-VAGINAL": {
+      "referenceId": "L10-VAGINAL",
+      "title": "NICE NG123 — Urinary incontinence: vaginal oestrogen with menopausal genitourinary signs",
+      "url": "https://www.nice.org.uk/guidance/ng123/chapter/Recommendations",
+      "publicationYear": 2019,
+      "citation": "NICE NG123 — Urinary incontinence: vaginal oestrogen with menopausal genitourinary signs",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-RH": {
+      "referenceId": "L10-RH",
+      "title": "Ministério da Saúde — Gestação de alto risco, manual técnico",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/gestacao_alto_risco.pdf",
+      "citation": "Ministério da Saúde — Gestação de alto risco, manual técnico",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-ABLS": {
+      "referenceId": "L10-ABLS",
+      "title": "ABA — Advanced Burn Life Support Provider Manual 2018",
+      "url": "https://ameriburn.org/wp-content/uploads/2019/08/2018-abls-providermanual.pdf",
+      "publicationYear": 2018,
+      "citation": "ABA — Advanced Burn Life Support Provider Manual 2018",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-BURN2024": {
+      "referenceId": "L10-BURN2024",
+      "title": "ABA — Clinical Practice Guidelines on Burn Shock Resuscitation",
+      "url": "https://academic.oup.com/jbcr/article/45/3/565/7458089",
+      "publicationYear": 2024,
+      "citation": "ABA — Clinical Practice Guidelines on Burn Shock Resuscitation",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-PELVIS": {
+      "referenceId": "L10-PELVIS",
+      "title": "WSES — Pelvic trauma: classification and guidelines",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241998/",
+      "publicationYear": 2017,
+      "citation": "WSES — Pelvic trauma: classification and guidelines",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-CROHN": {
+      "referenceId": "L10-CROHN",
+      "title": "NIDDK — Diagnosis of Crohn's disease",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/crohns-disease/diagnosis",
+      "citation": "NIDDK — Diagnosis of Crohn's disease",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-CROHN-SINT": {
+      "referenceId": "L10-CROHN-SINT",
+      "title": "NIDDK — Symptoms and causes of Crohn's disease",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/crohns-disease/symptoms-causes",
+      "citation": "NIDDK — Symptoms and causes of Crohn's disease",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-PRENATAL": {
+      "referenceId": "L10-PRENATAL",
+      "title": "Ministério da Saúde — Caderno de Atenção Básica 32: pré-natal de baixo risco",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/cadernos_atencao_basica_32_prenatal.pdf",
+      "publicationYear": 2012,
+      "citation": "Ministério da Saúde — Caderno de Atenção Básica 32: pré-natal de baixo risco",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-LUPUS": {
+      "referenceId": "L10-LUPUS",
+      "title": "Ministério da Saúde — PCDT resumido: lúpus eritematoso sistêmico",
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/resumidos/PCDT_Resumido_Lupus_ES_final.pdf",
+      "publicationYear": 2022,
+      "citation": "Ministério da Saúde — PCDT resumido: lúpus eritematoso sistêmico",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-TOXO": {
+      "referenceId": "L10-TOXO",
+      "title": "Ministério da Saúde — Manual de gestação de alto risco: avidez IgG",
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_gestacao_alto_risco.pdf",
+      "publicationYear": 2022,
+      "citation": "Ministério da Saúde — Manual de gestação de alto risco: avidez IgG",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-HEMATOMA": {
+      "referenceId": "L10-HEMATOMA",
+      "title": "HC-UFTM — Curativo em ferida cirúrgica fechada: evolução e hematoma",
+      "url": "https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-sudeste/hc-uftm/painel/gas/denf/servico-de-educacao-em-enfermagem/aulas-e-material-didatico/educacao-continuada/educacao-continuada-2017-1/aula-curativo-em-ferida-cirurgica.pdf",
+      "publicationYear": 2017,
+      "citation": "HC-UFTM — Curativo em ferida cirúrgica fechada: evolução e hematoma",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-FERRO": {
+      "referenceId": "L10-FERRO",
+      "title": "WHO — Ferritin concentrations to assess iron status",
+      "url": "https://www.who.int/publications/i/item/9789240000124",
+      "publicationYear": 2020,
+      "citation": "WHO — Ferritin concentrations to assess iron status",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-HB": {
+      "referenceId": "L10-HB",
+      "title": "WHO — eCatalogue: indicadores de hemoglobina e ferro por idade",
+      "url": "https://extranet.who.int/indcat/TemplateView.aspx?id=33",
+      "citation": "WHO — eCatalogue: indicadores de hemoglobina e ferro por idade",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-FISTULA": {
+      "referenceId": "L10-FISTULA",
+      "title": "ASCRS — Abscess and fistula expanded information",
+      "url": "https://fascrs.org/Web/Web/Patients/Diseases-and-Conditions/A-Z/Abscess-and-Fistula-Expanded-Information.aspx",
+      "citation": "ASCRS — Abscess and fistula expanded information",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-ULCERA": {
+      "referenceId": "L10-ULCERA",
+      "title": "BSG/AUGIS — Quality standards in upper gastrointestinal endoscopy",
+      "url": "https://doi.org/10.1136/GUTJNL-2017-314109",
+      "publicationYear": 2017,
+      "citation": "BSG/AUGIS — Quality standards in upper gastrointestinal endoscopy",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-ARTRITE": {
+      "referenceId": "L10-ARTRITE",
+      "title": "Royal Children's Hospital — Bone and joint infection",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/",
+      "citation": "Royal Children's Hospital — Bone and joint infection",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-DDA": {
+      "referenceId": "L10-DDA",
+      "title": "Ministério da Saúde — Vigilância epidemiológica das doenças diarreicas agudas",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda/vigilancia-epidemiologica",
+      "citation": "Ministério da Saúde — Vigilância epidemiológica das doenças diarreicas agudas",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-HPP": {
+      "referenceId": "L10-HPP",
+      "title": "WHO — Detect and treat postpartum haemorrhage early",
+      "url": "https://cdn.who.int/media/docs/default-source/reproductive-health/maternal-health/who-hrp-e-motive-poster.pdf",
+      "publicationYear": 2023,
+      "citation": "WHO — Detect and treat postpartum haemorrhage early",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-PICS": {
+      "referenceId": "L10-PICS",
+      "title": "Ministério da Saúde — Práticas Integrativas e Complementares em Saúde",
+      "url": "https://www.gov.br/saude/pt-br/composicao/saps/pics/pics/",
+      "citation": "Ministério da Saúde — Práticas Integrativas e Complementares em Saúde",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-HEPATITE": {
+      "referenceId": "L10-HEPATITE",
+      "title": "Secretaria de Saúde de Goiás — Hepatite B: fases clínicas",
+      "url": "https://goias.gov.br/saude/hepatite-b/",
+      "citation": "Secretaria de Saúde de Goiás — Hepatite B: fases clínicas",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-ESGE": {
+      "referenceId": "L10-ESGE",
+      "title": "ESGE — Nonvariceal upper gastrointestinal hemorrhage, update 2021",
+      "url": "https://www.esge.com/endoscopic-diagnosis-and-management-of-nonvariceal-upper-gastrointestinal-hemorrhage-esge-update-2021",
+      "publicationYear": 2021,
+      "citation": "ESGE — Nonvariceal upper gastrointestinal hemorrhage, update 2021",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-ECTOPICA": {
+      "referenceId": "L10-ECTOPICA",
+      "title": "NICE NG126 — Management of tubal ectopic pregnancy",
+      "url": "https://www.nice.org.uk/guidance/NG126/chapter/management-of-tubal-ectopic-pregnancy",
+      "citation": "NICE NG126 — Management of tubal ectopic pregnancy",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-CONTROLE": {
+      "referenceId": "L10-CONTROLE",
+      "title": "Lei 8.142/1990 — Participação da comunidade na gestão do SUS",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8142.htm",
+      "publicationYear": 1990,
+      "citation": "Lei 8.142/1990 — Participação da comunidade na gestão do SUS",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-WILMS": {
+      "referenceId": "L10-WILMS",
+      "title": "NCI — Wilms tumor and other childhood kidney tumors, PDQ",
+      "url": "https://www.cancer.gov/types/kidney/hp/wilms-treatment-pdq",
+      "citation": "NCI — Wilms tumor and other childhood kidney tumors, PDQ",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-SISVAN": {
+      "referenceId": "L10-SISVAN",
+      "title": "Ministério da Saúde — Protocolos do SISVAN",
+      "url": "https://www.gov.br/saude/pt-br/composicao/saps/vigilancia-alimentar-e-nutricional/arquivos/protocolos-do-sistema-de-vigilancia-alimentar-e-nutricional/@@download/file",
+      "citation": "Ministério da Saúde — Protocolos do SISVAN",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-HERPES": {
+      "referenceId": "L10-HERPES",
+      "title": "CDC — STI treatment guidelines: genital herpes",
+      "url": "https://cdc.gov/std/treatment-guidelines/herpes.htm",
+      "publicationYear": 2021,
+      "citation": "CDC — STI treatment guidelines: genital herpes",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-CRE": {
+      "referenceId": "L10-CRE",
+      "title": "CDC — Guidance for control of carbapenem-resistant Enterobacteriaceae",
+      "url": "https://www.cdc.gov/infection-control/media/pdfs/Guidelines-CRE-Guidance-508.pdf",
+      "citation": "CDC — Guidance for control of carbapenem-resistant Enterobacteriaceae",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-LIDO": {
+      "referenceId": "L10-LIDO",
+      "title": "DailyMed — Lidocaine hydrochloride and epinephrine: prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2005680a-8a23-4403-a618-e4ee74fa1121",
+      "citation": "DailyMed — Lidocaine hydrochloride and epinephrine: prescribing information",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-BUPI": {
+      "referenceId": "L10-BUPI",
+      "title": "DailyMed — Bupivacaine hydrochloride: prescribing information",
+      "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fe340f98-a0f3-446e-b281-47fd91c1e537",
+      "citation": "DailyMed — Bupivacaine hydrochloride: prescribing information",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-OVARIO": {
+      "referenceId": "L10-OVARIO",
+      "title": "RCOG — Green-top Guideline 34: ovarian cysts in postmenopausal women",
+      "url": "https://www.rcog.org.uk/media/4v3ncfib/gtg_34.pdf",
+      "citation": "RCOG — Green-top Guideline 34: ovarian cysts in postmenopausal women",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-RETIC": {
+      "referenceId": "L10-RETIC",
+      "title": "ASH — Non-immune hemolytic anemia: laboratory evaluation and G6PD",
+      "url": "https://www.hematology.org/education/educators/resources-for-hematology-course-directors/learning-objectives/non-immune-hemolytic-anemia",
+      "citation": "ASH — Non-immune hemolytic anemia: laboratory evaluation and G6PD",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-CRISE": {
+      "referenceId": "L10-CRISE",
+      "title": "Royal Children's Hospital — Seizures: acute management",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/",
+      "citation": "Royal Children's Hospital — Seizures: acute management",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
+    },
+    "L10-TRICH": {
+      "referenceId": "L10-TRICH",
+      "title": "CDC DPDx — Trichomoniasis",
+      "url": "https://www.cdc.gov/dpdx/trichomoniasis/",
+      "citation": "CDC DPDx — Trichomoniasis",
+      "sourceType": "guideline",
+      "confidenceLevel": "high",
+      "hierarchyLevel": 2
     }
   }
 }

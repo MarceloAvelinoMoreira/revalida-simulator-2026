@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"be548c4c-956f-537c-81bb-2eea95752ae1","questionId":"2022-1-028","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «Peso baixo para a idade».\n\nNo cenário — Um menino com 11 meses de idade, acompanhado da mãe, é atendido em uma Unidade Básica de Saúde por queixa de obstrução nasal e coriza há 2 dias, porém não faz acompanhamento regular em puericultura, tendo a mãe comparecido apenas à consulta com 15 dias de vida da criança. Na avaliação da alimentação, a mãe relata que a criança não recebe leite materno e, sim, leite de vaca, em mamadeira, e de forma estrita. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Peso elevado para a idade») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Peso adequado para a idade») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Peso muito baixo para a idade») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Um menino com 11 meses de idade, acompanhado da mãe, é atendido em uma Unidade Básica de Saúde por queixa de obstrução nasal e coriza há 2 dias, porém não faz acompanhamento regular em puericultura, tendo a mãe comparecido apenas à consulta com 15 dias de vida da criança. Na avaliação da alimentação, a mãe relata que a criança não recebe leite materno e, sim, leite de vaca, em mamadeira, e de forma estrita. Ao exame físico, a criança encontra-se em regular estado geral, ativa e reativa, presença de coriza hialina, afebril, sem sinais de desidratação.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («Peso baixo para a idade») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: Peso baixo para a idade"}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "be548c4c-956f-537c-81bb-2eea95752ae1",
+  "questionId": "2022-1-028",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Interpretando a faixa transcrita como escore-z maior ou igual a −3 e menor que −2, a classificação de peso para idade é peso baixo. A é a categoria correspondente. O valor absoluto de 7.200 g não deve ser classificado sem idade, sexo e curva apropriada.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Peso elevado corresponde a faixa superior da curva, não aos escores negativos descritos."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Peso adequado exige escore dentro da faixa de referência, não abaixo de −2."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Muito baixo peso exige escore menor que −3, não a faixa entre −3 e −2."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 28\n\nResposta A — Peso baixo para a idade\n\nPediatria › Avaliação Nutricional › Peso para idade\n\nInterpretando a faixa transcrita como escore-z maior ou igual a −3 e menor que −2, a classificação de peso para idade é peso baixo. A é a categoria correspondente. O valor absoluto de 7.200 g não deve ser classificado sem idade, sexo e curva apropriada.\n\nA alternativa A está correta: Peso para idade entre −3 inclusive e −2 exclusive corresponde a baixo peso.\n\nA alternativa B está incorreta: Peso elevado corresponde a faixa superior da curva, não aos escores negativos descritos.\n\nA alternativa C está incorreta: Peso adequado exige escore dentro da faixa de referência, não abaixo de −2.\n\nA alternativa D está incorreta: Muito baixo peso exige escore menor que −3, não a faixa entre −3 e −2.\n\n⚠ PONTO DE ATENÇÃO\nA expressão do escore está corrompida na transcrição e foi preservada; confirmar a curva no original se houver dúvida. Peso para idade não distingue sozinho baixa estatura de emagrecimento. Alimentação exclusivamente láctea aos 11 meses requer avaliação e orientação urgente.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Peso/idade: −3 ≤ z < −2 é baixo peso; z < −3 é muito baixo peso.",
+    "keyPoints": [
+      "Peso/idade: −3 ≤ z < −2 é baixo peso; z < −3 é muito baixo peso."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2022-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-SISVAN",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Pediatria",
+      "Avaliação Nutricional",
+      "Peso para idade"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

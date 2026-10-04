@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"0f200768-faa1-5199-ba5a-2380055ed21f","questionId":"2022-1-037","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «reposição com fluidos endovenosos, monitorização eletrocardiográfica e transferência para centro especializado em queimados, após estabilização».\n\nNo cenário — Uma mulher com 42 anos de idade, levada ao Pronto-Socorro (PS) de hospital de nível secundário para atendimento, relata ter sofrido choque elétrico ao encostar inadvertidamente em fio caído da rede elétrica. Ao exame físico, apresenta orifício de entrada da corrente elétrica na mão direita e de saída em joelho esquerdo, contratura da mão e do cotovelo direito, assim como sinais de trombose de vasos sanguíneos superficiais do membro superior direito. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («fasciotomia, reposição hídrica por via oral, radiografia de membro superior direito e observação no PS») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («sondagem vesical, pesquisa de mioglobina na urina, analgesia, monitorização eletrocardiográfica e internação hospitalar») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («avaliação do cirurgião plástico, considerando que a superfície corpórea queimada corresponde a 9%, além de reposição hídrica por via oral») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: indicar intervenção invasiva sem esgotar o critério clínico do enunciado. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Uma mulher com 42 anos de idade, levada ao Pronto-Socorro (PS) de hospital de nível secundário para atendimento, relata ter sofrido choque elétrico ao encostar inadvertidamente em fio caído da rede elétrica. Ao exame físico, apresenta orifício de entrada da corrente elétrica na mão direita e de saída em joelho esquerdo, contratura da mão e do cotovelo direito, assim como sinais de trombose de vasos sanguíneos superficiais do membro superior direito. Queixa-se de dor e apresenta urina escura.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («reposição com fluidos endovenosos, monitorização eletrocardiográfica e transferência para centro especializado em queimados, após estabilização») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "0f200768-faa1-5199-ba5a-2380055ed21f",
+  "questionId": "2022-1-037",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Trajeto da corrente, contratura, sinais vasculares e urina escura sugerem dano profundo e possível rabdomiólise, cuja extensão pode superar a lesão visível. D contempla fluidos venosos, monitorização cardíaca e transferência após estabilização. Não se deve estimar gravidade apenas pela superfície cutânea.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Fasciotomia depende de avaliação para síndrome compartimental ou outra indicação; hidratação oral é insuficiente nesse cenário grave."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Monitorização, sonda e investigação muscular são pertinentes, mas a opção omite ressuscitação venosa e destinação especializada necessárias."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Atribuir 9% pela localização ignora lesão interna e não justifica hidratação oral como abordagem inicial."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 37\n\nResposta D — reposição com fluidos endovenosos, monitorização eletrocardiográfica e transferência para centro especializado em queimados, após estabilização\n\nCirurgia Geral › Queimaduras › Lesão elétrica com dano muscular\n\nTrajeto da corrente, contratura, sinais vasculares e urina escura sugerem dano profundo e possível rabdomiólise, cuja extensão pode superar a lesão visível. D contempla fluidos venosos, monitorização cardíaca e transferência após estabilização. Não se deve estimar gravidade apenas pela superfície cutânea.\n\nA alternativa A está incorreta: Fasciotomia depende de avaliação para síndrome compartimental ou outra indicação; hidratação oral é insuficiente nesse cenário grave.\n\nA alternativa B está incorreta: Monitorização, sonda e investigação muscular são pertinentes, mas a opção omite ressuscitação venosa e destinação especializada necessárias.\n\nA alternativa C está incorreta: Atribuir 9% pela localização ignora lesão interna e não justifica hidratação oral como abordagem inicial.\n\nA alternativa D está correta: Integra prevenção e tratamento de repercussões sistêmicas com encaminhamento apropriado, após estabilização.\n\n⚠ PONTO DE ATENÇÃO\nUrina escura sugere pigmento, mas mioglobinúria precisa investigação. Acompanhar diurese, função renal, eletrólitos, ECG e perfusão do membro; avaliação cirúrgica pode ser urgente se houver síndrome compartimental.\n\nGabarito registrado no banco: D (preservado)."
+    },
+    "takeHomeMessage": "Lesão elétrica pode destruir tecidos profundos com pouca queimadura visível; tratar repercussões sistêmicas.",
+    "keyPoints": [
+      "Lesão elétrica pode destruir tecidos profundos com pouca queimadura visível; tratar repercussões sistêmicas."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2022-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-ABLS",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Cirurgia Geral",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Cirurgia Geral",
+      "Queimaduras",
+      "Lesão elétrica com dano muscular"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"2fb51b05-90e5-5c82-9807-6d12416332e5","questionId":"2021-087","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «infecção adquirida antes da gestação, sem necessidade de mais testes».\n\nNo cenário — Uma gestante, com 28 anos de idade, na 14.a semana de gestação, primigesta, em consulta com equipe de Estratégia de Saúde da Família para avaliação de exames de pré-natal apresenta IgG e IgM reagentes para toxoplasmose, sem resultado de exames prévios. Solicitado teste de avidez de IgG na mesma amostra, com resultado “avidez forte”. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Obstetrícia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («infecção adquirida durante a gestação, iniciar espiramicina e manter até o parto») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («imunidade remota, indicado repetir sorologia a cada 2 meses e no parto») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («infecção recente, iniciar pirimetamina + sulfadiazina + ácido folínico e encaminhar para a referência de gestação de risco») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Obstetrícia. O enunciado descreve: Uma gestante, com 28 anos de idade, na 14.a semana de gestação, primigesta, em consulta com equipe de Estratégia de Saúde da Família para avaliação de exames de pré-natal apresenta IgG e IgM reagentes para toxoplasmose, sem resultado de exames prévios. Solicitado teste de avidez de IgG na mesma amostra, com resultado “avidez forte”. A interpretação do resultado e a conduta são\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («infecção adquirida antes da gestação, sem necessidade de mais testes») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de obstetrícia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Obstetrícia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: infecção adquirida antes da gestação, sem necessidade de mais testes"}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Obstetrícia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "2fb51b05-90e5-5c82-9807-6d12416332e5",
+  "questionId": "2021-087",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Alta avidez de IgG obtida às 14 semanas favorece infecção anterior à gestação. IgM pode permanecer reagente por tempo prolongado e não comprova infecção recente sozinha. A é a interpretação indicada no algoritmo proposto, sem tratamento de toxoplasmose aguda apenas pela IgM.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "IgM positiva não basta para datar infecção na gestação, especialmente com alta avidez precoce."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Embora reconheça infecção remota, não há indicação de repetir sorologia a cada dois meses como se a paciente fosse suscetível."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Não há evidência de infecção recente ou fetal que sustente esse esquema terapêutico no caso."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 87\n\nResposta A — infecção adquirida antes da gestação, sem necessidade de mais testes\n\nGinecologia e Obstetrícia › Infecções na Gestação › Avidez de IgG na toxoplasmose\n\nAlta avidez de IgG obtida às 14 semanas favorece infecção anterior à gestação. IgM pode permanecer reagente por tempo prolongado e não comprova infecção recente sozinha. A é a interpretação indicada no algoritmo proposto, sem tratamento de toxoplasmose aguda apenas pela IgM.\n\nA alternativa A está correta: A maturação da avidez e a coleta antes de 16 semanas permitem interpretar o padrão como infecção prévia nesse contexto.\n\nA alternativa B está incorreta: IgM positiva não basta para datar infecção na gestação, especialmente com alta avidez precoce.\n\nA alternativa C está incorreta: Embora reconheça infecção remota, não há indicação de repetir sorologia a cada dois meses como se a paciente fosse suscetível.\n\nA alternativa D está incorreta: Não há evidência de infecção recente ou fetal que sustente esse esquema terapêutico no caso.\n\n⚠ PONTO DE ATENÇÃO\nAlta avidez colhida tardiamente não exclui infecção no início da gestação. Considerar método, imunossupressão e situações discordantes. O manual consultado de 2022 corrobora a interpretação, mas é posterior à prova.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "IgM pode persistir; alta avidez de IgG antes de 16 semanas favorece infecção pré-gestacional.",
+    "keyPoints": [
+      "IgM pode persistir; alta avidez de IgG antes de 16 semanas favorece infecção pré-gestacional."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-TOXO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Infecções na Gestação",
+      "Avidez de IgG na toxoplasmose"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

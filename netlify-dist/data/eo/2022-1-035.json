@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"d224fb96-7ea3-5fb7-bb02-a8cd81746202","questionId":"2022-1-035","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «Hemograma; tipagem sanguínea e fator Rh; glicemia de jejum; testes de rastreamento para sífilis, HIV, toxoplasmose e hepatite B; exame de urina e urocultura».\n\nNo cenário — De acordo com o Caderno de Atenção Básica n. 32, publicado pelo Ministério da Saúde, durante a consulta de pré-natal de risco habitual na Unidade Básica de Saúde, quais exames complementares devem ser solicitados no primeiro trimestre da gestação, independente da condição clínica ou social da paciente? — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Obstetrícia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Hemograma; tipagem sanguínea e fator Rh; glicemia de jejum; testes de rastreamento para sífilis, HIV e citomegalovírus; exame de urina e urocultura») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Hemograma; tipagem sanguínea e fator Rh; teste de tolerância oral à glicose; testes de rastreamento para sífilis, HIV e hepatite B; exame de urina e urocultura») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Hemograma; tipagem sanguínea e fator Rh; glicemia de jejum; testes de rastreamento para sífilis, HIV, citomegalovírus e hepatite B e C; exame de urina e urocultura») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Obstetrícia. O enunciado descreve: De acordo com o Caderno de Atenção Básica n. 32, publicado pelo Ministério da Saúde, durante a consulta de pré-natal de risco habitual na Unidade Básica de Saúde, quais exames complementares devem ser solicitados no primeiro trimestre da gestação, independente da condição clínica ou social da paciente?\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («Hemograma; tipagem sanguínea e fator Rh; glicemia de jejum; testes de rastreamento para sífilis, HIV, toxoplasmose e hepatite B; exame de urina e urocultura») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de obstetrícia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Obstetrícia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Obstetrícia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "d224fb96-7ea3-5fb7-bb02-a8cd81746202",
+  "questionId": "2022-1-035",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "A questão pede o conjunto do Caderno de Atenção Básica 32, e não um painel atualizado de outro protocolo. C reúne hemograma, ABO/Rh, glicemia de jejum, sífilis, HIV, toxoplasmose, hepatite B e avaliação urinária no contexto cobrado. As opções erradas trocam glicemia por TOTG precoce universal ou incluem rastreamento indiscriminado de CMV.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Inclui citomegalovírus como rastreamento universal e omite hepatite B, não correspondendo ao conjunto indicado."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "TOTG não substitui rotineiramente glicemia de jejum inicial no primeiro trimestre; sua janela habitual é posterior conforme o fluxo de diabetes gestacional."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "CMV não integra rastreamento sorológico universal. Inclusão de outros testes em protocolos posteriores não corrige essa diferença."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 35\n\nResposta C — Hemograma; tipagem sanguínea e fator Rh; glicemia de jejum; testes de rastreamento para sífilis, HIV, toxoplasmose e hepatite B; exame de urina e urocultura\n\nGinecologia e Obstetrícia › Pré-natal › Exames iniciais no CAB 32\n\nA questão pede o conjunto do Caderno de Atenção Básica 32, e não um painel atualizado de outro protocolo. C reúne hemograma, ABO/Rh, glicemia de jejum, sífilis, HIV, toxoplasmose, hepatite B e avaliação urinária no contexto cobrado. As opções erradas trocam glicemia por TOTG precoce universal ou incluem rastreamento indiscriminado de CMV.\n\nA alternativa A está incorreta: Inclui citomegalovírus como rastreamento universal e omite hepatite B, não correspondendo ao conjunto indicado.\n\nA alternativa B está incorreta: TOTG não substitui rotineiramente glicemia de jejum inicial no primeiro trimestre; sua janela habitual é posterior conforme o fluxo de diabetes gestacional.\n\nA alternativa C está correta: É o conjunto compatível entre as opções, observando as condições de implementação do protocolo.\n\nA alternativa D está incorreta: CMV não integra rastreamento sorológico universal. Inclusão de outros testes em protocolos posteriores não corrige essa diferença.\n\n⚠ PONTO DE ATENÇÃO\nO CAB 32 contextualiza toxoplasmose conforme disponibilidade e epidemiologia; sua redação não autoriza universalizar todos os testes sem ressalvas. Protocolos atuais podem ampliar exames, inclusive hepatite C e HTLV; não confundir atualização com regra histórica cobrada.\n\nGabarito registrado no banco: C (preservado)."
+    },
+    "takeHomeMessage": "Responder ao protocolo nomeado e à época: exames iniciais não são um painel infeccioso indiscriminado.",
+    "keyPoints": [
+      "Responder ao protocolo nomeado e à época: exames iniciais não são um painel infeccioso indiscriminado."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2022-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-PRENATAL",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Pré-natal",
+      "Exames iniciais no CAB 32"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

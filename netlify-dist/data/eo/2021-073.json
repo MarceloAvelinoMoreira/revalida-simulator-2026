@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"d0fc92ab-c729-5358-8e7c-2f040b531373","questionId":"2021-073","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «o médico deve classificar a gravidade e verificar condições clínicas de risco que indicam encaminhamento do paciente para centro de referência/atenção especializada».\n\nNo cenário — Atuando como médico da equipe de Estratégia de Saúde da Família, durante a pandemia da COVID-19, e seguindo o “Protocolo de Manejo Clínico do Coronavírus (COVID-19) na Atenção Primária à Saúde”, publicado pelo Ministério da Saúde, adotou-se o “Fast-Track para Síndrome Gripal”, sendo este um método derivado de protocolo de triagem em emergências. Com relação a esse protocolo, — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Obstetrícia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («deve ser adotado por Unidades Básicas de Saúde ou Unidades de Pronto Atendimento, que são referências para atendimento de sintomáticos respiratórios, com objetivo de avaliar indicação de internação em Unidade de Terapia Intensiva») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («ele substitui o protocolo de Manchester, devendo ser utilizado no acolhimento pelos profissionais de enfermagem, a fim de definir o acesso do paciente à Unidade Básica de Saúde ou seu encaminhamento para Unidade de Pronto Atendimento») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («trata-se de fluxograma de uso exclusivo de médicos e enfermeiros, visando a avaliar a gravidade do paciente, a indicação de isolamento com precaução de contato e a necessidade de encaminhamento para atenção hospitalar de referência») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Obstetrícia. O enunciado descreve: Atuando como médico da equipe de Estratégia de Saúde da Família, durante a pandemia da COVID-19, e seguindo o “Protocolo de Manejo Clínico do Coronavírus (COVID-19) na Atenção Primária à Saúde”, publicado pelo Ministério da Saúde, adotou-se o “Fast-Track para Síndrome Gripal”, sendo este um método derivado de protocolo de triagem em emergências. Com relação a esse protocolo,\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («o médico deve classificar a gravidade e verificar condições clínicas de risco que indicam encaminhamento do paciente para centro de referência/atenção especializada») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de obstetrícia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Obstetrícia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Obstetrícia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "d0fc92ab-c729-5358-8e7c-2f040b531373",
+  "questionId": "2021-073",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "O fluxo de 2020 organizava acolhimento e atendimento da síndrome gripal na APS. Ao médico cabia avaliar gravidade e condições de risco, definindo manejo local ou referência especializada. A descreve essa etapa; o fluxo não se limitava à decisão de UTI nem excluía os demais membros da equipe.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Reduz o objetivo à indicação de UTI, ignorando organização do acolhimento e manejo de casos não graves na APS."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Não há substituição automática de qualquer sistema de classificação de risco, como Manchester, em todos os serviços."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "O fluxo é multiprofissional, não exclusivo de médicos/enfermeiros. Precauções respiratórias não se resumem a contato."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 73\n\nResposta A — o médico deve classificar a gravidade e verificar condições clínicas de risco que indicam encaminhamento do paciente para centro de referência/atenção especializada\n\nMedicina de Família e Comunidade › Organização da Atenção › Fast-Track de síndrome gripal\n\nO fluxo de 2020 organizava acolhimento e atendimento da síndrome gripal na APS. Ao médico cabia avaliar gravidade e condições de risco, definindo manejo local ou referência especializada. A descreve essa etapa; o fluxo não se limitava à decisão de UTI nem excluía os demais membros da equipe.\n\nA alternativa A está correta: Classificar gravidade e riscos orienta estabilização, seguimento e encaminhamento oportuno.\n\nA alternativa B está incorreta: Reduz o objetivo à indicação de UTI, ignorando organização do acolhimento e manejo de casos não graves na APS.\n\nA alternativa C está incorreta: Não há substituição automática de qualquer sistema de classificação de risco, como Manchester, em todos os serviços.\n\nA alternativa D está incorreta: O fluxo é multiprofissional, não exclusivo de médicos/enfermeiros. Precauções respiratórias não se resumem a contato.\n\n⚠ PONTO DE ATENÇÃO\nÉ uma questão sobre o protocolo histórico da pandemia; não aplicar automaticamente critérios ou tratamentos de 2020 à prática atual. O acervo UNA-SUS identifica as versões oficiais desse período.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Fast-Track APS organiza fluxo multiprofissional; avaliação médica define gravidade, risco e referência.",
+    "keyPoints": [
+      "Fast-Track APS organiza fluxo multiprofissional; avaliação médica define gravidade, risco e referência."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-COVID",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Medicina de Família e Comunidade",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Medicina de Família e Comunidade",
+      "Organização da Atenção",
+      "Fast-Track de síndrome gripal"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

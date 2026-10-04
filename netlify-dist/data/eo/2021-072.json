@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"b7e8bbcb-c92c-5d73-bdf4-86e279b32e14","questionId":"2021-072","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «Grupo B: solicitar hemograma e manter em observação até obtenção do resultado do exame».\n\nNo cenário — Um escolar de 7 anos de idade, de sexo masculino, é admitido no pronto atendimento com queixa de febre há 5 dias, acompanhada de cefaleia, dor retro-orbital, mialgia, prostração e anorexia. Hoje, houve aparecimento de exantema maculopapular pruriginoso por todo corpo. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Grupo A: acompanhar ambulatorialmente com orientação de reidratação oral e sintomáticos») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: liberar o paciente ou optar por manejo ambulatorial cedo demais. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Grupo A: solicitar hemograma e orientar retorno em 24 horas para checagem do resultado») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Grupo B: solicitar hemograma e manter em leito de internação por pelo menos 48 horas») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Um escolar de 7 anos de idade, de sexo masculino, é admitido no pronto atendimento com queixa de febre há 5 dias, acompanhada de cefaleia, dor retro-orbital, mialgia, prostração e anorexia. Hoje, houve aparecimento de exantema maculopapular pruriginoso por todo corpo. Foi realizada Prova do Laço com presença de 15 petéquias no local examinado.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («Grupo B: solicitar hemograma e manter em observação até obtenção do resultado do exame») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "b7e8bbcb-c92c-5d73-bdf4-86e279b32e14",
+  "questionId": "2021-072",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Febre com dor retro-orbital, mialgia e exantema, somada a NS1 reagente, sustenta dengue. Na criança, dez ou mais petéquias tornam positiva a prova do laço: as quinze descritas representam sangramento cutâneo induzido. Sem sinais de alarme informados, isso enquadra o caso no grupo B do algoritmo cobrado. C indica hemograma e observação enquanto se avalia o resultado, com hidratação e reavaliação clínica.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "O grupo A não contempla esse sangramento induzido no algoritmo da questão. Apenas orientar hidratação e sintomáticos deixa de realizar a avaliação adicional indicada."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Além de classificar incorretamente como A, adiar a avaliação do hemograma por 24 horas não corresponde à observação inicial do grupo B."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Grupo B não determina internação obrigatória por pelo menos 48 horas. Necessidade de leito e duração do cuidado dependem da evolução e da identificação de sinais de alarme ou gravidade."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 72\n\nResposta C — Grupo B: solicitar hemograma e manter em observação até obtenção do resultado do exame\n\nPediatria › Infectologia Pediátrica › Dengue: classificação de risco\n\nFebre com dor retro-orbital, mialgia e exantema, somada a NS1 reagente, sustenta dengue. Na criança, dez ou mais petéquias tornam positiva a prova do laço: as quinze descritas representam sangramento cutâneo induzido. Sem sinais de alarme informados, isso enquadra o caso no grupo B do algoritmo cobrado. C indica hemograma e observação enquanto se avalia o resultado, com hidratação e reavaliação clínica.\n\nA alternativa A está incorreta: O grupo A não contempla esse sangramento induzido no algoritmo da questão. Apenas orientar hidratação e sintomáticos deixa de realizar a avaliação adicional indicada.\n\nA alternativa B está incorreta: Além de classificar incorretamente como A, adiar a avaliação do hemograma por 24 horas não corresponde à observação inicial do grupo B.\n\nA alternativa C está correta: Reconhece a prova do laço positiva e mantém observação até avaliação laboratorial e clínica. A decisão posterior depende do hematócrito, hidratação, evolução e possibilidade de acompanhamento.\n\nA alternativa D está incorreta: Grupo B não determina internação obrigatória por pelo menos 48 horas. Necessidade de leito e duração do cuidado dependem da evolução e da identificação de sinais de alarme ou gravidade.\n\n⚠ PONTO DE ATENÇÃO\nA prova do laço não é, isoladamente, diagnóstico de dengue grave. No quinto dia, é especialmente importante observar a evolução durante a defervescência; dor abdominal intensa, vômitos persistentes ou alterações circulatórias mudariam a classificação.\n\nGabarito registrado no banco: C (preservado)."
+    },
+    "takeHomeMessage": "Na criança, prova do laço positiva com dez ou mais petéquias exige atenção ao grupo B e reavaliação, não internação automática.",
+    "keyPoints": [
+      "Na criança, prova do laço positiva com dez ou mais petéquias exige atenção ao grupo B e reavaliação, não internação automática."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L9-DENGUE",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Pediatria",
+      "Infectologia Pediátrica",
+      "Dengue: classificação de risco"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote9",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

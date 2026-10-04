@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"315099ba-cf2b-5eb6-b34d-7237a1063682","questionId":"2021-071","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «trocar por compostos com doses mais elevadas de estrogênio».\n\nNo cenário — Uma mulher de 30 anos de idade busca orientação ginecológica quanto ao uso de método contraceptivo. O motivo principal da troca é o sangramento irregular nos últimos 6 meses e a mulher não quer correr o risco de engravidar. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Ginecologia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («trocar o método por um anticoncepcional injetável trimestral») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («iniciar pílula de desogestrel 75 mcg após 1 mês de intervalo») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («interromper o método por 3 meses e reiniciar o mesmo esquema») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Ginecologia. O enunciado descreve: Uma mulher de 30 anos de idade busca orientação ginecológica quanto ao uso de método contraceptivo. O motivo principal da troca é o sangramento irregular nos últimos 6 meses e a mulher não quer correr o risco de engravidar. Gesta 2; para 2; abortos 0.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («trocar por compostos com doses mais elevadas de estrogênio») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de ginecologia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Ginecologia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"D: trocar por compostos com doses mais elevadas de estrogênio"}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Ginecologia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "315099ba-cf2b-5eb6-b34d-7237a1063682",
+  "questionId": "2021-071",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "A formulação de 15 microgramas de etinilestradiol pode proporcionar controle endometrial insuficiente e escapes. Após investigar outras causas e confirmar elegibilidade, uma formulação com dose estrogênica maior pode melhorar o padrão de sangramento, como propõe D. Não é necessário suspender a contracepção por meses.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "O injetável trimestral também pode causar sangramento irregular; não é a solução dirigida ao escape com dose ultrabaixa de estrogênio."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Um intervalo de um mês deixa a mulher exposta à gravidez. Desogestrel isolado também pode apresentar escapes, exigindo aconselhamento e transição adequada."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Interromper por três meses não trata o problema e remove a proteção contraceptiva desejada."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 71\n\nResposta D — trocar por compostos com doses mais elevadas de estrogênio\n\nGinecologia e Obstetrícia › Planejamento Reprodutivo › Sangramento com contraceptivo combinado\n\nA formulação de 15 microgramas de etinilestradiol pode proporcionar controle endometrial insuficiente e escapes. Após investigar outras causas e confirmar elegibilidade, uma formulação com dose estrogênica maior pode melhorar o padrão de sangramento, como propõe D. Não é necessário suspender a contracepção por meses.\n\nA alternativa A está incorreta: O injetável trimestral também pode causar sangramento irregular; não é a solução dirigida ao escape com dose ultrabaixa de estrogênio.\n\nA alternativa B está incorreta: Um intervalo de um mês deixa a mulher exposta à gravidez. Desogestrel isolado também pode apresentar escapes, exigindo aconselhamento e transição adequada.\n\nA alternativa C está incorreta: Interromper por três meses não trata o problema e remove a proteção contraceptiva desejada.\n\nA alternativa D está correta: Ajustar a dose pode melhorar o controle do ciclo se não houver contraindicação ao estrogênio; escolher a menor dose eficaz com avaliação individual de risco.\n\n⚠ PONTO DE ATENÇÃO\nConferir adesão, interações, gravidez e causas cervicais/uterinas antes de atribuir tudo à pílula. A fonte FSRH consultada inclui atualização de 2023, posterior à prova.\n\nGabarito registrado no banco: D (preservado)."
+    },
+    "takeHomeMessage": "Escape persistente com pílula ultrabaixa pode melhorar com ajuste da formulação, sem lacuna contraceptiva.",
+    "keyPoints": [
+      "Escape persistente com pílula ultrabaixa pode melhorar com ajuste da formulação, sem lacuna contraceptiva."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-CHC",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Planejamento Reprodutivo",
+      "Sangramento com contraceptivo combinado"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

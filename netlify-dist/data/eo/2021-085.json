@@ -1,1 +1,86 @@
-{"schemaVersion":"2.0","objectId":"7d745e0c-a7a5-516e-ad1f-8afd16510a7d","questionId":"2021-085","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «coleta de exame citopatológico cervicovaginal para prevenção do câncer de colo uterino».\n\nNo cenário — Mulher, 28 anos de idade, professora, com 2 gestações anteriores, sendo um parto normal e um aborto espontâneo anteriormente. Tem um filho de 7 anos de idade de outro relacionamento. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Obstetrícia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («dosagem sérica de folato para prevenção de defeitos de fechamento do tubo neural») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («teste oral de tolerância à glicose para descartar diabetes mellitus prévio à gestação») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («dosagens hormonais de progesterona e estradiol para avaliação do ciclo menstrual e ovulação») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Obstetrícia. O enunciado descreve: Mulher, 28 anos de idade, professora, com 2 gestações anteriores, sendo um parto normal e um aborto espontâneo anteriormente. Tem um filho de 7 anos de idade de outro relacionamento. Há 2 anos está casada com homem de 35 anos, sem filhos.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («coleta de exame citopatológico cervicovaginal para prevenção do câncer de colo uterino») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de obstetrícia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Obstetrícia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Obstetrícia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "7d745e0c-a7a5-516e-ad1f-8afd16510a7d",
+  "questionId": "2021-085",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Aos 28 anos, com longo período sem assistência e sem rastreamento documentado, verificar e atualizar citologia cervical era indicado segundo o programa vigente em 2021. A consulta também deve revisar pressão, peso, vacinas, medicamentos e suplementação de ácido fólico. A é a medida pertinente entre as opções, não a totalidade do cuidado.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Prevenção de defeitos do tubo neural utiliza suplementação de folato, não dosagem sérica de rotina como condição para prevenir."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Obesidade justifica avaliação de risco metabólico, mas TOTG não é exame obrigatório inicial para todo planejamento reprodutivo; escolher investigação conforme avaliação."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Não há infertilidade ou irregularidade menstrual descrita que exija dosagens de progesterona e estradiol."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 85\n\nResposta A — coleta de exame citopatológico cervicovaginal para prevenção do câncer de colo uterino\n\nGinecologia e Obstetrícia › Planejamento Reprodutivo › Consulta pré-concepcional\n\nAos 28 anos, com longo período sem assistência e sem rastreamento documentado, verificar e atualizar citologia cervical era indicado segundo o programa vigente em 2021. A consulta também deve revisar pressão, peso, vacinas, medicamentos e suplementação de ácido fólico. A é a medida pertinente entre as opções, não a totalidade do cuidado.\n\nA alternativa A está correta: Na faixa-alvo e sem rastreamento recente conhecido, atualizar o preventivo é adequado; conferir histórico evita coleta desnecessária.\n\nA alternativa B está incorreta: Prevenção de defeitos do tubo neural utiliza suplementação de folato, não dosagem sérica de rotina como condição para prevenir.\n\nA alternativa C está incorreta: Obesidade justifica avaliação de risco metabólico, mas TOTG não é exame obrigatório inicial para todo planejamento reprodutivo; escolher investigação conforme avaliação.\n\nA alternativa D está incorreta: Não há infertilidade ou irregularidade menstrual descrita que exija dosagens de progesterona e estradiol.\n\n⚠ PONTO DE ATENÇÃO\nUma medida de pressão não confirma hipertensão; repetir e avaliar antes da gestação. Não usar o gabarito para omitir suplementação de folato e aconselhamento pré-concepcional.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Planejamento reprodutivo inclui prevenção habitual e controle de riscos, não painel hormonal indiscriminado.",
+    "keyPoints": [
+      "Planejamento reprodutivo inclui prevenção habitual e controle de riscos, não painel hormonal indiscriminado."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-PRENATAL",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L9-COLO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Planejamento Reprodutivo",
+      "Consulta pré-concepcional"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

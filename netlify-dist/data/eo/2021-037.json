@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"ab63469b-f2d4-532c-b7f4-a8fc947d9dfe","questionId":"2021-037","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «Cintilografia renal com DMSA».\n\nNo cenário — Um lactente, de 6 meses de idade, comparece sem queixas ao consultório médico com história de internações devido a infecção urinária alta aos 20 dias e aos 3 meses. Com 5 meses, apresentou quadro de febre intermitente, inapetência e vômitos, com exame qualitativo de urina que apontou nitrito (+), esterase leucocitária (+) e urocultura colhida por sondagem vesical com mais de 100 000 UFC/ml de E. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Urografia excretora») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Uretrocistografia miccional») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Ressonância magnética de abdome») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Um lactente, de 6 meses de idade, comparece sem queixas ao consultório médico com história de internações devido a infecção urinária alta aos 20 dias e aos 3 meses. Com 5 meses, apresentou quadro de febre intermitente, inapetência e vômitos, com exame qualitativo de urina que apontou nitrito (+), esterase leucocitária (+) e urocultura colhida por sondagem vesical com mais de 100 000 UFC/ml de E. coli, tendo completado o tratamento com antimicrobiano com remissão dos sintomas.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («Cintilografia renal com DMSA») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: Cintilografia renal com DMSA"}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "ab63469b-f2d4-532c-b7f4-a8fc947d9dfe",
+  "questionId": "2021-037",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "O lactente teve episódios repetidos de infecção urinária alta, um contexto de risco para lesão do parênquima renal. Ultrassom sem alterações não exclui cicatrizes renais. A cintilografia com DMSA avalia o parênquima e a distribuição funcional cortical, sendo a alternativa A quando o objetivo é investigar dano renal após pielonefrites. A identificação de refluxo vesicoureteral é outra pergunta diagnóstica e exige exame diferente.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Urografia excretora não é o exame de escolha para avaliar cicatrizes renais nesse contexto e não substitui a avaliação cortical do DMSA."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Uretrocistografia miccional investiga refluxo vesicoureteral e alterações uretrais. Pode ser indicada em situações selecionadas, especialmente diante de recorrência em lactentes, mas não responde ao mesmo objetivo de avaliar dano cortical."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Ressonância de abdome não é a investigação de rotina proposta para cicatrizes após infecções urinárias recorrentes. Exames mais complexos dependem de dúvida anatômica específica."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 37\n\nResposta A — Cintilografia renal com DMSA\n\nPediatria › Nefrologia Pediátrica › Imagem após infecção urinária recorrente\n\nO lactente teve episódios repetidos de infecção urinária alta, um contexto de risco para lesão do parênquima renal. Ultrassom sem alterações não exclui cicatrizes renais. A cintilografia com DMSA avalia o parênquima e a distribuição funcional cortical, sendo a alternativa A quando o objetivo é investigar dano renal após pielonefrites. A identificação de refluxo vesicoureteral é outra pergunta diagnóstica e exige exame diferente.\n\nA alternativa A está correta: O DMSA permite detectar defeitos do parênquima renal e avaliar a função relativa dos rins. Para cicatrizes persistentes, costuma-se realizá-lo após intervalo da infecção aguda; um defeito durante a fase aguda não deve ser automaticamente chamado de cicatriz.\n\nA alternativa B está incorreta: Urografia excretora não é o exame de escolha para avaliar cicatrizes renais nesse contexto e não substitui a avaliação cortical do DMSA.\n\nA alternativa C está incorreta: Uretrocistografia miccional investiga refluxo vesicoureteral e alterações uretrais. Pode ser indicada em situações selecionadas, especialmente diante de recorrência em lactentes, mas não responde ao mesmo objetivo de avaliar dano cortical.\n\nA alternativa D está incorreta: Ressonância de abdome não é a investigação de rotina proposta para cicatrizes após infecções urinárias recorrentes. Exames mais complexos dependem de dúvida anatômica específica.\n\n⚠ PONTO DE ATENÇÃO\nO enunciado não explicita qual alteração está sendo investigada ao pedir um único padrão-ouro. A resposta A é coerente para dano cortical, mas C seria pertinente se o objetivo fosse refluxo. A NICE NG224, publicada após a prova e com recomendações de imagem herdadas de 2007, diferencia esses exames e seleciona sua indicação pela idade e recorrência; não permite afirmar que DMSA substitui toda investigação urológica.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "DMSA avalia parênquima e cicatrizes; uretrocistografia miccional investiga refluxo. Não confundir os objetivos.",
+    "keyPoints": [
+      "DMSA avalia parênquima e cicatrizes; uretrocistografia miccional investiga refluxo. Não confundir os objetivos."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L7-NICE-UTI",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Pediatria",
+      "Nefrologia Pediátrica",
+      "Imagem após infecção urinária recorrente"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote7",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

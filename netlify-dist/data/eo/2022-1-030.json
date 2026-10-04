@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"2f7938fe-0510-56f1-bcba-12341f7d8902","questionId":"2022-1-030","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «mensalmente até a 28º semana».\n\nNo cenário — O médico de uma Equipe de Saúde da Família foi demandado para atendimento a uma gestante no final do primeiro trimestre de gestação. Na consulta, a gestante informou que havia mudado de cidade e trouxe os resultados de exames que havia feito após consulta de abertura de pré-natal na cidade em que morava. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Obstetrícia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («mensalmente até a 342 semana») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («quinzenalmente até a 34º semana») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («quinzenalmente até a 28º semana») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Obstetrícia. O enunciado descreve: O médico de uma Equipe de Saúde da Família foi demandado para atendimento a uma gestante no final do primeiro trimestre de gestação. Na consulta, a gestante informou que havia mudado de cidade e trouxe os resultados de exames que havia feito após consulta de abertura de pré-natal na cidade em que morava. O exame clínico e os resultados de exames complementares estavam dentro da normalidade.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («mensalmente até a 28º semana») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de obstetrícia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Obstetrícia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"B: mensalmente até a 28º semana"}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Obstetrícia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "2f7938fe-0510-56f1-bcba-12341f7d8902",
+  "questionId": "2022-1-030",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "No calendário de pré-natal de risco habitual cobrado, as consultas são mensais até 28 semanas, quinzenais até 36 e semanais depois, até o parto. B corresponde à etapa inicial. A mudança de cidade exige continuidade do cuidado e registro dos exames, não reinício indiscriminado de toda a investigação.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Mensal até 34 semanas prolonga demais o intervalo no terceiro trimestre inicial, quando o calendário já é quinzenal."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Quinzenal desde o primeiro trimestre não corresponde ao calendário habitual, e o limite de 34 semanas está incorreto."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Também antecipa periodicidade quinzenal sem necessidade clínica apresentada."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 30\n\nResposta B — mensalmente até a 28º semana\n\nGinecologia e Obstetrícia › Pré-natal › Periodicidade no risco habitual\n\nNo calendário de pré-natal de risco habitual cobrado, as consultas são mensais até 28 semanas, quinzenais até 36 e semanais depois, até o parto. B corresponde à etapa inicial. A mudança de cidade exige continuidade do cuidado e registro dos exames, não reinício indiscriminado de toda a investigação.\n\nA alternativa A está incorreta: Mensal até 34 semanas prolonga demais o intervalo no terceiro trimestre inicial, quando o calendário já é quinzenal.\n\nA alternativa B está correta: Mantém periodicidade mensal até 28 semanas na ausência de intercorrências.\n\nA alternativa C está incorreta: Quinzenal desde o primeiro trimestre não corresponde ao calendário habitual, e o limite de 34 semanas está incorreto.\n\nA alternativa D está incorreta: Também antecipa periodicidade quinzenal sem necessidade clínica apresentada.\n\n⚠ PONTO DE ATENÇÃO\nQueixas ou mudança de risco justificam retorno antes da data prevista; o calendário não impede acesso imediato quando necessário.\n\nGabarito registrado no banco: B (preservado)."
+    },
+    "takeHomeMessage": "Pré-natal habitual: mensal até 28 semanas, quinzenal até 36, semanal até o parto.",
+    "keyPoints": [
+      "Pré-natal habitual: mensal até 28 semanas, quinzenal até 36, semanal até o parto."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2022-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-PRENATAL",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Pré-natal",
+      "Periodicidade no risco habitual"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

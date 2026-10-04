@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"178e6bda-705c-590e-9f63-0c0e5acdf071","questionId":"2022-1-016","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «hepatite aguda viral».\n\nNo cenário — Uma jovem com 19 anos de idade chega para consulta na Unidade de Pronto Atendimento por icterícia e desconforto no quadrante superior direito do abdome. A paciente refere que vem se sentindo cansada há aproximadamente 10 dias, acrescentando que, nos primeiros 2 dias desse quadro, apresentou febre (38 “C na região axilar) e artralgia, coriza, tosse seca, perda de apetite, náuseas e dois episódios de vômitos. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («leptospirose») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («mononucleose») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («colecistite aguda») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Uma jovem com 19 anos de idade chega para consulta na Unidade de Pronto Atendimento por icterícia e desconforto no quadrante superior direito do abdome. A paciente refere que vem se sentindo cansada há aproximadamente 10 dias, acrescentando que, nos primeiros 2 dias desse quadro, apresentou febre (38 “C na região axilar) e artralgia, coriza, tosse seca, perda de apetite, náuseas e dois episódios de vômitos. Conta ainda que, quando a icterícia apareceu, os sintomas melhoraram bastante e que agora sente apenas um pouco de desconforto no quadrante superior direito do abdome e leve diminuição do apetite.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («hepatite aguda viral») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"D: hepatite aguda viral"}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "178e6bda-705c-590e-9f63-0c0e5acdf071",
+  "questionId": "2022-1-016",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Pródromo com febre, astenia, artralgias e sintomas digestivos, seguido de icterícia com melhora dos sintomas iniciais, é compatível com hepatite viral aguda. Hepatomegalia discreta e desconforto no hipocôndrio direito reforçam D. O quadro não identifica qual vírus: são necessários exames e história epidemiológica.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Leptospirose requer avaliação epidemiológica e pode causar icterícia, mas não é a hipótese que melhor corresponde à sequência clínica descrita; não há exposição ou comprometimento renal informado."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Mononucleose pode alterar o fígado, porém faltam os achados usuais de faringite e linfadenopatia. Não explica melhor o padrão prodrômico-ictérico."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Colecistite tende a provocar dor localizada e sinais inflamatórios persistentes; melhora do pródromo ao surgir icterícia favorece hepatite."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 16\n\nResposta D — hepatite aguda viral\n\nClínica Médica › Hepatologia › Hepatite viral aguda\n\nPródromo com febre, astenia, artralgias e sintomas digestivos, seguido de icterícia com melhora dos sintomas iniciais, é compatível com hepatite viral aguda. Hepatomegalia discreta e desconforto no hipocôndrio direito reforçam D. O quadro não identifica qual vírus: são necessários exames e história epidemiológica.\n\nA alternativa A está incorreta: Leptospirose requer avaliação epidemiológica e pode causar icterícia, mas não é a hipótese que melhor corresponde à sequência clínica descrita; não há exposição ou comprometimento renal informado.\n\nA alternativa B está incorreta: Mononucleose pode alterar o fígado, porém faltam os achados usuais de faringite e linfadenopatia. Não explica melhor o padrão prodrômico-ictérico.\n\nA alternativa C está incorreta: Colecistite tende a provocar dor localizada e sinais inflamatórios persistentes; melhora do pródromo ao surgir icterícia favorece hepatite.\n\nA alternativa D está correta: Integra sintomas sistêmicos anteriores à icterícia e manifestação hepática atual, devendo ser confirmada etiologicamente.\n\n⚠ PONTO DE ATENÇÃO\nMelhora subjetiva não exclui hepatite grave. Avaliar coagulação e sinais de encefalopatia; não diagnosticar hepatite A ou B apenas pela apresentação.\n\nGabarito registrado no banco: D (preservado)."
+    },
+    "takeHomeMessage": "Pródromo seguido de icterícia e atenuação dos sintomas sugere hepatite viral aguda, sem definir o vírus.",
+    "keyPoints": [
+      "Pródromo seguido de icterícia e atenuação dos sintomas sugere hepatite viral aguda, sem definir o vírus."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2022-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-HEPATITE",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Clínica Médica",
+      "Hepatologia",
+      "Hepatite viral aguda"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

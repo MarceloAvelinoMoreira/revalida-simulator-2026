@@ -1,0 +1,79 @@
+{
+  "batchId":"editorial-20261004-lote9",
+  "reviewedAt":"2026-10-04",
+  "references":{
+    "COMMENT-L9-LGV":{"title":"CDC — STI Treatment Guidelines: Lymphogranuloma Venereum","url":"https://www.cdc.gov/std/treatment-guidelines/lgv.htm","publicationYear":2021},
+    "COMMENT-L9-COLO":{"title":"INCA — Diretrizes brasileiras para o rastreamento do câncer do colo do útero, 2016","url":"https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/diretrizesparaorastreamentodocancerdocolodoutero_2016_corrigido.pdf","publicationYear":2016},
+    "COMMENT-L9-PILORO":{"title":"Royal Children's Hospital — Clinical Practice Guidelines: Pyloric stenosis","url":"https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_Stenosis/"},
+    "COMMENT-L9-DPP":{"title":"Ministério da Saúde — Linhas de cuidado: manejo inicial no pré-natal de baixo risco, urgências","url":"https://linhasdecuidado.saude.gov.br/portal/pre-natal-baixo-risco/servico-de-atendimento-movel/manejo-inicial/"},
+    "COMMENT-L9-CESAREA":{"title":"HUAB-UFRN — Protocolo de indicação de cesárea","url":"https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-nordeste/huab-ufrn/documentos-institucionais/arquivos-documentos-institucionais-geral/prt-dmed-010-protocolo-de-indicacao-de-cesarea.pdf","publicationYear":2025},
+    "COMMENT-L9-DENGUE":{"title":"Secretaria de Saúde de Roraima — Manual de manejo clínico da dengue","url":"https://vigilancia.saude.rr.gov.br/wp-content/cgvs/apps/apps_saude/manual_dengue/main.html"}
+  },
+  "questions":[
+    {
+      "id":"2021-062","answer":"B","taxonomy":["Clínica Médica","Infectologia","Linfogranuloma venéreo"],
+      "rationale":"A exposição sexual, a proctite com tenesmo e secreção sanguinolenta e o bubão inguinal fistulizado favorecem linfogranuloma venéreo por Chlamydia trachomatis invasiva. A distribuição de linfonodos acima e abaixo do ligamento inguinal sugere o sinal do sulco. A lesão inicial pode passar despercebida; sua ausência no relato não exclui a doença. Estreitamento anorretal é uma complicação possível. B é o melhor par entre diagnóstico e investigação nas opções.",
+      "alternatives":{
+        "A":"Uma neoplasia anal pode causar dor e sangramento, mas não explica tão bem essa síndrome infecciosa com bubão supurativo. Pesquisa de HPV isolada não estabelece carcinoma: a confirmação depende da histologia da lesão.",
+        "B":"A hipótese combina a síndrome anorretal e a adenopatia. Aspirado do bubão pode ser submetido a teste molecular para clamídia; a identificação específica de LGV exige teste que discrimine os genótipos invasivos.",
+        "C":"Crohn pode causar doença perianal e estenose, mas o contexto e a adenopatia favorecem uma infecção sexualmente transmissível. ASCA não confirma isoladamente Crohn.",
+        "D":"Sorologia para HHV8 não confirma sarcoma de Kaposi. Uma lesão suspeita requer avaliação histológica, e essa alternativa não integra adequadamente os achados do caso."
+      },
+      "attention":"A expressão diagnóstico definitivo é imprecisa: NAAT convencional positivo para C. trachomatis não distingue necessariamente LGV de outros genótipos. O CDC exige teste molecular específico, como genotipagem, para confirmação de LGV. Os exames negativos descritos não excluem todas as outras infecções; a avaliação e o tratamento presumível não devem aguardar complicações.",
+      "takeHome":"Proctite com bubão inguinal fistulizado sugere LGV; confirmação específica requer discriminar genótipos invasivos.",
+      "references":["COMMENT-L9-LGV"]
+    },
+    {
+      "id":"2021-064","answer":"C","taxonomy":["Ginecologia e Obstetrícia","Ginecologia Preventiva","Rastreamento do câncer do colo uterino"],
+      "rationale":"A paciente tem 18 anos e não apresenta sintomas ou situação especial no enunciado. Pelas diretrizes brasileiras de 2016, pertinentes à prova de 2021, o rastreamento citológico de risco habitual começava aos 25 anos nas pessoas que já tiveram atividade sexual. Sexarca aos 17 anos não antecipa automaticamente esse início. C corresponde à orientação indicada; acolhimento, educação sexual e avaliação das necessidades de saúde continuam necessários.",
+      "alternatives":{
+        "A":"Não há indicação de citologia de rastreamento nessa adolescente apenas por ter iniciado atividade sexual. Exame ginecológico deve ter indicação clínica e respeitar consentimento, não ser imposto como requisito do preventivo.",
+        "B":"Maior sensibilidade de um teste não elimina os limites etários de um programa de rastreamento. Detectar infecção transitória por HPV nessa idade pode gerar investigação desnecessária.",
+        "C":"A orientação respeita a idade de início do rastreamento de risco habitual. História clínica permite identificar sintomas ou condições que exigiriam avaliação diferente.",
+        "D":"O intervalo trienal após duas citologias anuais negativas pertencia ao programa citológico, mas não autorizava iniciar sua rotina aos 18 anos. A alternativa aplica a periodicidade fora da população-alvo."
+      },
+      "attention":"Rastreamento de pessoa assintomática não é investigação de sangramento ou lesão suspeita. Imunossupressão exige orientação específica. A expansão posterior do rastreamento molecular não deve ser apresentada como regra vigente na prova de 2021.",
+      "takeHome":"Na prova de 2021, rastreamento citológico de risco habitual começa aos 25 anos, não na sexarca.",
+      "references":["COMMENT-L9-COLO"]
+    },
+    {
+      "id":"2021-069","answer":"A","taxonomy":["Pediatria","Cirurgia Pediátrica","Estenose hipertrófica do piloro"],
+      "rationale":"Lactente de cinco semanas com vômitos em jato sem bile, fome após vomitar, ganho ponderal insuficiente e oliva epigástrica apresenta quadro típico de estenose hipertrófica do piloro. Hipoatividade, oligúria e perfusão capilar de quatro segundos indicam necessidade de estabilização hospitalar. A reúne hidratação venosa e ultrassonografia para esclarecer a obstrução. Corrigir desidratação e distúrbios metabólicos precede o tratamento cirúrgico.",
+      "alternatives":{
+        "A":"Reposição venosa trata a repercussão imediata e ultrassonografia examina o piloro. Devem ser avaliados glicemia, eletrólitos e equilíbrio ácido-base conforme o quadro, com encaminhamento à cirurgia pediátrica.",
+        "B":"Hidratação domiciliar não é segura diante de hipoatividade, oligúria e perfusão lentificada, além da suspeita de obstrução que impede alimentação adequada.",
+        "C":"Antiemético não corrige a obstrução pilórica. Mesmo com hidratação venosa, enviar para acompanhamento ambulatorial sem investigar a causa deixa o risco sem resolução.",
+        "D":"Complementar leite materno com fórmula não resolve uma obstrução de saída gástrica. Reidratação oral não é a opção adequada nesse lactente com repercussão clínica importante."
+      },
+      "attention":"Alcalose metabólica hipoclorêmica é possível com vômitos persistentes, mas não pode ser declarada presente sem exames. A imagem confirma a hipótese; estabilização não deve aguardar seu resultado.",
+      "takeHome":"Vômitos em jato não biliosos com oliva pilórica: estabilizar, investigar por ultrassom e avaliar tratamento cirúrgico.",
+      "references":["COMMENT-L9-PILORO"]
+    },
+    {
+      "id":"2021-070","answer":"A","taxonomy":["Ginecologia e Obstetrícia","Obstetrícia","Descolamento prematuro de placenta"],
+      "rationale":"Hemorragia no terceiro trimestre com dor intensa e hipertonia uterina, em gestante hipertensa, favorece descolamento prematuro de placenta. Palidez e taquicardia aumentam a preocupação materna; ausência de variabilidade fetal é sinal preocupante mesmo com frequência de 120 bpm. Colo fechado e ausência de parto iminente justificam resolução por cesariana urgente nesse contexto, associada à estabilização materna. A integra os dados relevantes.",
+      "alternatives":{
+        "A":"A combinação de dor, sangramento e hipertonia favorece descolamento. Não havendo nascimento vaginal iminente, a urgência materno-fetal justifica cesariana.",
+        "B":"Placenta prévia costuma apresentar sangramento sem a hipertonia dolorosa característica do caso. Além disso, não é correto transformar qualquer localização placentária baixa em indicação absoluta sem considerar sua relação com o orifício cervical.",
+        "C":"Descolamento é diagnóstico predominantemente clínico; ultrassom pode ajudar, mas resultado negativo não o exclui. Não deve atrasar uma intervenção urgente diante de comprometimento materno-fetal.",
+        "D":"Hipertensão e uma cesariana anterior, isoladamente, não exigem nova cesariana. Aqui a indicação decorre da emergência hemorrágica e da ausência de parto iminente, não desses antecedentes isolados."
+      },
+      "attention":"A conduta inclui acesso venoso, avaliação da perda sanguínea, exames e disponibilidade de hemocomponentes conforme necessidade. Deve-se evitar toque digital até excluir placenta prévia. O protocolo institucional de cesárea consultado é corroborador posterior à prova, não documento de 2021.",
+      "takeHome":"Hemorragia com dor e hipertonia sugere descolamento; ultrassom não deve atrasar resolução de emergência.",
+      "references":["COMMENT-L9-DPP","COMMENT-L9-CESAREA"]
+    },
+    {
+      "id":"2021-072","answer":"C","taxonomy":["Pediatria","Infectologia Pediátrica","Dengue: classificação de risco"],
+      "rationale":"Febre com dor retro-orbital, mialgia e exantema, somada a NS1 reagente, sustenta dengue. Na criança, dez ou mais petéquias tornam positiva a prova do laço: as quinze descritas representam sangramento cutâneo induzido. Sem sinais de alarme informados, isso enquadra o caso no grupo B do algoritmo cobrado. C indica hemograma e observação enquanto se avalia o resultado, com hidratação e reavaliação clínica.",
+      "alternatives":{
+        "A":"O grupo A não contempla esse sangramento induzido no algoritmo da questão. Apenas orientar hidratação e sintomáticos deixa de realizar a avaliação adicional indicada.",
+        "B":"Além de classificar incorretamente como A, adiar a avaliação do hemograma por 24 horas não corresponde à observação inicial do grupo B.",
+        "C":"Reconhece a prova do laço positiva e mantém observação até avaliação laboratorial e clínica. A decisão posterior depende do hematócrito, hidratação, evolução e possibilidade de acompanhamento.",
+        "D":"Grupo B não determina internação obrigatória por pelo menos 48 horas. Necessidade de leito e duração do cuidado dependem da evolução e da identificação de sinais de alarme ou gravidade."
+      },
+      "attention":"A prova do laço não é, isoladamente, diagnóstico de dengue grave. No quinto dia, é especialmente importante observar a evolução durante a defervescência; dor abdominal intensa, vômitos persistentes ou alterações circulatórias mudariam a classificação.",
+      "takeHome":"Na criança, prova do laço positiva com dez ou mais petéquias exige atenção ao grupo B e reavaliação, não internação automática.",
+      "references":["COMMENT-L9-DENGUE"]
+    }
+  ]
+}

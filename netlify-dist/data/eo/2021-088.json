@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"2100719b-3f3a-5bd2-bc42-95dfeb0bc78d","questionId":"2021-088","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «Retirar alguns pontos para drenagem da ferida e agendar retorno para avaliação».\n\nNo cenário — Um homem com 20 anos de idade foi atendido em ambulatório de hospital secundário 7 dias após a sutura de ferimento corto-contuso no antebraço direito para retirada dos pontos. Relatava que, há 3 dias, sentia dor e a ferida encontrava-se abaulada e arroxeada. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Retirar todos os pontos e manter as bordas aproximadas com esparadrapo microporoso») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Prescrever antibiótico via oral e agendar retirada dos pontos após mais uma semana») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Encaminhar ao pronto-socorro para revisão da hemostasia com anestesia») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Um homem com 20 anos de idade foi atendido em ambulatório de hospital secundário 7 dias após a sutura de ferimento corto-contuso no antebraço direito para retirada dos pontos. Relatava que, há 3 dias, sentia dor e a ferida encontrava-se abaulada e arroxeada. Não relatou febre no período.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («Retirar alguns pontos para drenagem da ferida e agendar retorno para avaliação») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "2100719b-3f3a-5bd2-bc42-95dfeb0bc78d",
+  "questionId": "2021-088",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Abaulamento doloroso e equimose sem febre após sutura sugerem hematoma retido. D permite evacuar a coleção pela abertura necessária e reavaliar, em vez de manter sangue sob tensão. A extensão, perfusão e presença de sangramento ativo devem ser verificadas antes do procedimento.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Aproximar novamente as bordas sem esvaziar a coleção mantém o problema. Não é necessário retirar indiscriminadamente todos os pontos."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Antibiótico não trata hematoma não infectado; esperar mais uma semana deixa a tensão e a dor sem abordagem."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Revisão da hemostasia é necessária se houver sangramento ativo, expansão ou lesão profunda, mas esses sinais não foram informados como motivo para encaminhamento obrigatório."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 88\n\nResposta D — Retirar alguns pontos para drenagem da ferida e agendar retorno para avaliação\n\nCirurgia Geral › Cuidados com Feridas › Hematoma sob sutura\n\nAbaulamento doloroso e equimose sem febre após sutura sugerem hematoma retido. D permite evacuar a coleção pela abertura necessária e reavaliar, em vez de manter sangue sob tensão. A extensão, perfusão e presença de sangramento ativo devem ser verificadas antes do procedimento.\n\nA alternativa A está incorreta: Aproximar novamente as bordas sem esvaziar a coleção mantém o problema. Não é necessário retirar indiscriminadamente todos os pontos.\n\nA alternativa B está incorreta: Antibiótico não trata hematoma não infectado; esperar mais uma semana deixa a tensão e a dor sem abordagem.\n\nA alternativa C está incorreta: Revisão da hemostasia é necessária se houver sangramento ativo, expansão ou lesão profunda, mas esses sinais não foram informados como motivo para encaminhamento obrigatório.\n\nA alternativa D está correta: Retirada de pontos suficientes para drenagem e retorno permite aliviar a coleção e acompanhar a ferida.\n\n⚠ PONTO DE ATENÇÃO\nMaterial coagulado pode exigir evacuação adicional; retirada de alguns pontos não é garantia de drenagem completa. Investigar comprometimento neurovascular e síndrome compartimental se dor ou exame forem preocupantes.\n\nGabarito registrado no banco: D (preservado)."
+    },
+    "takeHomeMessage": "Hematoma sob sutura precisa avaliação e evacuação adequada, não antibiótico automático.",
+    "keyPoints": [
+      "Hematoma sob sutura precisa avaliação e evacuação adequada, não antibiótico automático."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-HEMATOMA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Cirurgia Geral",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Cirurgia Geral",
+      "Cuidados com Feridas",
+      "Hematoma sob sutura"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

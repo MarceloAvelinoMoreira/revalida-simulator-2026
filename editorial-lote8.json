@@ -1,0 +1,179 @@
+{
+  "batchId":"editorial-20261004-lote8",
+  "reviewedAt":"2026-10-04",
+  "references":{
+    "COMMENT-L8-DIVERTICULITE":{"title":"NICE NG147 — Diverticular disease: diagnóstico e justificativa das recomendações","url":"https://www.nice.org.uk/guidance/ng147/chapter/Rationale-and-impact","publicationYear":2019},
+    "COMMENT-L8-TRICHURIS":{"title":"CDC DPDx — Trichuriasis","url":"https://www.cdc.gov/dpdx/trichuriasis/"},
+    "COMMENT-L8-HELMINTOS":{"title":"CDC — Clinical Care of Soil-transmitted Helminths","url":"https://www.cdc.gov/sth/hcp/clinical-care/index.html","publicationYear":2024},
+    "COMMENT-L8-MAGNESIO":{"title":"Hospital de Clínicas UFTM — Manejo das Síndromes Hipertensivas na Gestação, versão 2","url":"https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-sudeste/hc-uftm/documentos/protocolos-assistenciais/PRT.HCUFTMUMUL.003ManejodasSindromesHipertensivasnaGestacaoversao2.pdf"},
+    "COMMENT-L8-B12":{"title":"NICE NG239 — Vitamin B12 deficiency in over 16s","url":"https://www.nice.org.uk/guidance/ng239/chapter/recommendations","publicationYear":2024},
+    "COMMENT-L8-PNAB":{"title":"Ministério da Saúde — Portaria 2.436, de 22 de setembro de 2017, PNAB","url":"https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prt2436_22_09_2017.html","publicationYear":2017},
+    "COMMENT-L8-HAS":{"title":"Ministério da Saúde — Hipertensão arterial","url":"https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hipertensao"},
+    "COMMENT-L8-AVC":{"title":"Ministério da Saúde — PCDT Acidente Vascular Cerebral Isquêmico Agudo","url":"https://www.gov.br/saude/pt-br/assuntos/pcdt/a/acidente-vascular-cerebral-isquemico-agudo","publicationYear":2023},
+    "COMMENT-L8-AVC-HIST":{"title":"Ministério da Saúde — Protocolos Clínicos e Diretrizes Terapêuticas, volume III","url":"https://bvsms.saude.gov.br/bvs/publicacoes/protocolos_clinicos_diretrizes_terapeuticas_v3.pdf"},
+    "COMMENT-L8-GRAVES":{"title":"American Thyroid Association — Graves' Disease","url":"https://www.thyroid.org/graves-disease/"},
+    "COMMENT-L8-TIREOIDE":{"title":"American Thyroid Association — Hyperthyroidism","url":"https://www.thyroid.org/hyperthyroidism/"},
+    "COMMENT-L8-QUEIMADURA":{"title":"American Burn Association — Advanced Burn Life Support Provider Manual 2018","url":"https://ameriburn.org/wp-content/uploads/2019/08/2018-abls-providermanual.pdf","publicationYear":2018},
+    "COMMENT-L8-CONVULSAO":{"title":"AAP — Febrile Seizures: Clinical Practice Guideline for Long-term Management, 2008","url":"https://publications.aap.org/pediatrics/article-abstract/121/6/1281/72767","publicationYear":2008},
+    "COMMENT-L8-CONVULSAO-AVAL":{"title":"AAP — Revised Guidelines for Evaluation of Simple Febrile Seizure, 2011","url":"https://publications.aap.org/aapgrandrounds/article/25/6/72/90476/Revised-AAP-Guidelines-for-Evaluation-of-Simple","publicationYear":2011},
+    "COMMENT-L8-HPV":{"title":"WHO — Immunization in Practice, HPV e rastreamento","url":"https://iris.who.int/bitstream/handle/10665/193412/9789241549097_eng.pdf"},
+    "COMMENT-L8-HPV-AUTO":{"title":"WHO — HPV self-sampling as part of cervical cancer screening, atualização 2022","url":"https://www.who.int/publications/i/item/WHO-SRH-23.1","publicationYear":2022},
+    "COMMENT-L8-SBP-RN":{"title":"SBP — Reanimação do recém-nascido ≥34 semanas, diretrizes 2022","url":"https://www.sbp.com.br/fileadmin/user_upload/sbp/2022/maio/20/DiretrizesSBP-Reanimacao-RNigualMaior34semanas-MAIO2022.pdf","publicationYear":2022},
+    "COMMENT-L8-LEPTO":{"title":"Ministério da Saúde — Guia de Vigilância Epidemiológica, 7ª edição, Leptospirose","url":"https://bvsms.saude.gov.br/bvs/publicacoes/guia_vigilancia_epidemiologica_7ed.pdf","publicationYear":2009},
+    "COMMENT-L8-LEPTO-PR":{"title":"Secretaria da Saúde do Paraná — Leptospirose","url":"https://www.saude.pr.gov.br/Pagina/Leptospirose"}
+  },
+  "questions":[
+    {
+      "id":"2021-042","answer":"C","taxonomy":["Cirurgia Geral","Coloproctologia","Diverticulite aguda"],
+      "rationale":"Dor em fossa ilíaca esquerda, febre e leucocitose com desvio à esquerda, em paciente com diverticulose sigmoide conhecida, favorecem diverticulite aguda. A história de câncer exige atenção, mas não deve deslocar a avaliação do quadro inflamatório atual para uma investigação oncológica inespecífica. A tomografia de abdome com contraste venoso confirma alterações pericólicas e pesquisa extensão e complicações, como abscesso e perfuração, orientando o manejo. Corresponde à alternativa C; o caso não permite afirmar que uma complicação já exista.",
+      "alternatives":{
+        "A":"Colonoscopia pode investigar neoplasia em momento apropriado, mas não é o exame para confirmar diverticulite na fase aguda; a instrumentação do cólon inflamado aumenta o risco de perfuração. Uma investigação posterior depende da evolução e dos exames prévios.",
+        "B":"PET-TC é exame dirigido a indicações oncológicas específicas. Não é a primeira escolha para uma síndrome aguda que sugere diverticulite, e captação inflamatória não distingue automaticamente infecção de câncer.",
+        "C":"A tomografia contrastada identifica a inflamação e permite procurar coleções, ar extraluminal e outras complicações. Deve-se avaliar contraindicações ao contraste e função renal conforme o contexto.",
+        "D":"Radiografias podem identificar sinais indiretos, como ar livre ou obstrução, mas não têm o detalhamento necessário para confirmar e estadiar diverticulite. Não substituem a tomografia indicada."
+      },
+      "takeHome":"Diverticulite aguda: tomografia avalia inflamação e complicações; colonoscopia não é o exame da fase aguda.",
+      "references":["COMMENT-L8-DIVERTICULITE"]
+    },
+    {
+      "id":"2021-043","answer":"B","taxonomy":["Pediatria","Infectologia Pediátrica","Tricuríase"],
+      "rationale":"Diarreia prolongada com muco e sangue, tenesmo, desnutrição e prolapso retal, em criança exposta a saneamento precário, são compatíveis com tricuríase intensa. Vermes pequenos visíveis na mucosa retal reforçam a hipótese de Trichuris trichiura. Mebendazol tem ação contra esse helminto, formando o par correto da alternativa B. O manejo também precisa abordar anemia, nutrição, hidratação e o prolapso, não apenas eliminar o parasita.",
+      "alternatives":{
+        "A":"Pirantel pode tratar algumas helmintíases, inclusive ascaridíase, mas Ascaris é muito maior e não é o agente mais compatível com esse conjunto de colite crônica, tenesmo e prolapso.",
+        "B":"Trichuris trichiura é o agente clássico dessa síndrome e mebendazol é tratamento anti-helmíntico apropriado. A presença de vermes na mucosa e o quadro clínico permitem relacionar agente e manifestação.",
+        "C":"Além de Ascaris não explicar bem o caso, metronidazol não é tratamento dessa helmintíase. Sua ação contra alguns protozoários não o torna eficaz contra vermes intestinais.",
+        "D":"O agente está compatível, mas secnidazol não é o anti-helmíntico indicado para Trichuris. Acertar o nome do parasita não torna correto o par terapêutico."
+      },
+      "takeHome":"Prolapso retal com diarreia disentérica e vermes pequenos em criança: lembrar tricuríase intensa.",
+      "references":["COMMENT-L8-TRICHURIS","COMMENT-L8-HELMINTOS"]
+    },
+    {
+      "id":"2021-045","answer":"A","taxonomy":["Ginecologia e Obstetrícia","Obstetrícia","Pré-eclâmpsia com sinais de gravidade"],
+      "rationale":"Hipertensão com pressão sistólica de 160 mmHg, cefaleia intensa e escotomas, acompanhada de proteinúria na gestação de 37 semanas, indica pré-eclâmpsia com sinais de gravidade e risco de eclâmpsia. Não é necessário que a pressão diastólica alcance 110 mmHg para reconhecer hipertensão grave quando a sistólica já atinge 160. Hidralazina atua no controle pressórico; sulfato de magnésio deve ser associado para prevenir convulsões, como propõe A. A estabilidade fetal informada não elimina o risco materno.",
+      "alternatives":{
+        "A":"Sulfato de magnésio é a intervenção anticonvulsivante indicada nesse cenário. Deve ser usado com monitorização, incluindo respiração, reflexos e diurese, e integrado à estabilização e à decisão obstétrica.",
+        "B":"A indicação principal do magnésio é prevenção ou tratamento de convulsões, não controle da pressão arterial. A alternativa confunde o papel de dois tratamentos distintos.",
+        "C":"Analgésicos não tratam o mecanismo da eclâmpsia, e benzodiazepínicos não substituem o magnésio como profilaxia de escolha. Podem ter indicações específicas, mas não esse papel rotineiro.",
+        "D":"Aguardar apenas o anti-hipertensivo deixa sem proteção uma paciente com sinais neurológicos de gravidade. Alívio da cefaleia não deve atrasar tratamento ou mascarar a necessidade de avaliação."
+      },
+      "takeHome":"Pré-eclâmpsia grave: anti-hipertensivo controla pressão; magnésio previne convulsões.",
+      "attention":"O protocolo institucional consultado é corroborador posterior à prova. Aos 37 semanas, a assistência não se encerra com magnésio: é necessária avaliação para resolução da gestação após estabilização; o enunciado pergunta especificamente pela intervenção adicional imediata.",
+      "references":["COMMENT-L8-MAGNESIO"]
+    },
+    {
+      "id":"2021-046","answer":"C","taxonomy":["Clínica Médica","Hematologia","Anemia megaloblástica por deficiência de vitamina B12"],
+      "rationale":"Anemia com VCM de 113 fL, neutrófilos hipersegmentados e redução de leucócitos e plaquetas caracteriza um padrão megaloblástico. A perda de propriocepção e da sensibilidade vibratória com sinal piramidal sugere comprometimento neurológico associado à deficiência de vitamina B12. A tireoidite autoimune aumenta a plausibilidade de uma causa autoimune de má absorção de B12, tradicionalmente chamada anemia perniciosa. Assim, C é a etiologia mais provável entre as opções, mas não está laboratorialmente confirmada.",
+      "alternatives":{
+        "A":"Hipotireoidismo pode associar-se a anemia, porém está descrito como controlado. Não explica tão bem a combinação de hipersegmentação neutrofílica, citopenias e alterações neurológicas características.",
+        "B":"Hemólise autoimune pode causar palidez e icterícia, mas não é a melhor explicação para o padrão megaloblástico e o déficit proprioceptivo. A icterícia discreta também pode decorrer de eritropoiese ineficaz.",
+        "C":"A deficiência de B12 por mecanismo autoimune é compatível com os achados hematológicos e neurológicos e com a associação a outra doença autoimune. Investigação etiológica deve confirmar a hipótese.",
+        "D":"Deficiência de folato pode produzir anemia megaloblástica, porém não explica tipicamente a síndrome neurológica descrita. Repor apenas folato antes de abordar B12 pode melhorar o sangue sem tratar o comprometimento neurológico."
+      },
+      "takeHome":"Megaloblastose com perda de vibração e propriocepção: priorizar deficiência de B12, não folato isolado.",
+      "attention":"A NICE NG239 é referência atual posterior à prova. O enunciado sustenta hipótese, não confirmação de gastrite autoimune: avaliar B12 e testes etiológicos. Sintomas neurológicos relevantes exigem tratamento oportuno, sem esperar indefinidamente toda a investigação.",
+      "references":["COMMENT-L8-B12"]
+    },
+    {
+      "id":"2021-048","answer":"A","taxonomy":["Saúde Coletiva","Atenção Primária","Condições crônicas e internações sensíveis à atenção básica"],
+      "rationale":"A questão relaciona busca ativa de eventos evitáveis, longitudinalidade e causas de morte em adultos mais velhos. Controle continuado de hipertensão e diabetes permite reduzir risco e complicações cardiovasculares, renais e outras descompensações, tornando A a estratégia mais pertinente entre as apresentadas. A lógica é acompanhar condições prevalentes e seus fatores de risco na atenção primária, com acesso a tratamento e seguimento, não concentrar a equipe apenas no episódio de urgência.",
+      "alternatives":{
+        "A":"Controle de hipertensão e diabetes se articula ao cuidado longitudinal e à prevenção de complicações importantes na faixa etária considerada. Inclui adesão, medidas de estilo de vida, tratamento e acompanhamento, não somente medir pressão ou glicemia.",
+        "B":"Prevenção de violência e acidentes de trânsito é importante em saúde pública, mas não é a estratégia mais diretamente relacionada ao conjunto de condições crônicas e causas sensíveis destacado no caso.",
+        "C":"Saúde do trabalhador tem relevância e deve integrar a atenção, mas uma estratégia limitada a acidentes e doenças ocupacionais não cobre tão bem os riscos crônicos da população de 50 anos ou mais.",
+        "D":"Rastreamentos têm indicações específicas e não substituem controle de fatores cardiovasculares. Além disso, não se pode apresentar rastreamento populacional de próstata como recomendação indiscriminada."
+      },
+      "takeHome":"Longitudinalidade em hipertensão e diabetes é ferramenta central para prevenir descompensações e complicações evitáveis.",
+      "references":["COMMENT-L8-PNAB","COMMENT-L8-HAS"]
+    },
+    {
+      "id":"2021-049","answer":"C","taxonomy":["Clínica Médica","Neurologia","AVC isquêmico agudo e reperfusão"],
+      "rationale":"Déficit focal súbito com hemiparesia e disartria há três horas sugere AVC agudo com potencial incapacidade. Se a tomografia excluir hemorragia e a avaliação confirmar elegibilidade, a paciente está dentro da janela usual de trombólise intravenosa com alteplase, tornando C a opção imediata. A pressão descrita não constitui barreira pressórica. Tomografia sem sangue, porém, é apenas uma parte da avaliação: excluir mimetizadores e outras contraindicações antes do tratamento.",
+      "alternatives":{
+        "A":"Trombectomia pode ser indicada quando há oclusão de grande vaso e critérios de seleção. O enunciado não demonstra essa oclusão; avaliar tratamento endovascular não deve substituir automaticamente a trombólise elegível.",
+        "B":"Monitorização em unidade adequada é importante, mas internação para estabilização sem reperfusão não atende à prioridade de uma paciente estável e potencialmente elegível.",
+        "C":"Alteplase intravenosa é coerente com três horas de evolução e ausência de hemorragia, desde que os demais critérios sejam conferidos. O objetivo é reperfusão, não simplesmente observação.",
+        "D":"Aspirina é usada em cenários apropriados de AVC isquêmico, mas não substitui reperfusão nessa situação. Após trombólise, a introdução de antitrombóticos depende do protocolo e de avaliação de imagem, não deve ser simultânea indiscriminadamente."
+      },
+      "takeHome":"AVC incapacitante em janela de reperfusão: excluir hemorragia e verificar elegibilidade para trombólise, sem atrasos evitáveis.",
+      "attention":"O PCDT 2023 foi consultado como corroborador atual, junto a documento ministerial histórico. Não concluir elegibilidade apenas pela TC: conferir glicemia, uso de anticoagulantes, coagulação, risco hemorrágico e extensão da lesão conforme o protocolo. Outros agentes ou janelas selecionadas de diretrizes posteriores não alteram a resposta documental de 2021.",
+      "references":["COMMENT-L8-AVC","COMMENT-L8-AVC-HIST"]
+    },
+    {
+      "id":"2021-051","answer":"C","taxonomy":["Clínica Médica","Endocrinologia","Doença de Graves e antitireoidianos"],
+      "rationale":"TSH suprimido e T4 livre elevado confirmam tireotoxicose bioquímica. Bócio difuso com sopro, exoftalmia e dermopatia pré-tibial favorecem doença de Graves. O beta-bloqueador já controla parte das manifestações adrenérgicas; a pergunta procura um fármaco que reduza a síntese hormonal pela tireoperoxidase. Metimazol é uma tionamida com esse mecanismo, correspondente a C. A decisão não é simplesmente escolher qualquer tratamento possível para hipertireoidismo.",
+      "alternatives":{
+        "A":"Radioiodo pode ser tratamento definitivo em pacientes selecionados, mas age por destruição do tecido tireoidiano, não pela inibição enzimática descrita. A orbitopatia também precisa ser considerada na escolha.",
+        "B":"Dexametasona pode ser adjuvante em situações específicas, inclusive tireotoxicose grave, mas não é a tionamida que bloqueia a tireoperoxidase.",
+        "C":"Metimazol inibe etapas da síntese de hormônios tireoidianos dependentes da tireoperoxidase. Seu efeito não remove imediatamente o hormônio já circulante, razão para manter tratamento sintomático e acompanhamento.",
+        "D":"Colestiramina pode reduzir a recirculação de hormônios tireoidianos quando usada como adjuvante, mas não exerce o mecanismo enzimático solicitado."
+      },
+      "takeHome":"Graves: metimazol reduz síntese hormonal; beta-bloqueador controla manifestações adrenérgicas.",
+      "references":["COMMENT-L8-GRAVES","COMMENT-L8-TIREOIDE"]
+    },
+    {
+      "id":"2021-052","answer":"B","taxonomy":["Cirurgia Geral","Trauma e Queimaduras","Lesão inalatória e proteção da via aérea"],
+      "rationale":"Incêndio em ambiente fechado, rouquidão, fuligem no escarro e queimadura facial levantam forte suspeita de lesão inalatória. Rouquidão é particularmente preocupante para comprometimento da via aérea superior, que pode evoluir com edema e obstrução. A prioridade é avaliar e assegurar ventilação e proteção da via aérea, com intubação precoce no contexto descrito, correspondente a B. Cuidados com pele e acesso venoso são importantes, mas vêm depois de enfrentar a ameaça respiratória.",
+      "alternatives":{
+        "A":"Retirar roupas e adornos faz parte dos cuidados, mas resfriamento não protege a via aérea ameaçada. Em queimadura extensa, resfriamento indiscriminado ainda pode agravar perda de calor.",
+        "B":"A combinação de suspeita de inalação e alteração da voz justifica assegurar a via aérea antes de edema progressivo dificultar a intubação. A técnica e o suporte exigem equipe treinada.",
+        "C":"Cobrir as lesões ajuda a proteger a superfície queimada, mas não evita obstrução respiratória e não é a prioridade inicial diante desses sinais.",
+        "D":"Acesso venoso, analgesia e reposição são necessários conforme extensão e estado clínico, porém não substituem a prioridade de via aérea e ventilação."
+      },
+      "takeHome":"Queimadura em ambiente fechado com rouquidão: avaliar lesão inalatória e proteger precocemente a via aérea.",
+      "attention":"Não intubar automaticamente toda pessoa apenas por sobrancelhas chamuscadas: considerar conjunto de achados e avaliação respiratória. Aqui há rouquidão e exposição confinada. Também avaliar intoxicação por gases; a questão pergunta especificamente a prioridade entre as opções.",
+      "references":["COMMENT-L8-QUEIMADURA"]
+    },
+    {
+      "id":"2021-054","answer":"A","taxonomy":["Pediatria","Neurologia Pediátrica","Convulsão febril simples"],
+      "rationale":"Crise generalizada de cerca de dez minutos, associada a febre, sem repetição no mesmo episódio, em criança de 18 meses com desenvolvimento e exame normais, é compatível com convulsão febril simples. Uma crise semelhante sete meses antes não a torna complexa: a recorrência que integra essa classificação é dentro de 24 horas. A conduta é orientar os familiares sobre segurança durante uma crise, sinais de alarme e seguimento habitual, como propõe A.",
+      "alternatives":{
+        "A":"A classificação e a orientação estão adequadas. Ensinar a cronometrar a crise, proteger a criança de lesões e não colocar objetos na boca faz parte da educação, com avaliação urgente se a crise se prolongar ou houver sinais de gravidade.",
+        "B":"Profilaxia rotineira com benzodiazepínico durante febre não é indicada para prevenir epilepsia futura. Um plano de medicação de resgate em crise prolongada é diferente de profilaxia indiscriminada.",
+        "C":"Ter uma crise febril em outro mês não define complexidade. Na apresentação simples com exame normal, EEG e tomografia não são exames de rotina apenas por esse antecedente.",
+        "D":"Não há dados para classificar a crise como complexa nem para prever prejuízo escolar como sequela inevitável. Essa afirmação acrescenta prognóstico não demonstrado pelo caso."
+      },
+      "takeHome":"Convulsão febril simples: generalizada, breve e sem repetição em 24 horas; episódio em outro mês não muda sozinho a classificação.",
+      "attention":"A classificação pressupõe que não haja infecção do sistema nervoso central ou outra causa aguda. Antitérmicos tratam desconforto e não devem ser prometidos como prevenção garantida de novas convulsões.",
+      "references":["COMMENT-L8-CONVULSAO","COMMENT-L8-CONVULSAO-AVAL"]
+    },
+    {
+      "id":"2021-055","answer":"B","taxonomy":["Ginecologia e Obstetrícia","Prevenção do câncer cervical","Vacinação contra HPV e rastreamento"],
+      "rationale":"A questão diferencia cobertura vacinal e prevenção de lesões cervicais. A quadrivalente contempla HPV 6 e 11, associados principalmente a verrugas, e 16 e 18, oncogênicos; a bivalente contempla 16 e 18. Assim, ambas oferecem proteção importante contra lesões causadas pelos tipos oncogênicos compartilhados, tornando B a melhor opção apresentada. Vacinação é prevenção primária e não elimina a necessidade de rastreamento.",
+      "alternatives":{
+        "A":"Os quatro tipos da quadrivalente não são todos de alto risco: 6 e 11 não pertencem ao mesmo grupo oncogênico de 16 e 18. Indicação por idade também não decorre automaticamente dessa afirmação.",
+        "B":"Ambas protegem contra os tipos 16 e 18, com elevada eficácia preventiva em pessoas não previamente infectadas por esses tipos. A quadrivalente acrescenta cobertura contra 6 e 11.",
+        "C":"Vacinação não garante proteção contra todo HPV oncogênico nem trata infecções já adquiridas. Mulheres vacinadas continuam seguindo recomendações de rastreamento pertinentes à idade e ao risco.",
+        "D":"Pesquisa de HPV pode utilizar autocoleta em programas e testes apropriados. Portanto, a necessidade universal de coleta exclusiva por profissional não é uma característica obrigatória do método."
+      },
+      "takeHome":"Quadrivalente: 6, 11, 16 e 18; bivalente: 16 e 18. Vacinar não dispensa rastrear.",
+      "attention":"A expressão 'mesma eficácia' deve ser limitada à proteção relevante contra tipos oncogênicos compartilhados, não interpretada como identidade absoluta para toda lesão, população ou proteção cruzada. Autocoleta depende de teste validado e organização do programa; a atualização OMS 2022 é posterior à prova. Nenhum calendário atual foi aplicado retroativamente.",
+      "references":["COMMENT-L8-HPV","COMMENT-L8-HPV-AUTO"]
+    },
+    {
+      "id":"2021-058","answer":"A","taxonomy":["Pediatria","Neonatologia","Ventilação na reanimação neonatal"],
+      "rationale":"Após os passos iniciais, o recém-nascido de 35 semanas ainda tem respiração irregular e frequência cardíaca de 80 bpm. A prioridade é estabelecer ventilação eficaz: respiração inadequada ou frequência abaixo de 100 bpm indicam ventilação com pressão positiva, inicialmente por máscara quando viável. Isso corresponde a A. A presença de mecônio não deve atrasar a intervenção ventilatória necessária.",
+      "alternatives":{
+        "A":"VPP com máscara enfrenta a ventilação insuficiente que acompanha a bradicardia. É necessário conferir técnica e eficácia, reavaliando a frequência cardíaca e corrigindo falhas de ventilação.",
+        "B":"Compressões não são a próxima etapa para frequência de 80 bpm antes de ventilação efetiva. São consideradas se a frequência permanece abaixo de 60 bpm após ventilação adequada.",
+        "C":"Intubação pode ser necessária quando a ventilação por máscara é ineficaz ou há outra indicação, mas não é a primeira medida obrigatória nesse relato.",
+        "D":"Aspiração traqueal rotineira apenas pela presença de mecônio não é a próxima conduta. Aspiração pode ser considerada quando obstrução impede ventilar, não para atrasar VPP indiscriminadamente."
+      },
+      "takeHome":"Recém-nascido com respiração inadequada e FC abaixo de 100 bpm: priorizar ventilação efetiva.",
+      "attention":"As etapas de aspiração já descritas pertencem ao enunciado e não foram alteradas; não devem ser ensinadas como obrigatórias para todo recém-nascido com mecônio. A diretriz SBP 2022 é corroboradora posterior à prova, não apresentada como a versão histórica de 2021.",
+      "references":["COMMENT-L8-SBP-RN"]
+    },
+    {
+      "id":"2021-060","answer":"A","taxonomy":["Saúde Coletiva","Vigilância Ambiental","Prevenção e controle da leptospirose"],
+      "rationale":"Casos em trabalhadores de esgoto apontam para exposição ocupacional a ambiente contaminado, frequentemente associada à urina de roedores. Após identificar o provável local de infecção, a vigilância deve reduzir condições que favorecem reservatórios e exposição. Antirratização remove acesso a alimento, água e abrigo; desratização controla roedores por medidas executadas adequadamente; educação orienta proteção e reconhecimento da doença. O conjunto corresponde a A.",
+      "alternatives":{
+        "A":"Reúne controle ambiental preventivo, controle de roedores e comunicação em saúde. Para os trabalhadores, orientações e medidas de proteção precisam integrar a avaliação do ambiente laboral.",
+        "B":"Limpeza pode ser parte das ações, mas 'controle de comunicantes' não é o núcleo da investigação de uma doença adquirida principalmente do ambiente. A transmissão casual entre pessoas não é a cadeia típica que se pretende interromper.",
+        "C":"Busca ativa e educação podem ser pertinentes, porém vacinação de bloqueio para humanos não é uma medida disponível de rotina no Brasil contra leptospirose.",
+        "D":"Medidas ambientais podem ser úteis conforme o local, mas sorologia de todos os comunicantes e quimioprofilaxia indiscriminada não constituem o pacote padrão indicado pela situação."
+      },
+      "takeHome":"Leptospirose: identificar exposição ambiental, reduzir abrigo/alimento de roedores e orientar proteção; não propor vacinação humana de bloqueio.",
+      "attention":"Antirratização e desratização não são sinônimos. Uso de produtos para controle de roedores deve ser feito por pessoal capacitado, sem incentivar aplicação doméstica indiscriminada.",
+      "references":["COMMENT-L8-LEPTO","COMMENT-L8-LEPTO-PR"]
+    }
+  ]
+}

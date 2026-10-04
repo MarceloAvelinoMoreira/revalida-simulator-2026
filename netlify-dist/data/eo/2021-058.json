@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"5eec003d-447a-5155-8b5c-f0a7e8724fdc","questionId":"2021-058","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «Realizar ventilação com pressão positiva com máscara facial».\n\nNo cenário — Um médico de maternidade pública é chamado para realizar a sala de parto de gestante de 35 semanas com pré-eclâmpsia. Um recém-nascido pesando 2,3 kg apresenta-se banhado em líquido amniótico meconial, hipotônico e respirando de forma irregular. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Realizar massagem cardíaca externa») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Realizar intubação orotraqueal») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Realizar aspiração traqueal sob visualização direta») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Um médico de maternidade pública é chamado para realizar a sala de parto de gestante de 35 semanas com pré-eclâmpsia. Um recém-nascido pesando 2,3 kg apresenta-se banhado em líquido amniótico meconial, hipotônico e respirando de forma irregular. O médico assistente decide levá-lo à mesa de reanimação para realizar aspiração de vias aéreas superiores sob calor.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («Realizar ventilação com pressão positiva com máscara facial») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: Realizar ventilação com pressão positiva com máscara facial"}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "5eec003d-447a-5155-8b5c-f0a7e8724fdc",
+  "questionId": "2021-058",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Após os passos iniciais, o recém-nascido de 35 semanas ainda tem respiração irregular e frequência cardíaca de 80 bpm. A prioridade é estabelecer ventilação eficaz: respiração inadequada ou frequência abaixo de 100 bpm indicam ventilação com pressão positiva, inicialmente por máscara quando viável. Isso corresponde a A. A presença de mecônio não deve atrasar a intervenção ventilatória necessária.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Compressões não são a próxima etapa para frequência de 80 bpm antes de ventilação efetiva. São consideradas se a frequência permanece abaixo de 60 bpm após ventilação adequada."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Intubação pode ser necessária quando a ventilação por máscara é ineficaz ou há outra indicação, mas não é a primeira medida obrigatória nesse relato."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Aspiração traqueal rotineira apenas pela presença de mecônio não é a próxima conduta. Aspiração pode ser considerada quando obstrução impede ventilar, não para atrasar VPP indiscriminadamente."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 58\n\nResposta A — Realizar ventilação com pressão positiva com máscara facial\n\nPediatria › Neonatologia › Ventilação na reanimação neonatal\n\nApós os passos iniciais, o recém-nascido de 35 semanas ainda tem respiração irregular e frequência cardíaca de 80 bpm. A prioridade é estabelecer ventilação eficaz: respiração inadequada ou frequência abaixo de 100 bpm indicam ventilação com pressão positiva, inicialmente por máscara quando viável. Isso corresponde a A. A presença de mecônio não deve atrasar a intervenção ventilatória necessária.\n\nA alternativa A está correta: VPP com máscara enfrenta a ventilação insuficiente que acompanha a bradicardia. É necessário conferir técnica e eficácia, reavaliando a frequência cardíaca e corrigindo falhas de ventilação.\n\nA alternativa B está incorreta: Compressões não são a próxima etapa para frequência de 80 bpm antes de ventilação efetiva. São consideradas se a frequência permanece abaixo de 60 bpm após ventilação adequada.\n\nA alternativa C está incorreta: Intubação pode ser necessária quando a ventilação por máscara é ineficaz ou há outra indicação, mas não é a primeira medida obrigatória nesse relato.\n\nA alternativa D está incorreta: Aspiração traqueal rotineira apenas pela presença de mecônio não é a próxima conduta. Aspiração pode ser considerada quando obstrução impede ventilar, não para atrasar VPP indiscriminadamente.\n\n⚠ PONTO DE ATENÇÃO\nAs etapas de aspiração já descritas pertencem ao enunciado e não foram alteradas; não devem ser ensinadas como obrigatórias para todo recém-nascido com mecônio. A diretriz SBP 2022 é corroboradora posterior à prova, não apresentada como a versão histórica de 2021.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Recém-nascido com respiração inadequada e FC abaixo de 100 bpm: priorizar ventilação efetiva.",
+    "keyPoints": [
+      "Recém-nascido com respiração inadequada e FC abaixo de 100 bpm: priorizar ventilação efetiva."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L8-SBP-RN",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Pediatria",
+      "Neonatologia",
+      "Ventilação na reanimação neonatal"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote8",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

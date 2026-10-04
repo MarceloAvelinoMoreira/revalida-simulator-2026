@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"edb5fdc3-e636-54c9-a10e-99b525fe5f0e","questionId":"2021-065","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «Realizar avaliação clínica, coletar e encaminhar 2 amostras de escarro para realizar teste molecular rápido para a TB (TMR-TB) e cultura de escarro, solicitar raio-X, realizar teste rápido para o HIV, orientar o uso de máscara cirúrgica, agendar nova consulta e investigar os contatos».\n\nNo cenário — Um homem, com 20 anos de idade, desempregado, reside em casa de madeira com um cômodo junto com o pai, mãe e 5 irmãos. Ele procurou a Unidade de Saúde da Família, com queixa de tosse, febre e dispneia há mais ou menos 2 meses, inicialmente aos esforços e posteriormente em repouso. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Medicina Preventiva e Social, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Realizar avaliação clínica, coletar e encaminhar 3 amostras de escarro para realizar baciloscopia de escarro, teste molecular rápido para a TB (TMR-TB) e cultura de escarro, solicitar raio-X, realizar o teste rápido para o HIV, orientar o uso de máscara de tecido, agendar nova consulta e investigar os contatos») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Realizar avaliação clínica, coletar e encaminhar 3 amostras de escarro para realizar baciloscopia de escarro, teste molecular rápido para a TB (TMR-TB) e cultura de escarro, solicitar raio-X, realizar o teste rápido para o HIV, orientar o uso de máscara de cirúrgica, investigar os contatos e encaminhar o paciente para o serviço de referência») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Realizar avaliação clínica, coletar e encaminhar 2 amostras de escarro para realizar baciloscopia e cultura de escarro, solicitar raio-X, realizar teste rápido para o HIV, orientar o uso de máscara N-95, agendar nova consulta e investigar os contatos») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Medicina Preventiva e Social. O enunciado descreve: Um homem, com 20 anos de idade, desempregado, reside em casa de madeira com um cômodo junto com o pai, mãe e 5 irmãos. Ele procurou a Unidade de Saúde da Família, com queixa de tosse, febre e dispneia há mais ou menos 2 meses, inicialmente aos esforços e posteriormente em repouso. Nega tuberculose (TB) anterior.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («Realizar avaliação clínica, coletar e encaminhar 2 amostras de escarro para realizar teste molecular rápido para a TB (TMR-TB) e cultura de escarro, solicitar raio-X, realizar teste rápido para o HIV, orientar o uso de máscara cirúrgica, agendar nova consulta e investigar os contatos») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de medicina preventiva e social, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Medicina Preventiva e Social.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0004","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Medicina Preventiva e Social","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "edb5fdc3-e636-54c9-a10e-99b525fe5f0e",
+  "questionId": "2021-065",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Tosse e febre prolongadas, com contato domiciliar de tuberculose após abandonos de tratamento, exigem investigação bacteriológica e dos contatos. C reúne teste molecular, cultura, radiografia, teste para HIV e máscara cirúrgica para controle da fonte. O TRM também pesquisa resistência à rifampicina; a história familiar aumenta a importância da avaliação de resistência, mas não a comprova.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Máscara de tecido não é a medida indicada para controle da fonte em suspeita de TB; três amostras e todos os testes simultâneos não são requisito universal."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "A máscara está adequada, mas a opção impõe três amostras e encaminhamento de referência a todos, sem seleção. Referência pode ser necessária por gravidade ou resistência, não pela simples suspeita."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Baciloscopia pode ser útil, mas omite TRM disponível e atribui ao paciente a N95, utilizada principalmente como proteção respiratória dos profissionais em situações de risco."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 65\n\nResposta C — Realizar avaliação clínica, coletar e encaminhar 2 amostras de escarro para realizar teste molecular rápido para a TB (TMR-TB) e cultura de escarro, solicitar raio-X, realizar teste rápido para o HIV, orientar o uso de máscara cirúrgica, agendar nova consulta e investigar os contatos\n\nMedicina de Família e Comunidade › Infectologia › Investigação de tuberculose pulmonar\n\nTosse e febre prolongadas, com contato domiciliar de tuberculose após abandonos de tratamento, exigem investigação bacteriológica e dos contatos. C reúne teste molecular, cultura, radiografia, teste para HIV e máscara cirúrgica para controle da fonte. O TRM também pesquisa resistência à rifampicina; a história familiar aumenta a importância da avaliação de resistência, mas não a comprova.\n\nA alternativa A está incorreta: Máscara de tecido não é a medida indicada para controle da fonte em suspeita de TB; três amostras e todos os testes simultâneos não são requisito universal.\n\nA alternativa B está incorreta: A máscara está adequada, mas a opção impõe três amostras e encaminhamento de referência a todos, sem seleção. Referência pode ser necessária por gravidade ou resistência, não pela simples suspeita.\n\nA alternativa C está correta: Integra diagnóstico, prevenção da transmissão e investigação familiar. O número de amostras deve seguir o fluxo laboratorial e os testes solicitados, sem transformar duas em regra para toda situação.\n\nA alternativa D está incorreta: Baciloscopia pode ser útil, mas omite TRM disponível e atribui ao paciente a N95, utilizada principalmente como proteção respiratória dos profissionais em situações de risco.\n\n⚠ PONTO DE ATENÇÃO\nDispneia em repouso exige avaliação imediata de gravidade; agendar retorno não substitui estabilização ou encaminhamento urgente se necessário. Sorologia IgM/IgG negativa não exclui COVID-19 aguda.\n\nGabarito registrado no banco: C (preservado)."
+    },
+    "takeHomeMessage": "Suspeita de TB: investigar bacilo e resistência, oferecer máscara cirúrgica e avaliar contatos e gravidade.",
+    "keyPoints": [
+      "Suspeita de TB: investigar bacilo e resistência, oferecer máscara cirúrgica e avaliar contatos e gravidade."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-TB",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Medicina de Família e Comunidade",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Medicina de Família e Comunidade",
+      "Infectologia",
+      "Investigação de tuberculose pulmonar"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

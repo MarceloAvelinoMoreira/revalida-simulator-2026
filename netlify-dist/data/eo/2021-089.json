@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"bdda7316-9950-5066-af54-2e3210a1fd0d","questionId":"2021-089","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «alcalose metabólica hipoclorêmica».\n\nNo cenário — Um lactente masculino, de 2 meses, é levado à emergência com história de vômitos não biliosos que iniciaram com três semanas de vida e progressivamente pioraram. Há 2 dias, passou a vomitar após as mamadas e hoje o vômito está em jato. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («acidose metabólica hiperclorêmica») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («acidose metabólica hipoclorêmica») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («alcalose metabólica hiperclorêmica») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Um lactente masculino, de 2 meses, é levado à emergência com história de vômitos não biliosos que iniciaram com três semanas de vida e progressivamente pioraram. Há 2 dias, passou a vomitar após as mamadas e hoje o vômito está em jato. Ao exame físico, apresenta-se irritado, faminto, muito emagrecido; no epigástrio, foi observado onda peristáltica se deslocando da esquerda para direita e, após a criança vomitar, palpada à direita, também no epigástrio, massa firme e móvel com cerca de 2 cm de diâmetro.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («alcalose metabólica hipoclorêmica») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: alcalose metabólica hipoclorêmica"}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "bdda7316-9950-5066-af54-2e3210a1fd0d",
+  "questionId": "2021-089",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Vômitos não biliosos progressivos com fome, ondas peristálticas e oliva pilórica sugerem estenose hipertrófica do piloro. Perda de ácido clorídrico gástrico reduz hidrogênio e cloro, favorecendo alcalose metabólica hipoclorêmica. A descreve o padrão esperado; exames são necessários para confirmá-lo e orientar correção.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Acidose hiperclorêmica é mais relacionada a perda de bicarbonato, como em algumas diarreias, não à perda gástrica típica."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Apesar da possível redução de cloro, o padrão esperado é alcalose, não acidose metabólica."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Alcalose está correta, mas os vômitos gástricos favorecem hipocloremia, não hipercloremia."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 89\n\nResposta A — alcalose metabólica hipoclorêmica\n\nPediatria › Cirurgia Pediátrica › Distúrbio metabólico na estenose pilórica\n\nVômitos não biliosos progressivos com fome, ondas peristálticas e oliva pilórica sugerem estenose hipertrófica do piloro. Perda de ácido clorídrico gástrico reduz hidrogênio e cloro, favorecendo alcalose metabólica hipoclorêmica. A descreve o padrão esperado; exames são necessários para confirmá-lo e orientar correção.\n\nA alternativa A está correta: Perda de HCl aumenta relativamente bicarbonato e reduz cloro, especialmente com vômitos persistentes e desidratação.\n\nA alternativa B está incorreta: Acidose hiperclorêmica é mais relacionada a perda de bicarbonato, como em algumas diarreias, não à perda gástrica típica.\n\nA alternativa C está incorreta: Apesar da possível redução de cloro, o padrão esperado é alcalose, não acidose metabólica.\n\nA alternativa D está incorreta: Alcalose está correta, mas os vômitos gástricos favorecem hipocloremia, não hipercloremia.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Estenose pilórica com vômitos prolongados pode causar alcalose metabólica hipoclorêmica.",
+    "keyPoints": [
+      "Estenose pilórica com vômitos prolongados pode causar alcalose metabólica hipoclorêmica."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L9-PILORO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Pediatria",
+      "Cirurgia Pediátrica",
+      "Distúrbio metabólico na estenose pilórica"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": false,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

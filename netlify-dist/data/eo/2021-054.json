@@ -1,1 +1,86 @@
-{"schemaVersion":"2.0","objectId":"a66ecfd5-8304-5ff9-8fa2-ac16e3b8975d","questionId":"2021-054","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «convulsão febril simples. A mãe deve ser orientada quanto à abordagem nos episódios febris e a criança deve manter acompanhamento de rotina na UBS pelo caráter benigno do quadro».\n\nNo cenário — Uma lactente do sexo feminino, de 18 meses de idade, chega para atendimento em Unidade Básica de Saúde. A mãe informa que, há 3 dias, a criança apresentou quadro de convulsão tônico-clônica generalizada acompanhada de versão ocular, liberação de esfíncter vesical e sialorreia, com duração de aproximadamente 10 minutos. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («convulsão febril simples. O médico deve prescrever benzodiazepínico (diazepam ou nitrazepam) para uso durante os episódios febris, com objetivo de prevenir epilepsia futura») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («convulsão febril complexa. A criança deve realizar eletroencefalograma e tomografia computadorizada de crânio por não ser o primeiro episódio convulsivo febril apresentado») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («convulsão febril complexa. Os familiares precisam ser alertados sobre a possibilidade de a criança apresentar desempenho escolar fraco futuramente como sequela dos episódios convulsivos») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Uma lactente do sexo feminino, de 18 meses de idade, chega para atendimento em Unidade Básica de Saúde. A mãe informa que, há 3 dias, a criança apresentou quadro de convulsão tônico-clônica generalizada acompanhada de versão ocular, liberação de esfíncter vesical e sialorreia, com duração de aproximadamente 10 minutos. No momento, apresentava temperatura axilar de 38° C.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («convulsão febril simples. A mãe deve ser orientada quanto à abordagem nos episódios febris e a criança deve manter acompanhamento de rotina na UBS pelo caráter benigno do quadro») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "a66ecfd5-8304-5ff9-8fa2-ac16e3b8975d",
+  "questionId": "2021-054",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Crise generalizada de cerca de dez minutos, associada a febre, sem repetição no mesmo episódio, em criança de 18 meses com desenvolvimento e exame normais, é compatível com convulsão febril simples. Uma crise semelhante sete meses antes não a torna complexa: a recorrência que integra essa classificação é dentro de 24 horas. A conduta é orientar os familiares sobre segurança durante uma crise, sinais de alarme e seguimento habitual, como propõe A.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Profilaxia rotineira com benzodiazepínico durante febre não é indicada para prevenir epilepsia futura. Um plano de medicação de resgate em crise prolongada é diferente de profilaxia indiscriminada."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Ter uma crise febril em outro mês não define complexidade. Na apresentação simples com exame normal, EEG e tomografia não são exames de rotina apenas por esse antecedente."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Não há dados para classificar a crise como complexa nem para prever prejuízo escolar como sequela inevitável. Essa afirmação acrescenta prognóstico não demonstrado pelo caso."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 54\n\nResposta A — convulsão febril simples. A mãe deve ser orientada quanto à abordagem nos episódios febris e a criança deve manter acompanhamento de rotina na UBS pelo caráter benigno do quadro\n\nPediatria › Neurologia Pediátrica › Convulsão febril simples\n\nCrise generalizada de cerca de dez minutos, associada a febre, sem repetição no mesmo episódio, em criança de 18 meses com desenvolvimento e exame normais, é compatível com convulsão febril simples. Uma crise semelhante sete meses antes não a torna complexa: a recorrência que integra essa classificação é dentro de 24 horas. A conduta é orientar os familiares sobre segurança durante uma crise, sinais de alarme e seguimento habitual, como propõe A.\n\nA alternativa A está correta: A classificação e a orientação estão adequadas. Ensinar a cronometrar a crise, proteger a criança de lesões e não colocar objetos na boca faz parte da educação, com avaliação urgente se a crise se prolongar ou houver sinais de gravidade.\n\nA alternativa B está incorreta: Profilaxia rotineira com benzodiazepínico durante febre não é indicada para prevenir epilepsia futura. Um plano de medicação de resgate em crise prolongada é diferente de profilaxia indiscriminada.\n\nA alternativa C está incorreta: Ter uma crise febril em outro mês não define complexidade. Na apresentação simples com exame normal, EEG e tomografia não são exames de rotina apenas por esse antecedente.\n\nA alternativa D está incorreta: Não há dados para classificar a crise como complexa nem para prever prejuízo escolar como sequela inevitável. Essa afirmação acrescenta prognóstico não demonstrado pelo caso.\n\n⚠ PONTO DE ATENÇÃO\nA classificação pressupõe que não haja infecção do sistema nervoso central ou outra causa aguda. Antitérmicos tratam desconforto e não devem ser prometidos como prevenção garantida de novas convulsões.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Convulsão febril simples: generalizada, breve e sem repetição em 24 horas; episódio em outro mês não muda sozinho a classificação.",
+    "keyPoints": [
+      "Convulsão febril simples: generalizada, breve e sem repetição em 24 horas; episódio em outro mês não muda sozinho a classificação."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L8-CONVULSAO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L8-CONVULSAO-AVAL",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Pediatria",
+      "Neurologia Pediátrica",
+      "Convulsão febril simples"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote8",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

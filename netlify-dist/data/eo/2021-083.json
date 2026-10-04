@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"9236bd1f-be0a-5a11-8fc0-d571f35ed9c0","questionId":"2021-083","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «Cinta ou lençol para estabilização pélvica e indicação precoce de infusão de hemocomponentes».\n\nNo cenário — Um homem com 38 anos de idade, aguardando em ponto de ônibus, foi atropelado por motorista de veículo desgovernado e prensado contra a parede. Atendido em pronto-socorro de hospital terciário, referia muita dor na pelve, apresentava escoriações e contusões no hipogástrio e membros inferiores, sem sinais de trauma torácico ou craniano. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Cirurgia Geral, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Radiografia de pelve anteroposterior na sala de emergência») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Tratamento operatório para controle de danos em hemorragia retroperitoneal volumosa») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: confundir tratamento de manutenção com tratamento da fase aguda. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Soluções cristaloides por acessos venosos periféricos e avaliação de ortopedista») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Cirurgia Geral. O enunciado descreve: Um homem com 38 anos de idade, aguardando em ponto de ônibus, foi atropelado por motorista de veículo desgovernado e prensado contra a parede. Atendido em pronto-socorro de hospital terciário, referia muita dor na pelve, apresentava escoriações e contusões no hipogástrio e membros inferiores, sem sinais de trauma torácico ou craniano. Apresentava instabilidade do anel pélvico à palpação, pressão arterial = 80 x 40 mmHg, frequência cardíaca = 124 batimentos por minuto, 24 incursões respiratórias por minuto, tempo de enchimento capilar maior que 2 segundos e saturação de oxigênio = 97%.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («Cinta ou lençol para estabilização pélvica e indicação precoce de infusão de hemocomponentes») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de cirurgia geral, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Cirurgia Geral.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0026","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Cirurgia Geral","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "9236bd1f-be0a-5a11-8fc0-d571f35ed9c0",
+  "questionId": "2021-083",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Hipotensão, taquicardia e pelve instável após esmagamento sugerem hemorragia associada à lesão do anel pélvico. Estabilização externa imediata por cinta ou lençol, junto à ressuscitação hemostática precoce, reduz mobilidade e integra controle inicial. Saturação normal não afasta choque hemorrágico.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Radiografia pode ser obtida no atendimento, mas não deve preceder as medidas de estabilização de um paciente em choque."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Controle operatório pode ser necessário, mas depende da avaliação e da resposta; não substitui a estabilização imediata proposta."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Cristaloides isolados e espera pela ortopedia não respondem adequadamente ao choque hemorrágico com pelve instável."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 83\n\nResposta B — Cinta ou lençol para estabilização pélvica e indicação precoce de infusão de hemocomponentes\n\nCirurgia Geral › Trauma › Choque hemorrágico e fratura pélvica\n\nHipotensão, taquicardia e pelve instável após esmagamento sugerem hemorragia associada à lesão do anel pélvico. Estabilização externa imediata por cinta ou lençol, junto à ressuscitação hemostática precoce, reduz mobilidade e integra controle inicial. Saturação normal não afasta choque hemorrágico.\n\nA alternativa A está incorreta: Radiografia pode ser obtida no atendimento, mas não deve preceder as medidas de estabilização de um paciente em choque.\n\nA alternativa B está correta: Cinta posicionada adequadamente e hemocomponentes precoces são medidas iniciais; investigar outras fontes hemorrágicas em paralelo.\n\nA alternativa C está incorreta: Controle operatório pode ser necessário, mas depende da avaliação e da resposta; não substitui a estabilização imediata proposta.\n\nA alternativa D está incorreta: Cristaloides isolados e espera pela ortopedia não respondem adequadamente ao choque hemorrágico com pelve instável.\n\n⚠ PONTO DE ATENÇÃO\nPosicionar cinta sobre os grandes trocânteres e evitar repetidas manobras de instabilidade. Persistência do choque exige controle definitivo, conforme recursos, por tamponamento, embolização ou cirurgia.\n\nGabarito registrado no banco: B (preservado)."
+    },
+    "takeHomeMessage": "Pelve instável com choque: estabilizar imediatamente e iniciar ressuscitação hemostática, sem esperar exames.",
+    "keyPoints": [
+      "Pelve instável com choque: estabilizar imediatamente e iniciar ressuscitação hemostática, sem esperar exames."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-PELVIS",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Cirurgia Geral",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Cirurgia Geral",
+      "Trauma",
+      "Choque hemorrágico e fratura pélvica"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "batchId": "editorial-20261004-lote7",
+  "reviewedAt": "2026-10-04",
+  "references": {
+    "COMMENT-L7-IDSA-AMR": {"title":"IDSA — orientação sobre infecções por Gram-negativos resistentes, 2026","url":"https://www.idsociety.org/practice-guideline/amr-guidance/","publicationYear":2026},
+    "COMMENT-L7-CDC-PID": {"title":"CDC — Pelvic Inflammatory Disease, STI Treatment Guidelines 2021","url":"https://www.cdc.gov/std/treatment-guidelines/pid.htm","publicationYear":2021},
+    "COMMENT-L7-CDC-CHLAMYDIA": {"title":"CDC — Chlamydial Infections, STI Treatment Guidelines 2021","url":"https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm","publicationYear":2021},
+    "COMMENT-L7-NICE-UTI": {"title":"NICE NG224 — Urinary tract infection in under 16s, recomendações de imagem","url":"https://www.nice.org.uk/guidance/ng224/chapter/Recommendations","publicationYear":2022},
+    "COMMENT-L7-NICE-VTE": {"title":"NICE NG158 — Venous thromboembolic diseases, diagnóstico e manejo","url":"https://www.nice.org.uk/guidance/ng158/chapter/Recommendations","publicationYear":2020},
+    "COMMENT-L7-NINDS-PD": {"title":"NINDS — Parkinson's Disease: Challenges, Progress, and Promise","url":"https://www.ninds.nih.gov/current-research/focus-disorders/parkinsons-disease-research/parkinsons-disease-challenges-progress-and-promise"},
+    "COMMENT-L7-NINDS-PSP": {"title":"NINDS — Progressive Supranuclear Palsy","url":"https://www.ninds.nih.gov/health-information/disorders/progressive-supranuclear-palsy-psp"},
+    "COMMENT-L7-NIH-HD": {"title":"NIH — Huntington's Disease","url":"https://health.nih.gov/health-topics-a-z/huntington-disease"}
+  },
+  "questions": [
+    {
+      "id":"2021-031","answer":"D",
+      "taxonomy":["Clínica Médica","Infectologia","Infecção urinária e antibiograma"],
+      "rationale":"Disúria, polaciúria e dor hipogástrica, com cultura de E. coli e ausência de instabilidade ou manifestações sistêmicas descritas, apontam para infecção urinária sintomática localizada. A sonda recente e o diabetes exigem atenção, mas não obrigam internação isoladamente. O antibiograma documenta sensibilidade ao sulfametoxazol/trimetoprim, uma opção oral, enquanto vários agentes estão resistentes. Entre as alternativas, D combina tratamento etiológico ativo com atendimento ambulatorial compatível com o estado clínico. Resistência a muitos antibióticos não significa que todo tratamento precise ser intravenoso.",
+      "alternatives":{
+        "A":"A fenazopiridina pode aliviar disúria, mas não elimina a bactéria. Usá-la isoladamente deixaria uma infecção sintomática com urocultura positiva sem tratamento etiológico.",
+        "B":"A sensibilidade à cefoxitina não justifica por si só a internação. Existe opção oral ativa e o enunciado não descreve sepse, intolerância oral ou necessidade de suporte hospitalar.",
+        "C":"Imipenem tem atividade no antibiograma, mas a opção implica internação sem indicação clínica apresentada e uso desnecessário de um carbapenêmico. Além disso, a história de epilepsia exige cautela na escolha de fármacos com potencial convulsivante.",
+        "D":"Sulfametoxazol/trimetoprim está sensível e pode ser administrado por via oral em paciente estável. É preciso avaliar alergias, função renal, interações e acompanhamento; a alternativa não elimina essas verificações."
+      },
+      "takeHome":"Escolha pelo estado clínico e pela sensibilidade: uma opção oral ativa pode evitar internação e carbapenêmico desnecessários.",
+      "attention":"Não presumir ESBL confirmada apenas pelo perfil de resistência. A duração do tratamento e a exclusão de prostatite dependem da avaliação clínica e não são fornecidas pela questão. A diretriz IDSA 2026 é corroboradora atual, não documento vigente à época da prova.",
+      "references":["COMMENT-L7-IDSA-AMR"]
+    },
+    {
+      "id":"2021-034","answer":"A",
+      "taxonomy":["Ginecologia e Obstetrícia","Ginecologia","Cervicite e doença inflamatória pélvica"],
+      "rationale":"Dor pélvica, dispareunia, dor à mobilização do colo e sensibilidade anexial sugerem doença inflamatória pélvica; o aspecto tubário descrito reforça acometimento das tubas. Chlamydia trachomatis é um agente relevante de cervicite e salpingite. Entre os pares apresentados, clamídia e azitromicina é o único que associa um agente compatível a um fármaco com atividade contra ele, justificando o gabarito A. Isso não comprova microbiologicamente o agente nem transforma azitromicina isolada em tratamento completo da síndrome.",
+      "alternatives":{
+        "A":"A associação é plausível para infecção por clamídia: azitromicina tem atividade contra esse organismo. O acerto do par etiológico-farmacológico deve ser distinguido do esquema empírico completo para doença inflamatória pélvica.",
+        "B":"Metronidazol trata tricomoníase, mas esse par não explica tão bem a salpingite sugerida pelo caso. Na doença inflamatória pélvica, metronidazol participa da cobertura anaeróbia, não substitui sozinho a cobertura dos demais agentes.",
+        "C":"Fluconazol é antifúngico, não tratamento de Gardnerella. O par está farmacologicamente incorreto; vaginose bacteriana pode coexistir com doença inflamatória pélvica, mas isso não torna fluconazol adequado.",
+        "D":"Penicilina é tratamento de sífilis, porém o quadro descrito não corresponde à apresentação típica dessa infecção. O par não responde à síndrome de cervicite/salpingite em avaliação."
+      },
+      "takeHome":"Clamídia pode causar cervicite e salpingite; doença inflamatória pélvica requer cobertura combinada, não apenas um antibiótico ativo contra clamídia.",
+      "attention":"O gabarito A foi preservado como melhor par entre as opções. Não ensinar azitromicina isolada como esquema completo para doença inflamatória pélvica: as recomendações CDC 2021 incluem ceftriaxona, doxiciclina e metronidazol. Dor à mobilização cervical e anexial exige manejo da síndrome, avaliação de gravidade e investigação de outras causas, inclusive gestação ectópica.",
+      "references":["COMMENT-L7-CDC-PID","COMMENT-L7-CDC-CHLAMYDIA"]
+    },
+    {
+      "id":"2021-037","answer":"A",
+      "taxonomy":["Pediatria","Nefrologia Pediátrica","Imagem após infecção urinária recorrente"],
+      "rationale":"O lactente teve episódios repetidos de infecção urinária alta, um contexto de risco para lesão do parênquima renal. Ultrassom sem alterações não exclui cicatrizes renais. A cintilografia com DMSA avalia o parênquima e a distribuição funcional cortical, sendo a alternativa A quando o objetivo é investigar dano renal após pielonefrites. A identificação de refluxo vesicoureteral é outra pergunta diagnóstica e exige exame diferente.",
+      "alternatives":{
+        "A":"O DMSA permite detectar defeitos do parênquima renal e avaliar a função relativa dos rins. Para cicatrizes persistentes, costuma-se realizá-lo após intervalo da infecção aguda; um defeito durante a fase aguda não deve ser automaticamente chamado de cicatriz.",
+        "B":"Urografia excretora não é o exame de escolha para avaliar cicatrizes renais nesse contexto e não substitui a avaliação cortical do DMSA.",
+        "C":"Uretrocistografia miccional investiga refluxo vesicoureteral e alterações uretrais. Pode ser indicada em situações selecionadas, especialmente diante de recorrência em lactentes, mas não responde ao mesmo objetivo de avaliar dano cortical.",
+        "D":"Ressonância de abdome não é a investigação de rotina proposta para cicatrizes após infecções urinárias recorrentes. Exames mais complexos dependem de dúvida anatômica específica."
+      },
+      "takeHome":"DMSA avalia parênquima e cicatrizes; uretrocistografia miccional investiga refluxo. Não confundir os objetivos.",
+      "attention":"O enunciado não explicita qual alteração está sendo investigada ao pedir um único padrão-ouro. A resposta A é coerente para dano cortical, mas C seria pertinente se o objetivo fosse refluxo. A NICE NG224, publicada após a prova e com recomendações de imagem herdadas de 2007, diferencia esses exames e seleciona sua indicação pela idade e recorrência; não permite afirmar que DMSA substitui toda investigação urológica.",
+      "references":["COMMENT-L7-NICE-UTI"]
+    },
+    {
+      "id":"2021-039","answer":"A",
+      "taxonomy":["Clínica Médica","Angiologia","Suspeita de trombose venosa profunda"],
+      "rationale":"Edema unilateral extenso e dor em membro inferior, associados ao uso de contraceptivo e à obesidade, levantam suspeita de trombose venosa profunda. Pulsos palpáveis não excluem obstrução venosa. Dor com dorsiflexão isoladamente não confirma o diagnóstico. O eco-Doppler venoso é a investigação inicial apropriada entre as opções, permitindo avaliar o sistema venoso e orientar a conduta, correspondente a A.",
+      "alternatives":{
+        "A":"A ultrassonografia venosa com avaliação de compressibilidade e Doppler é adequada para investigar suspeita de trombose venosa profunda. Deve integrar uma avaliação clínica de probabilidade e um fluxo de atendimento oportuno.",
+        "B":"Encaminhar todo caso diretamente a hospital terciário não é a primeira medida exigida apenas pelos dados apresentados. Encaminhamento urgente é necessário diante de ameaça ao membro, instabilidade ou suspeita de embolia pulmonar, além das condições locais de acesso ao diagnóstico.",
+        "C":"Anticoagulação pode ser necessária e pode ser iniciada provisoriamente quando a investigação de uma suspeita relevante se atrasa, após avaliar risco hemorrágico. Contudo, essa opção não inclui a confirmação diagnóstica e apresenta repouso como solução geral; não é a melhor resposta à conduta inicial do enunciado.",
+        "D":"Anti-inflamatório e ácido acetilsalicílico não constituem tratamento adequado de trombose venosa profunda. Podem atenuar sintomas ou ter outras indicações, mas não substituem investigação e anticoagulação quando indicada."
+      },
+      "takeHome":"Suspeita de trombose venosa profunda: avaliar probabilidade clínica e obter ultrassom venoso oportunamente; não usar aspirina como substituto da anticoagulação.",
+      "attention":"Edema de toda a perna com palidez merece avaliação urgente de gravidade e de perfusão; pulsos presentes não autorizam minimizar o quadro. Se o ultrassom não estiver disponível rapidamente, protocolos como NICE NG158 prevêem anticoagulação provisória em suspeita relevante, após avaliação de contraindicações. O gabarito A não deve ser interpretado como licença para esperar indefinidamente pelo exame.",
+      "references":["COMMENT-L7-NICE-VTE"]
+    },
+    {
+      "id":"2021-040","answer":"D",
+      "taxonomy":["Clínica Médica","Neurologia","Síndrome parkinsoniana"],
+      "rationale":"Tremor inicialmente assimétrico, que melhora ao executar uma atividade, associado a dificuldade para iniciar a marcha e controlar os passos, sugere uma síndrome parkinsoniana. Entre as opções, doença de Parkinson é a hipótese favorecida pelo padrão motor e pelo gabarito D. O relato é compatível com tremor de repouso e dificuldade de iniciação motora, mas não fornece um exame neurológico completo nem resposta a tratamento para confirmar definitivamente a etiologia.",
+      "alternatives":{
+        "A":"Tremor essencial predomina na manutenção de postura ou durante a ação, em contraste com a melhora ao cozinhar ou comer descrita aqui. Também não explica bem as dificuldades de iniciação da marcha e de controle dos passos.",
+        "B":"Paralisia supranuclear progressiva pode causar dificuldade de marcha e quedas precoces, portanto merece consideração. Alteração da motricidade ocular, especialmente do olhar vertical, não é descrita; a apresentação do tremor favorece a opção indicada pela banca, mas não exclui parkinsonismo atípico.",
+        "C":"Huntington associa-se tipicamente a movimentos coreicos e alterações cognitivas ou comportamentais, não descritos neste caso. O padrão apresentado de tremor e dificuldade de iniciar movimentos favorece parkinsonismo.",
+        "D":"Doença de Parkinson costuma começar de modo assimétrico e pode combinar tremor de repouso, lentidão motora e dificuldades de marcha. É a resposta mais compatível entre as alternativas, sem dispensar investigação especializada."
+      },
+      "takeHome":"Tremor assimétrico com melhora na ação e dificuldade de iniciar a marcha sugere parkinsonismo; quedas precoces exigem atenção a causas atípicas.",
+      "attention":"Duas quedas em uma evolução relatada como de poucos meses são um sinal de alerta para parkinsonismo atípico, inclusive paralisia supranuclear progressiva. Não afirmar que as alternativas B e D podem ser diferenciadas definitivamente apenas pelo relato: faltam exame ocular, avaliação de rigidez e bradicinesia, evolução e resposta dopaminérgica. A letra D permanece inalterada.",
+      "references":["COMMENT-L7-NINDS-PD","COMMENT-L7-NINDS-PSP","COMMENT-L7-NIH-HD"]
+    }
+  ]
+}

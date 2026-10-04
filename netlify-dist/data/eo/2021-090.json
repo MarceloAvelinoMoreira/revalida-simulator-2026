@@ -1,1 +1,86 @@
-{"schemaVersion":"2.0","objectId":"a4e89745-b338-572b-8e32-fbc26f47ce55","questionId":"2021-090","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «o paciente não apresenta anemia, contudo o resultado laboratorial sugere deficiência de ferro, devendo-se realizar a orientação dietética pertinente».\n\nNo cenário — Um adolescente do sexo masculino, de 13 anos de idade, em atendimento de rotina, relata desânimo e cansaço para ajudar nas atividades domésticas e inapetência. Recordatório alimentar: 3 sanduiches de pão de forma com manteiga e batata frita no almoço e no jantar, nos intervalos ingere balas e biscoitos, além de 1 000 mL de leite por dia. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Pediatria, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («o paciente apresenta anemia megaloblástica, sendo necessária a correção dietética com alimentos fontes de vitamina B12 e folatos») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («o paciente não apresenta alterações clínicas ou laboratoriais, sendo necessário investigar outras causas que justifiquem as queixas do mesmo») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («o paciente apresenta anemia carencial por deficiência de ferro, sendo necessária a correção dietética e a administração de sulfato ferroso») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Pediatria. O enunciado descreve: Um adolescente do sexo masculino, de 13 anos de idade, em atendimento de rotina, relata desânimo e cansaço para ajudar nas atividades domésticas e inapetência. Recordatório alimentar: 3 sanduiches de pão de forma com manteiga e batata frita no almoço e no jantar, nos intervalos ingere balas e biscoitos, além de 1 000 mL de leite por dia. Exame físico sem alterações, peso, estatura e IMC no percentil 50 das curvas de referência e G3P3 de acordo com estadiamento de Tanner.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («o paciente não apresenta anemia, contudo o resultado laboratorial sugere deficiência de ferro, devendo-se realizar a orientação dietética pertinente») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de pediatria, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Pediatria.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0016","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Pediatria","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "a4e89745-b338-572b-8e32-fbc26f47ce55",
+  "questionId": "2021-090",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Pelo limite de 12 g/dL explicitado para a idade, hemoglobina de 12,1 não define anemia. Entretanto, microcitose e hipocromia, associadas à dieta pobre em fontes de ferro, sugerem deficiência de ferro em evolução. D distingue deficiência provável de anemia já estabelecida.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Megaloblastose causa geralmente macrocitose, não o VCM reduzido apresentado."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Há alterações dos índices eritrocitários e dieta inadequada; hemoglobina acima do corte não significa exame inteiramente normal."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Classifica como anemia uma hemoglobina que não está abaixo do limite informado. Tratamento de deficiência confirmada deve ser decidido após avaliação."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 90\n\nResposta D — o paciente não apresenta anemia, contudo o resultado laboratorial sugere deficiência de ferro, devendo-se realizar a orientação dietética pertinente\n\nPediatria › Nutrologia › Deficiência de ferro sem anemia\n\nPelo limite de 12 g/dL explicitado para a idade, hemoglobina de 12,1 não define anemia. Entretanto, microcitose e hipocromia, associadas à dieta pobre em fontes de ferro, sugerem deficiência de ferro em evolução. D distingue deficiência provável de anemia já estabelecida.\n\nA alternativa A está incorreta: Megaloblastose causa geralmente macrocitose, não o VCM reduzido apresentado.\n\nA alternativa B está incorreta: Há alterações dos índices eritrocitários e dieta inadequada; hemoglobina acima do corte não significa exame inteiramente normal.\n\nA alternativa C está incorreta: Classifica como anemia uma hemoglobina que não está abaixo do limite informado. Tratamento de deficiência confirmada deve ser decidido após avaliação.\n\nA alternativa D está correta: Reconhece a ausência de anemia pelo critério dado e a suspeita de deficiência nutricional, com necessidade de orientação e investigação.\n\n⚠ PONTO DE ATENÇÃO\nMicrocitose não confirma sozinha deficiência de ferro; ferritina e contexto inflamatório ajudam a distingui-la de hemoglobinopatias. Correção dietética não exclui reposição se a deficiência for confirmada. Não generalizar 12 g/dL para homens de todas as idades.\n\nGabarito registrado no banco: D (preservado)."
+    },
+    "takeHomeMessage": "Deficiência de ferro pode anteceder queda da hemoglobina; interpretar índices, dieta e ferritina.",
+    "keyPoints": [
+      "Deficiência de ferro pode anteceder queda da hemoglobina; interpretar índices, dieta e ferritina."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-FERRO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "L10-HB",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Pediatria",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Pediatria",
+      "Nutrologia",
+      "Deficiência de ferro sem anemia"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

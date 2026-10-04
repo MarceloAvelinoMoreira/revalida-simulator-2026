@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"85767062-da28-5a0e-8d42-96a24232a6ee","questionId":"2021-039","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «Solicitar Eco-Doppler colorido venoso de membro inferior».\n\nNo cenário — Mulher com 42 anos de idade foi atendida em unidade básica de saúde referindo, há 5 dias, dor na panturrilha direita que se acentuava ao realizar a flexão dorsal do pé. A dor piorou há 2 dias, aparecendo inchaço, palidez cutânea e dificuldade para deambular. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Ginecologia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Indicar tratamento imediato em hospital terciário») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Prescrever repouso, analgésicos e heparina ou enoxaparina por via subcutânea») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Prescrever repouso, anti-inflamatório não hormonal e ácido acetil salicílico 100 mg ao dia») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Ginecologia. O enunciado descreve: Mulher com 42 anos de idade foi atendida em unidade básica de saúde referindo, há 5 dias, dor na panturrilha direita que se acentuava ao realizar a flexão dorsal do pé. A dor piorou há 2 dias, aparecendo inchaço, palidez cutânea e dificuldade para deambular. Relatou fazer uso de contraceptivo oral e tabagismo desde os 20 anos de idade.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («Solicitar Eco-Doppler colorido venoso de membro inferior») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de ginecologia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Ginecologia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: Solicitar Eco-Doppler colorido venoso de membro inferior"}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Ginecologia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "85767062-da28-5a0e-8d42-96a24232a6ee",
+  "questionId": "2021-039",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Edema unilateral extenso e dor em membro inferior, associados ao uso de contraceptivo e à obesidade, levantam suspeita de trombose venosa profunda. Pulsos palpáveis não excluem obstrução venosa. Dor com dorsiflexão isoladamente não confirma o diagnóstico. O eco-Doppler venoso é a investigação inicial apropriada entre as opções, permitindo avaliar o sistema venoso e orientar a conduta, correspondente a A.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Encaminhar todo caso diretamente a hospital terciário não é a primeira medida exigida apenas pelos dados apresentados. Encaminhamento urgente é necessário diante de ameaça ao membro, instabilidade ou suspeita de embolia pulmonar, além das condições locais de acesso ao diagnóstico."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Anticoagulação pode ser necessária e pode ser iniciada provisoriamente quando a investigação de uma suspeita relevante se atrasa, após avaliar risco hemorrágico. Contudo, essa opção não inclui a confirmação diagnóstica e apresenta repouso como solução geral; não é a melhor resposta à conduta inicial do enunciado."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Anti-inflamatório e ácido acetilsalicílico não constituem tratamento adequado de trombose venosa profunda. Podem atenuar sintomas ou ter outras indicações, mas não substituem investigação e anticoagulação quando indicada."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 39\n\nResposta A — Solicitar Eco-Doppler colorido venoso de membro inferior\n\nClínica Médica › Angiologia › Suspeita de trombose venosa profunda\n\nEdema unilateral extenso e dor em membro inferior, associados ao uso de contraceptivo e à obesidade, levantam suspeita de trombose venosa profunda. Pulsos palpáveis não excluem obstrução venosa. Dor com dorsiflexão isoladamente não confirma o diagnóstico. O eco-Doppler venoso é a investigação inicial apropriada entre as opções, permitindo avaliar o sistema venoso e orientar a conduta, correspondente a A.\n\nA alternativa A está correta: A ultrassonografia venosa com avaliação de compressibilidade e Doppler é adequada para investigar suspeita de trombose venosa profunda. Deve integrar uma avaliação clínica de probabilidade e um fluxo de atendimento oportuno.\n\nA alternativa B está incorreta: Encaminhar todo caso diretamente a hospital terciário não é a primeira medida exigida apenas pelos dados apresentados. Encaminhamento urgente é necessário diante de ameaça ao membro, instabilidade ou suspeita de embolia pulmonar, além das condições locais de acesso ao diagnóstico.\n\nA alternativa C está incorreta: Anticoagulação pode ser necessária e pode ser iniciada provisoriamente quando a investigação de uma suspeita relevante se atrasa, após avaliar risco hemorrágico. Contudo, essa opção não inclui a confirmação diagnóstica e apresenta repouso como solução geral; não é a melhor resposta à conduta inicial do enunciado.\n\nA alternativa D está incorreta: Anti-inflamatório e ácido acetilsalicílico não constituem tratamento adequado de trombose venosa profunda. Podem atenuar sintomas ou ter outras indicações, mas não substituem investigação e anticoagulação quando indicada.\n\n⚠ PONTO DE ATENÇÃO\nEdema de toda a perna com palidez merece avaliação urgente de gravidade e de perfusão; pulsos presentes não autorizam minimizar o quadro. Se o ultrassom não estiver disponível rapidamente, protocolos como NICE NG158 prevêem anticoagulação provisória em suspeita relevante, após avaliação de contraindicações. O gabarito A não deve ser interpretado como licença para esperar indefinidamente pelo exame.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Suspeita de trombose venosa profunda: avaliar probabilidade clínica e obter ultrassom venoso oportunamente; não usar aspirina como substituto da anticoagulação.",
+    "keyPoints": [
+      "Suspeita de trombose venosa profunda: avaliar probabilidade clínica e obter ultrassom venoso oportunamente; não usar aspirina como substituto da anticoagulação."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L7-NICE-VTE",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Clínica Médica",
+      "Angiologia",
+      "Suspeita de trombose venosa profunda"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote7",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

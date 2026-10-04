@@ -1,1 +1,86 @@
-{"schemaVersion":"2.0","objectId":"76453209-a05f-5328-9e7b-89fbfce91b0a","questionId":"2021-060","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «antirratização; desratização; e informação, educação e comunicação em saúde».\n\nNo cenário — Numa Unidade Básica de Saúde, localizada em cidade de grande porte, são atendidos, no intervalo de 2 semanas, 3 casos de leptospirose em trabalhadores de limpeza e desentupimento de esgotos. No que se refere à vigilância ambiental, são ações previstas pelo Ministério da Saúde durante a investigação dos casos e após identificação do local provável de infecção — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Medicina Preventiva e Social, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («desratização; mutirão de limpeza; controle de comunicantes») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: confundir tratamento de manutenção com tratamento da fase aguda. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («informação, educação e comunicação em saúde; busca ativa de casos; vacinação de bloqueio») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («drenagem de coleções hídricas; sorologia nos comunicantes; quimioprofilaxia») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Medicina Preventiva e Social. O enunciado descreve: Numa Unidade Básica de Saúde, localizada em cidade de grande porte, são atendidos, no intervalo de 2 semanas, 3 casos de leptospirose em trabalhadores de limpeza e desentupimento de esgotos. No que se refere à vigilância ambiental, são ações previstas pelo Ministério da Saúde durante a investigação dos casos e após identificação do local provável de infecção\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («antirratização; desratização; e informação, educação e comunicação em saúde») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de medicina preventiva e social, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Medicina Preventiva e Social.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0004","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Medicina Preventiva e Social","difficultyLevel":"low","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "76453209-a05f-5328-9e7b-89fbfce91b0a",
+  "questionId": "2021-060",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Casos em trabalhadores de esgoto apontam para exposição ocupacional a ambiente contaminado, frequentemente associada à urina de roedores. Após identificar o provável local de infecção, a vigilância deve reduzir condições que favorecem reservatórios e exposição. Antirratização remove acesso a alimento, água e abrigo; desratização controla roedores por medidas executadas adequadamente; educação orienta proteção e reconhecimento da doença. O conjunto corresponde a A.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Limpeza pode ser parte das ações, mas 'controle de comunicantes' não é o núcleo da investigação de uma doença adquirida principalmente do ambiente. A transmissão casual entre pessoas não é a cadeia típica que se pretende interromper."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Busca ativa e educação podem ser pertinentes, porém vacinação de bloqueio para humanos não é uma medida disponível de rotina no Brasil contra leptospirose."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Medidas ambientais podem ser úteis conforme o local, mas sorologia de todos os comunicantes e quimioprofilaxia indiscriminada não constituem o pacote padrão indicado pela situação."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 60\n\nResposta A — antirratização; desratização; e informação, educação e comunicação em saúde\n\nSaúde Coletiva › Vigilância Ambiental › Prevenção e controle da leptospirose\n\nCasos em trabalhadores de esgoto apontam para exposição ocupacional a ambiente contaminado, frequentemente associada à urina de roedores. Após identificar o provável local de infecção, a vigilância deve reduzir condições que favorecem reservatórios e exposição. Antirratização remove acesso a alimento, água e abrigo; desratização controla roedores por medidas executadas adequadamente; educação orienta proteção e reconhecimento da doença. O conjunto corresponde a A.\n\nA alternativa A está correta: Reúne controle ambiental preventivo, controle de roedores e comunicação em saúde. Para os trabalhadores, orientações e medidas de proteção precisam integrar a avaliação do ambiente laboral.\n\nA alternativa B está incorreta: Limpeza pode ser parte das ações, mas 'controle de comunicantes' não é o núcleo da investigação de uma doença adquirida principalmente do ambiente. A transmissão casual entre pessoas não é a cadeia típica que se pretende interromper.\n\nA alternativa C está incorreta: Busca ativa e educação podem ser pertinentes, porém vacinação de bloqueio para humanos não é uma medida disponível de rotina no Brasil contra leptospirose.\n\nA alternativa D está incorreta: Medidas ambientais podem ser úteis conforme o local, mas sorologia de todos os comunicantes e quimioprofilaxia indiscriminada não constituem o pacote padrão indicado pela situação.\n\n⚠ PONTO DE ATENÇÃO\nAntirratização e desratização não são sinônimos. Uso de produtos para controle de roedores deve ser feito por pessoal capacitado, sem incentivar aplicação doméstica indiscriminada.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Leptospirose: identificar exposição ambiental, reduzir abrigo/alimento de roedores e orientar proteção; não propor vacinação humana de bloqueio.",
+    "keyPoints": [
+      "Leptospirose: identificar exposição ambiental, reduzir abrigo/alimento de roedores e orientar proteção; não propor vacinação humana de bloqueio."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L8-LEPTO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L8-LEPTO-PR",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Saúde Coletiva",
+    "difficultyLevel": "low",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Saúde Coletiva",
+      "Vigilância Ambiental",
+      "Prevenção e controle da leptospirose"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote8",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

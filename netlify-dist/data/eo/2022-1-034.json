@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"398f166e-37b0-5c59-88c7-7ad79d102e45","questionId":"2022-1-034","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «As características ultrassonográficas são de alto risco para malignidade».\n\nNo cenário — Uma paciente com 62 anos de idade comparece à consulta no centro de saúde com o laudo de exame de ultrassom pélvico. No laudo, constam a descrição de um cisto com septação espessa, ecogenicidade aumentada e com projeção papilar em ovário esquerdo; ausência de ascite ou outros achados, medidas uterinas e do ovário direito normais. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Ginecologia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («As características ultrassonográficas correspondem a processos não neoplásicos ou fisiológicos») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («As características ultrassonográficas são inespecíficas para classificar risco de malignidade») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («exame de ultrassom não é adequado para a avaliação das características da massa anexial») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Ginecologia. O enunciado descreve: Uma paciente com 62 anos de idade comparece à consulta no centro de saúde com o laudo de exame de ultrassom pélvico. No laudo, constam a descrição de um cisto com septação espessa, ecogenicidade aumentada e com projeção papilar em ovário esquerdo; ausência de ascite ou outros achados, medidas uterinas e do ovário direito normais. A paciente acrescenta que desconhece histórico familiar de cistos ou tumores de ovário.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («As características ultrassonográficas são de alto risco para malignidade») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de ginecologia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Ginecologia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Ginecologia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "398f166e-37b0-5c59-88c7-7ad79d102e45",
+  "questionId": "2022-1-034",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Septos espessos e projeção papilar em massa ovariana aos 62 anos são características suspeitas. A reconhece alto risco morfológico, que exige avaliação especializada; ausência de ascite ou história familiar não elimina malignidade. O ultrassom estima risco, mas não confirma histologia.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Não é um cisto simples fisiológico; a idade e a morfologia contradizem essa tranquilização."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "A ultrassonografia fornece elementos para estratificação de risco, embora não estabeleça sozinha o diagnóstico definitivo."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Ultrassom, especialmente transvaginal quando indicado, é exame inicial adequado para caracterizar massa anexial."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 34\n\nResposta A — As características ultrassonográficas são de alto risco para malignidade\n\nGinecologia e Obstetrícia › Oncologia Ginecológica › Massa anexial complexa\n\nSeptos espessos e projeção papilar em massa ovariana aos 62 anos são características suspeitas. A reconhece alto risco morfológico, que exige avaliação especializada; ausência de ascite ou história familiar não elimina malignidade. O ultrassom estima risco, mas não confirma histologia.\n\nA alternativa A está correta: Componentes complexos, sobretudo projeções papilares e septos espessos, aumentam preocupação e orientam investigação.\n\nA alternativa B está incorreta: Não é um cisto simples fisiológico; a idade e a morfologia contradizem essa tranquilização.\n\nA alternativa C está incorreta: A ultrassonografia fornece elementos para estratificação de risco, embora não estabeleça sozinha o diagnóstico definitivo.\n\nA alternativa D está incorreta: Ultrassom, especialmente transvaginal quando indicado, é exame inicial adequado para caracterizar massa anexial.\n\n⚠ PONTO DE ATENÇÃO\nNão declarar câncer confirmado ou atribuir estágio. A versão RCOG disponível foi atualizada depois da prova; regras atuais para cistos simples não se aplicam automaticamente a uma massa com papilas.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Papilas e septos espessos em massa ovariana pós-menopausa exigem investigação de malignidade.",
+    "keyPoints": [
+      "Papilas e septos espessos em massa ovariana pós-menopausa exigem investigação de malignidade."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP-2022-1-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-OVARIO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Oncologia Ginecológica",
+      "Massa anexial complexa"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

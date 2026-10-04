@@ -1,1 +1,86 @@
-{"schemaVersion":"2.0","objectId":"b8966644-9ab2-5ea9-aa49-9666cebbba39","questionId":"2021-084","officialAnswer":"D","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa D: «colonoscopia com biopsia; histopatológico com granuloma não caseoso».\n\nNo cenário — Uma mulher de 22 anos de idade foi encaminhada ao serviço de oftalmologia devido à episódio de olho vermelho, o qual o médico oftalmologista diagnosticou uma uveíte anterior aguda. Questionando a paciente, o médico identificou história de aftas orais recorrentes e dolorosas há pelo menos 1 ano para as quais não foi realizada nenhuma investigação, fazendo uso apenas de corticoides tópicos, com alívio fugaz. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («teste de Patergia; pústula visualizável no local de punção após 7 dias») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («parasitológico das fezes pelo MIF (mercúrio, iodo e formol); cistos e trofozoítos») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («pesquisa de autoanticorpos (FAN); positivo com padrão nuclear pontilhado fino denso») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa D, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Uma mulher de 22 anos de idade foi encaminhada ao serviço de oftalmologia devido à episódio de olho vermelho, o qual o médico oftalmologista diagnosticou uma uveíte anterior aguda. Questionando a paciente, o médico identificou história de aftas orais recorrentes e dolorosas há pelo menos 1 ano para as quais não foi realizada nenhuma investigação, fazendo uso apenas de corticoides tópicos, com alívio fugaz. Relata, ainda, que apresenta dor abdominal e diarreia, mais ou menos, no mesmo período.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial D («colonoscopia com biopsia; histopatológico com granuloma não caseoso») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa D fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"D: colonoscopia com biopsia; histopatológico com granuloma não caseoso"}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "b8966644-9ab2-5ea9-aa49-9666cebbba39",
+  "questionId": "2021-084",
+  "officialAnswer": "D",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Diarreia crônica com sangue e muco, aftas e uveíte sugere doença inflamatória intestinal. Colonoscopia com biópsias permite caracterizar a inflamação; granuloma não caseoso pode apoiar Crohn. D é a combinação mais adequada, mas esse achado não está presente em todos os casos.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Behçet entra no diferencial pela combinação de aftas e uveíte, mas patergia costuma ser lida em 24–48 horas, não sete dias, e resultado isolado não resolve a investigação intestinal."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Parasitológico pode participar da exclusão de infecção, mas cistos ou trofozoítos não integram automaticamente as manifestações sistêmicas descritas."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "FAN não é exame confirmatório de doença inflamatória intestinal; o padrão citado não explica por si só uveíte e colite."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 84\n\nResposta D — colonoscopia com biopsia; histopatológico com granuloma não caseoso\n\nClínica Médica › Gastroenterologia › Doença inflamatória intestinal com manifestações extraintestinais\n\nDiarreia crônica com sangue e muco, aftas e uveíte sugere doença inflamatória intestinal. Colonoscopia com biópsias permite caracterizar a inflamação; granuloma não caseoso pode apoiar Crohn. D é a combinação mais adequada, mas esse achado não está presente em todos os casos.\n\nA alternativa A está incorreta: Behçet entra no diferencial pela combinação de aftas e uveíte, mas patergia costuma ser lida em 24–48 horas, não sete dias, e resultado isolado não resolve a investigação intestinal.\n\nA alternativa B está incorreta: Parasitológico pode participar da exclusão de infecção, mas cistos ou trofozoítos não integram automaticamente as manifestações sistêmicas descritas.\n\nA alternativa C está incorreta: FAN não é exame confirmatório de doença inflamatória intestinal; o padrão citado não explica por si só uveíte e colite.\n\nA alternativa D está correta: Endoscopia com biópsias investiga o processo intestinal. Granuloma não caseoso é compatível com Crohn e precisa interpretação com clínica e exclusão de outras causas.\n\n⚠ PONTO DE ATENÇÃO\nAusência de granuloma não exclui Crohn. Sangue e muco também ocorrem em retocolite; não estabelecer diagnóstico definitivo sem investigação, incluindo causas infecciosas.\n\nGabarito registrado no banco: D (preservado)."
+    },
+    "takeHomeMessage": "Colite crônica com aftas e uveíte: investigar doença inflamatória intestinal por endoscopia e biópsias.",
+    "keyPoints": [
+      "Colite crônica com aftas e uveíte: investigar doença inflamatória intestinal por endoscopia e biópsias."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-CROHN",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "L10-CROHN-SINT",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Clínica Médica",
+      "Gastroenterologia",
+      "Doença inflamatória intestinal com manifestações extraintestinais"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"04d63276-2d5d-5d43-aac0-e78aa51ae2e6","questionId":"2021-094","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «Solicitar endoscopia com biópsias seriadas para excluir neoplasia gástrica e pesquisar Helicobacter pylori».\n\nNo cenário — Um homem, com 58 anos de idade, foi atendido em ambulatório de hospital secundário. Relatava dor e queimação epigástrica que aumentava após a ingestão de alimentos, acompanhada de plenitude pós-prandial. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Indicar tratamento operatório pela localização da úlcera e risco de perfuração») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Prescrever inibidor de secreção gástrica por 6 a 8 semanas e solicitar endoscopia com pesquisa de Helicobacter pylori, avaliando a cicatrização») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Prescrever inibidor da secreção gástrica e tratar Helicobacter pylori empiricamente por sua prevalência em ulcerosos, evitando recidiva») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Um homem, com 58 anos de idade, foi atendido em ambulatório de hospital secundário. Relatava dor e queimação epigástrica que aumentava após a ingestão de alimentos, acompanhada de plenitude pós-prandial. Realizou endoscopia digestiva alta que evidenciou úlcera com 5 mm de diâmetro na parede anterior do antro gástrico, na região pré-pilórica.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («Solicitar endoscopia com biópsias seriadas para excluir neoplasia gástrica e pesquisar Helicobacter pylori») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "04d63276-2d5d-5d43-aac0-e78aa51ae2e6",
+  "questionId": "2021-094",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Úlcera gástrica precisa avaliação histológica para excluir malignidade e investigação de H. pylori. Tamanho pequeno e localização pré-pilórica não garantem benignidade. A contempla a lacuna diagnóstica central; tratar acidez e documentar cicatrização também fazem parte do cuidado.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Não há perfuração, sangramento refratário ou obstrução que indique cirurgia apenas por localização."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Supressão ácida e controle endoscópico são úteis, mas a alternativa não contempla biópsia da úlcera inicialmente não caracterizada."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Prevalência elevada não comprova infecção. Tratamento empírico ignora a investigação histológica e pode expor a antibióticos desnecessários."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 94\n\nResposta A — Solicitar endoscopia com biópsias seriadas para excluir neoplasia gástrica e pesquisar Helicobacter pylori\n\nClínica Médica › Gastroenterologia › Investigação de úlcera gástrica\n\nÚlcera gástrica precisa avaliação histológica para excluir malignidade e investigação de H. pylori. Tamanho pequeno e localização pré-pilórica não garantem benignidade. A contempla a lacuna diagnóstica central; tratar acidez e documentar cicatrização também fazem parte do cuidado.\n\nA alternativa A está correta: Biópsias adequadas e investigação de H. pylori ajudam a definir etiologia e excluir neoplasia.\n\nA alternativa B está incorreta: Não há perfuração, sangramento refratário ou obstrução que indique cirurgia apenas por localização.\n\nA alternativa C está incorreta: Supressão ácida e controle endoscópico são úteis, mas a alternativa não contempla biópsia da úlcera inicialmente não caracterizada.\n\nA alternativa D está incorreta: Prevalência elevada não comprova infecção. Tratamento empírico ignora a investigação histológica e pode expor a antibióticos desnecessários.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Úlcera gástrica: investigar H. pylori, obter histologia apropriada e confirmar cicatrização.",
+    "keyPoints": [
+      "Úlcera gástrica: investigar H. pylori, obter histologia apropriada e confirmar cicatrização."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-ULCERA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Clínica Médica",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Clínica Médica",
+      "Gastroenterologia",
+      "Investigação de úlcera gástrica"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": false,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

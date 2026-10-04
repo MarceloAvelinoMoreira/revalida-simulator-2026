@@ -1,1 +1,86 @@
-{"schemaVersion":"2.0","objectId":"2789dd99-c9ab-5087-8329-df5049476edc","questionId":"2021-066","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «Na idade da paciente, a realização de ressonância magnética local não aumenta a especificidade das informações obtidas com a mamografia».\n\nNo cenário — Uma paciente de 53 anos de idade comparece ao ambulatório de Clínica Médica onde faz acompanhamento regular de suas doenças crônicas não transmissíveis (DCNTS — hipertensão arterial sistêmica, diabetes mellitus e obesidade). Durante a consulta de seguimento, a paciente manifesta preocupação com um \"caroço\" que detectou há cerca de 1 mês em sua mama esquerda. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Ginecologia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («O histórico de menarca tardia, menopausa precoce e gestações múltiplas são fatores de risco reconhecidos») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Diferentemente da terapia de contracepção conjugada (estrógeno e progestágeno), a TRH não é fator de risco para a doença») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («A chance de a paciente apresentar mutação hereditária no gene BRCA1 é alta, particularmente se seu tumor coexpressar receptores de estrogênio, progestágeno e HER2») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: liberar o paciente ou optar por manejo ambulatorial cedo demais. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Ginecologia. O enunciado descreve: Uma paciente de 53 anos de idade comparece ao ambulatório de Clínica Médica onde faz acompanhamento regular de suas doenças crônicas não transmissíveis (DCNTS — hipertensão arterial sistêmica, diabetes mellitus e obesidade). Durante a consulta de seguimento, a paciente manifesta preocupação com um \"caroço\" que detectou há cerca de 1 mês em sua mama esquerda. Ela nega emagrecimento, dor local ou descarga mamilar.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («Na idade da paciente, a realização de ressonância magnética local não aumenta a especificidade das informações obtidas com a mamografia») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de ginecologia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Ginecologia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Ginecologia","difficultyLevel":"high","cognitiveLevel":"analysis"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "2789dd99-c9ab-5087-8329-df5049476edc",
+  "questionId": "2021-066",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Nódulo endurecido aos 53 anos exige investigação diagnóstica, usualmente com mamografia, ultrassom dirigido e biópsia conforme suspeita. A ressonância é sensível, mas pode gerar falsos positivos e não melhora automaticamente a especificidade da mamografia pelo fato de a paciente ter essa idade. Esse é o sentido em que C é a melhor opção; não significa que ressonância nunca seja útil.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Menarca tardia e menopausa precoce reduzem o tempo de exposição estrogênica. Não são os fatores de risco propostos; o efeito da paridade depende também da idade das gestações."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Terapia hormonal da menopausa não é isenta de risco mamário. Associação estrogênio-progestágeno e duração importam; não se deve equiparar todos os esquemas."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Coexpressão de receptores e HER2 não estabelece alta probabilidade de BRCA1. A avaliação genética depende de história pessoal/familiar e critérios próprios, não desse fenótipo isolado."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 66\n\nResposta C — Na idade da paciente, a realização de ressonância magnética local não aumenta a especificidade das informações obtidas com a mamografia\n\nGinecologia e Obstetrícia › Mastologia › Investigação de nódulo mamário\n\nNódulo endurecido aos 53 anos exige investigação diagnóstica, usualmente com mamografia, ultrassom dirigido e biópsia conforme suspeita. A ressonância é sensível, mas pode gerar falsos positivos e não melhora automaticamente a especificidade da mamografia pelo fato de a paciente ter essa idade. Esse é o sentido em que C é a melhor opção; não significa que ressonância nunca seja útil.\n\nA alternativa A está incorreta: Menarca tardia e menopausa precoce reduzem o tempo de exposição estrogênica. Não são os fatores de risco propostos; o efeito da paridade depende também da idade das gestações.\n\nA alternativa B está incorreta: Terapia hormonal da menopausa não é isenta de risco mamário. Associação estrogênio-progestágeno e duração importam; não se deve equiparar todos os esquemas.\n\nA alternativa C está correta: Ressonância não é exame rotineiro para aumentar especificidade nesse contexto. Tem indicações selecionadas, como alto risco ou esclarecimento de achados inconclusivos.\n\nA alternativa D está incorreta: Coexpressão de receptores e HER2 não estabelece alta probabilidade de BRCA1. A avaliação genética depende de história pessoal/familiar e critérios próprios, não desse fenótipo isolado.\n\n⚠ PONTO DE ATENÇÃO\nA redação de C é ampla: desempenho diagnóstico depende da indicação e do protocolo. Preserva-se o gabarito, sem concluir que a ressonância seja inútil em qualquer paciente de 53 anos.\n\nGabarito registrado no banco: C (preservado)."
+    },
+    "takeHomeMessage": "Nódulo suspeito precisa investigação diagnóstica; maior sensibilidade da ressonância não equivale a maior especificidade.",
+    "keyPoints": [
+      "Nódulo suspeito precisa investigação diagnóstica; maior sensibilidade da ressonância não equivale a maior especificidade."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-MAMA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "L10-BRCA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "high",
+    "cognitiveLevel": "analysis",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Mastologia",
+      "Investigação de nódulo mamário"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

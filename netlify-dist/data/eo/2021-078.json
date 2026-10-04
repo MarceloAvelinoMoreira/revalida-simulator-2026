@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"fbf2e57b-6321-5cca-affc-78a00d9cbb6f","questionId":"2021-078","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «terapias hormonais locais».\n\nNo cenário — Uma mulher de 49 anos de idade foi atendida no ambulatório de ginecologia de um hospital na sua região. Suas principais queixas eram sintomas genitourinários, como prurido, ardor, ressecamento e irritação vulvar; disúria e urgência miccional de início há 8 meses. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Obstetrícia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («antifúngico oral») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («creme vaginal antifúngico») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («estradiol via transdérmica») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Obstetrícia. O enunciado descreve: Uma mulher de 49 anos de idade foi atendida no ambulatório de ginecologia de um hospital na sua região. Suas principais queixas eram sintomas genitourinários, como prurido, ardor, ressecamento e irritação vulvar; disúria e urgência miccional de início há 8 meses. Esses sintomas levaram à redução da libido e impacto negativo na sua vida sexual.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («terapias hormonais locais») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de obstetrícia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Obstetrícia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: terapias hormonais locais"}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Obstetrícia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "fbf2e57b-6321-5cca-affc-78a00d9cbb6f",
+  "questionId": "2021-078",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Ressecamento, ardor, sintomas urinários e vagina hipotrófica favorecem síndrome geniturinária associada ao hipoestrogenismo. Sem sintomas sistêmicos que exijam terapia sistêmica, tratamento hormonal vaginal pode atuar diretamente no tecido comprometido. A é a opção mais dirigida ao caso.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Antifúngico oral não trata atrofia; prurido isolado não comprova candidíase."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Não há descrição de secreção ou comprovação fúngica que justifique creme antifúngico como tratamento principal."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Estradiol transdérmico pode ter indicação para outros sintomas do climatério, mas não é necessário como primeira escolha para quadro exclusivamente local."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 78\n\nResposta A — terapias hormonais locais\n\nGinecologia e Obstetrícia › Climatério › Síndrome geniturinária por hipoestrogenismo\n\nRessecamento, ardor, sintomas urinários e vagina hipotrófica favorecem síndrome geniturinária associada ao hipoestrogenismo. Sem sintomas sistêmicos que exijam terapia sistêmica, tratamento hormonal vaginal pode atuar diretamente no tecido comprometido. A é a opção mais dirigida ao caso.\n\nA alternativa A está correta: Estrogênio local pode melhorar trofismo e sintomas vaginais/urinários, com avaliação de contraindicações e preferências.\n\nA alternativa B está incorreta: Antifúngico oral não trata atrofia; prurido isolado não comprova candidíase.\n\nA alternativa C está incorreta: Não há descrição de secreção ou comprovação fúngica que justifique creme antifúngico como tratamento principal.\n\nA alternativa D está incorreta: Estradiol transdérmico pode ter indicação para outros sintomas do climatério, mas não é necessário como primeira escolha para quadro exclusivamente local.\n\n⚠ PONTO DE ATENÇÃO\nNão há informação sobre a data da última menstruação; confirmar contexto e excluir outras causas de vulvovaginite ou disúria. Sangramento inexplicado ou história oncológica relevante exige avaliação individual.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Sintomas geniturinários com hipotrofia vaginal favorecem tratamento local, não antifúngico empírico.",
+    "keyPoints": [
+      "Sintomas geniturinários com hipotrofia vaginal favorecem tratamento local, não antifúngico empírico."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-VAGINAL",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Climatério",
+      "Síndrome geniturinária por hipoestrogenismo"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

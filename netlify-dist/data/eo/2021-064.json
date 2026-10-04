@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"b439ca68-814c-5608-b66b-737e76b8be77","questionId":"2021-064","officialAnswer":"C","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa C: «Colher a história clínica e informar que não há necessidade de realizar o exame preventivo antes de completar 25 anos».\n\nNo cenário — Uma adolescente com 18 anos de idade, procura assistência primária para realizar o exame preventivo do câncer do colo uterino. Sexarca aos 17 anos, em uso de contraceptivo oral. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Ginecologia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Fazer o exame clínico e ginecológico completo e coletar material para o exame citopatológico do colo uterino») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Coletar material para identificar o DNA-HPV (captura híbrida), se estiver disponível, pois é mais sensível que o exame citológico») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Coletar material para citologia e caso tenha duas citologias normais com intervalo de 1 ano, fazer a coleta a cada 3 anos») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa C, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Ginecologia. O enunciado descreve: Uma adolescente com 18 anos de idade, procura assistência primária para realizar o exame preventivo do câncer do colo uterino. Sexarca aos 17 anos, em uso de contraceptivo oral. De acordo com as diretrizes brasileiras na prevenção do câncer de colo uterino, qual deve ser a conduta do agente de saúde?\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial C («Colher a história clínica e informar que não há necessidade de realizar o exame preventivo antes de completar 25 anos») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de ginecologia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Ginecologia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa C fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Ginecologia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "b439ca68-814c-5608-b66b-737e76b8be77",
+  "questionId": "2021-064",
+  "officialAnswer": "C",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "A paciente tem 18 anos e não apresenta sintomas ou situação especial no enunciado. Pelas diretrizes brasileiras de 2016, pertinentes à prova de 2021, o rastreamento citológico de risco habitual começava aos 25 anos nas pessoas que já tiveram atividade sexual. Sexarca aos 17 anos não antecipa automaticamente esse início. C corresponde à orientação indicada; acolhimento, educação sexual e avaliação das necessidades de saúde continuam necessários.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Não há indicação de citologia de rastreamento nessa adolescente apenas por ter iniciado atividade sexual. Exame ginecológico deve ter indicação clínica e respeitar consentimento, não ser imposto como requisito do preventivo."
+      },
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Maior sensibilidade de um teste não elimina os limites etários de um programa de rastreamento. Detectar infecção transitória por HPV nessa idade pode gerar investigação desnecessária."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "O intervalo trienal após duas citologias anuais negativas pertencia ao programa citológico, mas não autorizava iniciar sua rotina aos 18 anos. A alternativa aplica a periodicidade fora da população-alvo."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 64\n\nResposta C — Colher a história clínica e informar que não há necessidade de realizar o exame preventivo antes de completar 25 anos\n\nGinecologia e Obstetrícia › Ginecologia Preventiva › Rastreamento do câncer do colo uterino\n\nA paciente tem 18 anos e não apresenta sintomas ou situação especial no enunciado. Pelas diretrizes brasileiras de 2016, pertinentes à prova de 2021, o rastreamento citológico de risco habitual começava aos 25 anos nas pessoas que já tiveram atividade sexual. Sexarca aos 17 anos não antecipa automaticamente esse início. C corresponde à orientação indicada; acolhimento, educação sexual e avaliação das necessidades de saúde continuam necessários.\n\nA alternativa A está incorreta: Não há indicação de citologia de rastreamento nessa adolescente apenas por ter iniciado atividade sexual. Exame ginecológico deve ter indicação clínica e respeitar consentimento, não ser imposto como requisito do preventivo.\n\nA alternativa B está incorreta: Maior sensibilidade de um teste não elimina os limites etários de um programa de rastreamento. Detectar infecção transitória por HPV nessa idade pode gerar investigação desnecessária.\n\nA alternativa C está correta: A orientação respeita a idade de início do rastreamento de risco habitual. História clínica permite identificar sintomas ou condições que exigiriam avaliação diferente.\n\nA alternativa D está incorreta: O intervalo trienal após duas citologias anuais negativas pertencia ao programa citológico, mas não autorizava iniciar sua rotina aos 18 anos. A alternativa aplica a periodicidade fora da população-alvo.\n\n⚠ PONTO DE ATENÇÃO\nRastreamento de pessoa assintomática não é investigação de sangramento ou lesão suspeita. Imunossupressão exige orientação específica. A expansão posterior do rastreamento molecular não deve ser apresentada como regra vigente na prova de 2021.\n\nGabarito registrado no banco: C (preservado)."
+    },
+    "takeHomeMessage": "Na prova de 2021, rastreamento citológico de risco habitual começa aos 25 anos, não na sexarca.",
+    "keyPoints": [
+      "Na prova de 2021, rastreamento citológico de risco habitual começa aos 25 anos, não na sexarca."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L9-COLO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Ginecologia Preventiva",
+      "Rastreamento do câncer do colo uterino"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote9",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

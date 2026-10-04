@@ -1,1 +1,86 @@
-{"schemaVersion":"2.0","objectId":"32b68782-82c6-5bde-bff2-e44165312c78","questionId":"2021-070","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «a cesariana está bem indicada, pois o diagnóstico mais provável é descolamento prematuro de placenta e não há sinais de parto iminente».\n\nNo cenário — Chega ao pronto-socorro da maternidade uma gestante com 34 anos de idade com queixa de sangramento vaginal abundante e dor intensa. Esta é sua segunda gestação. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Obstetrícia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («a cesariana está bem indicada, pois o diagnóstico mais provável é placenta prévia, que é uma indicação absoluta de via alta») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: liberar o paciente ou optar por manejo ambulatorial cedo demais. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («a cesariana não deve ser indicada antes de realizar um ultrassom para avaliar a causa do sangramento») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («a cesariana não está bem indicada, pois casos de hipertensão com uma cesárea prévia não indicam absolutamente cesariana») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Obstetrícia. O enunciado descreve: Chega ao pronto-socorro da maternidade uma gestante com 34 anos de idade com queixa de sangramento vaginal abundante e dor intensa. Esta é sua segunda gestação. A primeira ocorreu há 3 anos e foi uma cesariana por desproporção céfalo-pélvica.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («a cesariana está bem indicada, pois o diagnóstico mais provável é descolamento prematuro de placenta e não há sinais de parto iminente») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de obstetrícia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Obstetrícia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Obstetrícia","difficultyLevel":"high","cognitiveLevel":"analysis"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "32b68782-82c6-5bde-bff2-e44165312c78",
+  "questionId": "2021-070",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Hemorragia no terceiro trimestre com dor intensa e hipertonia uterina, em gestante hipertensa, favorece descolamento prematuro de placenta. Palidez e taquicardia aumentam a preocupação materna; ausência de variabilidade fetal é sinal preocupante mesmo com frequência de 120 bpm. Colo fechado e ausência de parto iminente justificam resolução por cesariana urgente nesse contexto, associada à estabilização materna. A integra os dados relevantes.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Placenta prévia costuma apresentar sangramento sem a hipertonia dolorosa característica do caso. Além disso, não é correto transformar qualquer localização placentária baixa em indicação absoluta sem considerar sua relação com o orifício cervical."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Descolamento é diagnóstico predominantemente clínico; ultrassom pode ajudar, mas resultado negativo não o exclui. Não deve atrasar uma intervenção urgente diante de comprometimento materno-fetal."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Hipertensão e uma cesariana anterior, isoladamente, não exigem nova cesariana. Aqui a indicação decorre da emergência hemorrágica e da ausência de parto iminente, não desses antecedentes isolados."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 70\n\nResposta A — a cesariana está bem indicada, pois o diagnóstico mais provável é descolamento prematuro de placenta e não há sinais de parto iminente\n\nGinecologia e Obstetrícia › Obstetrícia › Descolamento prematuro de placenta\n\nHemorragia no terceiro trimestre com dor intensa e hipertonia uterina, em gestante hipertensa, favorece descolamento prematuro de placenta. Palidez e taquicardia aumentam a preocupação materna; ausência de variabilidade fetal é sinal preocupante mesmo com frequência de 120 bpm. Colo fechado e ausência de parto iminente justificam resolução por cesariana urgente nesse contexto, associada à estabilização materna. A integra os dados relevantes.\n\nA alternativa A está correta: A combinação de dor, sangramento e hipertonia favorece descolamento. Não havendo nascimento vaginal iminente, a urgência materno-fetal justifica cesariana.\n\nA alternativa B está incorreta: Placenta prévia costuma apresentar sangramento sem a hipertonia dolorosa característica do caso. Além disso, não é correto transformar qualquer localização placentária baixa em indicação absoluta sem considerar sua relação com o orifício cervical.\n\nA alternativa C está incorreta: Descolamento é diagnóstico predominantemente clínico; ultrassom pode ajudar, mas resultado negativo não o exclui. Não deve atrasar uma intervenção urgente diante de comprometimento materno-fetal.\n\nA alternativa D está incorreta: Hipertensão e uma cesariana anterior, isoladamente, não exigem nova cesariana. Aqui a indicação decorre da emergência hemorrágica e da ausência de parto iminente, não desses antecedentes isolados.\n\n⚠ PONTO DE ATENÇÃO\nA conduta inclui acesso venoso, avaliação da perda sanguínea, exames e disponibilidade de hemocomponentes conforme necessidade. Deve-se evitar toque digital até excluir placenta prévia. O protocolo institucional de cesárea consultado é corroborador posterior à prova, não documento de 2021.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Hemorragia com dor e hipertonia sugere descolamento; ultrassom não deve atrasar resolução de emergência.",
+    "keyPoints": [
+      "Hemorragia com dor e hipertonia sugere descolamento; ultrassom não deve atrasar resolução de emergência."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L9-DPP",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L9-CESAREA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "high",
+    "cognitiveLevel": "analysis",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Obstetrícia",
+      "Descolamento prematuro de placenta"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote9",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

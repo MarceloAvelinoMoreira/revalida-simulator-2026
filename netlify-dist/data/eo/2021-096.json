@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"d03b5ff5-92ab-58a7-8d96-aa12c40d1223","questionId":"2021-096","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «monitorização, do tipo sentinela, das doenças diarreicas agudas».\n\nNo cenário — No Brasil, a doença diarreica aguda é reconhecida como importante causa de morbimortalidade, mantendo relação direta com as precárias condições de vida e saúde dos indivíduos, em consequência da falta de saneamento básico, de desastres naturais (estiagem, seca e inundação) e da desnutrição crônica, entre outros fatores, de acordo com dados do Ministério da Saúde de 2019. No sentido de melhorar o controle das doenças diarreicas agudas, o Ministério da Saúde orienta, como conduta relacionada à vigilância epidemiológica a ser adotada pela equipe de saúde da Unidade Básica de Saúde, a — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Medicina Preventiva e Social, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («notificação compulsória semanal dos surtos de doença diarreica aguda apenas em crianças») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («notificação compulsória imediata de caso individual de doença diarreica aguda em criança») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: indicar intervenção invasiva sem esgotar o critério clínico do enunciado. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («notificação compulsória dos casos isolados de doença diarreica aguda causada por água e/ou alimento») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Medicina Preventiva e Social. O enunciado descreve: No Brasil, a doença diarreica aguda é reconhecida como importante causa de morbimortalidade, mantendo relação direta com as precárias condições de vida e saúde dos indivíduos, em consequência da falta de saneamento básico, de desastres naturais (estiagem, seca e inundação) e da desnutrição crônica, entre outros fatores, de acordo com dados do Ministério da Saúde de 2019. No sentido de melhorar o controle das doenças diarreicas agudas, o Ministério da Saúde orienta, como conduta relacionada à vigilância epidemiológica a ser adotada pela equipe de saúde da Unidade Básica de Saúde, a\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («monitorização, do tipo sentinela, das doenças diarreicas agudas») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de medicina preventiva e social, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Medicina Preventiva e Social.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: monitorização, do tipo sentinela, das doenças diarreicas agudas"}},"references":[{"referenceId":"REF-2026-0004","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Medicina Preventiva e Social","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "d03b5ff5-92ab-58a7-8d96-aa12c40d1223",
+  "questionId": "2021-096",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "A MDDA acompanha casos em unidades sentinelas para identificar aumento de ocorrência e surtos. A descreve esse mecanismo de vigilância, distinto da notificação compulsória de todo episódio individual de diarreia inespecífica.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Vigilância de surtos não se restringe a crianças nem deve ser reduzida a esse esquema semanal exclusivo."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Todo caso individual de diarreia infantil não é automaticamente notificação imediata como agravo específico."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Casos isolados de diarreia não são todos tratados como uma mesma notificação compulsória; etiologias específicas e surtos têm fluxos próprios."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 96\n\nResposta A — monitorização, do tipo sentinela, das doenças diarreicas agudas\n\nMedicina de Família e Comunidade › Vigilância Epidemiológica › Monitorização das doenças diarreicas agudas\n\nA MDDA acompanha casos em unidades sentinelas para identificar aumento de ocorrência e surtos. A descreve esse mecanismo de vigilância, distinto da notificação compulsória de todo episódio individual de diarreia inespecífica.\n\nA alternativa A está correta: Unidades sentinelas registram e analisam casos para reconhecer alterações no padrão epidemiológico.\n\nA alternativa B está incorreta: Vigilância de surtos não se restringe a crianças nem deve ser reduzida a esse esquema semanal exclusivo.\n\nA alternativa C está incorreta: Todo caso individual de diarreia infantil não é automaticamente notificação imediata como agravo específico.\n\nA alternativa D está incorreta: Casos isolados de diarreia não são todos tratados como uma mesma notificação compulsória; etiologias específicas e surtos têm fluxos próprios.\n\n⚠ PONTO DE ATENÇÃO\nMonitorização não dispensa investigação/notificação de surtos ou de doenças específicas de notificação obrigatória. A página atual do Ministério corrobora a MDDA; listas legais devem ser verificadas na versão aplicável.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "MDDA é vigilância sentinela; surtos e etiologias específicas exigem seus próprios fluxos.",
+    "keyPoints": [
+      "MDDA é vigilância sentinela; surtos e etiologias específicas exigem seus próprios fluxos."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-DDA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Medicina de Família e Comunidade",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Medicina de Família e Comunidade",
+      "Vigilância Epidemiológica",
+      "Monitorização das doenças diarreicas agudas"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

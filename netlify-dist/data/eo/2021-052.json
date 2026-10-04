@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"2384e93c-73f4-546f-bfb4-05fa4bcf7ced","questionId":"2021-052","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «Controlar efetivamente a via aérea com intubação traqueal».\n\nNo cenário — Um homem, com 72 anos de idade, foi tratado por equipe de atendimento pré-hospitalar após ser resgatado de pequeno quarto sem janelas, em prédio onde ocorreu incêndio com combustão de material plástico inflamável, havia fumaça no local. Apresentava rouquidão, havia fuligem no escarro, os cílios e as sobrancelhas estavam queimados; foram evidenciadas queimaduras de segundo e terceiro graus na região anterior do tronco, membro superior direito e face. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Retirar roupas e adereços, resfriar com água fria para interromper o processo de queimadura») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Cobrir a área queimada com campo estéril para auxiliar no alívio da dor») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Obter acesso venoso para hidratação e analgesia») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Um homem, com 72 anos de idade, foi tratado por equipe de atendimento pré-hospitalar após ser resgatado de pequeno quarto sem janelas, em prédio onde ocorreu incêndio com combustão de material plástico inflamável, havia fumaça no local. Apresentava rouquidão, havia fuligem no escarro, os cílios e as sobrancelhas estavam queimados; foram evidenciadas queimaduras de segundo e terceiro graus na região anterior do tronco, membro superior direito e face. Com base nos dados apresentados, assinale a alternativa que apresenta a prioridade para o atendimento inicial da vítima.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («Controlar efetivamente a via aérea com intubação traqueal») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"B: Controlar efetivamente a via aérea com intubação traqueal"}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "2384e93c-73f4-546f-bfb4-05fa4bcf7ced",
+  "questionId": "2021-052",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Incêndio em ambiente fechado, rouquidão, fuligem no escarro e queimadura facial levantam forte suspeita de lesão inalatória. Rouquidão é particularmente preocupante para comprometimento da via aérea superior, que pode evoluir com edema e obstrução. A prioridade é avaliar e assegurar ventilação e proteção da via aérea, com intubação precoce no contexto descrito, correspondente a B. Cuidados com pele e acesso venoso são importantes, mas vêm depois de enfrentar a ameaça respiratória.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Retirar roupas e adornos faz parte dos cuidados, mas resfriamento não protege a via aérea ameaçada. Em queimadura extensa, resfriamento indiscriminado ainda pode agravar perda de calor."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Cobrir as lesões ajuda a proteger a superfície queimada, mas não evita obstrução respiratória e não é a prioridade inicial diante desses sinais."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Acesso venoso, analgesia e reposição são necessários conforme extensão e estado clínico, porém não substituem a prioridade de via aérea e ventilação."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 52\n\nResposta B — Controlar efetivamente a via aérea com intubação traqueal\n\nCirurgia Geral › Trauma e Queimaduras › Lesão inalatória e proteção da via aérea\n\nIncêndio em ambiente fechado, rouquidão, fuligem no escarro e queimadura facial levantam forte suspeita de lesão inalatória. Rouquidão é particularmente preocupante para comprometimento da via aérea superior, que pode evoluir com edema e obstrução. A prioridade é avaliar e assegurar ventilação e proteção da via aérea, com intubação precoce no contexto descrito, correspondente a B. Cuidados com pele e acesso venoso são importantes, mas vêm depois de enfrentar a ameaça respiratória.\n\nA alternativa A está incorreta: Retirar roupas e adornos faz parte dos cuidados, mas resfriamento não protege a via aérea ameaçada. Em queimadura extensa, resfriamento indiscriminado ainda pode agravar perda de calor.\n\nA alternativa B está correta: A combinação de suspeita de inalação e alteração da voz justifica assegurar a via aérea antes de edema progressivo dificultar a intubação. A técnica e o suporte exigem equipe treinada.\n\nA alternativa C está incorreta: Cobrir as lesões ajuda a proteger a superfície queimada, mas não evita obstrução respiratória e não é a prioridade inicial diante desses sinais.\n\nA alternativa D está incorreta: Acesso venoso, analgesia e reposição são necessários conforme extensão e estado clínico, porém não substituem a prioridade de via aérea e ventilação.\n\n⚠ PONTO DE ATENÇÃO\nNão intubar automaticamente toda pessoa apenas por sobrancelhas chamuscadas: considerar conjunto de achados e avaliação respiratória. Aqui há rouquidão e exposição confinada. Também avaliar intoxicação por gases; a questão pergunta especificamente a prioridade entre as opções.\n\nGabarito registrado no banco: B (preservado)."
+    },
+    "takeHomeMessage": "Queimadura em ambiente fechado com rouquidão: avaliar lesão inalatória e proteger precocemente a via aérea.",
+    "keyPoints": [
+      "Queimadura em ambiente fechado com rouquidão: avaliar lesão inalatória e proteger precocemente a via aérea."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L8-QUEIMADURA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Cirurgia Geral",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Cirurgia Geral",
+      "Trauma e Queimaduras",
+      "Lesão inalatória e proteção da via aérea"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote8",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"78e085dc-6a11-5cc3-8860-0911b59bc3fd","questionId":"2021-091","officialAnswer":"B","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa B: «Encaminhar para avaliação eletiva, em ambulatório especializado».\n\nNo cenário — Uma mulher com 45 anos de idade foi atendida em unidade básica de saúde referindo que, há 4 meses, foi realizada drenagem de abscesso perianal em pronto-socorro e, desde então, tem apresentado saída ocasional de secreção fétida por lesão dérmica no local. O exame físico evidenciou orifício cutâneo com saída de secreção amarelada à compressão, localizado anteriormente e acerca de 2 cm da borda anal. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Clínica Médica, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"A","verdict":"incorrect","explanation":"À primeira vista, a alternativa A («Encaminhar para nova drenagem em pronto-socorro») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Prescrever antibiótico por via oral e pomada anestésica») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Prescrever anti-inflamatório por via oral e pomada com antibiótico») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa B, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Clínica Médica. O enunciado descreve: Uma mulher com 45 anos de idade foi atendida em unidade básica de saúde referindo que, há 4 meses, foi realizada drenagem de abscesso perianal em pronto-socorro e, desde então, tem apresentado saída ocasional de secreção fétida por lesão dérmica no local. O exame físico evidenciou orifício cutâneo com saída de secreção amarelada à compressão, localizado anteriormente e acerca de 2 cm da borda anal. Com base nos dados apresentados, determine a alternativa com a orientação da conduta a ser seguida.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial B («Encaminhar para avaliação eletiva, em ambulatório especializado») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de clínica médica, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Clínica Médica.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa B fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"B: Encaminhar para avaliação eletiva, em ambulatório especializado"}},"references":[{"referenceId":"REF-2026-0014","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Clínica Médica","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "78e085dc-6a11-5cc3-8860-0911b59bc3fd",
+  "questionId": "2021-091",
+  "officialAnswer": "B",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Drenagem persistente por orifício cutâneo meses após abscesso sugere fístula anal. Sem sinais de novo abscesso ou sepse informados, avaliação eletiva especializada permite mapear o trajeto e planejar tratamento preservando continência. B é a conduta adequada.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "A",
+        "verdict": "incorrect",
+        "explanation": "Nova drenagem urgente seria indicada para coleção aguda, dor progressiva ou sepse, não apenas para um orifício crônico que drena."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Antibiótico e anestésico não eliminam o trajeto fistuloso; podem aliviar sintomas sem resolver a causa."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Anti-inflamatório e pomada antibiótica também não tratam definitivamente a fístula."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 91\n\nResposta B — Encaminhar para avaliação eletiva, em ambulatório especializado\n\nCirurgia Geral › Coloproctologia › Fístula anal após abscesso\n\nDrenagem persistente por orifício cutâneo meses após abscesso sugere fístula anal. Sem sinais de novo abscesso ou sepse informados, avaliação eletiva especializada permite mapear o trajeto e planejar tratamento preservando continência. B é a conduta adequada.\n\nA alternativa A está incorreta: Nova drenagem urgente seria indicada para coleção aguda, dor progressiva ou sepse, não apenas para um orifício crônico que drena.\n\nA alternativa B está correta: Coloproctologia avalia o trajeto e relação com esfíncteres, escolhendo tratamento adequado.\n\nA alternativa C está incorreta: Antibiótico e anestésico não eliminam o trajeto fistuloso; podem aliviar sintomas sem resolver a causa.\n\nA alternativa D está incorreta: Anti-inflamatório e pomada antibiótica também não tratam definitivamente a fístula.\n\n⚠ PONTO DE ATENÇÃO\nNão aplicar fistulotomia automaticamente: relação com esfíncter e localização anterior na mulher exigem cuidado. Febre, piora da dor ou retenção de secreção mudam a urgência.\n\nGabarito registrado no banco: B (preservado)."
+    },
+    "takeHomeMessage": "Secreção crônica após abscesso anal sugere fístula e requer avaliação especializada.",
+    "keyPoints": [
+      "Secreção crônica após abscesso anal sugere fístula e requer avaliação especializada."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-FISTULA",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Cirurgia Geral",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Cirurgia Geral",
+      "Coloproctologia",
+      "Fístula anal após abscesso"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

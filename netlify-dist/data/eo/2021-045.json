@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"9d6ff72d-13ab-4733-809f-15d051524703","questionId":"2021-045","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «Prescrever sulfato de magnésio para prevenir convulsões».\n\nNo cenário — Primigesta de 18 anos de idade, com 37 semanas de idade gestacional, chega ao pronto atendimento com queixa de cefaleia intensa. Refere também visualização de pontos pretos. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Obstetrícia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («Prescrever sulfato de magnésio para controle de pressão arterial e dos sintomas maternos») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: confundir tratamento de manutenção com tratamento da fase aguda. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («Prescrever analgésicos e benzodiazepínicos para controle dos sintomas e prevenção de convulsões») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: confundir tratamento de manutenção com tratamento da fase aguda. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («Prescrever analgésicos e aguardar efeito do anti-hipertensivo») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Obstetrícia. O enunciado descreve: Primigesta de 18 anos de idade, com 37 semanas de idade gestacional, chega ao pronto atendimento com queixa de cefaleia intensa. Refere também visualização de pontos pretos. Nega outras queixas.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («Prescrever sulfato de magnésio para prevenir convulsões») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de obstetrícia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Obstetrícia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":true,"body":"A: Prescrever sulfato de magnésio para prevenir convulsões"}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Obstetrícia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "9d6ff72d-13ab-4733-809f-15d051524703",
+  "questionId": "2021-045",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Hipertensão com pressão sistólica de 160 mmHg, cefaleia intensa e escotomas, acompanhada de proteinúria na gestação de 37 semanas, indica pré-eclâmpsia com sinais de gravidade e risco de eclâmpsia. Não é necessário que a pressão diastólica alcance 110 mmHg para reconhecer hipertensão grave quando a sistólica já atinge 160. Hidralazina atua no controle pressórico; sulfato de magnésio deve ser associado para prevenir convulsões, como propõe A. A estabilidade fetal informada não elimina o risco materno.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "A indicação principal do magnésio é prevenção ou tratamento de convulsões, não controle da pressão arterial. A alternativa confunde o papel de dois tratamentos distintos."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Analgésicos não tratam o mecanismo da eclâmpsia, e benzodiazepínicos não substituem o magnésio como profilaxia de escolha. Podem ter indicações específicas, mas não esse papel rotineiro."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Aguardar apenas o anti-hipertensivo deixa sem proteção uma paciente com sinais neurológicos de gravidade. Alívio da cefaleia não deve atrasar tratamento ou mascarar a necessidade de avaliação."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 45\n\nResposta A — Prescrever sulfato de magnésio para prevenir convulsões\n\nGinecologia e Obstetrícia › Obstetrícia › Pré-eclâmpsia com sinais de gravidade\n\nHipertensão com pressão sistólica de 160 mmHg, cefaleia intensa e escotomas, acompanhada de proteinúria na gestação de 37 semanas, indica pré-eclâmpsia com sinais de gravidade e risco de eclâmpsia. Não é necessário que a pressão diastólica alcance 110 mmHg para reconhecer hipertensão grave quando a sistólica já atinge 160. Hidralazina atua no controle pressórico; sulfato de magnésio deve ser associado para prevenir convulsões, como propõe A. A estabilidade fetal informada não elimina o risco materno.\n\nA alternativa A está correta: Sulfato de magnésio é a intervenção anticonvulsivante indicada nesse cenário. Deve ser usado com monitorização, incluindo respiração, reflexos e diurese, e integrado à estabilização e à decisão obstétrica.\n\nA alternativa B está incorreta: A indicação principal do magnésio é prevenção ou tratamento de convulsões, não controle da pressão arterial. A alternativa confunde o papel de dois tratamentos distintos.\n\nA alternativa C está incorreta: Analgésicos não tratam o mecanismo da eclâmpsia, e benzodiazepínicos não substituem o magnésio como profilaxia de escolha. Podem ter indicações específicas, mas não esse papel rotineiro.\n\nA alternativa D está incorreta: Aguardar apenas o anti-hipertensivo deixa sem proteção uma paciente com sinais neurológicos de gravidade. Alívio da cefaleia não deve atrasar tratamento ou mascarar a necessidade de avaliação.\n\n⚠ PONTO DE ATENÇÃO\nO protocolo institucional consultado é corroborador posterior à prova. Aos 37 semanas, a assistência não se encerra com magnésio: é necessária avaliação para resolução da gestação após estabilização; o enunciado pergunta especificamente pela intervenção adicional imediata.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Pré-eclâmpsia grave: anti-hipertensivo controla pressão; magnésio previne convulsões.",
+    "keyPoints": [
+      "Pré-eclâmpsia grave: anti-hipertensivo controla pressão; magnésio previne convulsões."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "COMMENT-L8-MAGNESIO",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Obstetrícia",
+      "Pré-eclâmpsia com sinais de gravidade"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote8",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}

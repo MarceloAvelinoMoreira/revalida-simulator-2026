@@ -1,1 +1,77 @@
-{"schemaVersion":"2.0","objectId":"a3fea1bd-32c0-507c-a3c9-89f75bec9e70","questionId":"2021-097","officialAnswer":"A","annulled":false,"clinicalRationale":{"correctRationale":"O gabarito oficial é a alternativa A: «A paciente apresenta quadro de instabilidade hemodinâmica, portanto, medidas de ressuscitação devem ser iniciadas imediatamente».\n\nNo cenário — Uma mulher, de 27 anos de idade, teve uma cesárea há 2 horas. Seu acompanhante notou um sangramento vaginal e chamou a equipe de enfermagem. — essa opção responde de forma coerente aos achados e à prioridade diagnóstica/terapêutica esperada em Obstetrícia, segundo a doutrina clínica brasileira aplicável.\n\nEla não deixa lacuna crítica de manejo: atende o ponto decisivo do enunciado e permite o próximo passo (reavaliação, suporte, encaminhamento ou continuidade) com segurança. Por isso é a defesa científica do gabarito — o comentário ensina o método; aqui se justifica a letra.","alternativeRationales":[{"alternativeId":"B","verdict":"incorrect","explanation":"À primeira vista, a alternativa B («A paciente apresenta sinais vitais estáveis para o período puerperal, porém é importante que seja monitorizada em terapia intensiva pelo alto risco de sangramento em período puerperal») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: resolver apenas um fragmento do problema e deixar lacuna no ponto decisivo. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"C","verdict":"incorrect","explanation":"À primeira vista, a alternativa C («A paciente apresenta estabilidade hemodinâmica e sinais vitais normais para o período de puerpério. É necessário um controle mais frequente de sinais vitais e sangramento») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: confundir tratamento de manutenção com tratamento da fase aguda. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"D","verdict":"incorrect","explanation":"À primeira vista, a alternativa D («A paciente apresenta um quadro que pode indicar dano cerebral, portanto, deve ser transferida para Unidade de Terapia Intensiva imediatamente») pode parecer plausível porque toca elementos do tema do caso.\n\nContudo, ela falha no ponto decisivo: indicar intervenção invasiva sem esgotar o critério clínico do enunciado. Diante dos achados do enunciado, essa opção não substitui a conduta da alternativa A, que amarra gravidade, timing e manejo completo.\n\nEssa é uma armadilha clássica do REVALIDA: acertar o domínio clínico e errar a prioridade ou o momento da decisão."},{"alternativeId":"E","verdict":"not_applicable","explanation":"Alternativa não apresentada no caderno oficial (texto vazio)."}]},"educationalContent":{"comment":{"body":"Leia o caso como encontro clínico em Obstetrícia. O enunciado descreve: Uma mulher, de 27 anos de idade, teve uma cesárea há 2 horas. Seu acompanhante notou um sangramento vaginal e chamou a equipe de enfermagem. Na checagem dos sinais vitais, foi constatada uma pressão arterial = 90/50 mmHg e um pulso de 112 = bpm.\n\nAntes de olhar as letras, nomeie o problema central e o que define gravidade, tempo e contexto de cuidado. A banca quase sempre testa se você separa tratamento de manutenção versus manejo da fase aguda, ou se você escolhe a conduta completa — e não apenas um fragmento aparentemente correto.\n\nA alternativa oficial A («A paciente apresenta quadro de instabilidade hemodinâmica, portanto, medidas de ressuscitação devem ser iniciadas imediatamente») fecha o raciocínio porque articula o núcleo do problema com a medida prioritária exigida pelos achados. As demais opções costumam pecar por incompletude, ambiente/via inadequados ou timing de alta/escalonamento errado.\n\nErros típicos de prova neste formato: apegar-se a um sinal isolado (por exemplo oximetria), confundir terapia de base com terapia da crise, ou liberar o paciente sem reavaliação da resposta inicial."},"takeHomeMessage":"No caso de obstetrícia, priorize a conduta que responde ao núcleo clínico do enunciado com completude e timing corretos — não a opção que apenas parece relacionada ao tema.","keyPoints":["Identificar o problema central do caso em Obstetrícia.","Separar achados que mudam conduta dos dados acessórios do enunciado.","Diferenciar conduta completa versus opção parcialmente correta.","Reconhecer o timing adequado (agudo × manutenção × alta).","Justificar por que a alternativa A fecha o raciocínio clínico.","Explicar o erro típico de cada distrator sem memorizar apenas a letra."],"mnemonic":{"applicable":false,"body":null}},"references":[{"referenceId":"REF-2026-0017","role":"primary","supports":["correctRationale","comment"]},{"referenceId":"REF-2026-0001","role":"supporting","supports":["correctRationale","comment"]}],"metadata":{"specialty":"Obstetrícia","difficultyLevel":"medium","cognitiveLevel":"application"}}
+{
+  "schemaVersion": "2.0",
+  "objectId": "a3fea1bd-32c0-507c-a3c9-89f75bec9e70",
+  "questionId": "2021-097",
+  "officialAnswer": "A",
+  "annulled": false,
+  "clinicalRationale": {
+    "correctRationale": "Sangramento duas horas após cesariana com PA 90/50 e pulso 112 indica risco de choque hemorrágico. Índice de choque = 112/90 ≈ 1,24, reforçando a urgência. A assistência deve iniciar ressuscitação e controle da causa imediatamente, sem esperar queda da hemoglobina ou transferência.",
+    "alternativeRationales": [
+      {
+        "alternativeId": "B",
+        "verdict": "incorrect",
+        "explanation": "Os sinais não são estáveis; UTI pode ser necessária, mas não substitui ressuscitação inicial."
+      },
+      {
+        "alternativeId": "C",
+        "verdict": "incorrect",
+        "explanation": "Monitorização mais frequente isolada não é suficiente para hipotensão e taquicardia com hemorragia."
+      },
+      {
+        "alternativeId": "D",
+        "verdict": "incorrect",
+        "explanation": "Não há evidência fornecida de lesão cerebral; prioridade é tratar hemorragia e perfusão, não atribuir dano cerebral."
+      }
+    ]
+  },
+  "educationalContent": {
+    "comment": {
+      "body": "QUESTÃO 97\n\nResposta A — A paciente apresenta quadro de instabilidade hemodinâmica, portanto, medidas de ressuscitação devem ser iniciadas imediatamente\n\nGinecologia e Obstetrícia › Urgências Obstétricas › Hemorragia pós-parto com instabilidade\n\nSangramento duas horas após cesariana com PA 90/50 e pulso 112 indica risco de choque hemorrágico. Índice de choque = 112/90 ≈ 1,24, reforçando a urgência. A assistência deve iniciar ressuscitação e controle da causa imediatamente, sem esperar queda da hemoglobina ou transferência.\n\nA alternativa A está correta: Reconhece instabilidade e necessidade de resposta imediata, em paralelo à investigação da origem do sangramento.\n\nA alternativa B está incorreta: Os sinais não são estáveis; UTI pode ser necessária, mas não substitui ressuscitação inicial.\n\nA alternativa C está incorreta: Monitorização mais frequente isolada não é suficiente para hipotensão e taquicardia com hemorragia.\n\nA alternativa D está incorreta: Não há evidência fornecida de lesão cerebral; prioridade é tratar hemorragia e perfusão, não atribuir dano cerebral.\n\n⚠ PONTO DE ATENÇÃO\nInvestigar tônus, trauma, tecido retido e coagulação. A referência operacional da OMS é posterior à prova e corrobora a resposta rápida, sem demonstrar qual causa está presente nessa paciente.\n\nGabarito registrado no banco: A (preservado)."
+    },
+    "takeHomeMessage": "Hemorragia puerperal com hipotensão e taquicardia exige ressuscitação e controle do foco em paralelo.",
+    "keyPoints": [
+      "Hemorragia puerperal com hipotensão e taquicardia exige ressuscitação e controle do foco em paralelo."
+    ],
+    "mnemonic": {
+      "applicable": false,
+      "body": null
+    }
+  },
+  "references": [
+    {
+      "referenceId": "COMMENT-INEP2021-KEY",
+      "role": "official-key",
+      "supports": [
+        "officialAnswer"
+      ]
+    },
+    {
+      "referenceId": "L10-HPP",
+      "role": "primary",
+      "supports": [
+        "correctRationale",
+        "comment",
+        "alternativeRationales"
+      ]
+    }
+  ],
+  "metadata": {
+    "specialty": "Ginecologia e Obstetrícia",
+    "difficultyLevel": "medium",
+    "cognitiveLevel": "application",
+    "taxonomy": [
+      "Ginecologia e Obstetrícia",
+      "Urgências Obstétricas",
+      "Hemorragia pós-parto com instabilidade"
+    ],
+    "editorialReview": {
+      "status": "reviewed",
+      "batchId": "editorial-20261004-lote10",
+      "reviewedAt": "2026-10-04",
+      "allAlternativesCovered": true,
+      "attention": true,
+      "keyVerification": "Preserved existing answer; no new independent PDF verification in this batch.",
+      "sourceAccess": "Official pages and indexed passages consulted; some full pages blocked automated access."
+    }
+  }
+}
