@@ -1,0 +1,53 @@
+/* iPhone web-app polish; existing study modes and desktop layout are preserved. */
+:root { color-scheme: dark; }
+body { min-height: 100dvh; }
+button, summary { touch-action: manipulation; }
+@media (max-width: 600px) {
+  #screen-home {
+    min-height: 100dvh;
+    justify-content: flex-start;
+    padding: calc(24px + env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) calc(32px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px));
+  }
+  .assistant-brain-home { margin-bottom: 8px; }
+  #assistant-launcher.is-home { width: 220px; height: 158px; }
+  .logo { font-size: clamp(1.8rem, 8.2vw, 2.6rem); max-width: 100%; }
+  .tagline { text-align: center; line-height: 1.5; margin-bottom: 28px; font-size: 12px; }
+  .mode-section { margin-bottom: 24px; }
+  #screen-home button.mode-card, #screen-home .study-tool-card { min-height: 164px; padding: 14px; }
+  #screen-home .mc-desc { font-size: 13px; line-height: 1.5; color: #a7b8cf; }
+  #screen-home .mode-label { font-size: 12px; color: #a7b8cf; }
+  #screen-home .study-icon { margin-bottom: 10px; }
+  #screen-home #start-btn { width: 100%; max-width: 640px; min-height: 50px; padding: 14px 18px; }
+  input, select, textarea, .assistant-form input,
+  #cloud-login input, #cloud-device input, #cloud-recovery-code, .results-transfer select,
+  .area-filters input, .area-filters select { font-size: 16px; }
+  .quiz-header { padding: calc(10px + env(safe-area-inset-top, 0px)) max(12px, env(safe-area-inset-right, 0px)) 10px max(12px, env(safe-area-inset-left, 0px)); gap: 10px; }
+  .quiz-back, .qnav-toggle-btn, .qnav-close, .assistant-close { min-width: 44px; min-height: 44px; }
+  .quiz-progress-wrap { min-width: 0; }
+  .quiz-meta { font-size: 11px; letter-spacing: .02em; overflow-wrap: anywhere; }
+  .quiz-counter { font-size: 14px; }
+  .quiz-body { min-width: 0; width: 100%; padding: 24px max(16px, env(safe-area-inset-right, 0px)) calc(104px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+  #question-text.abnt-prose, #rapid-question-text, .rapid-question-text { font-size: 16px; line-height: 1.7; }
+  /* Existing ABNT rules force justification; override only on narrow screens. */
+  #question-text, .abnt-prose, .abnt-prose p, .option-btn .option-text,
+  #ai-box-body, #comment-panel-body, #macete-panel-body, #takehome-panel-body,
+  #refs-panel-body, .alt-rationale-body, .keypoints-list li, .rapid-question-text {
+    text-align: left !important; word-spacing: normal;
+  }
+  .option-btn { padding: 14px; gap: 10px; min-height: 48px; }
+  .nav-buttons { display: flex; flex-wrap: wrap; gap: 10px; }
+  .nav-buttons button { min-height: 44px; flex: 1 1 140px; padding: 12px; }
+  .nav-buttons .btn-next { flex-basis: 100%; }
+  .qnav-panel { height: 100dvh; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+  .qnav-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .qnav-btn { min-height: 44px; }
+  .areas-shell, .statistics-shell, .rapid-shell { padding-top: calc(24px + env(safe-area-inset-top, 0px)); padding-bottom: calc(104px + env(safe-area-inset-bottom, 0px)); }
+  .cloud-settings, .results-transfer { min-width: 0; overflow-wrap: anywhere; }
+  .statistics-shell summary { min-height: 44px; display: flex; align-items: center; }
+  #assistant-launcher .brain-tooltip { display: none; }
+  #assistant-launcher:not(.is-home) { right: calc(16px + env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); }
+  #assistant-panel { right: calc(12px + env(safe-area-inset-right, 0px)); width: calc(100vw - 24px - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)); max-height: calc(100dvh - 104px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)); }
+  .assistant-header { padding: 14px; }
+  .assistant-form button, .assistant-quick-actions button { min-height: 44px; }
+}
+@media (hover: none) { .brain-tooltip { display: none; } }
