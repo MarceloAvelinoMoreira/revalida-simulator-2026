@@ -213,6 +213,13 @@ test('time statistics: 100-question projection, correct-only area comparison, pe
   assert.equal(b.run('StudyStatistics.snapshot().timing.exam100Ms'),12000000);
   b.run('StudyStatistics.open()');assert.match(b.node('statistics-timing-summary').innerHTML,/03:20:00/);
   assert.match(b.node('statistics-timing-insight').textContent,/Maior tempo.*Cirurgia.*Menor tempo.*Clínica Médica/);
+  assert.match(b.node('statistics-outcomes-chart').innerHTML,/2 acertos e 1 erros entre 3 questões respondidas/);
+  assert.match(b.node('statistics-outcomes-chart').innerHTML,/66,7%/);
+  assert.match(b.node('statistics-area-chart').innerHTML,/width="50"/); // Surgery: one correct of two answered.
+  assert.match(b.node('statistics-time-chart').innerHTML,/width="50"/); // Clinical: 60s compared with surgery's 120s.
+  assert.match(b.node('statistics-time-chart').innerHTML,/width="100"/);
+  assert.match(b.node('statistics-exam-chart').innerHTML,/respondidas ·/);
+  assert.doesNotMatch(b.node('statistics-time-chart').innerHTML,/NaN|Infinity/);
 });
 
 test('time statistics exclude legacy, invalid timing, unknown IDs and cancelled answers; zero and ties are valid',()=>{
@@ -228,6 +235,8 @@ test('time statistics exclude legacy, invalid timing, unknown IDs and cancelled 
   assert.equal(a.run('StudyStatistics.snapshot().timing.exam100Ms'),null);
   a.run('StudyStatistics.render()');assert.match(a.node('statistics-timing-summary').innerHTML,/Sem dados/);
   assert.match(a.node('statistics-timing-summary').innerHTML,/Respostas cronometradas<\/span><strong>0/);
+  assert.doesNotMatch(a.node('statistics-time-chart').innerHTML,/NaN|Infinity/);
+  assert.match(a.node('statistics-time-chart').innerHTML,/Sem dados/);
 });
 
 test('new answer replaces recorded time; untimed changed answer cannot reuse old duration',()=>{

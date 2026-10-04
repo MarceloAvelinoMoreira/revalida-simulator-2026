@@ -34,6 +34,20 @@ const StudyStatistics = (() => {
   function table(rows, caption) {
     return `<table><caption>${esc(caption)}</caption><thead><tr><th scope="col">Grupo</th><th scope="col">Respondidas / válidas</th><th scope="col">Acertos</th><th scope="col">Erros</th><th scope="col">Taxa de acerto</th><th scope="col">Progresso</th></tr></thead><tbody>` + rows.map(row=>`<tr><th scope="row">${esc(row.name)}</th><td>${row.answered} / ${row.total-row.annulled}</td><td>${row.correct}</td><td>${row.wrong}</td><td>${pct(row.accuracy)}</td><td><progress aria-label="Progresso em ${esc(row.name)}" value="${row.answered}" max="${Math.max(1,row.total-row.annulled)}"></progress><span>${pct(row.progress)}</span></td></tr>`).join('') + '</tbody></table>';
   }
+  function bars(rows, timed = false) {
+    const max = timed ? Math.max(1,...rows.map(row=>row.meanMs || 0)) : 100;
+    return '<ul class="statistics-bars">' + rows.map(row=>{
+      const value = timed ? row.meanMs : row.accuracy;
+      const count = timed ? row.count : row.answered;
+      const label = timed ? duration(value) : pct(value);
+      const width = value === null ? 0 : Math.max(0,Math.min(100,value/max*100));
+      return `<li><div class="statistics-bar-label"><span>${esc(row.name)}</span><strong>${esc(label)}</strong></div><svg viewBox="0 0 100 8" preserveAspectRatio="none" aria-hidden="true"><rect width="100" height="8" rx="4" class="statistics-bar-track"/><rect width="${width}" height="8" rx="4" class="statistics-bar-value${timed?' is-time':''}"/></svg><small>${count} ${timed ? 'acertos cronometrados' : 'respondidas · '+row.correct+' acertos'}</small></li>`;
+    }).join('') + '</ul>';
+  }
+  function outcomes(s) {
+    const percent = s.answered ? s.correct/s.answered*100 : 0;
+    return `<div class="statistics-outcomes"><svg viewBox="0 0 120 120" role="img" aria-label="${s.correct} acertos e ${s.wrong} erros entre ${s.answered} questões respondidas"><circle cx="60" cy="60" r="46" class="statistics-ring-track"/><circle cx="60" cy="60" r="46" pathLength="100" class="statistics-ring-wrong" stroke-dasharray="${s.answered?100:0} 100"/><circle cx="60" cy="60" r="46" pathLength="100" class="statistics-ring-correct" stroke-dasharray="${percent} 100" transform="rotate(-90 60 60)"/><text x="60" y="57" text-anchor="middle">${s.answered?esc(pct(s.accuracy)):'—'}</text><text x="60" y="75" text-anchor="middle" class="statistics-ring-caption">de acerto</text></svg><div class="statistics-legend"><p><i class="is-correct" aria-hidden="true"></i>Acertos <strong>${s.correct}</strong></p><p><i class="is-wrong" aria-hidden="true"></i>Erros <strong>${s.wrong}</strong></p><p class="areas-note">${s.answered ? s.answered+' questões respondidas' : 'Responda questões para visualizar a distribuição.'}</p></div></div>`;
+  }
   function render() {
     const data = snapshot(), s=data.overall;
     const t = data.timing;
@@ -44,7 +58,12 @@ const StudyStatistics = (() => {
       : 'Responda corretamente questões cronometradas em pelo menos duas grandes áreas para comparar a mais rápida e a mais demorada.';
     el('statistics-timing-areas').innerHTML = '<table><caption>Tempo médio apenas das respostas corretas cronometradas</caption><thead><tr><th scope="col">Grande área</th><th scope="col">Acertos com tempo</th><th scope="col">Tempo médio para acertar</th></tr></thead><tbody>'
       + t.areas.map(row=>`<tr><th scope="row">${esc(row.name)}</th><td>${row.count}</td><td>${duration(row.meanMs)}</td></tr>`).join('') + '</tbody></table>';
-    el('statistics-summary').innerHTML = [['Questões no banco',s.total],['Respondidas',s.answered],['Acertos',s.correct],['Erros',s.wrong],['Não respondidas',s.unanswered],['Anuladas',s.annulled],['Taxa de acerto',pct(s.accuracy)],['Progresso',pct(s.progress)]].map(([label,value])=>`<div><span>${label}</span><strong>${value}</strong></div>`).join('');
+    el('statistics-summary').innerHTML = [['Respondidas',s.answered],['Acertos',s.correct],['Erros',s.wrong],['Taxa de acerto',pct(s.accuracy)]].map(([label,value])=>`<div><span>${label}</span><strong>${value}</strong></div>`).join('');
+    el('statistics-bank-summary').textContent = `${s.total} questões no banco · ${s.unanswered} não respondidas · ${s.annulled} anuladas · ${pct(s.progress)} de progresso`;
+    el('statistics-outcomes-chart').innerHTML = outcomes(s);
+    el('statistics-area-chart').innerHTML = bars(data.areas);
+    el('statistics-time-chart').innerHTML = bars(t.areas,true);
+    el('statistics-exam-chart').innerHTML = bars(data.exams);
     el('statistics-empty').hidden = s.answered > 0;
     el('statistics-areas').innerHTML = table(data.areas,'Questões válidas e últimas respostas por grande área');
     el('statistics-exams').innerHTML = table(data.exams,'Questões válidas e últimas respostas por prova');

@@ -22,7 +22,7 @@
 <link rel="stylesheet" href="css/style-assistant-v1.css?v=neural1">
 <link rel="stylesheet" href="css/assistant-brain.css?v=4">
 <link rel="stylesheet" href="css/areas.css?v=2">
-<link rel="stylesheet" href="css/statistics.css?v=2">
+<link rel="stylesheet" href="css/statistics.css?v=3">
 <link rel="stylesheet" href="css/study-buttons.css?v=1">
 <link rel="stylesheet" href="css/quiz-clock.css?v=1">
 <style>
@@ -177,22 +177,26 @@
 <section id="screen-statistics" class="screen" style="display:none" aria-labelledby="statistics-title">
   <div class="areas-shell statistics-shell">
     <button type="button" class="areas-back" onclick="StudyStatistics.home()">← Menu principal</button>
-    <header class="areas-header"><h1 id="statistics-title" tabindex="-1">Estatísticas de estudo</h1><p>Seu desempenho em todas as provas e grandes áreas, salvo neste navegador.</p></header>
+    <header class="areas-header"><h1 id="statistics-title" tabindex="-1">Seu estudo, em perspectiva</h1><p>Veja seus resultados, encontre áreas para revisar e acompanhe seu ritmo.</p></header>
     <p id="statistics-storage" class="statistics-storage" role="status"></p>
     <div id="statistics-summary" class="area-stats" aria-label="Resumo do desempenho"></div>
+    <p id="statistics-bank-summary" class="statistics-bank-summary"></p>
     <p id="statistics-empty" class="statistics-empty" hidden>Você ainda não respondeu questões neste navegador. Inicie uma prova ou um estudo por área para acompanhar seu desempenho aqui.</p>
-    <p class="areas-note">Cada questão conta uma vez, usando a sua última resposta. Questões anuladas não entram na taxa de acerto nem no progresso.</p>
+    <div class="statistics-charts">
+      <section class="statistics-chart" aria-labelledby="statistics-outcomes-title"><h2 id="statistics-outcomes-title">Acertos e erros</h2><p>Distribuição das questões respondidas.</p><div id="statistics-outcomes-chart"></div></section>
+      <section class="statistics-chart" aria-labelledby="statistics-area-chart-title"><h2 id="statistics-area-chart-title">Aproveitamento por área</h2><p>Taxa de acerto entre as questões respondidas · escala de 0 a 100%.</p><div id="statistics-area-chart"></div></section>
+    </div>
     <section aria-labelledby="statistics-timing-title">
       <h2 id="statistics-timing-title">Ritmo de estudo</h2>
       <div id="statistics-timing-summary" class="area-stats" aria-label="Resumo dos tempos de resposta"></div>
-      <p class="areas-note">A estimativa para uma prova de 100 questões é sua média por resposta × 100, considerando acertos e erros cronometrados. É uma projeção, não a média de provas completas: não inclui pausas, leitura de comentários depois da resposta nem revisão final.</p>
+      <p class="areas-note">Projeção de 100 questões = média por resposta × 100. Não inclui pausas, comentários após responder ou revisão final.</p>
       <p id="statistics-timing-insight" class="statistics-timing-insight"></p>
-      <div id="statistics-timing-areas" class="statistics-table-wrap" role="region" aria-label="Tempos por grande área" tabindex="0"></div>
-      <p class="areas-note">Cada questão usa o tempo da última resposta registrada. Questões antigas sem tempo e anuladas ficam fora das médias; a comparação de áreas inclui somente acertos com grande área definida. Poucas respostas podem tornar a estimativa pouco representativa. Tempos no formato horas:minutos:segundos.</p>
+      <section class="statistics-chart" aria-labelledby="statistics-time-chart-title"><h3 id="statistics-time-chart-title">Tempo médio para acertar por área</h3><p>Somente acertos cronometrados. Barras mais longas indicam mais tempo.</p><div id="statistics-time-chart"></div></section>
+      <details class="statistics-details"><summary>Ver tempos e quantidade de acertos</summary><div id="statistics-timing-areas" class="statistics-table-wrap" role="region" aria-label="Tempos por grande área" tabindex="0"></div></details>
     </section>
-    <section aria-labelledby="statistics-areas-title"><h2 id="statistics-areas-title">Desempenho por grande área</h2><div id="statistics-areas" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por área" tabindex="0"></div></section>
-    <section aria-labelledby="statistics-exams-title"><h2 id="statistics-exams-title">Desempenho por prova</h2><div id="statistics-exams" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por prova" tabindex="0"></div></section>
-    <p class="areas-note">Os dados permanecem ao fechar a aba ou o navegador, no mesmo dispositivo, perfil e endereço do site. Limpar os dados do site, usar navegação privada ou trocar de navegador pode remover ou separar esse histórico. Não há sincronização entre dispositivos.</p>
+    <details class="statistics-details"><summary id="statistics-areas-title">Ver detalhes por grande área</summary><div id="statistics-areas" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por área" tabindex="0"></div></details>
+    <section aria-labelledby="statistics-exams-title"><h2 id="statistics-exams-title">Desempenho por prova</h2><p class="areas-note">Taxa de acerto nas respostas de cada prova · escala de 0 a 100%.</p><div id="statistics-exam-chart" class="statistics-chart"></div><details class="statistics-details"><summary>Ver detalhes por prova</summary><div id="statistics-exams" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por prova" tabindex="0"></div></details></section>
+    <details class="statistics-details statistics-method"><summary>Como os dados são calculados e salvos</summary><p class="areas-note">Cada questão conta uma vez, usando a última resposta. Anuladas não entram no aproveitamento ou no progresso. A estimativa de 100 questões considera acertos e erros com tempo registrado, não a duração de provas completas. Questões antigas sem tempo ficam fora das médias. A comparação de tempo por área inclui apenas acertos com grande área definida. Poucas respostas podem produzir médias pouco representativas. Tempos em horas:minutos:segundos.</p><p class="areas-note">Os dados permanecem ao fechar o navegador no mesmo dispositivo, perfil e endereço do site. Limpar dados do site, usar navegação privada ou trocar de navegador pode remover ou separar o histórico. Não há sincronização entre dispositivos.</p></details>
   </div>
 </section>
 <section id="screen-areas" class="screen areas-screen" style="display:none" aria-labelledby="areas-title">
@@ -454,7 +458,7 @@
 <script src="js/review.js?v=3"></script>
 <script src="js/rapid.js?v=areas1"></script>
 <script src="js/areas.js?v=stats1"></script>
-<script src="js/statistics.js?v=timing2"></script>
+<script src="js/statistics.js?v=charts3"></script>
 <script src="js/assistant-public-groq.js?v=1"></script>
 <script src="js/assistant.js?v=public1"></script>
 <script src="js/assistant-brain.js?v=5"></script>
