@@ -3,6 +3,7 @@
 const RevalidaStorage = (() => {
   const PREFIX = "revalida.sim.v1.";
   let progressWriteFailed = false;
+  const subscribers = new Set();
   const keys = {
     session: PREFIX + "session",
     prefs: PREFIX + "prefs",
@@ -25,9 +26,19 @@ const RevalidaStorage = (() => {
     }
   }
 
-  function set(key, value) {
+  function set(key, value, remote = false) {
     try {
+      if (key === keys.progress && !remote) {
+        const previous = get(key) || {};
+        value = Object.fromEntries(Object.entries(value).map(([id,row]) => {
+          const old = previous[id];
+          const unchanged = old && old.answer === row.answer && old.elapsedMs === row.elapsedMs;
+          const nextTime = Math.max(Date.now(), (Date.parse(old?.updatedAt) || 0) + 1);
+          return [id, {...row, updatedAt: unchanged ? old.updatedAt || new Date(0).toISOString() : new Date(nextTime).toISOString()}];
+        }));
+      }
       localStorage.setItem(key, JSON.stringify(value));
+      if (key === keys.progress && !remote) subscribers.forEach(fn => { try { fn(); } catch (_) {} });
       return true;
     } catch (_) {
       return false;
@@ -88,6 +99,12 @@ const RevalidaStorage = (() => {
     return get(keys.session);
   }
 
+  function useAccount(id) {
+    // Separate account caches; guest results are never silently assigned to an account.
+    for (const name of ['progress','session']) keys[name] = PREFIX + name + (id ? '.' + id : '');
+    progressWriteFailed = false;
+  }
+
   function clearSession() {
     clear(keys.session);
   }
@@ -109,5 +126,5 @@ const RevalidaStorage = (() => {
     } catch (_) { return false; }
   }
 
-  return { keys, get, set, clear, saveSession, loadSession, clearSession, savePrefs, loadPrefs, loadProgress, progressPersistenceAvailable };
+  return { keys, get, set, clear, saveSession, loadSession, clearSession, savePrefs, loadPrefs, loadProgress, progressPersistenceAvailable, useAccount, subscribe: fn => { subscribers.add(fn); return () => subscribers.delete(fn); } };
 })();

@@ -22,7 +22,7 @@
 <link rel="stylesheet" href="css/style-assistant-v1.css?v=neural1">
 <link rel="stylesheet" href="css/assistant-brain.css?v=4">
 <link rel="stylesheet" href="css/areas.css?v=2">
-<link rel="stylesheet" href="css/statistics.css?v=4">
+<link rel="stylesheet" href="css/statistics.css?v=profiles2">
 <link rel="stylesheet" href="css/study-buttons.css?v=1">
 <link rel="stylesheet" href="css/quiz-clock.css?v=1">
 <style>
@@ -179,9 +179,26 @@
     <button type="button" class="areas-back" onclick="StudyStatistics.home()">← Menu principal</button>
     <header class="areas-header"><h1 id="statistics-title" tabindex="-1">Seu estudo, em perspectiva</h1><p>Veja seus resultados, encontre áreas para revisar e acompanhe seu ritmo.</p></header>
     <p id="statistics-storage" class="statistics-storage" role="status"></p>
+    <details class="statistics-details results-transfer" id="cloud-settings">
+      <summary>Salvamento automático entre dispositivos</summary>
+      <p class="areas-note">Escolha um nome para começar, sem e-mail ou senha. Para conectar outro dispositivo ao mesmo perfil, use o código gerado aqui. Respostas e tempos sincronizam ao voltar ao menu e a cada 30 segundos fora da prova. Sem internet, continuam salvos neste navegador; a prova em andamento permanece local.</p>
+      <p id="cloud-status" role="status" aria-live="polite"></p>
+      <form id="cloud-login" onsubmit="CloudSync.authenticate(event)">
+        <label for="cloud-username">Nome de usuário</label><input id="cloud-username" type="text" autocomplete="nickname" required minlength="2" maxlength="40">
+        <button id="cloud-submit" class="areas-back" type="submit">Começar a salvar</button>
+      </form>
+      <div id="cloud-account" hidden>
+        <p>Perfil: <span id="cloud-name-label"></span></p>
+        <label for="cloud-recovery-code">Código para conectar outro dispositivo</label><input id="cloud-recovery-code" type="text" readonly autocomplete="off" spellcheck="false">
+        <p class="areas-note">Guarde este código em local seguro: quem o possuir poderá acessar e alterar os resultados. Nomes iguais não compartilham dados. O código também recupera o perfil se você apagar os dados do navegador.</p>
+        <div class="results-transfer-actions"><button type="button" class="areas-back" onclick="CloudSync.sync()">Sincronizar agora</button><button type="button" class="areas-back" onclick="CloudSync.importGuest()">Adicionar resultados de visitante</button><button type="button" class="areas-back" onclick="CloudSync.logout()">Trocar de perfil</button></div>
+        <p class="areas-note">Criar um perfil adiciona os resultados de visitante sem apagar os originais. Trocar de perfil preserva o cache anterior neste dispositivo.</p>
+      </div>
+      <details><summary>Já tenho um perfil em outro dispositivo</summary><form id="cloud-device" onsubmit="CloudSync.joinDevice(event)"><label for="cloud-device-code">Código do dispositivo de origem</label><input id="cloud-device-code" type="text" autocomplete="off" spellcheck="false" required maxlength="64"><button id="cloud-connect" class="areas-back" type="submit">Conectar este dispositivo</button></form></details>
+    </details>
     <details class="statistics-details results-transfer">
       <summary>Exportar ou importar resultados</summary>
-      <p class="areas-note">No dispositivo de origem, exporte o arquivo JSON e envie-o para o outro dispositivo por AirDrop, Drive, e-mail ou outro meio de sua preferência. No destino, abra este site e importe o arquivo. Inclui respostas e tempos registrados, não a prova em andamento. Não há sincronização automática.</p>
+      <p class="areas-note">No dispositivo de origem, exporte o arquivo JSON e envie-o para o outro dispositivo por AirDrop, Drive, e-mail ou outro meio de sua preferência. No destino, abra este site e importe o arquivo. Inclui respostas e tempos registrados, não a prova em andamento. Esta transferência manual também funciona sem conta na nuvem.</p>
       <div class="results-transfer-actions">
         <button type="button" class="areas-back" onclick="ResultsTransfer.exportFile()">Exportar resultados</button>
         <button type="button" class="areas-back" onclick="document.getElementById('results-import-file').click()">Escolher arquivo para importar</button>
@@ -463,7 +480,7 @@
 <script src="js/questions-2026-2.js?v=4"></script>
 <script src="js/questions-facisa.js?v=1"></script>
 <script src="js/utils.js?v=2"></script>
-<script src="js/storage.js?v=timing2"></script>
+<script src="js/storage.js?v=cloud1"></script>
 <script src="js/score.js?v=2"></script>
 <script src="js/question-repository.js?v=3"></script>
 <script src="js/question-classification.js?v=2"></script>
@@ -471,12 +488,15 @@
 <script src="js/eo-repository.js?v=6"></script>
 <script src="js/resolver.js?v=3"></script>
 <script src="js/quiz-clock.js?v=1"></script>
-<script src="js/simulator.js?v=clock1"></script>
+<script src="js/simulator.js?v=cloud1"></script>
 <script src="js/review.js?v=3"></script>
 <script src="js/rapid.js?v=areas1"></script>
 <script src="js/areas.js?v=stats1"></script>
 <script src="js/statistics.js?v=charts3"></script>
 <script src="js/results-transfer.js?v=1"></script>
+<script src="vendor/supabase-2.117.2.js"></script>
+<script src="js/cloud-config.js?v=medicus1"></script>
+<script src="js/cloud-sync.js?v=profiles2"></script>
 <script src="js/assistant-public-groq.js?v=1"></script>
 <script src="js/assistant.js?v=public1"></script>
 <script src="js/assistant-brain.js?v=5"></script>

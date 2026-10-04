@@ -467,7 +467,7 @@ function buildQuestions() {
 }
 
 function persistSession() {
-  if (typeof RevalidaStorage === 'undefined') return;
+  if (typeof RevalidaStorage === 'undefined' || !questions.length) return;
   RevalidaStorage.saveSession({
     selectedMode,
     selectedYear,
@@ -567,6 +567,13 @@ function resumeQuiz() {
   if (typeof AreaStudy !== 'undefined') AreaStudy.leaveStudy();
   selectedMode = saved.selectedMode; selectedYear = saved.selectedYear; selectedQty = saved.selectedQty;
   startQuiz(list,saved);
+}
+
+// Account switches and cloud pulls must not replay another cache's in-memory answers.
+function releaseQuizState() {
+  questions = []; questionStatus = []; userAnswers = [];
+  currentIndex = 0; correct = 0; wrong = 0; annulled = 0;
+  if (typeof QuizClock !== 'undefined') QuizClock.reset();
 }
 
 function goHome() {

@@ -36,6 +36,14 @@ test('quiz clock hooks: answer, navigation, retry, menu pause, reload resume and
   b.run('restartQuiz()');assert.equal(b.run('QuizClock.snapshot().totalMs'),0);
   assert.equal(b.clockLoops.size,1);
 });
+test('released cloud/account quiz state cannot replay answers or erase a resumable session',()=>{
+  const a=setup();
+  a.run('startQuiz(QuestionRepository.getAllQuestions().filter(q=>!QuestionRepository.isAnnulled(q)).slice(0,1))');
+  a.run('handleAnswer(questions[0].answer,document.createElement("button"),questions[0]);goHome();releaseQuizState()');
+  const before=JSON.stringify(a.run('RevalidaStorage.loadSession()'));
+  a.run('goHome()');assert.equal(JSON.stringify(a.run('RevalidaStorage.loadSession()')),before);
+  a.run('RevalidaStorage.useAccount("another");goHome()');assert.equal(a.run('Object.keys(RevalidaStorage.loadProgress()).length'),0);
+});
 test('all IDs audited once; five actual counts; original content, keys, comments and media untouched',()=>{
   const {run}=setup();
   const report=JSON.parse(fs.readFileSync(path.join(root,'netlify-dist/data/question-classification-report.json')));

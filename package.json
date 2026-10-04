@@ -1,0 +1,20 @@
+{
+  "name": "revalidda-simulator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ferramentas locais para desenvolvimento do REVALIDDA",
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "test": "node --test scripts/test-*.cjs",
+    "build": "node scripts/check-build.cjs",
+    "smoke:cloud": "node scripts/smoke-cloud.cjs --run",
+    "supabase": "supabase"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.8",
+    "supabase": "2.119.0"
+  }
+}

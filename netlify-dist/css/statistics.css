@@ -57,6 +57,11 @@
 .statistics-details summary:focus-visible{outline:2px solid #a1dcff;outline-offset:4px;}
 .results-transfer {margin:0 0 24px;}
 .results-transfer-actions {display:flex;flex-wrap:wrap;gap:10px;}
+#cloud-login, #cloud-device {display:grid;gap:12px;max-width:420px;}
+#cloud-login[hidden] {display:none;}
+#cloud-login input, #cloud-device input, #cloud-recovery-code {width:100%;box-sizing:border-box;padding:12px;border:1px solid #38506b;border-radius:8px;background:#121e2f;color:#edf4ff;font:inherit;}
+#cloud-recovery-code {max-width:420px;font-size:13px;}
+#cloud-status {font-size:14px;color:#cde7ff;line-height:1.6;}
 .results-transfer label {display:block;font-size:14px;margin-bottom:8px;}
 .results-transfer select {max-width:100%;padding:12px;color:#edf4ff;background:#121e2f;border:1px solid #38506b;border-radius:8px;font:inherit;}
 #results-transfer-status {font-size:13px;color:#cde7ff;line-height:1.6;}
