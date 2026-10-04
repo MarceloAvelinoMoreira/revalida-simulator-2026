@@ -9,7 +9,7 @@ for (const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
 }
 for (const file of ["netlify-dist/js/assistant.js", "netlify-dist/js/assistant-public-groq.js", "netlify-dist/js/assistant-brain.js", "netlify/functions/assistant.js", "scripts/serve.cjs"]) execFileSync(process.execPath, ["--check", path.join(root, file)]);
 const out = path.join(root, "tmp/site");
-for (const file of ['storage.js','simulator.js','quiz-clock.js','rapid.js','question-classification.js','area-repository.js','areas.js','statistics.js']) execFileSync(process.execPath,['--check',path.join(root,'netlify-dist/js',file)]);
+for (const file of ['storage.js','simulator.js','quiz-clock.js','rapid.js','question-classification.js','area-repository.js','areas.js','statistics.js','results-transfer.js']) execFileSync(process.execPath,['--check',path.join(root,'netlify-dist/js',file)]);
 fs.mkdirSync(out, { recursive:true });
 // Public allowlist: neither .env nor backend sources enter the production artifact.
 fs.copyFileSync(path.join(root,"index.html"), path.join(out,"index.html"));

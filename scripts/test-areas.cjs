@@ -10,7 +10,7 @@ function setup(initial = {}) {
     return nodes.get(id);
   };
   const c = vm.createContext({console, setTimeout,clearTimeout,performance:{now:()=>clockTime},setInterval:fn=>{clockLoops.set(++clockId,fn);return clockId;},clearInterval:id=>clockLoops.delete(id), window:{scrollTo(){},addEventListener:(name,fn)=>listeners.set(name,fn)}, localStorage:{getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v),removeItem:k=>saved.delete(k)},document:{getElementById:node,createElement:()=>node('button'+Math.random()),querySelectorAll:()=>[],querySelector:()=>node('query'),addEventListener(){}},insertSoftHyphens:s=>s,formatProseHtml:s=>s});
-  for (const f of ['questions.js','questions-2026-2.js','questions-facisa.js','utils.js','storage.js','score.js','question-repository.js','question-classification.js','area-repository.js','quiz-clock.js','simulator.js','rapid.js','areas.js','statistics.js']) vm.runInContext(fs.readFileSync(path.join(root,'netlify-dist/js',f),'utf8'),c);
+  for (const f of ['questions.js','questions-2026-2.js','questions-facisa.js','utils.js','storage.js','score.js','question-repository.js','question-classification.js','area-repository.js','quiz-clock.js','simulator.js','rapid.js','areas.js','statistics.js','results-transfer.js']) vm.runInContext(fs.readFileSync(path.join(root,'netlify-dist/js',f),'utf8'),c);
   const run = source=>vm.runInContext(source,c);
   // Tests never call a provider. Educational rendering is checked separately below.
   run('loadEduForCurrent = async () => null; syncExtraButtons = () => {}; renderTakeHome = () => {}; renderKeyPoints = () => {}; renderAltRationales = () => {};');
@@ -246,4 +246,52 @@ test('new answer replaces recorded time; untimed changed answer cannot reuse old
   assert.equal(a.run('StudyStatistics.snapshot().timing.meanMs'),20000);
   a.run(`RevalidaStorage.saveSession({questions:[q],questionStatus:['wrong'],userAnswers:[q.answer==='A'?'B':'A']})`);
   assert.equal(a.run('StudyStatistics.snapshot().timing.count'),0);
+});
+
+test('portable backup transfers real answers/times to a new browser; no session or unrelated fields',()=>{
+  const a=setup();a.run(`RevalidaStorage.set(RevalidaStorage.keys.progress,{'2021-003':{answer:'B',status:'wrong',elapsedMs:45000,token:'DO-NOT-EXPORT'}})`);
+  const backup=a.run('ResultsTransfer.backup()');
+  assert.deepEqual(Object.keys(backup).sort(),['app','exportedAt','results','version']);
+  assert.equal(backup.results['2021-003'].status,'correct');
+  assert.equal(backup.results['2021-003'].elapsedMs,45000);
+  assert.doesNotMatch(JSON.stringify(backup),/token|DO-NOT-EXPORT|session/);
+  const b=setup();b.c.backup=JSON.parse(JSON.stringify(backup));
+  b.run('ResultsTransfer.apply(ResultsTransfer.validate(backup).results)');
+  assert.equal(b.run('StudyStatistics.snapshot().overall.correct'),1);
+  assert.equal(b.run('StudyStatistics.snapshot().timing.meanMs'),45000);
+  assert.equal(setup(Object.fromEntries(b.saved)).run('StudyStatistics.snapshot().overall.correct'),1);
+});
+
+test('import defaults keep duplicates, replace is explicit, unrelated results preserved and resumable quiz reconciled',()=>{
+  const a=setup();a.run(`startQuiz([QuestionRepository.getById('2021-003')]);handleAnswer('A',document.createElement('button'),questions[0]);goHome();
+    var imported=ResultsTransfer.validate({app:'REVALIDDA',version:1,results:{'2021-003':{answer:'B',elapsedMs:5000},'2021-005':{answer:'A'}}}).results;`);
+  assert.equal(a.run('ResultsTransfer.apply(imported).kept'),1);
+  assert.equal(a.run('RevalidaStorage.loadProgress()["2021-003"].answer'),'A');
+  a.run(`ResultsTransfer.apply(ResultsTransfer.validate({app:'REVALIDDA',version:1,results:{'2021-003':{answer:'B',elapsedMs:5000}}}).results,true);resumeQuiz()`);
+  assert.equal(a.run('userAnswers[0]'),'B');assert.equal(a.run('correct'),1);
+  assert.equal(a.run('RevalidaStorage.loadProgress()["2021-005"].answer'),'A');
+  assert.equal(a.run('QuizClock.snapshot().answeredMs["2021-003"]'),5000);
+});
+
+test('import rejects malformed, invalid answer/timing/version; unknown and annulled IDs ignored safely',()=>{
+  const a=setup();
+  for(const data of ['null','{app:"other",version:1,results:{}}','{app:"REVALIDDA",version:2,results:{}}','{app:"REVALIDDA",version:1,results:[]}',`{app:'REVALIDDA',version:1,results:{'2021-003':{answer:'Z'}}}`,`{app:'REVALIDDA',version:1,results:{'2021-003':{answer:'B',elapsedMs:-1}}}`]) assert.throws(()=>a.run(`ResultsTransfer.validate(${data})`));
+  a.run(`var annulledQ=AreaRepository.all.find(q=>QuestionRepository.isAnnulled(q));var v=ResultsTransfer.validate({app:'REVALIDDA',version:1,results:{unknown:{answer:'A'},[annulledQ.id]:{answer:'A'},'2021-003':{answer:'B'}}})`);
+  assert.equal(a.run('v.ignored'),2);assert.equal(a.run('Object.keys(v.results).length'),1);
+  assert.equal(a.run(`ResultsTransfer.validate(JSON.parse('{"app":"REVALIDDA","version":1,"results":{"__proto__":{"polluted":true}}}')).ignored`),1);
+});
+
+test('file selection is preview-only; cancellation, invalid JSON, size cap and blocked storage leave results intact',async()=>{
+  const a=setup();const text=JSON.stringify({app:'REVALIDDA',version:1,results:{'2021-003':{answer:'B'}}});
+  a.c.input={files:[{size:text.length,text:async()=>text}],value:'file'};
+  await a.run('ResultsTransfer.selectFile(input)');
+  assert.equal(a.run('StudyStatistics.snapshot().overall.answered'),0);
+  assert.equal(a.node('results-import-preview').hidden,false);
+  a.run('ResultsTransfer.cancel()');assert.equal(a.node('results-import-preview').hidden,true);
+  a.c.input={files:[{size:3,text:async()=>'{bad'}],value:'file'};await a.run('ResultsTransfer.selectFile(input)');assert.match(a.node('results-transfer-status').textContent,/JSON válido/);
+  a.c.input={files:[{size:3*1024*1024,text:async()=>text}],value:'file'};await a.run('ResultsTransfer.selectFile(input)');assert.match(a.node('results-transfer-status').textContent,/2 MB/);
+  a.c.input={files:[{size:text.length,text:async()=>text}],value:'file'};await a.run('ResultsTransfer.selectFile(input)');
+  const before=a.saved.get('revalida.sim.v1.progress');a.c.localStorage.setItem=()=>{throw Error('blocked');};
+  a.run('ResultsTransfer.confirm()');assert.match(a.node('results-transfer-status').textContent,/não permitiu/);
+  assert.equal(a.saved.get('revalida.sim.v1.progress'),before);
 });

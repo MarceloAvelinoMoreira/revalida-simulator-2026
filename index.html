@@ -22,7 +22,7 @@
 <link rel="stylesheet" href="css/style-assistant-v1.css?v=neural1">
 <link rel="stylesheet" href="css/assistant-brain.css?v=4">
 <link rel="stylesheet" href="css/areas.css?v=2">
-<link rel="stylesheet" href="css/statistics.css?v=3">
+<link rel="stylesheet" href="css/statistics.css?v=4">
 <link rel="stylesheet" href="css/study-buttons.css?v=1">
 <link rel="stylesheet" href="css/quiz-clock.css?v=1">
 <style>
@@ -179,6 +179,23 @@
     <button type="button" class="areas-back" onclick="StudyStatistics.home()">← Menu principal</button>
     <header class="areas-header"><h1 id="statistics-title" tabindex="-1">Seu estudo, em perspectiva</h1><p>Veja seus resultados, encontre áreas para revisar e acompanhe seu ritmo.</p></header>
     <p id="statistics-storage" class="statistics-storage" role="status"></p>
+    <details class="statistics-details results-transfer">
+      <summary>Exportar ou importar resultados</summary>
+      <p class="areas-note">No dispositivo de origem, exporte o arquivo JSON e envie-o para o outro dispositivo por AirDrop, Drive, e-mail ou outro meio de sua preferência. No destino, abra este site e importe o arquivo. Inclui respostas e tempos registrados, não a prova em andamento. Não há sincronização automática.</p>
+      <div class="results-transfer-actions">
+        <button type="button" class="areas-back" onclick="ResultsTransfer.exportFile()">Exportar resultados</button>
+        <button type="button" class="areas-back" onclick="document.getElementById('results-import-file').click()">Escolher arquivo para importar</button>
+        <input id="results-import-file" type="file" accept=".json,application/json" onchange="ResultsTransfer.selectFile(this)" hidden>
+      </div>
+      <p id="results-transfer-status" role="status" aria-live="polite"></p>
+      <div id="results-import-preview" hidden>
+        <p id="results-import-description" class="areas-note"></p>
+        <label for="results-import-policy">Para questões já existentes neste navegador:</label>
+        <select id="results-import-policy"><option value="keep">Manter meus resultados atuais</option><option value="replace">Usar os resultados do arquivo</option></select>
+        <p class="areas-note">Questões que não estão no arquivo permanecem intactas. Exporte uma cópia dos resultados atuais antes de substituir respostas.</p>
+        <div class="results-transfer-actions"><button type="button" class="areas-back" onclick="ResultsTransfer.confirm()">Confirmar importação</button><button type="button" class="areas-back" onclick="ResultsTransfer.cancel()">Cancelar</button></div>
+      </div>
+    </details>
     <div id="statistics-summary" class="area-stats" aria-label="Resumo do desempenho"></div>
     <p id="statistics-bank-summary" class="statistics-bank-summary"></p>
     <p id="statistics-empty" class="statistics-empty" hidden>Você ainda não respondeu questões neste navegador. Inicie uma prova ou um estudo por área para acompanhar seu desempenho aqui.</p>
@@ -459,6 +476,7 @@
 <script src="js/rapid.js?v=areas1"></script>
 <script src="js/areas.js?v=stats1"></script>
 <script src="js/statistics.js?v=charts3"></script>
+<script src="js/results-transfer.js?v=1"></script>
 <script src="js/assistant-public-groq.js?v=1"></script>
 <script src="js/assistant.js?v=public1"></script>
 <script src="js/assistant-brain.js?v=5"></script>
