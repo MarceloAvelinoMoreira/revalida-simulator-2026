@@ -1,7 +1,7 @@
 // Offline metadata generation. Never changes question content or calls an AI API.
 const fs = require('node:fs'), path = require('node:path'), vm = require('node:vm');
 const root = path.resolve(__dirname, '..'), bank = vm.createContext({});
-for (const f of ['questions.js', 'questions-2026-2.js', 'questions-facisa.js']) vm.runInContext(fs.readFileSync(path.join(root, 'netlify-dist/js', f), 'utf8'), bank);
+for (const f of ['questions.js', 'questions-2026-2.js', 'questions-facisa.js', 'questions-quinzena-01.js']) vm.runInContext(fs.readFileSync(path.join(root, 'netlify-dist/js', f), 'utf8'), bank);
 const exams = vm.runInContext('EXAMS', bank);
 const overrides = JSON.parse(fs.readFileSync(path.join(root,'netlify-dist/data/area-overrides.json'),'utf8'));
 const normalize = s => String(s || '').normalize('NFD').replace(/[\u0300-\u036f\u00ad]/g, '').toLowerCase();

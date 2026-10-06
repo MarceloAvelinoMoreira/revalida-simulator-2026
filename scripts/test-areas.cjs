@@ -10,12 +10,41 @@ function setup(initial = {}) {
     return nodes.get(id);
   };
   const c = vm.createContext({console, setTimeout,clearTimeout,performance:{now:()=>clockTime},setInterval:fn=>{clockLoops.set(++clockId,fn);return clockId;},clearInterval:id=>clockLoops.delete(id), window:{scrollTo(){},addEventListener:(name,fn)=>listeners.set(name,fn)}, localStorage:{getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v),removeItem:k=>saved.delete(k)},document:{getElementById:node,createElement:()=>node('button'+Math.random()),querySelectorAll:()=>[],querySelector:()=>node('query'),addEventListener(){}},insertSoftHyphens:s=>s,formatProseHtml:s=>s});
-  for (const f of ['questions.js','questions-2026-2.js','questions-facisa.js','utils.js','storage.js','score.js','question-repository.js','question-classification.js','area-repository.js','quiz-clock.js','simulator.js','rapid.js','areas.js','statistics.js','results-transfer.js']) vm.runInContext(fs.readFileSync(path.join(root,'netlify-dist/js',f),'utf8'),c);
+  for (const f of ['questions.js','questions-2026-2.js','questions-facisa.js','questions-quinzena-01.js','utils.js','storage.js','score.js','question-repository.js','question-classification.js','area-repository.js','quiz-clock.js','simulator.js','rapid.js','areas.js','statistics.js','results-transfer.js']) vm.runInContext(fs.readFileSync(path.join(root,'netlify-dist/js',f),'utf8'),c);
   const run = source=>vm.runInContext(source,c);
   // Tests never call a provider. Educational rendering is checked separately below.
   run('loadEduForCurrent = async () => null; syncExtraButtons = () => {}; renderTakeHome = () => {}; renderKeyPoints = () => {}; renderAltRationales = () => {};');
   return {run,node,saved,c,listeners,advance:ms=>{clockTime+=ms;for(const fn of clockLoops.values())fn();},clockLoops};
 }
+
+test('Quinzena 01: 100 source comments, valid keys, five areas and existing quiz/rapid modes',()=>{
+  const {run,node}=setup();
+  const list=run('QuestionRepository.getAllQuestions().filter(q=>q.year==="quinzena-01")');
+  assert.equal(list.length,100);
+  assert.equal(new Set(list.map(q=>q.id)).size,100);
+  for(const q of list){
+    assert.ok(q.officialComment.length>100);
+    assert.ok(q.explanation.length>100);
+    assert.ok(q.opts[q.answer.charCodeAt(0)-65]);
+  }
+  for(const area of run('Object.keys(AreaRepository.areas)')){
+    assert.equal(run(`AreaRepository.filter({area:'${area}',exam:'quinzena-01'}).length`),20);
+  }
+  run('selectedMode="year";selectedYear="quinzena-01";startQuiz()');
+  assert.equal(run('questions.length'),100);
+  run('handleAnswer(questions[0].answer,document.createElement("button"),questions[0])');
+  assert.equal(run('correct'),1);
+  run('goHome();openRapidAnswers("quinzena-01")');
+  assert.equal(run('rapidQuestions.length'),100);
+  assert.equal((node('rapid-list').innerHTML.match(/<article/g)||[]).length,1);
+  assert.equal(run('rapidAnswerText(rapidQuestions[0]).letter'),list[0].answer);
+  for(const n of [64,77]){
+    const q=list[n-1];assert.ok(fs.existsSync(path.join(root,'netlify-dist',q.image)));
+    run(`openRapidQuestionSet([QuestionRepository.getById('${q.id}')],"Tabela")`);
+    assert.match(node('rapid-list').innerHTML,/<img /);
+  }
+  assert.match(list[98].officialComment,/incompleta/i);
+});
 
 test('quiz clock hooks: answer, navigation, retry, menu pause, reload resume and completion',()=>{
   const a=setup();
@@ -47,9 +76,9 @@ test('released cloud/account quiz state cannot replay answers or erase a resumab
 test('all IDs audited once; five actual counts; original content, keys, comments and media untouched',()=>{
   const {run}=setup();
   const report=JSON.parse(fs.readFileSync(path.join(root,'netlify-dist/data/question-classification-report.json')));
-  assert.equal(run('AreaRepository.all.length'),1300);
-  assert.equal(new Set(report.questions.map(q=>q.id)).size,1300);
-  assert.equal(report.classified+report.pending,1300);
+  assert.equal(run('AreaRepository.all.length'),1400);
+  assert.equal(new Set(report.questions.map(q=>q.id)).size,1400);
+  assert.equal(report.classified+report.pending,1400);
   assert.equal(run('AreaRepository.pending().length'),report.pending);
   for (const area of Object.keys(report.distribution)) {
     assert.equal(run(`AreaRepository.filter({area:'${area}'}).length`),report.distribution[area]);
@@ -144,6 +173,9 @@ test('educational resolver retrieves the same comments, rationales and images fo
   }
   const resolved=await run('QuestionEoResolver.resolve("2026-2-006")');
   assert.equal(resolved.view.comment,run('QuestionRepository.getById("2026-2-006").officialComment'));
+  const quinzena=await run('QuestionEoResolver.resolve("quinzena-01-001")');
+  assert.equal(quinzena.view.comment,run('QuestionRepository.getById("quinzena-01-001").officialComment'));
+  assert.equal(quinzena.view.correctRationale,run('QuestionRepository.getById("quinzena-01-001").explanation'));
 });
 test('statistics: no fabricated history, empty state and navigation back to home',()=>{
   const {run,node}=setup();
