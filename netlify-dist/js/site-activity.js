@@ -1,6 +1,8 @@
 // Anonymous, approximate usage metrics. Never sends study data or recovery codes.
 const SiteActivity = (() => {
   const config = window.REVALIDDA_CLOUD_CONFIG || {};
+  // Owner-requested manual adjustment; do not fabricate visit or presence records.
+  const manualAccessAdjustment = 100;
   const node = id => document.getElementById(id);
   let busy = false;
   function identifier(storageName,key) {
@@ -28,9 +30,9 @@ const SiteActivity = (() => {
       if(!response.ok) throw Error('unavailable');
       const data=await response.json();
       if(!Number.isSafeInteger(data.accesses)||data.accesses<0||!Number.isSafeInteger(data.online)||data.online<0) throw Error('invalid');
-      if(node('site-accesses')) node('site-accesses').textContent=data.accesses.toLocaleString('pt-BR');
+      if(node('site-accesses')) node('site-accesses').textContent=(data.accesses + manualAccessAdjustment).toLocaleString('pt-BR');
       if(node('site-online')) node('site-online').textContent=data.online.toLocaleString('pt-BR');
-      state('Atualizado agora. Contagem iniciada com a ativação deste recurso.');
+      state('Atualizado agora. Total inclui um ajuste manual de 100 acessos; dispositivos online não são alterados.');
     } catch (_) { if(node('site-online')) node('site-online').textContent='—'; state('Contadores indisponíveis no momento. Os dados de estudo continuam salvos.'); }
     finally {clearTimeout(timeout);busy=false;}
   }

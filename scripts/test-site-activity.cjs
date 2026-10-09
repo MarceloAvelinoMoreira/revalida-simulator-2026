@@ -27,11 +27,12 @@ test('site activity UI: valid aggregates, bounded heartbeat, invisible/offline p
   const c=vm.createContext({window,document,navigator:{onLine:true},crypto:{randomUUID:()=> '11111111-1111-4111-8111-111111111111'},AbortController,setTimeout,clearTimeout,setInterval:f=>{tick=f;},fetch:async(url,opts)=>{calls++;body=JSON.parse(opts.body);return {ok:!fail,json:async()=>({accesses:42,online:3})};}});
   vm.runInContext(fs.readFileSync('netlify-dist/js/site-activity.js','utf8'),c);
   await new Promise(r=>setImmediate(r));
-  assert.equal(nodes.get('site-accesses').textContent,'42');assert.equal(nodes.get('site-online').textContent,'3');
+  assert.equal(nodes.get('site-accesses').textContent,'142');assert.equal(nodes.get('site-online').textContent,'3');
+  assert.match(nodes.get('site-activity-status').textContent,/ajuste manual de 100/);
   assert.deepEqual(Object.keys(body).sort(),['device_id','session_id']);
   document.hidden=true;await tick();assert.equal(calls,1);
   document.hidden=false;fail=true;await tick();assert.equal(nodes.get('site-online').textContent,'—');
   assert.match(nodes.get('site-activity-status').textContent,/indisponíveis/);
-  assert.equal(nodes.get('site-accesses').textContent,'42');
+  assert.equal(nodes.get('site-accesses').textContent,'142');
   events.offline();assert.match(nodes.get('site-activity-status').textContent,/Sem internet/);
 });
