@@ -93,6 +93,7 @@ function renderRapidQuestion() {
       <p class="rapid-question-text">${rapidEscape(rapidText(statement))}</p>
       ${mediaHtml}
       ${answerHtml}
+      ${question.answerNote ? `<p class="areas-note">${rapidEscape(question.answerNote)}</p>` : ''}
     </article>`;
   count.textContent = `${rapidIndex + 1} de ${rapidQuestions.length} questões`;
   if (pageLabel) pageLabel.textContent = `Questão ${question.n}`;

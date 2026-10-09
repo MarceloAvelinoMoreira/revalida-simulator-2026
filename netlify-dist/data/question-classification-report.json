@@ -1,13 +1,13 @@
 {
-  "total": 1400,
-  "classified": 1159,
+  "total": 1420,
+  "classified": 1179,
   "pending": 241,
   "distribution": {
-    "clinica_medica": 326,
-    "cirurgia": 153,
-    "ginecologia_obstetricia": 309,
-    "pediatria": 215,
-    "medicina_preventiva": 156
+    "clinica_medica": 330,
+    "cirurgia": 157,
+    "ginecologia_obstetricia": 313,
+    "pediatria": 219,
+    "medicina_preventiva": 160
   },
   "method": "Taxonomia individual existente, especialidade legada corroborada pelo problema/alternativa correta, temas FACISA corroborados e revisões individuais explícitas em area-overrides.json. A triagem automatizada não equivale a uma revisão médica completa dos metadados legados. Evidência insuficiente ou conflitante fica pendente; subárea/tema ausentes não são inventados.",
   "questions": [
@@ -15651,6 +15651,226 @@
       "tema": "Declaração de óbito",
       "classificacaoPendente": false,
       "fonte": "Taxonomia individual da resolução no PDF Quinzena 01"
+    },
+    {
+      "id": "tutoria-semana-01-001",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 1,
+      "grandeArea": "clinica_medica",
+      "subarea": "Tuberculose pulmonar e HIV",
+      "tema": "Tuberculose pulmonar e HIV",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-002",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 2,
+      "grandeArea": "clinica_medica",
+      "subarea": "Hipertensão arterial resistente",
+      "tema": "Hipertensão arterial resistente",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-003",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 3,
+      "grandeArea": "clinica_medica",
+      "subarea": "Diabetes no idoso e hipoglicemia",
+      "tema": "Diabetes no idoso e hipoglicemia",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-004",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 4,
+      "grandeArea": "clinica_medica",
+      "subarea": "Derrame parapneumônico complicado",
+      "tema": "Derrame parapneumônico complicado",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-005",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 5,
+      "grandeArea": "cirurgia",
+      "subarea": "Volvo de sigmoide",
+      "tema": "Volvo de sigmoide",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-006",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 6,
+      "grandeArea": "cirurgia",
+      "subarea": "Queimadura e lesão inalatória",
+      "tema": "Queimadura e lesão inalatória",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-007",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 7,
+      "grandeArea": "cirurgia",
+      "subarea": "Investigação de coledocolitíase",
+      "tema": "Investigação de coledocolitíase",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-008",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 8,
+      "grandeArea": "cirurgia",
+      "subarea": "Profilaxia de tromboembolismo venoso",
+      "tema": "Profilaxia de tromboembolismo venoso",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-009",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 9,
+      "grandeArea": "ginecologia_obstetricia",
+      "subarea": "Rastreamento com DNA-HPV",
+      "tema": "Rastreamento com DNA-HPV",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-010",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 10,
+      "grandeArea": "ginecologia_obstetricia",
+      "subarea": "Sífilis gestacional e alergia à penicilina",
+      "tema": "Sífilis gestacional e alergia à penicilina",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-011",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 11,
+      "grandeArea": "ginecologia_obstetricia",
+      "subarea": "Hiperplasia endometrial atípica / EIN",
+      "tema": "Hiperplasia endometrial atípica / EIN",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-012",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 12,
+      "grandeArea": "ginecologia_obstetricia",
+      "subarea": "Reclassificação após diabetes gestacional",
+      "tema": "Reclassificação após diabetes gestacional",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-013",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 13,
+      "grandeArea": "pediatria",
+      "subarea": "Vacinas ao nascimento no prematuro",
+      "tema": "Vacinas ao nascimento no prematuro",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-014",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 14,
+      "grandeArea": "pediatria",
+      "subarea": "Desidratação grave e Plano C",
+      "tema": "Desidratação grave e Plano C",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-015",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 15,
+      "grandeArea": "pediatria",
+      "subarea": "Desenvolvimento e idade corrigida",
+      "tema": "Desenvolvimento e idade corrigida",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-016",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 16,
+      "grandeArea": "pediatria",
+      "subarea": "Icterícia do leite materno",
+      "tema": "Icterícia do leite materno",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-017",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 17,
+      "grandeArea": "medicina_preventiva",
+      "subarea": "Silicose e saúde do trabalhador",
+      "tema": "Silicose e saúde do trabalhador",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-018",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 18,
+      "grandeArea": "medicina_preventiva",
+      "subarea": "Doença meningocócica e contatos",
+      "tema": "Doença meningocócica e contatos",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-019",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 19,
+      "grandeArea": "medicina_preventiva",
+      "subarea": "Preenchimento da declaração de óbito",
+      "tema": "Preenchimento da declaração de óbito",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+    },
+    {
+      "id": "tutoria-semana-01-020",
+      "prova": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
+      "edicao": "tutoria-semana-01",
+      "numero": 20,
+      "grandeArea": "medicina_preventiva",
+      "subarea": "Autonomia e comunicação de diagnóstico",
+      "tema": "Autonomia e comunicação de diagnóstico",
+      "classificacaoPendente": false,
+      "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
     }
   ]
 }

@@ -17,6 +17,7 @@ const QuestionRepository = (() => {
     "2026-2",
     "facisa",
     "quinzena-01",
+    "tutoria-semana-01",
   ];
 
   function assertBank() {

@@ -1,4 +1,4 @@
-// Metadata: existing classifications preserved; Quinzena 01 taxonomy imported from source.
+// Existing metadata preserved; source taxonomy for imported tutoring questions.
 const QuestionClassification = {
   "2021-001": {
     "grandeArea": "ginecologia_obstetricia",
@@ -10040,5 +10040,145 @@ const QuestionClassification = {
     "tema": "Declaração de óbito",
     "classificacaoPendente": false,
     "fonte": "Taxonomia individual da resolução no PDF Quinzena 01"
+  },
+  "tutoria-semana-01-001": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Tuberculose pulmonar e HIV",
+    "tema": "Tuberculose pulmonar e HIV",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-002": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Hipertensão arterial resistente",
+    "tema": "Hipertensão arterial resistente",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-003": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Diabetes no idoso e hipoglicemia",
+    "tema": "Diabetes no idoso e hipoglicemia",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-004": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Derrame parapneumônico complicado",
+    "tema": "Derrame parapneumônico complicado",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-005": {
+    "grandeArea": "cirurgia",
+    "subarea": "Volvo de sigmoide",
+    "tema": "Volvo de sigmoide",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-006": {
+    "grandeArea": "cirurgia",
+    "subarea": "Queimadura e lesão inalatória",
+    "tema": "Queimadura e lesão inalatória",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-007": {
+    "grandeArea": "cirurgia",
+    "subarea": "Investigação de coledocolitíase",
+    "tema": "Investigação de coledocolitíase",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-008": {
+    "grandeArea": "cirurgia",
+    "subarea": "Profilaxia de tromboembolismo venoso",
+    "tema": "Profilaxia de tromboembolismo venoso",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-009": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Rastreamento com DNA-HPV",
+    "tema": "Rastreamento com DNA-HPV",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-010": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Sífilis gestacional e alergia à penicilina",
+    "tema": "Sífilis gestacional e alergia à penicilina",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-011": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Hiperplasia endometrial atípica / EIN",
+    "tema": "Hiperplasia endometrial atípica / EIN",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-012": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Reclassificação após diabetes gestacional",
+    "tema": "Reclassificação após diabetes gestacional",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-013": {
+    "grandeArea": "pediatria",
+    "subarea": "Vacinas ao nascimento no prematuro",
+    "tema": "Vacinas ao nascimento no prematuro",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-014": {
+    "grandeArea": "pediatria",
+    "subarea": "Desidratação grave e Plano C",
+    "tema": "Desidratação grave e Plano C",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-015": {
+    "grandeArea": "pediatria",
+    "subarea": "Desenvolvimento e idade corrigida",
+    "tema": "Desenvolvimento e idade corrigida",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-016": {
+    "grandeArea": "pediatria",
+    "subarea": "Icterícia do leite materno",
+    "tema": "Icterícia do leite materno",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-017": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Silicose e saúde do trabalhador",
+    "tema": "Silicose e saúde do trabalhador",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-018": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Doença meningocócica e contatos",
+    "tema": "Doença meningocócica e contatos",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-019": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Preenchimento da declaração de óbito",
+    "tema": "Preenchimento da declaração de óbito",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-020": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Autonomia e comunicação de diagnóstico",
+    "tema": "Autonomia e comunicação de diagnóstico",
+    "classificacaoPendente": false,
+    "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
   }
 };

@@ -1,7 +1,7 @@
 "use strict";
 const fs=require("node:fs"),path=require("node:path"),vm=require("node:vm");
 const root=path.resolve(__dirname,".."), context=vm.createContext({});
-for(const file of ["questions.js","questions-2026-2.js","questions-facisa.js","questions-quinzena-01.js"]){
+for(const file of ["questions.js","questions-2026-2.js","questions-facisa.js","questions-quinzena-01.js","questions-tutoria-semana-01.js"]){
   const p=path.join(root,"netlify-dist/js",file); if(fs.existsSync(p))vm.runInContext(fs.readFileSync(p,"utf8"),context);
 }
 const exams=vm.runInContext("EXAMS",context);
