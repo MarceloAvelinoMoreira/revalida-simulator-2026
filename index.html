@@ -41,6 +41,7 @@
 <link rel="stylesheet" href="css/study-buttons.css?v=1">
 <link rel="stylesheet" href="css/quiz-clock.css?v=1">
 <link rel="stylesheet" href="css/mobile-app.css?v=iphone1">
+<link rel="stylesheet" href="css/install-app.css?v=3">
 <style>
   .mode-card,
   .year-btn,
@@ -68,6 +69,19 @@
   <div class="logo">REVALIDDA</div>
   <div class="brand-byline">Simulator · Marcelo Avelino</div>
   <div class="tagline">Simulado oficial do REVALIDA · Knowledge Base v1.0</div>
+  <dialog id="install-app-guide" class="install-app-guide" aria-labelledby="install-app-title">
+    <img src="assets/brain-apple-touch-icon.png" width="64" height="64" alt="" class="install-app-icon">
+    <h2 id="install-app-title">REVALIDDA na tela inicial</h2>
+    <p id="install-app-intro">No iPhone, a instalação precisa da sua confirmação no Safari.</p>
+    <ol id="install-app-steps">
+      <li>Abra este site no <strong>Safari</strong>. Se estiver no WhatsApp, copie o link e abra no Safari.</li>
+      <li>Toque em <strong>Compartilhar</strong> (quadrado com uma seta para cima; pode estar no menu do navegador).</li>
+      <li>Escolha <strong>Adicionar à Tela de Início</strong>. Mantenha <strong>Abrir como app web</strong> ativado, se aparecer.</li>
+      <li>Confirme o nome <strong>REVALIDDA</strong> e toque em <strong>Adicionar</strong>.</li>
+    </ol>
+    <p>O atalho usa o ícone do cérebro. Seus resultados continuam vinculados a este navegador; para outro dispositivo, use o perfil de sincronização.</p>
+    <form method="dialog"><button type="submit" class="install-app-button">Entendi</button></form>
+  </dialog>
 
   <div class="mode-section">
     <div class="mode-label">Modo de estudo</div>
@@ -189,6 +203,10 @@
 
   <button class="start-btn" id="start-btn" onclick="startQuiz()">Iniciar simulado</button>
   <button type="button" id="resume-quiz-btn" onclick="resumeQuiz()" hidden>Retomar simulado salvo</button>
+  <button type="button" id="install-app-button" class="install-app-button install-app-home" aria-haspopup="dialog" aria-controls="install-app-guide">
+    <span class="install-app-symbol" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><rect x="6" y="3" width="16" height="26" rx="4"/><path d="M11 7h6M12 25h4"/><circle cx="24" cy="17" r="7"/><path d="M24 14v6M21 17h6"/></svg></span>
+    <span class="install-app-copy"><span class="install-app-label">Instalar REVALIDDA</span><span class="install-app-detail">Adicionar à tela inicial</span></span>
+  </button>
 </div>
 
 <!-- RESPOSTAS RÁPIDAS -->
@@ -527,5 +545,6 @@
 <script src="js/assistant.js?v=public1"></script>
 <script src="js/assistant-brain.js?v=5"></script>
 <script src="js/app.js?v=2"></script>
+<script src="js/install-app.js?v=1"></script>
 </body>
 </html>
