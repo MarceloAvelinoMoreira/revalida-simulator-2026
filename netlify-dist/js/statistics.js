@@ -77,7 +77,7 @@ const StudyStatistics = (() => {
     AreaStudy.leaveStudy();
     ['home','areas','quiz','rapid','result'].forEach(name=>el('screen-'+name).style.display='none');
     el('screen-statistics').style.display='block';
-    render(); el('statistics-title').focus(); window.scrollTo(0,0);
+    render(); if(typeof SiteActivity !== 'undefined') SiteActivity.refresh(); el('statistics-title').focus(); window.scrollTo(0,0);
   }
   function home() { el('screen-statistics').style.display='none'; AreaStudy.home(); window.scrollTo(0,0); }
   if (typeof window.addEventListener === 'function') window.addEventListener('storage',event=>{

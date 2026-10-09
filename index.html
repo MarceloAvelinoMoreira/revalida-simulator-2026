@@ -37,7 +37,7 @@
 <link rel="stylesheet" href="css/style-assistant-v1.css?v=neural1">
 <link rel="stylesheet" href="css/assistant-brain.css?v=4">
 <link rel="stylesheet" href="css/areas.css?v=2">
-<link rel="stylesheet" href="css/statistics.css?v=profiles2">
+<link rel="stylesheet" href="css/statistics.css?v=activity1">
 <link rel="stylesheet" href="css/study-buttons.css?v=1">
 <link rel="stylesheet" href="css/quiz-clock.css?v=1">
 <link rel="stylesheet" href="css/mobile-app.css?v=iphone1">
@@ -248,6 +248,11 @@
     <details class="statistics-details"><summary id="statistics-areas-title">Ver detalhes por grande área</summary><div id="statistics-areas" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por área" tabindex="0"></div></details>
     <section aria-labelledby="statistics-exams-title"><h2 id="statistics-exams-title">Desempenho por prova</h2><p class="areas-note">Taxa de acerto nas respostas de cada prova · escala de 0 a 100%.</p><div id="statistics-exam-chart" class="statistics-chart"></div><details class="statistics-details"><summary>Ver detalhes por prova</summary><div id="statistics-exams" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por prova" tabindex="0"></div></details></section>
     <details class="statistics-details statistics-method"><summary>Como os dados são calculados e salvos</summary><p class="areas-note">Cada questão conta uma vez, usando a última resposta. Anuladas não entram no aproveitamento ou no progresso. A estimativa de 100 questões considera acertos e erros com tempo registrado, não a duração de provas completas. Questões antigas sem tempo ficam fora das médias. A comparação de tempo por área inclui apenas acertos com grande área definida. Poucas respostas podem produzir médias pouco representativas. Tempos em horas:minutos:segundos.</p><p class="areas-note">Os dados permanecem ao fechar o navegador no mesmo dispositivo, perfil e endereço do site. Limpar dados do site, usar navegação privada ou trocar de navegador pode remover ou separar o histórico. Não há sincronização entre dispositivos.</p></details>
+    <footer class="site-activity" aria-label="Atividade do site">
+      <dl><div><dt>Número de acessos</dt><dd id="site-accesses">—</dd></div><div><dt><span class="site-online-dot" aria-hidden="true"></span>Dispositivos online</dt><dd id="site-online">—</dd></div></dl>
+      <p>Um acesso por sessão. Online: navegadores ativos nos últimos 90 segundos. Abas do mesmo navegador contam como um dispositivo.</p>
+      <p id="site-activity-status" role="status" aria-live="polite">Carregando contadores…</p>
+    </footer>
   </div>
 </section>
 <section id="screen-areas" class="screen areas-screen" style="display:none" aria-labelledby="areas-title">
@@ -510,10 +515,11 @@
 <script src="js/review.js?v=3"></script>
 <script src="js/rapid.js?v=areas1"></script>
 <script src="js/areas.js?v=stats1"></script>
-<script src="js/statistics.js?v=charts3"></script>
+<script src="js/statistics.js?v=activity1"></script>
 <script src="js/results-transfer.js?v=1"></script>
 <script src="vendor/supabase-2.117.2.js"></script>
 <script src="js/cloud-config.js?v=medicus1"></script>
+<script src="js/site-activity.js?v=1"></script>
 <script src="js/cloud-sync.js?v=profiles2"></script>
 <script src="js/assistant-public-groq.js?v=1"></script>
 <script src="js/assistant.js?v=public1"></script>
