@@ -24,7 +24,7 @@ const server = http.createServer(async (req, res) => {
   let relative;
   try { relative = decodeURIComponent(url.pathname).replace(/^\/+/, "") || "index.html"; } catch (_) { res.writeHead(400); res.end(); return; }
   // Explicit public allowlist: .env, function sources and scripts are never served.
-  if (!(relative === "index.html" || relative === "manifest.webmanifest" || relative.startsWith("netlify-dist/")) || relative.split(/[\\/]/).some(part => part.startsWith(".")) || relative.includes("\\")) { res.writeHead(404); res.end(); return; }
+  if (!(relative === "index.html" || relative === "manifest.webmanifest" || relative === "service-worker.js" || relative.startsWith("netlify-dist/")) || relative.split(/[\\/]/).some(part => part.startsWith(".")) || relative.includes("\\")) { res.writeHead(404); res.end(); return; }
   const file = path.resolve(root, relative);
   if (!file.startsWith(root + path.sep) || !fs.existsSync(file) || !fs.statSync(file).isFile()) { res.writeHead(404); res.end(); return; }
   res.writeHead(200, { "Content-Type": types[path.extname(file)] || "application/octet-stream", "Cache-Control": "no-store" });

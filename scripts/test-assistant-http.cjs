@@ -11,6 +11,8 @@ test("real HTTP adapter serves app, denies secrets and provides controlled fallb
   const base="http://127.0.0.1:" + server.address().port;
   try {
     assert.equal((await fetch(base + "/")).status,200);
+    const worker=await fetch(base+'/service-worker.js');
+    assert.equal(worker.status,200);assert.match(worker.headers.get('content-type'),/javascript/);
     for(const url of ["/.env","/netlify/functions/assistant.js","/scripts/serve.cjs","/netlify-dist/.env"]) assert.equal((await fetch(base+url)).status,404);
     const res=await fetch(base + "/api/assistant",{method:"POST",headers:{"Content-Type":"application/json",Origin:base},body:JSON.stringify({message:"Meu desempenho",context:{},history:[]})});
     assert.equal(res.status,503); assert.equal((await res.json()).error,"ai_not_configured"); assert.equal(res.headers.get("cache-control"),"no-store");

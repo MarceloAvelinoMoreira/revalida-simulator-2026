@@ -14,5 +14,7 @@ fs.mkdirSync(out, { recursive:true });
 // Public allowlist: neither .env nor backend sources enter the production artifact.
 fs.copyFileSync(path.join(root,"index.html"), path.join(out,"index.html"));
 fs.copyFileSync(path.join(root,"manifest.webmanifest"), path.join(out,"manifest.webmanifest"));
+execFileSync(process.execPath,['--check',path.join(root,'service-worker.js')]);
+fs.copyFileSync(path.join(root,"service-worker.js"),path.join(out,"service-worker.js"));
 fs.cpSync(path.join(root,"netlify-dist"), path.join(out,"netlify-dist"), { recursive:true });
 console.log("PASS: static production artifact and syntax (tmp/site)");
