@@ -41,7 +41,7 @@
 <link rel="stylesheet" href="css/study-buttons.css?v=1">
 <link rel="stylesheet" href="css/quiz-clock.css?v=1">
 <link rel="stylesheet" href="css/mobile-app.css?v=iphone1">
-<link rel="stylesheet" href="css/install-app.css?v=3">
+<link rel="stylesheet" href="css/install-app.css?v=tutorias1">
 <style>
   .mode-card,
   .year-btn,
@@ -68,7 +68,7 @@
   <div id="assistant-brain-home" class="assistant-brain-home"></div>
   <div class="logo">REVALIDDA</div>
   <div class="brand-byline">Simulator · Marcelo Avelino</div>
-  <div class="tagline">Simulado oficial do REVALIDA · Knowledge Base v1.0</div>
+  <div class="tagline">Seu simulado de provas estilo TPI para chegar preparado ao TPI.</div>
   <dialog id="install-app-guide" class="install-app-guide" aria-labelledby="install-app-title">
     <img src="assets/brain-apple-touch-icon.png" width="64" height="64" alt="" class="install-app-icon">
     <h2 id="install-app-title">REVALIDDA na tela inicial</h2>
@@ -172,19 +172,33 @@
         2026/2
         <span class="yb-sub">100 questões</span>
       </button>
-      <button type="button" class="year-btn" data-year="quinzena-01" onclick="selectYear('quinzena-01', this)">QUINZENA 01 <span class="yb-sub">100 quest&#245;es comentadas</span></button>
-      <button type="button" class="year-btn" data-year="tutoria-semana-01" onclick="selectYear('tutoria-semana-01', this)">QUESTÕES TUTORIA SEMANAIS <span class="yb-sub">Semana 01 · 20 questões comentadas</span></button>
+    </div>
+    <details class="tutoria-group" open>
+      <summary>Tutorias Facisa</summary>
+      <div class="year-grid">
+      <button type="button" class="year-btn" data-year="quinzena-01" onclick="selectYear('quinzena-01', this)">Tutoria Quinzenal <span class="yb-sub">100 questões comentadas</span></button>
+      <button type="button" class="year-btn" data-year="tutoria-semana-01" onclick="selectYear('tutoria-semana-01', this)">Tutoria Primeira Semana <span class="yb-sub">20 questões comentadas</span></button>
       <button type="button" class="year-btn" data-year="facisa" onclick="selectYear('facisa', this)">
-        QUESTÕES FACISA
+        Temas Menos e Mais
         <span class="yb-sub">200 questões</span>
       </button>
-    </div>
+      </div>
+    </details>
   </div>
 
   <!-- SELEÇÃO DE QUANTIDADE (modo custom) -->
   <div class="mode-section" id="custom-selector" style="display:none">
+    <label for="custom-area-select" class="mode-label">Área das questões</label>
+    <select id="custom-area-select" class="custom-area-select" onchange="selectCustomArea(this.value)">
+      <option value="">Todas as áreas</option>
+      <option value="clinica_medica">Clínica Médica</option>
+      <option value="cirurgia">Cirurgia</option>
+      <option value="pediatria">Pediatria / Saúde da Criança</option>
+      <option value="ginecologia_obstetricia">Ginecologia e Obstetrícia / Saúde da Mulher</option>
+      <option value="medicina_preventiva">Medicina Preventiva / Saúde Coletiva</option>
+    </select>
     <div class="mode-label">Quantidade de questões</div>
-    <div class="custom-qty-info">Sorteio aleatório de todas as edições · <span id="custom-total-label">1300 questões disponíveis</span></div>
+    <div class="custom-qty-info">Sorteio aleatório entre edições na área escolhida · <span id="custom-total-label">1420 questões disponíveis</span></div>
     <div class="qty-grid">
       <button type="button" class="qty-btn" data-qty="10" onclick="selectQty(10, this)">10</button>
       <button type="button" class="qty-btn" data-qty="20" onclick="selectQty(20, this)">20</button>
@@ -268,6 +282,22 @@
     <section aria-labelledby="statistics-exams-title"><h2 id="statistics-exams-title">Desempenho por prova</h2><p class="areas-note">Taxa de acerto nas respostas de cada prova · escala de 0 a 100%.</p><div id="statistics-exam-chart" class="statistics-chart"></div><details class="statistics-details"><summary>Ver detalhes por prova</summary><div id="statistics-exams" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por prova" tabindex="0"></div></details></section>
     <details class="statistics-details statistics-method"><summary>Como os dados são calculados e salvos</summary><p class="areas-note">Cada questão conta uma vez, usando a última resposta. Anuladas não entram no aproveitamento ou no progresso. A estimativa de 100 questões considera acertos e erros com tempo registrado, não a duração de provas completas. Questões antigas sem tempo ficam fora das médias. A comparação de tempo por área inclui apenas acertos com grande área definida. Poucas respostas podem produzir médias pouco representativas. Tempos em horas:minutos:segundos.</p><p class="areas-note">Os dados permanecem ao fechar o navegador no mesmo dispositivo, perfil e endereço do site. Limpar dados do site, usar navegação privada ou trocar de navegador pode remover ou separar o histórico. Não há sincronização entre dispositivos.</p></details>
     <footer class="site-activity" aria-label="Atividade do site">
+      <details class="statistics-details developer-area">
+        <summary>Área do desenvolvedor</summary>
+        <p class="areas-note">Dispositivos são navegadores com um identificador aleatório. Limpar os dados ou usar outro navegador gera um novo código. Registros detalhados começam com a ativação deste recurso.</p>
+        <form id="developer-login">
+          <label for="developer-code">Código de acesso</label>
+          <input id="developer-code" type="password" inputmode="numeric" autocomplete="off" maxlength="8" required>
+          <button type="submit" class="areas-back">Entrar</button>
+        </form>
+        <p id="developer-status" role="status" aria-live="polite"></p>
+        <section id="developer-results" hidden>
+          <p id="developer-summary"></p>
+          <div class="statistics-table-wrap"><table><thead><tr><th>Código do navegador</th><th>Visitas</th><th>Primeiro acesso</th><th>Última atividade</th></tr></thead><tbody id="developer-devices"></tbody></table></div>
+          <button type="button" class="areas-back" id="developer-more">Próxima página</button>
+          <button type="button" class="areas-back" id="developer-logout">Sair</button>
+        </section>
+      </details>
       <dl><div><dt>Número de acessos</dt><dd id="site-accesses">—</dd></div><div><dt><span class="site-online-dot" aria-hidden="true"></span>Dispositivos online</dt><dd id="site-online">—</dd></div></dl>
       <p>Um acesso por sessão. Online: navegadores ativos nos últimos 90 segundos. Abas do mesmo navegador contam como um dispositivo.</p>
       <p id="site-activity-status" role="status" aria-live="polite">Carregando contadores…</p>
@@ -525,13 +555,13 @@
 <script src="js/storage.js?v=cloud1"></script>
 <script src="js/score.js?v=2"></script>
 <script src="js/questions-tutoria-semana-01.js?v=1"></script>
-<script src="js/question-repository.js?v=tutoria1"></script>
+<script src="js/question-repository.js?v=tutorias2"></script>
 <script src="js/question-classification.js?v=tutoria1"></script>
 <script src="js/area-repository.js?v=1"></script>
 <script src="js/eo-repository.js?v=6"></script>
 <script src="js/resolver.js?v=3"></script>
 <script src="js/quiz-clock.js?v=1"></script>
-<script src="js/simulator.js?v=cloud1"></script>
+<script src="js/simulator.js?v=customarea1"></script>
 <script src="js/review.js?v=3"></script>
 <script src="js/rapid.js?v=tutoria1"></script>
 <script src="js/areas.js?v=stats1"></script>
@@ -546,5 +576,6 @@
 <script src="js/assistant-brain.js?v=5"></script>
 <script src="js/app.js?v=2"></script>
 <script src="js/install-app.js?v=1"></script>
+<script src="js/developer-activity.js?v=1"></script>
 </body>
 </html>

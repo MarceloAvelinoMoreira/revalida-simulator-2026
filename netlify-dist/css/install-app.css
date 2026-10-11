@@ -63,3 +63,10 @@
 .install-app-guide li { padding-left: 4px; margin: 12px 0; }
 .install-app-icon { border-radius: 14px; }
 .install-app-guide form .install-app-button { width: 100%; margin-bottom: 0; }
+.tutoria-group { margin-top: 20px; padding: 18px; border: 1px solid #345476; border-radius: 14px; background: #101b2d; }
+.tutoria-group summary { cursor: pointer; padding: 8px 0; color: #d8eaff; font-weight: 600; }
+.tutoria-group .year-grid { margin-top: 12px; }
+.custom-area-select { display: block; width: 100%; min-height: 44px; margin: 10px 0 24px; padding: 10px; border: 1px solid #527caf; border-radius: 10px; background: #101b2d; color: #e0eaff; font: inherit; }
+.developer-area { text-align: left; margin-bottom: 20px; }
+.developer-area input { display: block; width: min(100%,240px); box-sizing: border-box; min-height: 44px; margin: 10px 0; background: #101b2d; color: #e0eaff; border: 1px solid #527caf; border-radius: 8px; padding: 10px; font-size: 16px; }
+.developer-area td:first-child { overflow-wrap: anywhere; }

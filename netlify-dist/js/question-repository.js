@@ -33,7 +33,8 @@ const QuestionRepository = (() => {
 
   function getEdition(year) {
     assertBank();
-    return EXAMS[year] || null;
+    const names = {'quinzena-01':'Tutoria Quinzenal','tutoria-semana-01':'Tutoria Primeira Semana',facisa:'Temas Menos e Mais'};
+    return EXAMS[year] ? {...EXAMS[year], label:names[year] || EXAMS[year].label} : null;
   }
 
   function getAllQuestions() {
@@ -41,7 +42,7 @@ const QuestionRepository = (() => {
     const out = [];
     listEditions().forEach((y) => {
       EXAMS[y].questions.forEach((q) => {
-        out.push({ ...q, year: y, label: EXAMS[y].label });
+        out.push({ ...q, year: y, label: getEdition(y).label });
       });
     });
     return out;
@@ -51,7 +52,7 @@ const QuestionRepository = (() => {
     assertBank();
     for (const y of listEditions()) {
       const hit = EXAMS[y].questions.find((q) => q.id === questionId);
-      if (hit) return { ...hit, year: y, label: EXAMS[y].label };
+      if (hit) return { ...hit, year: y, label: getEdition(y).label };
     }
     return null;
   }

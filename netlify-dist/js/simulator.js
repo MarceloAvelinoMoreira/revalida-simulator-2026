@@ -347,6 +347,15 @@ function syncExtraButtons(view, q) {
 let selectedMode = 'all';
 let selectedYear = null;
 let selectedQty = null;
+let selectedCustomArea = '';
+function customQuestionPool() {
+  return selectedCustomArea ? AreaRepository.filter({area:selectedCustomArea}) : QuestionRepository.getAllQuestions();
+}
+function selectCustomArea(area) {
+  selectedCustomArea = Object.prototype.hasOwnProperty.call(AreaRepository.areas, area) ? area : '';
+  showQtyHint(selectedQty);
+  updateStartBtn();
+}
 let questions = [];
 let currentIndex = 0;
 let correct = 0;
@@ -367,6 +376,9 @@ function selectMode(mode, el) {
   if (mode === 'area') AreaStudy.renderHomeChoices();
   selectedYear = null;
   selectedQty = null;
+  selectedCustomArea = '';
+  const areaInput = document.getElementById('custom-area-select');
+  if (areaInput) areaInput.value = '';
   document.querySelectorAll('.year-btn').forEach(b => b.classList.remove('selected'));
   document.querySelectorAll('.qty-btn').forEach(b => b.classList.remove('selected'));
   const inp = document.getElementById('custom-qty-input');
@@ -409,7 +421,7 @@ function onCustomQtyInput(val) {
 function showQtyHint(qty) {
   const hint = document.getElementById('custom-qty-hint');
   if (!hint) return;
-  const total = getTotalQuestions();
+  const total = customQuestionPool().length;
   if (!qty || qty < 1) {
     hint.textContent = ''; hint.className = 'custom-qty-hint'; return;
   }
@@ -430,7 +442,9 @@ function updateStartBtn() {
     resume.hidden = !saved?.timing || saved.timing.finished || !saved.questions?.length;
   }
   const btn = document.getElementById('start-btn');
-  const total = getTotalQuestions();
+  const total = selectedMode === 'custom' ? customQuestionPool().length : getTotalQuestions();
+  const input = document.getElementById('custom-qty-input');
+  if (input) input.max = total;
   const lbl = document.getElementById('custom-total-label');
   if (selectedMode === 'area') {
     btn.textContent = 'Iniciar estudo por área';
@@ -461,7 +475,7 @@ function buildQuestions() {
     const ed = QuestionRepository.getEdition(selectedYear);
     questions = ed.questions.map(q => ({...q, year: selectedYear, label: ed.label}));
   } else if (selectedMode === 'custom') {
-    questions = shuffle(QuestionRepository.getAllQuestions()).slice(0, selectedQty);
+    questions = shuffle(customQuestionPool()).slice(0, selectedQty);
   }
   lastQuestions = questions;
 }
@@ -472,6 +486,7 @@ function persistSession() {
     selectedMode,
     selectedYear,
     selectedQty,
+    selectedCustomArea,
     currentIndex,
     correct,
     wrong,
@@ -566,6 +581,9 @@ function resumeQuiz() {
   if (!list.length || list.some(q => !q)) return;
   if (typeof AreaStudy !== 'undefined') AreaStudy.leaveStudy();
   selectedMode = saved.selectedMode; selectedYear = saved.selectedYear; selectedQty = saved.selectedQty;
+  selectedCustomArea = saved.selectedCustomArea || '';
+  const areaInput = document.getElementById('custom-area-select');
+  if (areaInput) areaInput.value = selectedCustomArea;
   startQuiz(list,saved);
 }
 

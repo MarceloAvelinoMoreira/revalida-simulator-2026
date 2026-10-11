@@ -46,6 +46,22 @@ test('Quinzena 01: 100 source comments, valid keys, five areas and existing quiz
   assert.match(list[98].officialComment,/incompleta/i);
 });
 
+test('custom area pool: quantity bounds, exclusive area, all areas and preserved exam IDs',()=>{
+  const {run,node}=setup();
+  run('selectedMode="custom";selectCustomArea("ginecologia_obstetricia");selectQty(50,document.createElement("button"));buildQuestions()');
+  assert.equal(run('questions.length'),50);
+  assert.ok(run('questions.every(q=>AreaRepository.metadata(q.id).grandeArea==="ginecologia_obstetricia")'));
+  const total=run('customQuestionPool().length');
+  run(`selectQty(${total+1},document.createElement("button"))`);
+  assert.equal(node('start-btn').disabled,true);
+  assert.equal(node('custom-qty-input').max,total);
+  run('selectCustomArea("")');assert.equal(run('customQuestionPool().length'),1420);
+  for(const [id,label] of [['facisa','Temas Menos e Mais'],['quinzena-01','Tutoria Quinzenal'],['tutoria-semana-01','Tutoria Primeira Semana']]) {
+    assert.equal(run(`QuestionRepository.getEdition('${id}').label`),label);
+    assert.ok(run(`QuestionRepository.getAllQuestions().filter(q=>q.year==='${id}').every(q=>q.label==='${label}')`));
+  }
+});
+
 test('tutoring Week 01: source keys, comments, caveats and existing study modes',async()=>{
   const {run,node}=setup();
   const qs=run('QuestionRepository.getEdition("tutoria-semana-01").questions');
