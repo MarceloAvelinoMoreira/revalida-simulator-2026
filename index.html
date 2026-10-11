@@ -42,6 +42,7 @@
 <link rel="stylesheet" href="css/quiz-clock.css?v=1">
 <link rel="stylesheet" href="css/mobile-app.css?v=iphone1">
 <link rel="stylesheet" href="css/install-app.css?v=tutorias1">
+<link rel="stylesheet" href="css/global-progress.css?v=2">
 <style>
   .mode-card,
   .year-btn,
@@ -61,6 +62,13 @@
 </style>
 </head>
 <body>
+<aside class="global-progress" aria-label="Progresso geral de todas as provas">
+  <div class="global-progress-inner">
+    <span>Questões feitas <strong id="global-progress-percent">0%</strong></span>
+    <progress id="global-progress-bar" value="0" max="1" aria-label="Questões respondidas em todas as provas"></progress>
+    <span id="global-progress-count">Carregando…</span>
+  </div>
+</aside>
 <div id="page-simulado">
 
 <!-- HOME -->
@@ -570,12 +578,13 @@
 <script src="vendor/supabase-2.117.2.js"></script>
 <script src="js/cloud-config.js?v=medicus1"></script>
 <script src="js/site-activity.js?v=adjustment100"></script>
-<script src="js/cloud-sync.js?v=profiles2"></script>
+<script src="js/cloud-sync.js?v=globalprogress1"></script>
 <script src="js/assistant-public-groq.js?v=1"></script>
 <script src="js/assistant.js?v=public1"></script>
 <script src="js/assistant-brain.js?v=5"></script>
 <script src="js/app.js?v=2"></script>
 <script src="js/install-app.js?v=1"></script>
 <script src="js/developer-activity.js?v=1"></script>
+<script src="js/global-progress.js?v=1"></script>
 </body>
 </html>

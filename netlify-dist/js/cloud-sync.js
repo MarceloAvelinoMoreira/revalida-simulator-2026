@@ -72,6 +72,7 @@ const CloudSync = (() => {
       for (const key of Object.keys(sent)) if (JSON.stringify(queue[key]) === JSON.stringify(sent[key])) delete queue[key];
       if (!RevalidaStorage.set(pendingKey(id),queue)) throw Error('storage');
       if (typeof StudyStatistics !== 'undefined') StudyStatistics.render();
+      if (typeof GlobalStudyProgress !== 'undefined') GlobalStudyProgress.refresh();
       status(Object.keys(queue).length ? 'Há novos resultados aguardando sincronização.' : 'Sincronizado às ' + new Date().toLocaleTimeString('pt-BR') + '.');
     } catch (_) {
       if (generation === turn) status('Não foi possível sincronizar. Seus resultados continuam salvos aqui; tentaremos novamente.');
@@ -84,6 +85,7 @@ const CloudSync = (() => {
     if (typeof goHome === 'function') goHome();
     if (typeof releaseQuizState === 'function') releaseQuizState();
     user = next; RevalidaStorage.useAccount(user?.id); render();
+    if (typeof GlobalStudyProgress !== 'undefined') GlobalStudyProgress.refresh();
     status(user ? 'Perfil ativo. Salvamento automático neste navegador.' : 'Modo visitante. Os resultados anteriores foram preservados.');
     if (typeof StudyStatistics !== 'undefined') StudyStatistics.open();
     if (user) { changed(); setTimeout(sync,0); }

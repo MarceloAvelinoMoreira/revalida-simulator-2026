@@ -1,0 +1,9 @@
+.global-progress { position: sticky; top: calc(8px + env(safe-area-inset-top, 0px)); z-index: 50; box-sizing: border-box; width: fit-content; max-width: calc(100% - 24px); margin: calc(8px + env(safe-area-inset-top, 0px)) calc(12px + env(safe-area-inset-right, 0px)) 0 auto; padding: 7px 11px; background: #101b2d; border: 1px solid #293d56; border-radius: 20px; color: #afc4dc; }
+.global-progress-inner { display: flex; align-items: center; gap: 9px; font-size: 12px; line-height: 1.5; }
+.global-progress-inner strong { color: #87d5ff; margin-left: 5px; font-variant-numeric: tabular-nums; font-weight: 600; }
+.global-progress-inner progress { width: 32px; height: 4px; accent-color: #59bfff; border: 0; border-radius: 6px; background: #253c58; }
+.global-progress-inner progress::-webkit-progress-bar { background: #253c58; border-radius: 6px; }
+.global-progress-inner progress::-webkit-progress-value { background: #59bfff; border-radius: 6px; }
+.global-progress-inner progress::-moz-progress-bar { background: #59bfff; border-radius: 6px; }
+#global-progress-count { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media(max-width:600px) { .global-progress { padding: 6px 10px; } .global-progress-inner { font-size: 11px; gap: 7px; } .global-progress-inner progress { width: 26px; } }
