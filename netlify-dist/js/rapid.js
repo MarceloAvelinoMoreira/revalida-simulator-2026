@@ -47,7 +47,7 @@ function openRapidQuestionSet(list, title) {
   document.getElementById('screen-result').style.display = 'none';
   document.getElementById('screen-rapid').style.display = 'block';
   document.getElementById('rapid-title').textContent = `Respostas rápidas · ${title}`;
-  document.getElementById('rapid-subtitle').textContent = 'Uma questão por tela: leia o enunciado e confira o gabarito oficial.';
+  document.getElementById('rapid-subtitle').textContent = 'Uma questão por tela: leia o enunciado e confira o gabarito informado no banco.';
   document.getElementById('rapid-jump').value = '';
   rapidIndex = 0;
   renderRapidQuestion();

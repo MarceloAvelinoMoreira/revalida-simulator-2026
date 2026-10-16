@@ -55,24 +55,83 @@ test('custom area pool: quantity bounds, exclusive area, all areas and preserved
   run(`selectQty(${total+1},document.createElement("button"))`);
   assert.equal(node('start-btn').disabled,true);
   assert.equal(node('custom-qty-input').max,total);
-  run('selectCustomArea("")');assert.equal(run('customQuestionPool().length'),1420);
+  run('selectCustomArea("")');assert.equal(run('customQuestionPool().length'),1435);
   for(const [id,label] of [['facisa','Temas Menos e Mais'],['quinzena-01','Tutoria Quinzenal'],['tutoria-semana-01','Tutoria Primeira Semana']]) {
     assert.equal(run(`QuestionRepository.getEdition('${id}').label`),label);
     assert.ok(run(`QuestionRepository.getAllQuestions().filter(q=>q.year==='${id}').every(q=>q.label==='${label}')`));
   }
 });
 
+test('Tutoria extra: 13 PDF keys, source numbering and externally researched commentary',()=>{
+  const {run}=setup();
+  const qs=run('QuestionRepository.getEdition("tutoria-semana-01").questions.slice(20,33)');
+  assert.equal(qs.length,13);assert.equal(qs.map(q=>q.answer).join(''),'CBDDCBCDBCBDC');
+  for(const [i,q] of qs.entries()){
+    assert.equal(q.id,'tutoria-semana-01-'+String(i+21).padStart(3,'0'));
+    assert.equal(q.n,i+21);assert.equal(q.sourceQuestionNumber,i+1);assert.equal(q.opts.length,4);
+    assert.ok(q.opts.every(option=>option.length>25));assert.ok(q.text.length>200);
+    assert.equal(q.commentStatus,'evidence-based-editorial');assert.match(q.answerNote,/não é uma publicação oficial/);
+    assert.equal(q.editorialComment,true);assert.ok(!q.sourceCommentImported);
+    assert.match(q.officialComment,/pesquisa externa/);assert.ok(q.officialComment.length>900);
+    assert.equal(Object.keys(q.alternativeRationales).join(''),'ABCD');
+    assert.equal(q.explanation,q.alternativeRationales[q.answer].explanation);
+    assert.ok(q.references.some(r=>r.url.startsWith('https://pubmed.ncbi.nlm.nih.gov/')));
+    assert.ok(q.references.every(r=>r.title&&r.url.startsWith('https://')));
+    assert.equal(run(`AreaRepository.metadata('${q.id}').classificacaoPendente`),false);
+  }
+  assert.match(qs[2].text,/glicada 8,3%/);
+  run('selectedMode="year";selectedYear="tutoria-semana-01";startQuiz();currentIndex=20;renderQuestion();handleAnswer(questions[20].answer,document.createElement("button"),questions[20])');
+  assert.equal(run('correct'),1);
+});
+
+test('Tutoria expanded PDF: missing source questions 14–15 appended, keys DB, no duplicate or fabricated comments',()=>{
+  const {run}=setup();
+  const qs=run('QuestionRepository.getEdition("tutoria-semana-01").questions');
+  assert.equal(qs.length,35);assert.equal(new Set(qs.map(q=>q.id)).size,35);
+  for(const [i,q] of qs.slice(33).entries()){
+    assert.equal(q.n,i+34);assert.equal(q.sourceQuestionNumber,i+14);
+    assert.equal(q.answer,'DB'[i]);assert.equal(q.opts.length,4);
+    assert.equal(q.commentStatus,'not-provided');assert.ok(!q.editorialComment);
+    assert.equal(run(`AreaRepository.metadata('${q.id}').grandeArea`),'medicina_preventiva');
+  }
+  assert.match(qs[33].opts[3],/24 horas/);assert.match(qs[34].opts[1],/equipe de saúde da família/);
+  run('selectedMode="year";selectedYear="tutoria-semana-01";startQuiz();currentIndex=33;renderQuestion();handleAnswer(questions[33].answer,document.createElement("button"),questions[33])');
+  assert.equal(run('correct'),1);
+});
+
+test('Tutoria editorial: all 13 comments resolve, references are clickable, no catalog request needed',async()=>{
+  const {run,node}=setup();
+  run(fs.readFileSync(path.join(root,'netlify-dist/js/resolver.js'),'utf8'));
+  const simulator=fs.readFileSync(path.join(root,'netlify-dist/js/simulator.js'),'utf8');
+  run(simulator.slice(simulator.indexOf('async function loadEduForCurrent()'),simulator.indexOf('async function justifyAnswer()')));
+  for(let n=21;n<=33;n++){
+    const id='tutoria-semana-01-'+String(n).padStart(3,'0');
+    const result=await run(`QuestionEoResolver.resolve('${id}')`);
+    assert.equal(result.ok,true);assert.ok(result.view.comment.length>900);
+    assert.equal(Object.keys(result.view.alternativeRationales).length,4);
+    const refs=await run(`QuestionEoResolver.resolve('${id}').then(result=>QuestionEoResolver.enrichReferences(result.view))`);
+    assert.ok(refs.length>=1);assert.ok(refs.every(r=>r.resolved&&r.url));
+  }
+  run('selectedMode="year";selectedYear="tutoria-semana-01";startQuiz();currentIndex=26;renderQuestion()');
+  await run('loadEduForCurrent()');
+  node('refs-panel').style.display='none';await run('toggleRefs()');
+  assert.match(node('refs-panel-body').innerHTML,/href="https:\/\/pubmed/);
+  assert.match(node('refs-panel-body').innerHTML,/noopener noreferrer/);
+  assert.match(run('currentEduView.comment'),/LSIL/);
+  assert.match(run('QuestionRepository.getById("tutoria-semana-01-030").officialComment'),/data de nascimento/);
+});
+
 test('tutoring Week 01: source keys, comments, caveats and existing study modes',async()=>{
   const {run,node}=setup();
-  const qs=run('QuestionRepository.getEdition("tutoria-semana-01").questions');
+  const qs=run('QuestionRepository.getEdition("tutoria-semana-01").questions.slice(0,20)');
   assert.equal(qs.length,20);
   assert.equal(qs.map(q=>q.answer).join(''),'DBCDCBDBCBD CDBCB DCBD'.replace(/ /g,''));
   for(const q of qs){assert.equal(q.opts.length,4);assert.ok(q.officialComment.includes('Por que as demais'));assert.ok(q.sourceCommentImported);}
-  for(const area of run('Object.keys(AreaRepository.areas)')) assert.equal(run(`AreaRepository.filter({area:'${area}',exam:'tutoria-semana-01'}).length`),4);
+  for(const area of run('Object.keys(AreaRepository.areas)')) assert.equal(run(`AreaRepository.filter({area:'${area}',exam:'tutoria-semana-01'}).filter(q=>q.n<=20).length`),4);
   for(const n of [9,19]){assert.match(qs[n-1].officialComment,/Ressalva/);assert.match(qs[n-1].answerNote,/ressalva/);}
-  run('selectedMode="year";selectedYear="tutoria-semana-01";startQuiz()');assert.equal(run('questions.length'),20);
+  run('selectedMode="year";selectedYear="tutoria-semana-01";startQuiz()');assert.equal(run('questions.length'),35);
   run('handleAnswer(questions[0].answer,document.createElement("button"),questions[0])');assert.equal(run('correct'),1);
-  run('goHome();openRapidAnswers("tutoria-semana-01")');assert.equal(run('rapidQuestions.length'),20);assert.match(node('rapid-list').innerHTML,/não é um gabarito oficial/);
+  run('goHome();openRapidAnswers("tutoria-semana-01")');assert.equal(run('rapidQuestions.length'),35);assert.match(node('rapid-list').innerHTML,/não é um gabarito oficial/);
   run(fs.readFileSync(path.join(root,'netlify-dist/js/resolver.js'),'utf8'));
   const resolved=await run('QuestionEoResolver.resolve("tutoria-semana-01-009")');assert.equal(resolved.ok,true);assert.match(resolved.view.comment,/Ressalva/);
 });
@@ -107,9 +166,9 @@ test('released cloud/account quiz state cannot replay answers or erase a resumab
 test('all IDs audited once; five actual counts; original content, keys, comments and media untouched',()=>{
   const {run}=setup();
   const report=JSON.parse(fs.readFileSync(path.join(root,'netlify-dist/data/question-classification-report.json')));
-  assert.equal(run('AreaRepository.all.length'),1420);
-  assert.equal(new Set(report.questions.map(q=>q.id)).size,1420);
-  assert.equal(report.classified+report.pending,1420);
+  assert.equal(run('AreaRepository.all.length'),1435);
+  assert.equal(new Set(report.questions.map(q=>q.id)).size,1435);
+  assert.equal(report.classified+report.pending,1435);
   assert.equal(run('AreaRepository.pending().length'),report.pending);
   for (const area of Object.keys(report.distribution)) {
     assert.equal(run(`AreaRepository.filter({area:'${area}'}).length`),report.distribution[area]);

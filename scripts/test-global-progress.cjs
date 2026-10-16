@@ -6,7 +6,7 @@ test('global percentage: persistent unique valid answers, storage events, all sc
   for(const f of ['questions.js','questions-2026-2.js','questions-facisa.js','questions-quinzena-01.js','questions-tutoria-semana-01.js','question-repository.js','question-classification.js','storage.js','area-repository.js','global-progress.js'])vm.runInContext(fs.readFileSync('netlify-dist/js/'+f,'utf8'),c);
   const run=s=>vm.runInContext(s,c);
   assert.equal(node('global-progress-percent').textContent,'0%');
-  assert.equal(node('global-progress-bar').max,1347);
+  assert.equal(node('global-progress-bar').max,1362);
   run(`var q=QuestionRepository.getAllQuestions().find(q=>!QuestionRepository.isAnnulled(q));RevalidaStorage.set(RevalidaStorage.keys.progress,{[q.id]:{status:'correct',answer:q.answer}})`);
   assert.equal(node('global-progress-bar').value,1);
   run(`RevalidaStorage.set(RevalidaStorage.keys.progress,{[q.id]:{status:'correct',answer:q.answer},unknown:{status:'wrong',answer:'A'}})`);

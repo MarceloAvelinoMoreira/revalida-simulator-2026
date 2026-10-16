@@ -152,7 +152,9 @@ async function toggleRefs() {
         const conf = r.confidenceLevel ? `<span class="ref-conf">${escapeHtml(r.confidenceLevel)}</span>` : '';
         const cite = r.citation ? `<div class="ref-cite">${escapeHtml(r.citation)}</div>` : '';
         const sid = r.resolved ? '' : ' <span class="ref-unresolved">(não resolvida)</span>';
-        return `<article class="ref-item"><div class="ref-title">${escapeHtml(r.title || r.referenceId)}${sid}</div>${cite}<div class="ref-meta">${role}${lvl}${conf}</div></article>`;
+        const title = escapeHtml(r.title || r.referenceId);
+        const linkedTitle = /^https:\/\//i.test(r.url || '') ? `<a href="${escapeHtml(r.url)}" target="_blank" rel="noopener noreferrer">${title}</a>` : title;
+        return `<article class="ref-item"><div class="ref-title">${linkedTitle}${sid}</div>${cite}<div class="ref-meta">${role}${lvl}${conf}</div></article>`;
       }).join('');
     }
     panel.style.display = 'block';

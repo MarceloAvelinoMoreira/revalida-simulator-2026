@@ -7,13 +7,13 @@ const QuestionEoResolver = (() => {
     if (!question) {
       return { ok: false, error: "question_not_found", questionId };
     }
-    if (question.sourceCommentImported) {
+    if (question.sourceCommentImported || question.editorialComment) {
       return {
         ok: true,
         questionId,
         question,
         eo: null,
-        view: { ...buildFallbackView(question), compatibility: { ok: true, warnings: [] }, sourceCommentImported: true },
+        view: { ...buildFallbackView(question), compatibility: { ok: true, warnings: [] }, sourceCommentImported: !!question.sourceCommentImported, editorialComment: !!question.editorialComment },
       };
     }
     let eo = null;
@@ -104,13 +104,13 @@ const QuestionEoResolver = (() => {
       annulled,
       officialAnswer: annulled ? "X" : question.answer,
       comment: question.officialComment || "",
-      takeHome: "",
+      takeHome: question.takeHome || "",
       mnemonic: question.mnemonic || null,
       hasMnemonic: !!(question.mnemonic && String(question.mnemonic).trim()),
       correctRationale: question.explanation || "",
-      alternativeRationales: {},
-      references: [],
-      keyPoints: [],
+      alternativeRationales: question.alternativeRationales || {},
+      references: question.references || [],
+      keyPoints: question.keyPoints || [],
       specialty: null,
       compatibility: { ok: false, warnings: ["eo_missing"] },
     };
@@ -120,6 +120,11 @@ const QuestionEoResolver = (() => {
     if (!view || !view.references || !view.references.length) return [];
     const out = [];
     for (const r of view.references) {
+      // Curated question-local citations need no catalog lookup or external request.
+      if (r.title && /^https:\/\//i.test(r.url || "")) {
+        out.push({ ...r, resolved: true });
+        continue;
+      }
       const cat = await EducationalObjectRepository.resolveReference(r.referenceId);
       out.push({
         referenceId: r.referenceId,

@@ -1,4 +1,4 @@
-// Paired source PDFs: original questions and supplied non-official study commentary.
+// Source PDFs and study keys; externally researched editorial comments identified individually.
 EXAMS["tutoria-semana-01"] = {
   "label": "QUESTÕES TUTORIA SEMANAIS · Semana 01",
   "questions": [
@@ -720,6 +720,1049 @@ EXAMS["tutoria-semana-01"] = {
         "Semana 01",
         "Saúde Coletiva",
         "Autonomia e comunicação de diagnóstico"
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-021",
+      "n": 21,
+      "questionNumber": 21,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Mulher de 29 anos, auxiliar de cozinha, comparece à unidade básica de saúde para avaliação de contato: o marido, com quem divide o quarto, iniciou há duas semanas o tratamento de tuberculose pulmonar com baciloscopia positiva. Ela nega tosse, febre, sudorese noturna ou emagrecimento; nunca tratou tuberculose nem infecção latente; não tem comorbidades, o teste rápido para HIV é não reagente e usa DIU de cobre. O exame físico é normal e a radiografia de tórax não mostra alterações. A prova tuberculínica, lida após 72 horas, mede 11 mm. Diante desses resultados, a conduta adequada é",
+      "statement": "Mulher de 29 anos, auxiliar de cozinha, comparece à unidade básica de saúde para avaliação de contato: o marido, com quem divide o quarto, iniciou há duas semanas o tratamento de tuberculose pulmonar com baciloscopia positiva. Ela nega tosse, febre, sudorese noturna ou emagrecimento; nunca tratou tuberculose nem infecção latente; não tem comorbidades, o teste rápido para HIV é não reagente e usa DIU de cobre. O exame físico é normal e a radiografia de tórax não mostra alterações. A prova tuberculínica, lida após 72 horas, mede 11 mm. Diante desses resultados, a conduta adequada é",
+      "opts": [
+        "repetir a prova tuberculínica em oito semanas e tratar apenas se houver conversão tuberculínica, já que a exposição é recente.",
+        "solicitar o teste de liberação de interferon-gama (IGRA) para confirmar a infecção latente antes de qualquer tratamento.",
+        "iniciar o tratamento da infecção latente com rifapentina e isoniazida em doses semanais, com 12 doses completadas em até 15 semanas.",
+        "iniciar o esquema básico com rifampicina, isoniazida, pirazinamida e etambutol, dada a convivência com caso bacilífero."
+      ],
+      "alternatives": [
+        "repetir a prova tuberculínica em oito semanas e tratar apenas se houver conversão tuberculínica, já que a exposição é recente.",
+        "solicitar o teste de liberação de interferon-gama (IGRA) para confirmar a infecção latente antes de qualquer tratamento.",
+        "iniciar o tratamento da infecção latente com rifapentina e isoniazida em doses semanais, com 12 doses completadas em até 15 semanas.",
+        "iniciar o esquema básico com rifampicina, isoniazida, pirazinamida e etambutol, dada a convivência com caso bacilífero."
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "É o esquema curto 3HP indicado no cenário, após exclusão de tuberculose ativa e avaliação de contraindicações.",
+      "commentStatus": "evidence-based-editorial",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 1,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Tuberculose: avaliação de contato e infecção latente"
+      ],
+      "editorialComment": true,
+      "commentReviewedAt": "2026-10-16",
+      "officialComment": "COMENTÁRIO EDUCACIONAL — pesquisa externa, não fornecido pelo PDF. Gabarito de estudo preservado; não é gabarito oficial. Conteúdo para estudo, não prescrição individual. Fontes na seção Referências.\n\nRACIOCÍNIO CLÍNICO\nContato domiciliar de tuberculose pulmonar bacilífera, prova tuberculínica de 11 mm e ausência de sinais clínicos ou radiológicos de doença ativa sustentam infecção latente pelo M. tuberculosis (ILTB). Em contatos, o ponto de corte da prova tuberculínica é menor que o usado em pessoas sem esse risco; 11 mm já justifica avaliar tratamento, sem exigir IGRA para confirmar o resultado. Antes de prescrever, deve-se excluir tuberculose ativa.\n\nPOR QUE E COMO TRATAR\nO objetivo é evitar progressão para doença, não tratar uma tuberculose pulmonar já instalada. O esquema 3HP associa isoniazida e rifapentina uma vez por semana, por 12 doses, concluídas em até 15 semanas. Para adultos com pelo menos 30 kg, o guia brasileiro utiliza 900 mg de cada medicamento por dose semanal. Não confundir com administração diária. O ensaio de Sterling e colaboradores mostrou eficácia comparável à isoniazida por nove meses, com maior conclusão do tratamento e menos hepatotoxicidade.\n\nCUIDADOS\nRevisar interações medicamentosas, doença hepática, possibilidade de gravidez e sinais de reação adversa; orientar retorno diante de icterícia, urina escura, náuseas persistentes ou reação sistêmica. Rifamicinas podem reduzir a eficácia de contraceptivos hormonais, mas o DIU de cobre descrito não depende desse mecanismo. Sintomas novos de tuberculose exigem reavaliação, não simples continuidade automática da profilaxia.",
+      "alternativeRationales": {
+        "A": {
+          "alternativeId": "A",
+          "explanation": "A prova já é positiva no contexto de contato. Repetir apenas para procurar conversão retardaria uma indicação existente."
+        },
+        "B": {
+          "alternativeId": "B",
+          "explanation": "O IGRA é uma alternativa diagnóstica, não uma confirmação obrigatória de toda prova tuberculínica positiva."
+        },
+        "C": {
+          "alternativeId": "C",
+          "explanation": "É o esquema curto 3HP indicado no cenário, após exclusão de tuberculose ativa e avaliação de contraindicações."
+        },
+        "D": {
+          "alternativeId": "D",
+          "explanation": "RIPE é esquema para tuberculose ativa; não se indica esse tratamento de quatro fármacos para ILTB."
+        }
+      },
+      "takeHome": "Contato com teste positivo + doença ativa excluída: pensar em tratamento preventivo; 3HP é semanal, não diário.",
+      "references": [
+        {
+          "referenceId": "https://www.gov.br/aids/pt-br/central-de-conteudo/publicacoes/2023/tratamento_infeccao_latente_tuberculose_rifapentina_eletronico.pdf",
+          "title": "Tratamento da ILTB com rifapentina e isoniazida — 3HP (2023)",
+          "url": "https://www.gov.br/aids/pt-br/central-de-conteudo/publicacoes/2023/tratamento_infeccao_latente_tuberculose_rifapentina_eletronico.pdf",
+          "citation": "Ministério da Saúde / SUS",
+          "role": "Orientação brasileira"
+        },
+        {
+          "referenceId": "PMID:22150035",
+          "title": "Sterling et al. Three months of rifapentine and isoniazid for latent tuberculosis infection. NEJM, 2011.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22150035/",
+          "citation": "PubMed · PMID 22150035",
+          "role": "Evidência científica"
+        }
+      ],
+      "keyPoints": [
+        "Contato com teste positivo + doença ativa excluída: pensar em tratamento preventivo; 3HP é semanal, não diário."
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-022",
+      "n": 22,
+      "questionNumber": 22,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Homem de 58 anos, hipertenso há oito anos, procura a unidade de pronto atendimento às 22 horas porque mediu a pressão em uma farmácia e encontrou 198 × 120 mmHg. Abandonou losartana e hidroclorotiazida há dois meses. Refere cefaleia occipital leve há dois dias e ansiedade; nega dor torácica, dispneia, alterações visuais ou fraqueza em membros. Após 30 minutos de repouso, a pressão é de 190 × 116 mmHg em ambos os braços, com frequência cardíaca de 84 bpm. Exame neurológico sem déficits; fundo de olho sem papiledema ou hemorragias; ausculta cardíaca e pulmonar normais. Eletrocardiograma sem isquemia; creatinina 1,0 mg/dL, sumário de urina normal. Considerando as diretrizes brasileiras vigentes, a conduta mais adequada é",
+      "statement": "Homem de 58 anos, hipertenso há oito anos, procura a unidade de pronto atendimento às 22 horas porque mediu a pressão em uma farmácia e encontrou 198 × 120 mmHg. Abandonou losartana e hidroclorotiazida há dois meses. Refere cefaleia occipital leve há dois dias e ansiedade; nega dor torácica, dispneia, alterações visuais ou fraqueza em membros. Após 30 minutos de repouso, a pressão é de 190 × 116 mmHg em ambos os braços, com frequência cardíaca de 84 bpm. Exame neurológico sem déficits; fundo de olho sem papiledema ou hemorragias; ausculta cardíaca e pulmonar normais. Eletrocardiograma sem isquemia; creatinina 1,0 mg/dL, sumário de urina normal. Considerando as diretrizes brasileiras vigentes, a conduta mais adequada é",
+      "opts": [
+        "administrar captopril 25 mg por via oral e mantê-lo em observação na unidade, condicionando a alta à queda da pressão para menos de 160 × 100 mmHg.",
+        "retomar o esquema anti-hipertensivo oral de uso contínuo, sem redução aguda da pressão, com reavaliação na atenção primária em até sete dias.",
+        "iniciar nitroprussiato de sódio em bomba de infusão e internar em unidade de terapia intensiva para redução controlada da pressão nas primeiras horas.",
+        "administrar nifedipino 10 mg por via sublingual e repetir a aferição a cada 15 minutos até a normalização da pressão."
+      ],
+      "alternatives": [
+        "administrar captopril 25 mg por via oral e mantê-lo em observação na unidade, condicionando a alta à queda da pressão para menos de 160 × 100 mmHg.",
+        "retomar o esquema anti-hipertensivo oral de uso contínuo, sem redução aguda da pressão, com reavaliação na atenção primária em até sete dias.",
+        "iniciar nitroprussiato de sódio em bomba de infusão e internar em unidade de terapia intensiva para redução controlada da pressão nas primeiras horas.",
+        "administrar nifedipino 10 mg por via sublingual e repetir a aferição a cada 15 minutos até a normalização da pressão."
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "Aborda a falta de adesão e o controle crônico, com retorno próximo e orientação de alarme.",
+      "commentStatus": "evidence-based-editorial",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 2,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Hipertensão sem lesão aguda de órgão-alvo"
+      ],
+      "editorialComment": true,
+      "commentReviewedAt": "2026-10-16",
+      "officialComment": "COMENTÁRIO EDUCACIONAL — pesquisa externa, não fornecido pelo PDF. Gabarito de estudo preservado; não é gabarito oficial. Conteúdo para estudo, não prescrição individual. Fontes na seção Referências.\n\nRACIOCÍNIO CLÍNICO\nUma pressão de 198/120 mmHg exige avaliação cuidadosa, mas o número isolado não define emergência hipertensiva. Esta depende de lesão aguda de órgão-alvo, como encefalopatia, síndrome coronariana, edema pulmonar ou dissecção de aorta. A cefaleia leve, sem alterações neurológicas, retinianas, cardíacas ou renais no caso, não demonstra por si só essa lesão. A suspensão de losartana e hidroclorotiazida é uma explicação plausível para o descontrole.\n\nCONDUTA E MOTIVO\nConfirmar a medida com técnica adequada e repouso, pesquisar sintomas de alarme, retomar ou ajustar o tratamento oral de manutenção e organizar acompanhamento próximo. A alternativa propõe retorno em sete dias: isso é compatível com seguimento precoce de uma pessoa estável, sem dispensar antecipação se houver piora. Não é necessário atingir uma meta arbitrária antes da alta mediante queda brusca. Redução rápida pode comprometer perfusão cerebral, coronariana e renal.\n\nRESSALVA DE DIRETRIZES\nMateriais brasileiros mais antigos descrevem captopril oral em situações selecionadas sem lesão aguda; isso não significa que seja obrigatório esperar pressão abaixo de 160/100. A declaração da AHA de 2024 enfatiza repetição da medida, tratamento das causas e prudência com intervenções agudas sem dano de órgão. Dor torácica, dispneia, déficit focal, confusão ou perda visual mudam imediatamente a avaliação.",
+      "alternativeRationales": {
+        "A": {
+          "alternativeId": "A",
+          "explanation": "Captopril oral pode ter uso selecionado, mas forçar queda até um valor fixo não é o objetivo obrigatório neste cenário estável."
+        },
+        "B": {
+          "alternativeId": "B",
+          "explanation": "Aborda a falta de adesão e o controle crônico, com retorno próximo e orientação de alarme."
+        },
+        "C": {
+          "alternativeId": "C",
+          "explanation": "Nitroprussiato intravenoso e UTI pressupõem indicação de emergência, não apenas pressão muito elevada."
+        },
+        "D": {
+          "alternativeId": "D",
+          "explanation": "Nifedipino de ação rápida por via sublingual pode causar hipotensão abrupta e isquemia; não é uma estratégia segura de normalização."
+        }
+      },
+      "takeHome": "Pressão muito alta não equivale a emergência: procure lesão aguda de órgão-alvo antes de reduzir rapidamente.",
+      "references": [
+        {
+          "referenceId": "https://linhasdecuidado.saude.gov.br/portal/hipertensao-arterial-sistemica-%28HAS%29-no-adulto/unidade-de-atencao-primaria/index.php/has-cronica/crise-hipertensiva",
+          "title": "Linha de cuidado: crise hipertensiva sem lesão de órgão-alvo",
+          "url": "https://linhasdecuidado.saude.gov.br/portal/hipertensao-arterial-sistemica-%28HAS%29-no-adulto/unidade-de-atencao-primaria/index.php/has-cronica/crise-hipertensiva",
+          "citation": "Ministério da Saúde / SUS",
+          "role": "Orientação brasileira"
+        },
+        {
+          "referenceId": "PMID:38804130",
+          "title": "Bress et al. Management of Elevated Blood Pressure in the Acute Care Setting. AHA, 2024.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38804130/",
+          "citation": "PubMed · PMID 38804130",
+          "role": "Evidência científica"
+        },
+        {
+          "referenceId": "PMID:39059997",
+          "title": "Evaluation and management of hypertensive emergency. BMJ, 2024.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39059997/",
+          "citation": "PubMed · PMID 39059997",
+          "role": "Evidência científica"
+        }
+      ],
+      "keyPoints": [
+        "Pressão muito alta não equivale a emergência: procure lesão aguda de órgão-alvo antes de reduzir rapidamente."
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-023",
+      "n": 23,
+      "questionNumber": 23,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Mulher de 63 anos, com diabetes tipo 2 há nove anos e hipertensão, sofreu infarto do miocárdio há dois anos, tratado com angioplastia. Usa metformina 2 g/dia, gliclazida de liberação prolongada 120 mg/dia, losartana, atorvastatina e ácido acetilsalicílico, com boa adesão. Nega hipoglicemias e sintomas de hiperglicemia; índice de massa corporal de 31 kg/m². Exames: hemoglobina glicada 8,3% (meta < 7%), glicemia de jejum 160 mg/dL, creatinina 1,1 mg/dL com taxa de filtração glomerular estimada de 58 mL/min/1,73 m² e relação albumina/creatinina urinária de 40 mg/g (referência ≤ 30). Para intensificar o tratamento com o que está disponível no SUS, a conduta mais adequada é",
+      "statement": "Mulher de 63 anos, com diabetes tipo 2 há nove anos e hipertensão, sofreu infarto do miocárdio há dois anos, tratado com angioplastia. Usa metformina 2 g/dia, gliclazida de liberação prolongada 120 mg/dia, losartana, atorvastatina e ácido acetilsalicílico, com boa adesão. Nega hipoglicemias e sintomas de hiperglicemia; índice de massa corporal de 31 kg/m². Exames: hemoglobina glicada 8,3% (meta < 7%), glicemia de jejum 160 mg/dL, creatinina 1,1 mg/dL com taxa de filtração glomerular estimada de 58 mL/min/1,73 m² e relação albumina/creatinina urinária de 40 mg/g (referência ≤ 30). Para intensificar o tratamento com o que está disponível no SUS, a conduta mais adequada é",
+      "opts": [
+        "iniciar insulina NPH 10 UI ao deitar, com ajuste de 2 UI a cada três dias pela glicemia de jejum, mantendo os antidiabéticos orais.",
+        "suspender a metformina pela redução da filtração glomerular e iniciar insulina glargina em dose única diária.",
+        "substituir a gliclazida por glibenclamida 10 mg/dia, por sua maior potência hipoglicemiante.",
+        "acrescentar dapagliflozina 10 mg/dia ao esquema atual, mantendo a metformina e a gliclazida nas doses em uso."
+      ],
+      "alternatives": [
+        "iniciar insulina NPH 10 UI ao deitar, com ajuste de 2 UI a cada três dias pela glicemia de jejum, mantendo os antidiabéticos orais.",
+        "suspender a metformina pela redução da filtração glomerular e iniciar insulina glargina em dose única diária.",
+        "substituir a gliclazida por glibenclamida 10 mg/dia, por sua maior potência hipoglicemiante.",
+        "acrescentar dapagliflozina 10 mg/dia ao esquema atual, mantendo a metformina e a gliclazida nas doses em uso."
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas. Nota do PDF: hemoglobina glicada corrigida para 8,3%.",
+      "explanation": "É a melhor opção apresentada para intensificar o controle e considerar o risco cardiovascular, com monitoramento dos demais medicamentos.",
+      "commentStatus": "evidence-based-editorial",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 3,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Diabetes tipo 2 e doença cardiovascular"
+      ],
+      "editorialComment": true,
+      "commentReviewedAt": "2026-10-16",
+      "officialComment": "COMENTÁRIO EDUCACIONAL — pesquisa externa, não fornecido pelo PDF. Gabarito de estudo preservado; não é gabarito oficial. Conteúdo para estudo, não prescrição individual. Fontes na seção Referências.\n\nRACIOCÍNIO CLÍNICO\nAlém da HbA1c de 8,3%, há infarto prévio e comprometimento renal com albuminúria. Portanto, a intensificação não deve perseguir apenas glicemia: importa escolher um medicamento com benefícios cardiorrenais. A dapagliflozina inibe o SGLT2 no túbulo proximal, aumentando a excreção urinária de glicose e modificando a hemodinâmica renal. A dose proposta é 10 mg por via oral uma vez ao dia.\n\nPOR QUE ESSA ESCOLHA\nNo DECLARE–TIMI 58, houve redução de hospitalização por insuficiência cardíaca no desfecho composto cardiovascular e benefício renal; não houve redução significativa do conjunto de eventos ateroscleróticos maiores na população total. Assim, não se deve prometer prevenção de todo novo infarto. A ampliação brasileira contempla pessoas com doença cardiovascular estabelecida dentro dos critérios do SUS. Com TFG de 58, não há motivo, só por esse valor, para suspender automaticamente metformina. Sem sintomas catabólicos ou hiperglicemia extrema, a insulinização não é obrigatória de imediato.\n\nCOMO ACOMPANHAR\nReavaliar HbA1c, função renal, volemia e tolerância. Orientar sobre infecções genitais e risco raro de cetoacidose, inclusive com glicemia não muito alta; intercorrências com jejum ou desidratação exigem orientação de suspensão temporária e avaliação. A manutenção da gliclazida na alternativa não dispensa redução posterior se ocorrer hipoglicemia ou se a meta for alcançada.",
+      "alternativeRationales": {
+        "A": {
+          "alternativeId": "A",
+          "explanation": "Insulina pode ser necessária em outras circunstâncias, mas não é a única intensificação possível e não oferece o mesmo benefício cardiorrenal específico."
+        },
+        "B": {
+          "alternativeId": "B",
+          "explanation": "TFG de 58 não determina suspensão automática da metformina; iniciar glargina não corrige a inadequação dessa justificativa."
+        },
+        "C": {
+          "alternativeId": "C",
+          "explanation": "Trocar para glibenclamida não acrescenta proteção cardiorrenal e aumenta preocupação com hipoglicemia."
+        },
+        "D": {
+          "alternativeId": "D",
+          "explanation": "É a melhor opção apresentada para intensificar o controle e considerar o risco cardiovascular, com monitoramento dos demais medicamentos."
+        }
+      },
+      "takeHome": "No DM2 com doença cardiovascular, escolha também pelo benefício cardiorrenal, não apenas pela queda da HbA1c.",
+      "references": [
+        {
+          "referenceId": "https://www.gov.br/conitec/pt-br/assuntos/noticias/2023/marco/conitec-recomenda-ampliacao-de-uso-de-medicamento-para-tratamento-de-pacientes-com-diabete-melito-tipo-2-no-sus",
+          "title": "Conitec: ampliação da dapagliflozina no DM2 com alto risco ou doença cardiovascular",
+          "url": "https://www.gov.br/conitec/pt-br/assuntos/noticias/2023/marco/conitec-recomenda-ampliacao-de-uso-de-medicamento-para-tratamento-de-pacientes-com-diabete-melito-tipo-2-no-sus",
+          "citation": "Ministério da Saúde / SUS",
+          "role": "Orientação brasileira"
+        },
+        {
+          "referenceId": "PMID:30415602",
+          "title": "Wiviott et al. Dapagliflozin and cardiovascular outcomes in type 2 diabetes. NEJM, 2019.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30415602/",
+          "citation": "PubMed · PMID 30415602",
+          "role": "Evidência científica"
+        }
+      ],
+      "keyPoints": [
+        "No DM2 com doença cardiovascular, escolha também pelo benefício cardiorrenal, não apenas pela queda da HbA1c."
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-024",
+      "n": 24,
+      "questionNumber": 24,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Homem de 61 anos, pedreiro, com abaulamento inguinal direito redutível há três anos, procura o pronto-socorro porque, há cinco horas, após carregar sacos de cimento, o abaulamento aumentou, tornou-se doloroso e não reduziu com o decúbito. Nega vômitos e eliminou gases há duas horas. Pressão arterial de 136 × 84 mmHg, frequência cardíaca de 88 bpm, afebril. Abdome flácido, pouco distendido, sem irritação peritoneal; na região inguinoescrotal direita há massa de 7 cm, tensa, dolorosa e irredutível, com pele de cor e temperatura normais. Leucócitos 9.200/mm³ sem desvios; lactato 1,4 mmol/L (referência < 2). Nesse momento, a conduta mais adequada é",
+      "statement": "Homem de 61 anos, pedreiro, com abaulamento inguinal direito redutível há três anos, procura o pronto-socorro porque, há cinco horas, após carregar sacos de cimento, o abaulamento aumentou, tornou-se doloroso e não reduziu com o decúbito. Nega vômitos e eliminou gases há duas horas. Pressão arterial de 136 × 84 mmHg, frequência cardíaca de 88 bpm, afebril. Abdome flácido, pouco distendido, sem irritação peritoneal; na região inguinoescrotal direita há massa de 7 cm, tensa, dolorosa e irredutível, com pele de cor e temperatura normais. Leucócitos 9.200/mm³ sem desvios; lactato 1,4 mmol/L (referência < 2). Nesse momento, a conduta mais adequada é",
+      "opts": [
+        "indicar herniorrafia de urgência nas próximas horas, sem tentativa de redução, pelo risco de perda de perfusão da massa após cinco horas de encarceramento.",
+        "solicitar tomografia computadorizada de abdome com contraste venoso para avaliar a viabilidade da alça antes de qualquer manobra de redução.",
+        "reduzir manualmente a hérnia e liberar com orientação de retorno ambulatorial para cirurgia eletiva em seis meses.",
+        "tentar a redução manual com analgesia e Trendelenburg e, se bem-sucedida, observar e programar tratamento precocemente."
+      ],
+      "alternatives": [
+        "indicar herniorrafia de urgência nas próximas horas, sem tentativa de redução, pelo risco de perda de perfusão da massa após cinco horas de encarceramento.",
+        "solicitar tomografia computadorizada de abdome com contraste venoso para avaliar a viabilidade da alça antes de qualquer manobra de redução.",
+        "reduzir manualmente a hérnia e liberar com orientação de retorno ambulatorial para cirurgia eletiva em seis meses.",
+        "tentar a redução manual com analgesia e Trendelenburg e, se bem-sucedida, observar e programar tratamento precocemente."
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "Correta se a avaliação excluir suspeita de estrangulamento e houver observação e programação cirúrgica.",
+      "commentStatus": "evidence-based-editorial",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 4,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Hérnia inguinal encarcerada"
+      ],
+      "editorialComment": true,
+      "commentReviewedAt": "2026-10-16",
+      "officialComment": "COMENTÁRIO EDUCACIONAL — pesquisa externa, não fornecido pelo PDF. Gabarito de estudo preservado; não é gabarito oficial. Conteúdo para estudo, não prescrição individual. Fontes na seção Referências.\n\nRACIOCÍNIO CLÍNICO\nA hérnia dolorosa e irredutível é encarcerada. Estrangulamento significa comprometimento vascular e exige cirurgia imediata. A evolução curta, estabilidade, ausência de irritação peritoneal e de alterações cutâneas permitem considerar redução manual, mas lactato normal não exclui isquemia inicial.\n\nCONDUTA\nEm ambiente assistencial, após avaliação cirúrgica, pode-se tentar redução gentil com analgesia e posicionamento adequados, se não houver suspeita de estrangulamento. Não se deve aplicar força ou orientar o paciente a tentar em casa. Depois da redução, observar recuperação da analgesia/sedação e resolução da dor, planejando reparo precoce. Dor persistente ou obstrução após aparente redução levantam suspeita de alça ainda comprometida ou redução em massa e exigem investigação urgente.\n\nQUANDO OPERAR\nSinais de isquemia, peritonite, toxicidade sistêmica ou falha da tentativa indicam intervenção urgente. A revisão do algoritmo de taxis destaca seleção clínica e observação: conseguir recolocar o volume não basta para declarar o problema resolvido.",
+      "alternativeRationales": {
+        "A": {
+          "alternativeId": "A",
+          "explanation": "A cirurgia é necessária se houver estrangulamento ou falha de redução; cinco horas de evolução, isoladamente, não proíbem tentativa selecionada."
+        },
+        "B": {
+          "alternativeId": "B",
+          "explanation": "Tomografia pode esclarecer dúvida, mas não precisa preceder toda redução clinicamente apropriada."
+        },
+        "C": {
+          "alternativeId": "C",
+          "explanation": "Reduzir não corrige o defeito herniário; aguardar seis meses sem plano precoce mantém risco de recorrência e complicações."
+        },
+        "D": {
+          "alternativeId": "D",
+          "explanation": "Correta se a avaliação excluir suspeita de estrangulamento e houver observação e programação cirúrgica."
+        }
+      },
+      "takeHome": "Taxis é gentil, selecionada e seguida de observação; suspeita de estrangulamento não permite tentativa de rotina.",
+      "references": [
+        {
+          "referenceId": "PMID:34036484",
+          "title": "Pawlak et al. Algorithm for management of an incarcerated inguinal hernia: manual reduction, technique and safety. Hernia, 2021.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34036484/",
+          "citation": "PubMed · PMID 34036484",
+          "role": "Evidência científica"
+        },
+        {
+          "referenceId": "PMID:32472464",
+          "title": "East et al. Role of taxis in acute inguinal hernias: literature review. Hernia, 2020.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32472464/",
+          "citation": "PubMed · PMID 32472464",
+          "role": "Evidência científica"
+        }
+      ],
+      "keyPoints": [
+        "Taxis é gentil, selecionada e seguida de observação; suspeita de estrangulamento não permite tentativa de rotina."
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-025",
+      "n": 25,
+      "questionNumber": 25,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Mulher de 54 anos, submetida a histerectomia abdominal há 12 anos, chega ao pronto-socorro com dor abdominal em cólica há 24 horas, vômitos biliosos, distensão e parada de eliminação de fezes desde o dia anterior; ainda eliminando gases. Pressão arterial de 118 × 76 mmHg, frequência cardíaca de 96 bpm, afebril. Abdome distendido, timpânico, com ruídos aumentados e metálicos, doloroso difusamente, sem defesa ou descompressão dolorosa; sem hérnias. Leucócitos 10.800/mm³, lactato 1,3 mmol/L (referência < 2), potássio 3,1 mEq/L. Tomografia com contraste: alças de delgado dilatadas até 4,2 cm com ponto de transição em fossa ilíaca esquerda, cólon colabado, realce parietal preservado, sem pneumatose, alça fechada ou líquido livre significativo. A conduta mais adequada é",
+      "statement": "Mulher de 54 anos, submetida a histerectomia abdominal há 12 anos, chega ao pronto-socorro com dor abdominal em cólica há 24 horas, vômitos biliosos, distensão e parada de eliminação de fezes desde o dia anterior; ainda eliminando gases. Pressão arterial de 118 × 76 mmHg, frequência cardíaca de 96 bpm, afebril. Abdome distendido, timpânico, com ruídos aumentados e metálicos, doloroso difusamente, sem defesa ou descompressão dolorosa; sem hérnias. Leucócitos 10.800/mm³, lactato 1,3 mmol/L (referência < 2), potássio 3,1 mEq/L. Tomografia com contraste: alças de delgado dilatadas até 4,2 cm com ponto de transição em fossa ilíaca esquerda, cólon colabado, realce parietal preservado, sem pneumatose, alça fechada ou líquido livre significativo. A conduta mais adequada é",
+      "opts": [
+        "laparotomia exploradora imediata, pela obstrução completa indicada pelo cólon colabado na tomografia e pelo risco de isquemia, que cresce a cada hora de espera.",
+        "laparoscopia exploradora nas próximas 12 horas caso não haja eliminação de gases após a passagem da sonda nasogástrica.",
+        "sonda nasogástrica, hidratação venosa com reposição de potássio e observação seriada, com contraste hidrossolúvel oral para prever a resolução.",
+        "sonda nasogástrica, jejum e hidratação por até sete dias, sem estudos contrastados, indicando cirurgia apenas se surgirem sinais de peritonite."
+      ],
+      "alternatives": [
+        "laparotomia exploradora imediata, pela obstrução completa indicada pelo cólon colabado na tomografia e pelo risco de isquemia, que cresce a cada hora de espera.",
+        "laparoscopia exploradora nas próximas 12 horas caso não haja eliminação de gases após a passagem da sonda nasogástrica.",
+        "sonda nasogástrica, hidratação venosa com reposição de potássio e observação seriada, com contraste hidrossolúvel oral para prever a resolução.",
+        "sonda nasogástrica, jejum e hidratação por até sete dias, sem estudos contrastados, indicando cirurgia apenas se surgirem sinais de peritonite."
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "Combina descompressão, reposição, correção eletrolítica e avaliação prognóstica.",
+      "commentStatus": "evidence-based-editorial",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 5,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Obstrução intestinal por aderências"
+      ],
+      "editorialComment": true,
+      "commentReviewedAt": "2026-10-16",
+      "officialComment": "COMENTÁRIO EDUCACIONAL — pesquisa externa, não fornecido pelo PDF. Gabarito de estudo preservado; não é gabarito oficial. Conteúdo para estudo, não prescrição individual. Fontes na seção Referências.\n\nRACIOCÍNIO CLÍNICO\nCirurgia abdominal prévia e ponto de transição tomográfico sugerem obstrução por aderências. Sem peritonite, alça fechada ou sinais de isquemia, cabe tratamento não operatório monitorado.\n\nTRATAMENTO\nJejum, descompressão por sonda nasogástrica, reposição intravenosa de volume e correção do potássio de 3,1 mEq/L tratam distensão e perdas hidroeletrolíticas. Acompanhar diurese, sinais vitais, dor, exame abdominal e exames laboratoriais. Contraste hidrossolúvel, quando seguro, ajuda a prever resolução: sua chegada ao cólon em aproximadamente 24 horas favorece sucesso conservador. Isso não garante benefício terapêutico em todos os pacientes.\n\nLIMITE DA OBSERVAÇÃO\nAs diretrizes de Bologna admitem, em casos selecionados, tentativa de até cerca de 72 horas, com reavaliação contínua. Piora clínica exige cirurgia antes desse prazo. Não se espera sete dias nem o aparecimento de peritonite. Cólon colabado demonstra obstrução, mas não prova necrose.",
+      "alternativeRationales": {
+        "A": {
+          "alternativeId": "A",
+          "explanation": "Cólon colabado, isoladamente, não demonstra sofrimento vascular nem obriga laparotomia imediata."
+        },
+        "B": {
+          "alternativeId": "B",
+          "explanation": "Ausência de gases após 12 horas não é, sozinha, critério universal de falha."
+        },
+        "C": {
+          "alternativeId": "C",
+          "explanation": "Combina descompressão, reposição, correção eletrolítica e avaliação prognóstica."
+        },
+        "D": {
+          "alternativeId": "D",
+          "explanation": "Esperar sete dias ou peritonite pode atrasar cirurgia necessária."
+        }
+      },
+      "takeHome": "Obstrução aderencial sem isquemia permite observação ativa, não espera passiva.",
+      "references": [
+        {
+          "referenceId": "PMID:29946347",
+          "title": "Ten Broek et al. Bologna guidelines for adhesive small bowel obstruction: 2017 update. World Journal of Emergency Surgery, 2018.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29946347/",
+          "citation": "PubMed · PMID 29946347",
+          "role": "Evidência científica"
+        }
+      ],
+      "keyPoints": [
+        "Obstrução aderencial sem isquemia permite observação ativa, não espera passiva."
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-026",
+      "n": 26,
+      "questionNumber": 26,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Homem de 26 anos, motociclista, colidiu com automóvel há 40 minutos e chega pelo SAMU com colar cervical, vias aéreas pérvias, frequência respiratória de 26 irpm, murmúrio vesicular presente bilateralmente, saturação de 96%. Pressão arterial de 84 × 50 mmHg, frequência cardíaca de 128 bpm, pele fria e pálida, sem sangramento externo; escala de coma de Glasgow 15. Refere dor pélvica intensa, há equimoses perineal e instabilidade do anel pélvico à palpação, sem dispositivo de estabilização aplicado até o momento. O FAST não mostra líquido livre abdominal ou pericárdico; a radiografia de tórax é normal e a de bacia mostra fratura bilateral dos ramos púbicos com diástase da sínfise de 3,5 cm. Recebeu 1.000 mL de cristaloide aquecido, sem melhora. Nesse momento, a conduta prioritária é",
+      "statement": "Homem de 26 anos, motociclista, colidiu com automóvel há 40 minutos e chega pelo SAMU com colar cervical, vias aéreas pérvias, frequência respiratória de 26 irpm, murmúrio vesicular presente bilateralmente, saturação de 96%. Pressão arterial de 84 × 50 mmHg, frequência cardíaca de 128 bpm, pele fria e pálida, sem sangramento externo; escala de coma de Glasgow 15. Refere dor pélvica intensa, há equimoses perineal e instabilidade do anel pélvico à palpação, sem dispositivo de estabilização aplicado até o momento. O FAST não mostra líquido livre abdominal ou pericárdico; a radiografia de tórax é normal e a de bacia mostra fratura bilateral dos ramos púbicos com diástase da sínfise de 3,5 cm. Recebeu 1.000 mL de cristaloide aquecido, sem melhora. Nesse momento, a conduta prioritária é",
+      "opts": [
+        "laparotomia exploradora imediata, uma vez que o choque persistente após o cristaloide indica sangramento intra-abdominal que o FAST inicial pode não ter detectado.",
+        "aplicar cinta pélvica e iniciar hemocomponentes com ácido tranexâmico, com angioembolização ou tamponamento pré-peritoneal se persistir hipotensão.",
+        "tomografia computadorizada de abdome e pelve com contraste para localizar o foco hemorrágico antes de qualquer intervenção cirúrgica ou radiológica.",
+        "infundir mais 1 litro de cristaloide aquecido e repetir o FAST em 30 minutos antes de indicar hemoderivados ou procedimentos."
+      ],
+      "alternatives": [
+        "laparotomia exploradora imediata, uma vez que o choque persistente após o cristaloide indica sangramento intra-abdominal que o FAST inicial pode não ter detectado.",
+        "aplicar cinta pélvica e iniciar hemocomponentes com ácido tranexâmico, com angioembolização ou tamponamento pré-peritoneal se persistir hipotensão.",
+        "tomografia computadorizada de abdome e pelve com contraste para localizar o foco hemorrágico antes de qualquer intervenção cirúrgica ou radiológica.",
+        "infundir mais 1 litro de cristaloide aquecido e repetir o FAST em 30 minutos antes de indicar hemoderivados ou procedimentos."
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "Associa estabilização mecânica, sangue, antifibrinolítico precoce e controle definitivo da fonte.",
+      "commentStatus": "evidence-based-editorial",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 6,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Trauma pélvico e choque"
+      ],
+      "editorialComment": true,
+      "commentReviewedAt": "2026-10-16",
+      "officialComment": "COMENTÁRIO EDUCACIONAL — pesquisa externa, não fornecido pelo PDF. Gabarito de estudo preservado; não é gabarito oficial. Conteúdo para estudo, não prescrição individual. Fontes na seção Referências.\n\nRACIOCÍNIO CLÍNICO\nChoque após trauma de alta energia e fratura pélvica em livro aberto sugerem hemorragia importante. FAST negativo não exclui sangramento retroperitoneal: o exame procura principalmente líquido intraperitoneal e não demonstra toda hemorragia da pelve.\n\nPOR QUE E COMO INTERVIR\nAplicar estabilizador pélvico ao nível dos grandes trocânteres, não sobre as cristas ilíacas, reduz movimento e favorece controle do sangramento. Simultaneamente, ativar ressuscitação hemostática com hemocomponentes e controle de temperatura, cálcio e coagulação conforme protocolo; volumes repetidos de cristaloide não substituem sangue nem controle da fonte. Em sangramento significativo, o ácido tranexâmico deve ser administrado precocemente, dentro de três horas do trauma. No CRASH-2, o esquema foi 1 g intravenoso em dez minutos, seguido de 1 g em oito horas. O benefício depende do tempo; não se extrapola para início tardio indiscriminado.\n\nPRÓXIMO PASSO\nPersistência da instabilidade requer controle definitivo conforme recursos: tamponamento pré-peritoneal, estabilização e/ou angioembolização. Não levar pessoa em choque persistente para tomografia apenas para confirmar o que já exige intervenção. Também é necessário continuar procurando outras fontes de hemorragia: a pelve não exclui lesões associadas.",
+      "alternativeRationales": {
+        "A": {
+          "alternativeId": "A",
+          "explanation": "Laparotomia não é automática: a pelve pode sangrar no retroperitônio, e a indicação abdominal depende da avaliação de lesões associadas."
+        },
+        "B": {
+          "alternativeId": "B",
+          "explanation": "Associa estabilização mecânica, sangue, antifibrinolítico precoce e controle definitivo da fonte."
+        },
+        "C": {
+          "alternativeId": "C",
+          "explanation": "Tomografia antes de intervir pode atrasar controle hemorrágico em pessoa com choque persistente."
+        },
+        "D": {
+          "alternativeId": "D",
+          "explanation": "Novo litro de cristaloide e espera de 30 minutos não substituem hemocomponentes e controle imediato da fonte."
+        }
+      },
+      "takeHome": "Pelve instável + choque + FAST negativo: pensar em hemorragia retroperitoneal e controlar a fonte sem atraso.",
+      "references": [
+        {
+          "referenceId": "PMID:28115984",
+          "title": "Coccolini et al. Pelvic trauma: WSES classification and guidelines. 2017.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28115984/",
+          "citation": "PubMed · PMID 28115984",
+          "role": "Evidência científica"
+        },
+        {
+          "referenceId": "PMID:21439633",
+          "title": "CRASH-2: importance of early tranexamic acid treatment in bleeding trauma patients. Lancet, 2011.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21439633/",
+          "citation": "PubMed · PMID 21439633",
+          "role": "Evidência científica"
+        }
+      ],
+      "keyPoints": [
+        "Pelve instável + choque + FAST negativo: pensar em hemorragia retroperitoneal e controlar a fonte sem atraso."
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-027",
+      "n": 27,
+      "questionNumber": 27,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Mulher de 41 anos, assintomática, não tabagista, sorologia para HIV não reagente, mora em município que já implantou o rastreamento do câncer do colo do útero com teste de DNA-HPV. Nunca teve exame alterado; a última citologia, há quatro anos, era normal. O teste atual é positivo para HPV de alto risco oncogênico, com genotipagem negativa para os tipos 16 e 18, e a citologia reflexa realizada na mesma amostra descreve lesão intraepitelial escamosa de baixo grau (LSIL). O exame especular não mostra lesão visível. Segundo as diretrizes brasileiras vigentes, a conduta adequada é",
+      "statement": "Mulher de 41 anos, assintomática, não tabagista, sorologia para HIV não reagente, mora em município que já implantou o rastreamento do câncer do colo do útero com teste de DNA-HPV. Nunca teve exame alterado; a última citologia, há quatro anos, era normal. O teste atual é positivo para HPV de alto risco oncogênico, com genotipagem negativa para os tipos 16 e 18, e a citologia reflexa realizada na mesma amostra descreve lesão intraepitelial escamosa de baixo grau (LSIL). O exame especular não mostra lesão visível. Segundo as diretrizes brasileiras vigentes, a conduta adequada é",
+      "opts": [
+        "repetir a citologia em seis meses e encaminhar à colposcopia apenas se a alteração persistir no segundo exame.",
+        "repetir o teste de DNA-HPV em 12 meses, encaminhando à colposcopia apenas se permanecer positivo.",
+        "encaminhar diretamente à colposcopia, com biópsia dirigida se houver achado anormal, sem repetir a citologia.",
+        "realizar exérese da zona de transformação na abordagem “ver e tratar”, dado o teste molecular positivo."
+      ],
+      "alternatives": [
+        "repetir a citologia em seis meses e encaminhar à colposcopia apenas se a alteração persistir no segundo exame.",
+        "repetir o teste de DNA-HPV em 12 meses, encaminhando à colposcopia apenas se permanecer positivo.",
+        "encaminhar diretamente à colposcopia, com biópsia dirigida se houver achado anormal, sem repetir a citologia.",
+        "realizar exérese da zona de transformação na abordagem “ver e tratar”, dado o teste molecular positivo."
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "É o encaminhamento recomendado para outros HPV oncogênicos com citologia ASC-US ou mais importante.",
+      "commentStatus": "evidence-based-editorial",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 7,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Rastreamento do colo uterino: DNA-HPV"
+      ],
+      "editorialComment": true,
+      "commentReviewedAt": "2026-10-16",
+      "officialComment": "COMENTÁRIO EDUCACIONAL — pesquisa externa, não fornecido pelo PDF. Gabarito de estudo preservado; não é gabarito oficial. Conteúdo para estudo, não prescrição individual. Fontes na seção Referências.\n\nRACIOCÍNIO CLÍNICO\nO resultado deve ser interpretado no fluxo de rastreamento primário por DNA-HPV, não no antigo algoritmo de citologia isolada. HPV oncogênico diferente de 16/18 leva à citologia reflexa. Quando esta mostra ASC-US ou alteração mais importante — incluindo LSIL —, as diretrizes brasileiras de 2025 recomendam colposcopia. A aparência normal do colo a olho nu não exclui lesão.\n\nPOR QUE INVESTIGAR\nHPV positivo não significa câncer; o objetivo da triagem é identificar quem precisa de avaliação mais detalhada. A colposcopia localiza áreas suspeitas, permitindo biópsia quando indicada e definição histológica. LSIL não autoriza automaticamente excisão: tratar sem caracterização adequada pode causar intervenções desnecessárias, com repercussões reprodutivas. Os estudos de rastreamento mostram maior proteção com estratégias baseadas em HPV, mas isso exige seguir sua triagem, e não encaminhar ou tratar indiscriminadamente todas as pessoas positivas.\n\nATENÇÃO À PEGADINHA\nRepetir HPV em 12 meses é uma possibilidade no ramo de outros HPV oncogênicos com citologia reflexa negativa; não é a resposta para a LSIL já descrita. Os genótipos não 16/18 continuam sendo de alto risco neste contexto. O seguimento depois da colposcopia dependerá dos achados e da histologia.",
+      "alternativeRationales": {
+        "A": {
+          "alternativeId": "A",
+          "explanation": "Repetição citológica em seis meses confunde o algoritmo de citologia primária com o de DNA-HPV."
+        },
+        "B": {
+          "alternativeId": "B",
+          "explanation": "A vigilância em 12 meses não se aplica ao ramo com LSIL na citologia reflexa."
+        },
+        "C": {
+          "alternativeId": "C",
+          "explanation": "É o encaminhamento recomendado para outros HPV oncogênicos com citologia ASC-US ou mais importante."
+        },
+        "D": {
+          "alternativeId": "D",
+          "explanation": "LSIL isolada não justifica abordagem excisional imediata sem a avaliação indicada."
+        }
+      },
+      "takeHome": "DNA-HPV: outros oncogênicos + citologia reflexa LSIL → colposcopia, não tratamento excisional automático.",
+      "references": [
+        {
+          "referenceId": "https://ninho.inca.gov.br/jspui/bitstream/123456789/17858/3/Diretrizes%20para%20o%20Rastreamento%20do%20c%C3%A2ncer%20do%20colo%20do%20%C3%BAtero_2025_completo.pdf",
+          "title": "INCA/MS. Diretrizes brasileiras de rastreamento do colo uterino com DNA-HPV (2025), recomendação 20",
+          "url": "https://ninho.inca.gov.br/jspui/bitstream/123456789/17858/3/Diretrizes%20para%20o%20Rastreamento%20do%20c%C3%A2ncer%20do%20colo%20do%20%C3%BAtero_2025_completo.pdf",
+          "citation": "Ministério da Saúde / SUS",
+          "role": "Orientação brasileira"
+        },
+        {
+          "referenceId": "PMID:24192252",
+          "title": "Ronco et al. HPV-based screening and prevention of invasive cervical cancer: four European randomised trials. Lancet, 2014.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24192252/",
+          "citation": "PubMed · PMID 24192252",
+          "role": "Evidência científica"
+        }
+      ],
+      "keyPoints": [
+        "DNA-HPV: outros oncogênicos + citologia reflexa LSIL → colposcopia, não tratamento excisional automático."
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-028",
+      "n": 28,
+      "questionNumber": 28,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Primigesta de 24 anos, com 39 semanas e cinco dias, gestação de baixo risco, evolui na maternidade para parto vaginal espontâneo. O recém-nascido nasce com choro vigoroso e bom tônus e é colocado em contato pele a pele com a mãe; o cordão ainda está pulsátil e não há sangramento vaginal aumentado. Nesse momento, de acordo com as Diretrizes Nacionais de Assistência ao Parto Normal, a conduta recomendada é",
+      "statement": "Primigesta de 24 anos, com 39 semanas e cinco dias, gestação de baixo risco, evolui na maternidade para parto vaginal espontâneo. O recém-nascido nasce com choro vigoroso e bom tônus e é colocado em contato pele a pele com a mãe; o cordão ainda está pulsátil e não há sangramento vaginal aumentado. Nesse momento, de acordo com as Diretrizes Nacionais de Assistência ao Parto Normal, a conduta recomendada é",
+      "opts": [
+        "clampear e seccionar o cordão imediatamente, administrar ocitocina 10 UI por via intramuscular e aguardar os sinais de descolamento da placenta para a tração.",
+        "administrar ocitocina 10 UI por via intramuscular somente após a dequitação, clampeando o cordão ao cessar a pulsação e tracionando de forma controlada após o descolamento.",
+        "aguardar a dequitação espontânea por até 60 minutos, sem uterotônico, por se tratar de parto de baixo risco sem sangramento.",
+        "administrar ocitocina 10 UI por via intramuscular, clampear o cordão entre um e cinco minutos e tracionar de forma controlada após o descolamento."
+      ],
+      "alternatives": [
+        "clampear e seccionar o cordão imediatamente, administrar ocitocina 10 UI por via intramuscular e aguardar os sinais de descolamento da placenta para a tração.",
+        "administrar ocitocina 10 UI por via intramuscular somente após a dequitação, clampeando o cordão ao cessar a pulsação e tracionando de forma controlada após o descolamento.",
+        "aguardar a dequitação espontânea por até 60 minutos, sem uterotônico, por se tratar de parto de baixo risco sem sangramento.",
+        "administrar ocitocina 10 UI por via intramuscular, clampear o cordão entre um e cinco minutos e tracionar de forma controlada após o descolamento."
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "Reúne uterotônico profilático, clampeamento oportuno e tração controlada no contexto apropriado.",
+      "commentStatus": "evidence-based-editorial",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 8,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Assistência ao terceiro período do parto"
+      ],
+      "editorialComment": true,
+      "commentReviewedAt": "2026-10-16",
+      "officialComment": "COMENTÁRIO EDUCACIONAL — pesquisa externa, não fornecido pelo PDF. Gabarito de estudo preservado; não é gabarito oficial. Conteúdo para estudo, não prescrição individual. Fontes na seção Referências.\n\nRACIOCÍNIO CLÍNICO\nNa terceira fase do parto, o útero precisa contrair-se para comprimir os vasos do leito placentário. A ocitocina profilática reduz o risco de hemorragia por atonia, mesmo quando ainda não há sangramento anormal. Não é necessário esperar a placenta sair para prevenir essa complicação.\n\nSEQUÊNCIA PRÁTICA\nAs diretrizes brasileiras descrevem 10 UI de ocitocina intramuscular após o nascimento, antes do clampeamento. Em recém-nascido vigoroso, o clampeamento oportuno pode ocorrer entre um e cinco minutos, conforme avaliação e protocolo. Dar o uterotônico não obriga clampear imediatamente. A tração controlada do cordão deve ser realizada por profissional treinado, com sinais de separação e estabilização uterina; puxar vigorosamente sem esses cuidados traz risco.\n\nNUANCES\nA via intramuscular é uma opção válida na alternativa, não a única via profilática possível. Revisão de ensaios comparando vias identifica vantagens de alguns desfechos com administração intravenosa em condições apropriadas, sem invalidar a opção intramuscular recomendada no cenário. Hemorragia materna, comprometimento neonatal ou problema no cordão podem modificar a sequência; a decisão depende do quadro real. Após a dequitação, verificar integridade placentária, tônus uterino e perda sanguínea.",
+      "alternativeRationales": {
+        "A": {
+          "alternativeId": "A",
+          "explanation": "Clampeamento imediato de rotina não é necessário em recém-nascido vigoroso, embora a ocitocina proposta seja apropriada."
+        },
+        "B": {
+          "alternativeId": "B",
+          "explanation": "Adiar ocitocina até a saída da placenta não corresponde à sequência profilática recomendada no manejo ativo."
+        },
+        "C": {
+          "alternativeId": "C",
+          "explanation": "Baixo risco não elimina hemorragia por atonia; dispensar profilaxia não é a melhor opção no manejo ativo proposto."
+        },
+        "D": {
+          "alternativeId": "D",
+          "explanation": "Reúne uterotônico profilático, clampeamento oportuno e tração controlada no contexto apropriado."
+        }
+      },
+      "takeHome": "Ocitocina previne atonia; sua administração não exige clampeamento imediato do cordão.",
+      "references": [
+        {
+          "referenceId": "https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_nacionais_assistencia_parto_normal.pdf",
+          "title": "Diretrizes nacionais de assistência ao parto normal (2017): terceiro período",
+          "url": "https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_nacionais_assistencia_parto_normal.pdf",
+          "citation": "Ministério da Saúde / SUS",
+          "role": "Orientação brasileira"
+        },
+        {
+          "referenceId": "PMID:33169839",
+          "title": "Intravenous versus intramuscular prophylactic oxytocin for the third stage of labour. Cochrane, 2020.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33169839/",
+          "citation": "PubMed · PMID 33169839",
+          "role": "Evidência científica"
+        }
+      ],
+      "keyPoints": [
+        "Ocitocina previne atonia; sua administração não exige clampeamento imediato do cordão."
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-029",
+      "n": 29,
+      "questionNumber": 29,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Gestante de 31 anos, segunda gestação, com 36 semanas e dois dias, pré-natal sem intercorrências até a consulta de 34 semanas, chega à maternidade com cefaleia frontal intensa há seis horas e escotomas. Pressão arterial de 168 × 112 mmHg, confirmada após 15 minutos em 164 × 110 mmHg; edema de membros inferiores; reflexos vivos, sem convulsão. Exames: plaquetas 92.000/mm³, aspartato aminotransferase 118 U/L (referência < 35), creatinina 1,0 mg/dL, relação proteína/creatinina urinária 1,2 (referência < 0,3). Cardiotocografia categoria I, feto cefálico com peso estimado de 2.700 g, colo com 2 cm de dilatação e 50% de esvaecimento. A conduta adequada é",
+      "statement": "Gestante de 31 anos, segunda gestação, com 36 semanas e dois dias, pré-natal sem intercorrências até a consulta de 34 semanas, chega à maternidade com cefaleia frontal intensa há seis horas e escotomas. Pressão arterial de 168 × 112 mmHg, confirmada após 15 minutos em 164 × 110 mmHg; edema de membros inferiores; reflexos vivos, sem convulsão. Exames: plaquetas 92.000/mm³, aspartato aminotransferase 118 U/L (referência < 35), creatinina 1,0 mg/dL, relação proteína/creatinina urinária 1,2 (referência < 0,3). Cardiotocografia categoria I, feto cefálico com peso estimado de 2.700 g, colo com 2 cm de dilatação e 50% de esvaecimento. A conduta adequada é",
+      "opts": [
+        "administrar betametasona para maturidade pulmonar e manter conduta expectante com nifedipino oral até 37 semanas, sob vigilância materno-fetal diária em internação.",
+        "iniciar sulfato de magnésio, controlar a pressão com hidralazina intravenosa e, após a estabilização, resolver a gestação, preferindo a via vaginal.",
+        "iniciar metildopa oral e observar por 24 horas, reservando o sulfato de magnésio para o surgimento de convulsão.",
+        "indicar cesariana imediata pela plaquetopenia e pela elevação das transaminases, iniciando o sulfato de magnésio apenas no pós-operatório."
+      ],
+      "alternatives": [
+        "administrar betametasona para maturidade pulmonar e manter conduta expectante com nifedipino oral até 37 semanas, sob vigilância materno-fetal diária em internação.",
+        "iniciar sulfato de magnésio, controlar a pressão com hidralazina intravenosa e, após a estabilização, resolver a gestação, preferindo a via vaginal.",
+        "iniciar metildopa oral e observar por 24 horas, reservando o sulfato de magnésio para o surgimento de convulsão.",
+        "indicar cesariana imediata pela plaquetopenia e pela elevação das transaminases, iniciando o sulfato de magnésio apenas no pós-operatório."
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "Trata risco convulsivo e hipertensivo, com resolução após estabilização e via obstétrica individualizada.",
+      "commentStatus": "evidence-based-editorial",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 9,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Pré-eclâmpsia"
+      ],
+      "editorialComment": true,
+      "commentReviewedAt": "2026-10-16",
+      "officialComment": "COMENTÁRIO EDUCACIONAL — pesquisa externa, não fornecido pelo PDF. Gabarito de estudo preservado; não é gabarito oficial. Conteúdo para estudo, não prescrição individual. Fontes na seção Referências.\n\nRACIOCÍNIO CLÍNICO\nPressão de 168/112 mmHg, sintomas visuais, plaquetas de 92 mil e elevação de transaminases caracterizam pré-eclâmpsia com sinais de gravidade. Não é necessário esperar convulsão. Plaquetopenia e alteração hepática sugerem espectro de complicações, mas não bastam para afirmar HELLP completa sem demonstração de hemólise.\n\nTRATAR DOIS RISCOS DIFERENTES\nSulfato de magnésio previne e trata convulsões: não substitui anti-hipertensivo. A hipertensão grave precisa de tratamento rápido com agente apropriado, como hidralazina intravenosa conforme protocolo, para reduzir risco de AVC. O estudo Magpie fundamenta o benefício anticonvulsivante do magnésio. Durante sua administração, monitorar respiração, reflexos, diurese e função renal; sinais de toxicidade exigem interrupção e manejo imediato, com gluconato de cálcio quando indicado.\n\nQUANDO INTERROMPER A GESTAÇÃO\nCom 36 semanas e dois dias e gravidade materna, a conduta é estabilizar e indicar resolução, não prolongar apenas para completar 37 semanas. A via depende de condições obstétricas e fetais: pré-eclâmpsia grave não é, isoladamente, indicação automática de cesariana. O parto não elimina imediatamente o risco de convulsões ou hipertensão; manter vigilância puerperal e profilaxia conforme protocolo.",
+      "alternativeRationales": {
+        "A": {
+          "alternativeId": "A",
+          "explanation": "Aguardar 37 semanas diante de gravidade materna prolonga risco; corticoide não deve atrasar uma resolução indicada."
+        },
+        "B": {
+          "alternativeId": "B",
+          "explanation": "Trata risco convulsivo e hipertensivo, com resolução após estabilização e via obstétrica individualizada."
+        },
+        "C": {
+          "alternativeId": "C",
+          "explanation": "Metildopa não é a melhor opção para controlar rapidamente a hipertensão grave; magnésio deve prevenir, e não apenas tratar, convulsões."
+        },
+        "D": {
+          "alternativeId": "D",
+          "explanation": "A via depende das condições obstétricas; estabilização e profilaxia anticonvulsivante não devem esperar o pós-operatório."
+        }
+      },
+      "takeHome": "Magnésio protege contra convulsão; anti-hipertensivo reduz risco vascular. São medidas complementares.",
+      "references": [
+        {
+          "referenceId": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_gestacao_alto_risco.pdf",
+          "title": "Manual de gestação de alto risco (2022): síndromes hipertensivas",
+          "url": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_gestacao_alto_risco.pdf",
+          "citation": "Ministério da Saúde / SUS",
+          "role": "Orientação brasileira"
+        },
+        {
+          "referenceId": "PMID:12057549",
+          "title": "Magpie Trial Collaborative Group. Magnesium sulphate for women with pre-eclampsia. Lancet, 2002.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12057549/",
+          "citation": "PubMed · PMID 12057549",
+          "role": "Evidência científica"
+        }
+      ],
+      "keyPoints": [
+        "Magnésio protege contra convulsão; anti-hipertensivo reduz risco vascular. São medidas complementares."
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-030",
+      "n": 30,
+      "questionNumber": 30,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Lactente de 2 meses, nascido com 34 semanas e 2.100 g, sem displasia broncopulmonar ou cardiopatia, teve alta da maternidade com 10 dias de vida e recebeu BCG e hepatite B. A mãe não recebeu a vacina contra o vírus sincicial respiratório na gestação. Comparece à unidade básica de saúde em março, período de circulação do vírus na região, para as vacinas dos 2 meses; pesa 4,1 kg e está bem. Além das vacinas do calendário dessa idade, a orientação adequada quanto à prevenção da infecção pelo vírus sincicial respiratório é",
+      "statement": "Lactente de 2 meses, nascido com 34 semanas e 2.100 g, sem displasia broncopulmonar ou cardiopatia, teve alta da maternidade com 10 dias de vida e recebeu BCG e hepatite B. A mãe não recebeu a vacina contra o vírus sincicial respiratório na gestação. Comparece à unidade básica de saúde em março, período de circulação do vírus na região, para as vacinas dos 2 meses; pesa 4,1 kg e está bem. Além das vacinas do calendário dessa idade, a orientação adequada quanto à prevenção da infecção pelo vírus sincicial respiratório é",
+      "opts": [
+        "encaminhar ao Centro de Referência para Imunobiológicos Especiais para palivizumabe mensal, por até cinco doses na sazonalidade, por ser prematuro.",
+        "aplicar a vacina contra o vírus sincicial respiratório em dose única, já que a mãe não a recebeu durante a gestação.",
+        "administrar nirsevimabe 50 mg por via intramuscular em dose única, indicado no SUS para prematuros de menos de 37 semanas até seis meses.",
+        "não indicar profilaxia, pois prematuros de 34 semanas sem comorbidades não têm indicação de imunização passiva contra o vírus."
+      ],
+      "alternatives": [
+        "encaminhar ao Centro de Referência para Imunobiológicos Especiais para palivizumabe mensal, por até cinco doses na sazonalidade, por ser prematuro.",
+        "aplicar a vacina contra o vírus sincicial respiratório em dose única, já que a mãe não a recebeu durante a gestação.",
+        "administrar nirsevimabe 50 mg por via intramuscular em dose única, indicado no SUS para prematuros de menos de 37 semanas até seis meses.",
+        "não indicar profilaxia, pois prematuros de 34 semanas sem comorbidades não têm indicação de imunização passiva contra o vírus."
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "Dose e produto são compatíveis com peso inferior a 5 kg; acesso depende também da elegibilidade e da regra de implantação.",
+      "commentStatus": "evidence-based-editorial",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 10,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Prevenção da infecção pelo vírus sincicial respiratório"
+      ],
+      "editorialComment": true,
+      "commentReviewedAt": "2026-10-16",
+      "officialComment": "COMENTÁRIO EDUCACIONAL — pesquisa externa, não fornecido pelo PDF. Gabarito de estudo preservado; não é gabarito oficial. Conteúdo para estudo, não prescrição individual. Fontes na seção Referências.\n\nRACIOCÍNIO CLÍNICO\nNirsevimabe é anticorpo monoclonal de longa ação contra o VSR: fornece proteção passiva, não é vacina e não trata bronquiolite já instalada. Para um lactente elegível de 4,1 kg, a dose da primeira temporada é 50 mg intramuscular, em aplicação única; a partir de 5 kg, 100 mg. O ensaio em prematuros de 29 a 34 semanas e seis dias mostrou redução de doença respiratória baixa e hospitalização associadas ao VSR.\n\nRESSALVA IMPORTANTE DO GABARITO\nA alternativa C corresponde ao produto e à dose, mas o enunciado simplifica a elegibilidade. O protocolo brasileiro de 2026 prevê prematuros com menos de 37 semanas e crianças com comorbidades específicas, priorizando aplicação ainda na maternidade para prematuros. Não se deve converter a frase “até seis meses” da alternativa em regra universal de acesso ao SUS. Existem regras de implantação e resgate: a data de nascimento e a transição do palivizumabe precisam ser conferidas.\n\nPOR QUE ISSO IMPORTA\nUm bebê com dois meses em março pode ter nascido antes do início da oferta em fevereiro de 2026; nesse caso, é preciso checar a norma de transição, e não prometer elegibilidade apenas pela idade gestacional. O ano não foi informado. A ausência de vacinação materna reforça a necessidade de avaliar prevenção, mas não substitui os critérios do programa. Mantido C como gabarito de estudo, com essa ressalva explícita.",
+      "alternativeRationales": {
+        "A": {
+          "alternativeId": "A",
+          "explanation": "Prematuridade de 34 semanas isolada não justificava o antigo esquema de palivizumabe no SUS; verificar os critérios de transição."
+        },
+        "B": {
+          "alternativeId": "B",
+          "explanation": "A vacina materna não é aplicada ao lactente como substituta; nirsevimabe é anticorpo, não vacina."
+        },
+        "C": {
+          "alternativeId": "C",
+          "explanation": "Dose e produto são compatíveis com peso inferior a 5 kg; acesso depende também da elegibilidade e da regra de implantação."
+        },
+        "D": {
+          "alternativeId": "D",
+          "explanation": "Não há justificativa para negar toda prevenção apenas porque não há comorbidade; prematuridade pode constituir indicação conforme protocolo."
+        }
+      },
+      "takeHome": "Nirsevimabe: conferir elegibilidade e calendário de implantação; dose por peso não é sinônimo de direito automático ao produto.",
+      "references": [
+        {
+          "referenceId": "https://www.gov.br/conitec/pt-br/midias/protocolos/2026/protocolo-de-uso-do-nirsevimabe/@@download/file",
+          "title": "Protocolo de uso do nirsevimabe (2026): dose, elegibilidade e transição",
+          "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/2026/protocolo-de-uso-do-nirsevimabe/@@download/file",
+          "citation": "Ministério da Saúde / SUS",
+          "role": "Orientação brasileira"
+        },
+        {
+          "referenceId": "PMID:32726528",
+          "title": "Griffin et al. Single-dose nirsevimab for prevention of RSV in preterm infants. NEJM, 2020.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32726528/",
+          "citation": "PubMed · PMID 32726528",
+          "role": "Evidência científica"
+        }
+      ],
+      "keyPoints": [
+        "Nirsevimabe: conferir elegibilidade e calendário de implantação; dose por peso não é sinônimo de direito automático ao produto."
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-031",
+      "n": 31,
+      "questionNumber": 31,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Lactente de 11 meses, 9 kg, é atendida na unidade de pronto atendimento com diarreia aquosa há dois dias, cerca de oito evacuações por dia, e vômitos. Está irritado, com olhos fundos, chora sem lágrimas, boca seca, bebe com avidez e a prega cutânea desfaz-se lentamente; pulsos cheios, enchimento capilar de 2 segundos e diurese presente. Inicia o Plano B com soro de reidratação oral em colher. Na primeira hora vomita três vezes, mesmo com ofertas menores e mais frequentes, e recebe ondansetrona 2 mg por via oral. Na hora seguinte vomita outras quatro vezes, sem reter o soro, mantendo o mesmo estado de hidratação, sem sinais de choque e ainda urinando. A conduta adequada nesse momento é",
+      "statement": "Lactente de 11 meses, 9 kg, é atendida na unidade de pronto atendimento com diarreia aquosa há dois dias, cerca de oito evacuações por dia, e vômitos. Está irritado, com olhos fundos, chora sem lágrimas, boca seca, bebe com avidez e a prega cutânea desfaz-se lentamente; pulsos cheios, enchimento capilar de 2 segundos e diurese presente. Inicia o Plano B com soro de reidratação oral em colher. Na primeira hora vomita três vezes, mesmo com ofertas menores e mais frequentes, e recebe ondansetrona 2 mg por via oral. Na hora seguinte vomita outras quatro vezes, sem reter o soro, mantendo o mesmo estado de hidratação, sem sinais de choque e ainda urinando. A conduta adequada nesse momento é",
+      "opts": [
+        "iniciar o Plano C com soro fisiológico 30 mL/kg em 1 hora, já que o vômito persistente após o antiemético caracteriza falha da via oral.",
+        "passar sonda nasogástrica e administrar o soro de reidratação oral por gastróclise, 20 a 30 mL/kg/h, reavaliando a cada hora.",
+        "liberar para o domicílio com Plano A, zinco e retorno em 24 horas, pois não há sinais de desidratação grave.",
+        "repetir a ondansetrona e manter a reidratação oral por mais quatro horas, reduzindo o volume de cada oferta."
+      ],
+      "alternatives": [
+        "iniciar o Plano C com soro fisiológico 30 mL/kg em 1 hora, já que o vômito persistente após o antiemético caracteriza falha da via oral.",
+        "passar sonda nasogástrica e administrar o soro de reidratação oral por gastróclise, 20 a 30 mL/kg/h, reavaliando a cada hora.",
+        "liberar para o domicílio com Plano A, zinco e retorno em 24 horas, pois não há sinais de desidratação grave.",
+        "repetir a ondansetrona e manter a reidratação oral por mais quatro horas, reduzindo o volume de cada oferta."
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "Utiliza via enteral assistida após insucesso oral, com cálculo pelo peso e reavaliação frequente.",
+      "commentStatus": "evidence-based-editorial",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 11,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Desidratação e reidratação enteral"
+      ],
+      "editorialComment": true,
+      "commentReviewedAt": "2026-10-16",
+      "officialComment": "COMENTÁRIO EDUCACIONAL — pesquisa externa, não fornecido pelo PDF. Gabarito de estudo preservado; não é gabarito oficial. Conteúdo para estudo, não prescrição individual. Fontes na seção Referências.\n\nRACIOCÍNIO CLÍNICO\nA criança tem desidratação, mas mantém capacidade de beber e não apresenta choque. Intolerância à oferta oral não significa automaticamente falência do intestino: se a via digestiva está funcionante, a solução de reidratação pode ser administrada por sonda nasogástrica sob supervisão. A absorção conjunta de sódio e glicose favorece entrada de água mesmo durante a diarreia.\n\nCONDUTA\nO Ministério da Saúde orienta sonda quando a desidratação persiste durante o Plano B; agravamento para desidratação grave exige Plano C. Na alternativa, a velocidade de 20–30 mL/kg/h corresponde a 180–270 mL/h para 9 kg. Esse cálculo pertence ao esquema proposto na questão, não a uma velocidade universal fixada no cartaz ministerial consultado. Ajustar à tolerância, perdas e reavaliações de hidratação, frequência cardíaca, diurese e vômitos. Metanálise comparando reidratação enteral e intravenosa sustenta a segurança da via enteral em crianças selecionadas.\n\nQUANDO MUDAR A VIA\nChoque, desidratação grave, contraindicação digestiva ou falha da estratégia enteral indicam considerar hidratação intravenosa e encaminhamento. Não liberar ainda desidratado apenas com orientações domiciliares. Após reidratar, manter alimentação e aleitamento, orientar reposição das perdas e retorno diante de piora. Antibiótico não é rotina para toda diarreia aquosa.",
+      "alternativeRationales": {
+        "A": {
+          "alternativeId": "A",
+          "explanation": "O esquema intravenoso de expansão do Plano C destina-se à desidratação grave; não é obrigatório como primeiro passo neste caso estável."
+        },
+        "B": {
+          "alternativeId": "B",
+          "explanation": "Utiliza via enteral assistida após insucesso oral, com cálculo pelo peso e reavaliação frequente."
+        },
+        "C": {
+          "alternativeId": "C",
+          "explanation": "Plano A é prevenção e manutenção após correção; não basta para a desidratação ainda presente."
+        },
+        "D": {
+          "alternativeId": "D",
+          "explanation": "Persistência de vômitos e desidratação após tentativa assistida pede mudança de estratégia; repetir antiemético e prolongar a mesma oferta pode atrasar correção."
+        }
+      },
+      "takeHome": "Falhou a oferta oral, mas há estabilidade e intestino funcionante: considerar reidratação por sonda antes de presumir necessidade de Plano C.",
+      "references": [
+        {
+          "referenceId": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/doencas-diarreicas-agudas/manejo-do-paciente-com-diarreia-avaliacao-do-estado-do-paciente",
+          "title": "Manejo do paciente com diarreia: avaliação e Planos A, B e C",
+          "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/doencas-diarreicas-agudas/manejo-do-paciente-com-diarreia-avaliacao-do-estado-do-paciente",
+          "citation": "Ministério da Saúde / SUS",
+          "role": "Orientação brasileira"
+        },
+        {
+          "referenceId": "PMID:15123483",
+          "title": "Fonseca et al. Enteral versus intravenous rehydration therapy for children with gastroenteritis: meta-analysis. 2004.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15123483/",
+          "citation": "PubMed · PMID 15123483",
+          "role": "Evidência científica"
+        }
+      ],
+      "keyPoints": [
+        "Falhou a oferta oral, mas há estabilidade e intestino funcionante: considerar reidratação por sonda antes de presumir necessidade de Plano C."
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-032",
+      "n": 32,
+      "questionNumber": 32,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Recém-nascido a termo, 39 semanas, 3.350 g, parto vaginal sem intercorrências, em aleitamento materno exclusivo, mamando bem, com perda de 4% do peso. A mãe é do grupo O, Rh positivo; o recém-nascido é do grupo A, Rh positivo. Com 46 horas de vida apresenta icterícia até as coxas. Exames: bilirrubina total 15,4 mg/dL, bilirrubina direta 0,6 mg/dL, hemoglobina 14,2 g/dL, reticulócitos 7% (referência < 5%), teste de Coombs direto positivo fraco. Está ativo, sem alterações neurológicas. A conduta adequada é",
+      "statement": "Recém-nascido a termo, 39 semanas, 3.350 g, parto vaginal sem intercorrências, em aleitamento materno exclusivo, mamando bem, com perda de 4% do peso. A mãe é do grupo O, Rh positivo; o recém-nascido é do grupo A, Rh positivo. Com 46 horas de vida apresenta icterícia até as coxas. Exames: bilirrubina total 15,4 mg/dL, bilirrubina direta 0,6 mg/dL, hemoglobina 14,2 g/dL, reticulócitos 7% (referência < 5%), teste de Coombs direto positivo fraco. Está ativo, sem alterações neurológicas. A conduta adequada é",
+      "opts": [
+        "iniciar fototerapia e preparar exsanguineotransfusão imediata, porque a hemólise por incompatibilidade ABO com Coombs direto positivo impõe o procedimento.",
+        "manter em observação com exposição ao sol pela manhã e repetir a bilirrubina em 24 horas, já que o recém-nascido está em bom estado geral.",
+        "suspender o aleitamento materno por 24 horas, substituindo-o por fórmula, e repetir a bilirrubina em 24 horas.",
+        "iniciar fototerapia de alta intensidade, manter o aleitamento materno e dosar a bilirrubina total em quatro a seis horas."
+      ],
+      "alternatives": [
+        "iniciar fototerapia e preparar exsanguineotransfusão imediata, porque a hemólise por incompatibilidade ABO com Coombs direto positivo impõe o procedimento.",
+        "manter em observação com exposição ao sol pela manhã e repetir a bilirrubina em 24 horas, já que o recém-nascido está em bom estado geral.",
+        "suspender o aleitamento materno por 24 horas, substituindo-o por fórmula, e repetir a bilirrubina em 24 horas.",
+        "iniciar fototerapia de alta intensidade, manter o aleitamento materno e dosar a bilirrubina total em quatro a seis horas."
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "Fototerapia intensiva, manutenção do aleitamento e reavaliação precoce são compatíveis com o cenário.",
+      "commentStatus": "evidence-based-editorial",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 12,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Icterícia neonatal e incompatibilidade ABO"
+      ],
+      "editorialComment": true,
+      "commentReviewedAt": "2026-10-16",
+      "officialComment": "COMENTÁRIO EDUCACIONAL — pesquisa externa, não fornecido pelo PDF. Gabarito de estudo preservado; não é gabarito oficial. Conteúdo para estudo, não prescrição individual. Fontes na seção Referências.\n\nRACIOCÍNIO CLÍNICO\nMãe O, bebê A, teste direto de antiglobulina positivo e reticulocitose apoiam hemólise imune por incompatibilidade ABO. O componente indireto predomina. O limiar de tratamento não é um valor fixo para todo recém-nascido: depende das horas de vida, idade gestacional e fatores de risco de neurotoxicidade. Hemólise isoimune é um desses fatores e reduz o limiar.\n\nPOR QUE FOTOTERAPIA\nAos 46 horas, com 39 semanas e hemólise, a bilirrubina de 15,4 mg/dL deve ser confrontada com a curva de risco correspondente; o cenário sustenta fototerapia intensiva. A luz transforma a bilirrubina em produtos mais facilmente eliminados. Conferir equipamento, área de exposição e resposta laboratorial; a alternativa propõe nova dosagem em quatro a seis horas, útil para verificar queda ou progressão durante possível hemólise. O seguimento também deve considerar rebote após suspensão.\n\nO QUE NÃO FAZER\nManter aleitamento e avaliar ingestão, peso, diurese e evacuações. Positividade do teste de Coombs não determina, por si só, exsanguineotransfusão. Esta depende de limiares próprios, resposta ao tratamento e/ou sinais de encefalopatia. Banho de sol não substitui fototerapia controlada. O guia brasileiro contextualiza a investigação; os limiares devem ser verificados em nomograma atualizado, como a diretriz AAP de 2022, sem misturar curvas de versões diferentes.",
+      "alternativeRationales": {
+        "A": {
+          "alternativeId": "A",
+          "explanation": "Teste de Coombs positivo isolado não é indicação de exsanguineotransfusão imediata; usar limiar próprio e avaliação clínica."
+        },
+        "B": {
+          "alternativeId": "B",
+          "explanation": "Banho de sol não substitui fototerapia controlada; observar por mais 24 horas sem tratar ignora o risco hemolítico."
+        },
+        "C": {
+          "alternativeId": "C",
+          "explanation": "Suspender rotineiramente o aleitamento não trata a hemólise e pode prejudicar ingestão e eliminação da bilirrubina."
+        },
+        "D": {
+          "alternativeId": "D",
+          "explanation": "Fototerapia intensiva, manutenção do aleitamento e reavaliação precoce são compatíveis com o cenário."
+        }
+      },
+      "takeHome": "Icterícia neonatal: use idade em horas + idade gestacional + risco de neurotoxicidade; não memorize um único corte de bilirrubina.",
+      "references": [
+        {
+          "referenceId": "https://bvsms.saude.gov.br/bvs/publicacoes/atencao_saude_recem_nascido_v2.pdf",
+          "title": "Atenção à saúde do recém-nascido — volume II: icterícia e investigação (2014)",
+          "url": "https://bvsms.saude.gov.br/bvs/publicacoes/atencao_saude_recem_nascido_v2.pdf",
+          "citation": "Ministério da Saúde / SUS",
+          "role": "Orientação brasileira"
+        },
+        {
+          "referenceId": "PMID:35927462",
+          "title": "Kemper et al. AAP Clinical Practice Guideline Revision: hyperbilirubinemia in newborns ≥35 weeks. Pediatrics, 2022.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35927462/",
+          "citation": "PubMed · PMID 35927462",
+          "role": "Evidência científica"
+        }
+      ],
+      "keyPoints": [
+        "Icterícia neonatal: use idade em horas + idade gestacional + risco de neurotoxicidade; não memorize um único corte de bilirrubina."
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-033",
+      "n": 33,
+      "questionNumber": 33,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Mulher de 44 anos, assintomática, sem história familiar de câncer de mama ou de ovário; menarca aos 13 anos; dois filhos amamentados, sem uso de terapia hormonal, com exame clínico das mamas normal, procura a unidade básica de saúde em outubro e pede a mamografia anual que a amiga faz. Considerando as recomendações vigentes do Ministério da Saúde, a conduta adequada do médico de família é",
+      "statement": "Mulher de 44 anos, assintomática, sem história familiar de câncer de mama ou de ovário; menarca aos 13 anos; dois filhos amamentados, sem uso de terapia hormonal, com exame clínico das mamas normal, procura a unidade básica de saúde em outubro e pede a mamografia anual que a amiga faz. Considerando as recomendações vigentes do Ministério da Saúde, a conduta adequada do médico de família é",
+      "opts": [
+        "solicitar mamografia bienal, porque o rastreamento organizado no SUS passou a incluir as mulheres de 40 a 49 anos.",
+        "não solicitar, informando que o rastreamento mamográfico no SUS é indicado apenas entre 50 e 69 anos.",
+        "apresentar benefícios e riscos do exame nessa faixa etária e solicitar a mamografia se ela optar, em decisão compartilhada.",
+        "solicitar ultrassonografia das mamas anual como alternativa, reservando a mamografia para o início do rastreamento aos 50 anos."
+      ],
+      "alternatives": [
+        "solicitar mamografia bienal, porque o rastreamento organizado no SUS passou a incluir as mulheres de 40 a 49 anos.",
+        "não solicitar, informando que o rastreamento mamográfico no SUS é indicado apenas entre 50 e 69 anos.",
+        "apresentar benefícios e riscos do exame nessa faixa etária e solicitar a mamografia se ela optar, em decisão compartilhada.",
+        "solicitar ultrassonografia das mamas anual como alternativa, reservando a mamografia para o início do rastreamento aos 50 anos."
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "Permite ponderar benefícios, danos e preferências, oferecendo mamografia se a mulher optar após orientação.",
+      "commentStatus": "evidence-based-editorial",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 13,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Rastreamento mamográfico e decisão compartilhada"
+      ],
+      "editorialComment": true,
+      "commentReviewedAt": "2026-10-16",
+      "officialComment": "COMENTÁRIO EDUCACIONAL — pesquisa externa, não fornecido pelo PDF. Gabarito de estudo preservado; não é gabarito oficial. Conteúdo para estudo, não prescrição individual. Fontes na seção Referências.\n\nRACIOCÍNIO CLÍNICO\nA mulher de 44 anos é assintomática e de risco habitual: trata-se de rastreamento, não investigação de um nódulo. A Nota Técnica 626/2025 do Ministério da Saúde define rastreamento organizado bienal dos 50 aos 74 anos e permite acesso por demanda entre 40 e 49 anos, com informação sobre benefícios e riscos. Assim, a decisão compartilhada da alternativa C é apropriada no contexto brasileiro.\n\nO QUE EXPLICAR\nA mamografia pode reduzir mortalidade ao antecipar diagnóstico, mas também pode gerar falso-positivo, investigação invasiva, sobrediagnóstico e tratamento de tumores que não causariam dano naquele horizonte. Em faixas mais jovens, o balanço depende do menor risco absoluto e das preferências da pessoa. Não se promete que um exame normal afaste todo câncer nem que rastrear impeça o aparecimento da doença.\n\nDIFERENÇAS ENTRE DIRETRIZES\nA USPSTF de 2024 recomenda rastreamento bienal dos 40 aos 74 anos nos Estados Unidos; isso não é o mesmo desenho da política brasileira. A orientação deve identificar qual diretriz está sendo aplicada, em vez de apresentar as duas como equivalentes. Ultrassonografia não substitui mamografia de rastreamento por rotina. Sintomas, mutação genética, radioterapia torácica prévia ou história familiar relevante exigem outra avaliação, independentemente dessa faixa etária.",
+      "alternativeRationales": {
+        "A": {
+          "alternativeId": "A",
+          "explanation": "A nota brasileira não incluiu 40–49 anos no rastreamento organizado: nessa faixa prevê acesso por demanda com aconselhamento."
+        },
+        "B": {
+          "alternativeId": "B",
+          "explanation": "A faixa organizada foi ampliada para 50–74 anos e há acesso por demanda aos 40–49; a afirmação de exclusividade é inadequada."
+        },
+        "C": {
+          "alternativeId": "C",
+          "explanation": "Permite ponderar benefícios, danos e preferências, oferecendo mamografia se a mulher optar após orientação."
+        },
+        "D": {
+          "alternativeId": "D",
+          "explanation": "Ultrassonografia não é substituta rotineira da mamografia para rastreamento em risco habitual."
+        }
+      },
+      "takeHome": "No SUS, distinguir rastreamento organizado de acesso por demanda e investigação de sintomas.",
+      "references": [
+        {
+          "referenceId": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2025/nota-tecnica-no-626-2025-cgcan-decan-saes-ms.pdf/@@download/file",
+          "title": "Nota Técnica 626/2025: organização do acesso à mamografia no SUS",
+          "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2025/nota-tecnica-no-626-2025-cgcan-decan-saes-ms.pdf/@@download/file",
+          "citation": "Ministério da Saúde / SUS",
+          "role": "Orientação brasileira"
+        },
+        {
+          "referenceId": "PMID:38687503",
+          "title": "USPSTF. Screening for breast cancer: recommendation statement. JAMA, 2024.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38687503/",
+          "citation": "PubMed · PMID 38687503",
+          "role": "Evidência científica"
+        }
+      ],
+      "keyPoints": [
+        "No SUS, distinguir rastreamento organizado de acesso por demanda e investigação de sintomas."
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-034",
+      "n": 34,
+      "questionNumber": 34,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Homem de 35 anos, auxiliar de produção em fábrica de móveis, com carteira assinada, é atendido na unidade de pronto atendimento após corte na mão esquerda em serra circular durante o turno. Há ferimento de 4 cm na eminência tenar, sem lesão tendínea, nervosa ou óssea, suturado sem intercorrências; a vacinação antitetânica está em dia. Ele receberá atestado de cinco dias e pergunta se precisa de algum documento para a empresa. Além do atestado, a conduta adequada do médico, quanto à vigilância e aos direitos do trabalhador, é",
+      "statement": "Homem de 35 anos, auxiliar de produção em fábrica de móveis, com carteira assinada, é atendido na unidade de pronto atendimento após corte na mão esquerda em serra circular durante o turno. Há ferimento de 4 cm na eminência tenar, sem lesão tendínea, nervosa ou óssea, suturado sem intercorrências; a vacinação antitetânica está em dia. Ele receberá atestado de cinco dias e pergunta se precisa de algum documento para a empresa. Além do atestado, a conduta adequada do médico, quanto à vigilância e aos direitos do trabalhador, é",
+      "opts": [
+        "notificar o caso ao Sinan apenas se houver amputação, fratura ou necessidade de internação, por tratar-se de acidente de trabalho leve e sem sequela.",
+        "preencher somente a Comunicação de Acidente de Trabalho, que substitui a notificação epidemiológica por conter os mesmos dados.",
+        "notificar o acidente ao Sinan em até sete dias, como os acidentes com exposição a material biológico, e dispensar a Comunicação de Acidente de Trabalho por não haver afastamento superior a quinze dias.",
+        "notificar o acidente ao Sinan em até 24 horas e orientar a emissão da Comunicação de Acidente de Trabalho pela empresa ou, se ela se omitir, pelo trabalhador ou pelo médico."
+      ],
+      "alternatives": [
+        "notificar o caso ao Sinan apenas se houver amputação, fratura ou necessidade de internação, por tratar-se de acidente de trabalho leve e sem sequela.",
+        "preencher somente a Comunicação de Acidente de Trabalho, que substitui a notificação epidemiológica por conter os mesmos dados.",
+        "notificar o acidente ao Sinan em até sete dias, como os acidentes com exposição a material biológico, e dispensar a Comunicação de Acidente de Trabalho por não haver afastamento superior a quinze dias.",
+        "notificar o acidente ao Sinan em até 24 horas e orientar a emissão da Comunicação de Acidente de Trabalho pela empresa ou, se ela se omitir, pelo trabalhador ou pelo médico."
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas. Gabarito: D — notificar o acidente ao Sinan em até 24 horas e orientar a emissão da Comunicação de Acidente de Trabalho pela empresa ou, se ela se omitir, pelo trabalhador ou pelo médico.",
+      "commentStatus": "not-provided",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 14,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Saúde do trabalhador: notificação e Comunicação de Acidente de Trabalho"
+      ]
+    },
+    {
+      "id": "tutoria-semana-01-035",
+      "n": 35,
+      "questionNumber": 35,
+      "year": "tutoria-semana-01",
+      "edition": "tutoria-semana-01",
+      "text": "Homem de 76 anos, ex-tabagista, com doença pulmonar obstrutiva crônica grave em oxigenoterapia domiciliar, hipertenso, com adenocarcinoma de pulmão metastático em cuidados paliativos exclusivos, acompanhado pela equipe de saúde da família em visitas domiciliares quinzenais, a última há seis dias. De madrugada, a família o encontra sem vida no leito e aciona o SAMU, cujo médico constata o óbito, sem sinais de violência, e orienta a família a procurar a unidade básica pela manhã. O município dispõe de Serviço de Verificação de Óbitos e de Instituto Médico Legal. Nessa situação, a declaração de óbito deve ser",
+      "statement": "Homem de 76 anos, ex-tabagista, com doença pulmonar obstrutiva crônica grave em oxigenoterapia domiciliar, hipertenso, com adenocarcinoma de pulmão metastático em cuidados paliativos exclusivos, acompanhado pela equipe de saúde da família em visitas domiciliares quinzenais, a última há seis dias. De madrugada, a família o encontra sem vida no leito e aciona o SAMU, cujo médico constata o óbito, sem sinais de violência, e orienta a família a procurar a unidade básica pela manhã. O município dispõe de Serviço de Verificação de Óbitos e de Instituto Médico Legal. Nessa situação, a declaração de óbito deve ser",
+      "opts": [
+        "emitida pelo médico do SAMU que constatou o óbito, com “parada cardiorrespiratória” como causa básica, por ter sido o último profissional a examinar o paciente.",
+        "emitida pelo médico da equipe de saúde da família, com o adenocarcinoma de pulmão como causa básica na Parte I e a doença pulmonar obstrutiva e a hipertensão na Parte II.",
+        "emitida pelo Serviço de Verificação de Óbitos, após necropsia, por se tratar de morte natural sem assistência médica no momento do evento, ainda que a doença fosse conhecida.",
+        "encaminhada ao Instituto Médico Legal, porque o óbito ocorreu em domicílio, sem testemunha médica, o que configura morte suspeita até prova em contrário."
+      ],
+      "alternatives": [
+        "emitida pelo médico do SAMU que constatou o óbito, com “parada cardiorrespiratória” como causa básica, por ter sido o último profissional a examinar o paciente.",
+        "emitida pelo médico da equipe de saúde da família, com o adenocarcinoma de pulmão como causa básica na Parte I e a doença pulmonar obstrutiva e a hipertensão na Parte II.",
+        "emitida pelo Serviço de Verificação de Óbitos, após necropsia, por se tratar de morte natural sem assistência médica no momento do evento, ainda que a doença fosse conhecida.",
+        "encaminhada ao Instituto Médico Legal, porque o óbito ocorreu em domicílio, sem testemunha médica, o que configura morte suspeita até prova em contrário."
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "answerStatus": "supplied-study-key",
+      "answerNote": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas.",
+      "explanation": "Gabarito elaborado para estudo no PDF fornecido; não é uma publicação oficial da instituição. O arquivo não apresenta comentários ou justificativas. Gabarito: B — emitida pelo médico da equipe de saúde da família, com o adenocarcinoma de pulmão como causa básica na Parte I e a doença pulmonar obstrutiva e a hipertensão na Parte II.",
+      "commentStatus": "not-provided",
+      "source": "Tutoria ENAMED · Semana 01 · P9 + P10",
+      "sourceFile": "questoes_enamed_estilo_revalida.pdf",
+      "sourceQuestionNumber": 15,
+      "tags": [
+        "Tutoria Primeira Semana",
+        "Declaração de óbito: morte natural com assistência domiciliar"
       ]
     }
   ]

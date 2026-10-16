@@ -1,4 +1,4 @@
-// Existing metadata preserved; source taxonomy for imported tutoring questions.
+// Individual metadata; original question IDs are preserved.
 const QuestionClassification = {
   "2021-001": {
     "grandeArea": "ginecologia_obstetricia",
@@ -10180,5 +10180,110 @@ const QuestionClassification = {
     "tema": "Autonomia e comunicação de diagnóstico",
     "classificacaoPendente": false,
     "fonte": "Área informada no Caderno do Aluno e tema do relatório Semana 01"
+  },
+  "tutoria-semana-01-021": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Tuberculose: avaliação de contato e infecção latente",
+    "tema": "Tuberculose: avaliação de contato e infecção latente",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-022": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Hipertensão sem lesão aguda de órgão-alvo",
+    "tema": "Hipertensão sem lesão aguda de órgão-alvo",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-023": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Diabetes tipo 2 e doença cardiovascular",
+    "tema": "Diabetes tipo 2 e doença cardiovascular",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-024": {
+    "grandeArea": "cirurgia",
+    "subarea": "Hérnia inguinal encarcerada",
+    "tema": "Hérnia inguinal encarcerada",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-025": {
+    "grandeArea": "cirurgia",
+    "subarea": "Obstrução intestinal por aderências",
+    "tema": "Obstrução intestinal por aderências",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-026": {
+    "grandeArea": "cirurgia",
+    "subarea": "Trauma pélvico e choque",
+    "tema": "Trauma pélvico e choque",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-027": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Rastreamento do colo uterino: DNA-HPV",
+    "tema": "Rastreamento do colo uterino: DNA-HPV",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-028": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Assistência ao terceiro período do parto",
+    "tema": "Assistência ao terceiro período do parto",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-029": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Pré-eclâmpsia",
+    "tema": "Pré-eclâmpsia",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-030": {
+    "grandeArea": "pediatria",
+    "subarea": "Prevenção da infecção pelo vírus sincicial respiratório",
+    "tema": "Prevenção da infecção pelo vírus sincicial respiratório",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-031": {
+    "grandeArea": "pediatria",
+    "subarea": "Desidratação e reidratação enteral",
+    "tema": "Desidratação e reidratação enteral",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-032": {
+    "grandeArea": "pediatria",
+    "subarea": "Icterícia neonatal e incompatibilidade ABO",
+    "tema": "Icterícia neonatal e incompatibilidade ABO",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-033": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Rastreamento mamográfico e decisão compartilhada",
+    "tema": "Rastreamento mamográfico e decisão compartilhada",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-034": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Saúde do trabalhador: notificação e Comunicação de Acidente de Trabalho",
+    "tema": "Saúde do trabalhador: notificação e Comunicação de Acidente de Trabalho",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tutoria-semana-01-035": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Declaração de óbito: morte natural com assistência domiciliar",
+    "tema": "Declaração de óbito: morte natural com assistência domiciliar",
+    "classificacaoPendente": false,
+    "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
   }
 };
