@@ -300,15 +300,22 @@
         </form>
         <p id="developer-status" role="status" aria-live="polite"></p>
         <section id="developer-results" hidden>
+          <dl><div><dt>Número de acessos</dt><dd id="site-accesses">—</dd></div><div><dt><span class="site-online-dot" aria-hidden="true"></span>Dispositivos online</dt><dd id="site-online">—</dd></div></dl>
+          <p>Um acesso por sessão. Online: navegadores ativos nos últimos 90 segundos. Abas do mesmo navegador contam como um dispositivo.</p>
+          <p id="site-activity-status" role="status" aria-live="polite">Carregando contadores…</p>
+          <h3>Perfis salvos na nuvem</h3>
+          <p class="areas-note">Somente perfis sincronizados com o Supabase. Dados mantidos apenas no navegador não aparecem aqui. Códigos de recuperação e respostas individuais não são exibidos.</p>
+          <p id="developer-profiles-status" role="status" aria-live="polite"></p>
+          <div class="statistics-table-wrap"><table><thead><tr><th>Nome do perfil</th><th>Identificador</th><th>Dispositivos vinculados</th><th>Questões salvas</th><th>Última resposta sincronizada</th></tr></thead><tbody id="developer-profiles"></tbody></table></div>
+          <button type="button" class="areas-back" id="developer-profiles-more" hidden>Próxima página de perfis</button>
+          <button type="button" class="areas-back" id="developer-profiles-refresh">Atualizar perfis</button>
+          <h3>Dispositivos e visitas</h3>
           <p id="developer-summary"></p>
           <div class="statistics-table-wrap"><table><thead><tr><th>Código do navegador</th><th>Visitas</th><th>Primeiro acesso</th><th>Última atividade</th></tr></thead><tbody id="developer-devices"></tbody></table></div>
           <button type="button" class="areas-back" id="developer-more">Próxima página</button>
           <button type="button" class="areas-back" id="developer-logout">Sair</button>
         </section>
       </details>
-      <dl><div><dt>Número de acessos</dt><dd id="site-accesses">—</dd></div><div><dt><span class="site-online-dot" aria-hidden="true"></span>Dispositivos online</dt><dd id="site-online">—</dd></div></dl>
-      <p>Um acesso por sessão. Online: navegadores ativos nos últimos 90 segundos. Abas do mesmo navegador contam como um dispositivo.</p>
-      <p id="site-activity-status" role="status" aria-live="polite">Carregando contadores…</p>
     </footer>
   </div>
 </section>
@@ -584,7 +591,7 @@
 <script src="js/assistant-brain.js?v=5"></script>
 <script src="js/app.js?v=startup1"></script>
 <script src="js/install-app.js?v=1"></script>
-<script src="js/developer-activity.js?v=1"></script>
+<script src="js/developer-activity.js?v=profiles1"></script>
 <script src="js/global-progress.js?v=1"></script>
 </body>
 </html>
