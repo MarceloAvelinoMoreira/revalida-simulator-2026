@@ -267,12 +267,25 @@ test('educational resolver retrieves the same comments, rationales and images fo
   assert.equal(quinzena.view.comment,run('QuestionRepository.getById("quinzena-01-001").officialComment'));
   assert.equal(quinzena.view.correctRationale,run('QuestionRepository.getById("quinzena-01-001").explanation'));
 });
+test('statistics layout: overview stays visible, specific details default closed and data targets remain unique',()=>{
+  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+  for(const id of ['statistics-timing-details','statistics-exams-details','statistics-saving-details','statistics-outcomes-details']){
+    const tag=html.match(new RegExp('<details[^>]*id="'+id+'"[^>]*>'));
+    assert.ok(tag);assert.ok(!/\bopen\b/.test(tag[0]));
+  }
+  for(const id of ['statistics-summary','statistics-area-chart','statistics-outcomes-chart','statistics-timing-summary','statistics-exams','results-import-preview'])assert.equal(html.split('id="'+id+'"').length,2);
+  assert.ok(html.indexOf('id="statistics-summary"')<html.indexOf('id="statistics-saving-details"'));
+  assert.ok(!html.includes('Como os dados são calculados e salvos'));
+});
+
 test('statistics: no fabricated history, empty state and navigation back to home',()=>{
   const {run,node}=setup();
   run('StudyStatistics.open()');
   assert.equal(run('StudyStatistics.snapshot().overall.answered'),0);
   assert.equal(run('StudyStatistics.snapshot().overall.accuracy'),null);
   assert.equal(node('statistics-empty').hidden,false);
+  assert.equal(node('statistics-area-overview').hidden,true);
+  assert.ok(!node('statistics-outcomes-chart').innerHTML.includes('<svg'));
   assert.match(node('statistics-storage').textContent,/Salvamento automático ativo/);
   assert.equal(node('screen-home').style.display,'none');
   assert.equal(node('screen-statistics').style.display,'block');
@@ -346,6 +359,8 @@ test('time statistics: 100-question projection, correct-only area comparison, pe
   assert.match(b.node('statistics-outcomes-chart').innerHTML,/2 acertos e 1 erros entre 3 questões respondidas/);
   assert.match(b.node('statistics-outcomes-chart').innerHTML,/66,7%/);
   assert.match(b.node('statistics-area-chart').innerHTML,/width="50"/); // Surgery: one correct of two answered.
+  assert.equal(b.node('statistics-area-overview').hidden,false);
+  assert.ok(!b.node('statistics-area-chart').innerHTML.includes('Sem respostas'));
   assert.match(b.node('statistics-time-chart').innerHTML,/width="50"/); // Clinical: 60s compared with surgery's 120s.
   assert.match(b.node('statistics-time-chart').innerHTML,/width="100"/);
   assert.match(b.node('statistics-exam-chart').innerHTML,/respondidas ·/);

@@ -16,6 +16,29 @@ test('unconfigured cloud leaves guest persistence and backup working; no network
   const a=setup(false);a.run("RevalidaStorage.set(RevalidaStorage.keys.progress,{q1:{answer:'A',status:'correct'}})");
   assert.equal(a.run('ResultsTransfer.backup().results.q1.answer'),'A');assert.match(a.node('cloud-status').textContent,/não configurada/);assert.equal(a.calls(),0);
 });
+
+test('home profile: shared dialog, name-only save, reload persistence and no required statistics navigation',async()=>{
+  const a=setup(false);
+  const dialog=a.node('profile-dialog');let onClose,opened=0,statisticsOpened=0;
+  dialog.showModal=()=>{dialog.open=true;opened++;};dialog.addEventListener=(name,fn)=>{if(name==='close')onClose=fn;};
+  a.c.StudyStatistics.open=()=>statisticsOpened++;
+  a.node('cloud-username').focus=()=>{};
+  let focused=false;a.node('home-profile-button').focus=()=>{focused=true;};
+  a.run('CloudSync.openProfile();CloudSync.openProfile()');assert.equal(opened,1);
+  a.node('cloud-username').value='Meu estudo';
+  await a.run('CloudSync.authenticate({preventDefault(){}})');
+  assert.equal(statisticsOpened,0);
+  assert.equal(a.node('home-profile-label').textContent,'Perfil: Meu estudo');
+  assert.equal(a.node('cloud-login').hidden,true);assert.equal(a.node('cloud-account').hidden,false);
+  assert.equal(JSON.parse(a.saved.get('revalida.cloud.profile')).name,'Meu estudo');
+  dialog.open=false;onClose();assert.equal(focused,true);
+  const b=setup(false,Object.fromEntries(a.saved));
+  assert.equal(b.node('home-profile-label').textContent,'Perfil: Meu estudo');
+  assert.equal(b.node('cloud-account').hidden,false);
+  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+  assert.equal(html.split('id="cloud-login"').length,2);
+  assert.ok(html.indexOf('id="profile-dialog"')<html.indexOf('<section id="screen-statistics"'));
+});
 test('accounts have isolated caches and visitor migration is explicit',()=>{
   const a=setup();a.run("RevalidaStorage.set(RevalidaStorage.keys.progress,{q1:{answer:'A',status:'correct'}})");a.login('alice');
   assert.equal(a.run('Object.keys(RevalidaStorage.loadProgress()).length'),0);

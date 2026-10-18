@@ -43,6 +43,12 @@
 .install-app-label { font-weight: 500; font-size: .85rem; }
 .install-app-detail { display: none; }
 #resume-quiz-btn { box-sizing: border-box; width: min(100%, 240px); height: 44px; }
+#home-profile-button { height: auto; min-height: 44px; margin-bottom: 0; }
+#home-profile-label { overflow-wrap: anywhere; }
+#profile-dialog { position: fixed; inset: 0; margin: auto; }
+#profile-dialog input { box-sizing: border-box; width: 100%; min-width: 0; }
+#profile-dialog .statistics-details { border: 0; padding: 0; }
+#profile-dialog .results-transfer-actions { flex-wrap: wrap; }
 .install-app-guide {
   box-sizing: border-box;
   width: min(480px, calc(100% - 32px));

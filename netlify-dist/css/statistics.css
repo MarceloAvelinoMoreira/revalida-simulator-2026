@@ -1,10 +1,10 @@
 /* Keep existing REVALIDDA palette/type; the statistics table is intentionally quiet. */
 .home-study-tools {width:100%;max-width:640px;margin:0 0 24px;}
 .home-study-tools button {width:100%;font-weight:600;}
-.statistics-storage {padding:12px 16px;color:#b6dacb;background:#10251f;border-left:3px solid #5da88c;border-radius:4px;line-height:1.6;}
+.statistics-storage {padding:12px 16px;color:#b6dacb;background:transparent;border:0;line-height:1.6;}
 .statistics-storage.storage-warning {color:#f0ce91;background:#2b2318;border-color:#d7a04a;}
 .statistics-empty {padding:20px;border:1px solid #38506b;border-radius:8px;line-height:1.6;color:#bcd8f4;}
-.statistics-timing-insight {padding:16px 18px;border-left:3px solid #62afff;background:#121e2f;border-radius:4px;color:#cde7ff;line-height:1.7;}
+.statistics-timing-insight {padding:16px 0;border:0;color:#cde7ff;line-height:1.7;max-width:70ch;}
 .statistics-shell [hidden] {display:none!important;}
 .statistics-shell section {margin-top:32px;}
 .statistics-table-wrap {overflow-x:auto;max-width:100%;}
@@ -25,9 +25,11 @@
 /* Quiet dashboard: numeric overview, comparable charts, on-demand tables. */
 .statistics-shell {max-width:1080px;}
 .statistics-shell .areas-header {margin-bottom:16px;}
-.statistics-shell .statistics-storage {display:inline-block;margin:0 0 22px;padding:7px 12px;font-size:12px;}
+.statistics-shell .statistics-storage {display:inline-block;margin:0 0 18px;padding:0;font-size:12px;background:transparent;border:0;}
+.statistics-shell .statistics-storage.storage-warning {padding:12px;border:1px solid #d7a04a;background:#2b2318;}
 .statistics-shell #statistics-summary {border:0;padding:0;gap:12px;}
-.statistics-shell #statistics-summary>div {padding:18px;background:#121e2f;border:1px solid #2b3c51;border-radius:10px;}
+.statistics-shell #statistics-summary>div {padding:14px 18px;background:transparent;border:0;border-right:1px solid #2b3c51;border-radius:0;min-width:0;}
+.statistics-shell #statistics-summary>div:last-child {border-right:0;}
 .statistics-shell #statistics-summary strong {font-size:clamp(22px,3vw,30px);font-variant-numeric:tabular-nums;}
 .statistics-bank-summary {font-size:12px;line-height:1.7;color:#a9bdd2;margin:14px 0 24px;}
 .statistics-shell .statistics-charts {display:grid;grid-template-columns:.85fr 1.15fr;gap:20px;margin-top:24px;align-items:start;}
@@ -74,3 +76,26 @@
 .site-activity dd {margin:8px 0 0;color:#e4ecf7;font-size:1.6rem;font-weight:600;font-variant-numeric:tabular-nums;}
 .site-activity p {font-size:.8rem;line-height:1.6;max-width:65ch;}
 .site-online-dot {display:inline-block;width:7px;height:7px;border-radius:50%;background:#53cdb0;margin-right:7px;}
+
+/* Overview first; detailed comparisons and storage tools stay on demand. */
+.statistics-shell #statistics-summary {gap:0;padding:8px 0;border-bottom:1px solid #2b3c51;}
+.statistics-shell #statistics-summary strong {font-size:1.5rem;overflow-wrap:anywhere;}
+.statistics-shell .areas-header h1 {font-size:2rem;}
+.statistics-shell .statistics-empty {padding:0;border:0;max-width:65ch;margin:20px 0 28px;}
+.statistics-shell .statistics-bars {gap:14px;}
+.statistics-shell .statistics-charts {grid-template-columns:minmax(0,1fr);gap:16px;margin-bottom:24px;}
+.statistics-shell .statistics-chart {padding:20px;}
+.statistics-shell .statistics-disclosure {margin-top:0;padding:20px 0;}
+.statistics-disclosure>summary {font-size:16px;font-weight:600;}
+.statistics-disclosure>summary>span {display:block;margin:5px 0 0 18px;color:#91a3ba;font-size:12px;font-weight:400;}
+.statistics-disclosure[open]>summary {margin-bottom:22px;}
+.statistics-disclosure .statistics-details {margin-top:12px;}
+.statistics-shell .site-activity {margin-top:20px;padding-top:0;border-top:0;}
+.statistics-shell .statistics-outcomes {padding:8px 0;}
+.statistics-shell .statistics-outcomes>svg {width:150px;height:150px;}
+.statistics-shell .statistics-details>summary {display:list-item;min-height:44px;box-sizing:border-box;padding:10px 2px;}
+.statistics-shell summary:hover {color:#eef5ff;}
+.statistics-shell summary::marker {color:#8dc9ff;}
+.statistics-shell ::selection {background:#21476f;color:#eef5ff;}
+@media(max-width:700px){.statistics-shell #statistics-summary>div:nth-child(2){border-right:0;}.statistics-shell #statistics-summary>div:nth-child(-n+2){border-bottom:1px solid #2b3c51;}.statistics-shell #statistics-summary>div{padding:14px 12px;}}
+@media(max-width:700px){.statistics-disclosure>summary{font-size:15px;}.statistics-shell .statistics-chart{padding:16px;}.statistics-shell .statistics-outcomes>svg{width:120px;height:120px;}}

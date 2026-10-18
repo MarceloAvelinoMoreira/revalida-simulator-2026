@@ -60,11 +60,13 @@ const StudyStatistics = (() => {
       + t.areas.map(row=>`<tr><th scope="row">${esc(row.name)}</th><td>${row.count}</td><td>${duration(row.meanMs)}</td></tr>`).join('') + '</tbody></table>';
     el('statistics-summary').innerHTML = [['Respondidas',s.answered],['Acertos',s.correct],['Erros',s.wrong],['Taxa de acerto',pct(s.accuracy)]].map(([label,value])=>`<div><span>${label}</span><strong>${value}</strong></div>`).join('');
     el('statistics-bank-summary').textContent = `${s.total} questões no banco · ${s.unanswered} não respondidas · ${s.annulled} anuladas · ${pct(s.progress)} de progresso`;
-    el('statistics-outcomes-chart').innerHTML = outcomes(s);
-    el('statistics-area-chart').innerHTML = bars(data.areas);
+    el('statistics-outcomes-chart').innerHTML = s.answered ? outcomes(s) : '<p class="areas-note">O gráfico aparecerá quando você responder à primeira questão.</p>';
+    const activeAreas = data.areas.filter(row=>row.answered > 0);
+    el('statistics-area-chart').innerHTML = activeAreas.length ? bars(activeAreas) : '<p class="areas-note statistics-chart-empty">Suas áreas de estudo aparecerão aqui após as primeiras respostas.</p>';
     el('statistics-time-chart').innerHTML = bars(t.areas,true);
     el('statistics-exam-chart').innerHTML = bars(data.exams);
     el('statistics-empty').hidden = s.answered > 0;
+    el('statistics-area-overview').hidden = s.answered === 0;
     el('statistics-areas').innerHTML = table(data.areas,'Questões válidas e últimas respostas por grande área');
     el('statistics-exams').innerHTML = table(data.exams,'Questões válidas e últimas respostas por prova');
     const available=RevalidaStorage.progressPersistenceAvailable();

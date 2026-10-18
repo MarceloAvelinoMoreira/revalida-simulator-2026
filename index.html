@@ -37,12 +37,12 @@
 <link rel="stylesheet" href="css/style-assistant-v1.css?v=neural1">
 <link rel="stylesheet" href="css/assistant-brain.css?v=4">
 <link rel="stylesheet" href="css/areas.css?v=2">
-<link rel="stylesheet" href="css/statistics.css?v=activity1">
+<link rel="stylesheet" href="css/statistics.css?v=impeccable1">
 <link rel="stylesheet" href="css/study-buttons.css?v=1">
 <link rel="stylesheet" href="css/quiz-clock.css?v=1">
 <link rel="stylesheet" href="css/mobile-app.css?v=iphone1">
-<link rel="stylesheet" href="css/install-app.css?v=tutorias1">
-<link rel="stylesheet" href="css/global-progress.css?v=2">
+<link rel="stylesheet" href="css/install-app.css?v=homeprofile1">
+<link rel="stylesheet" href="css/global-progress.css?v=examcheck1">
 <style>
   .mode-card,
   .year-btn,
@@ -225,20 +225,20 @@
 
   <button class="start-btn" id="start-btn" onclick="startQuiz()">Iniciar simulado</button>
   <button type="button" id="resume-quiz-btn" onclick="resumeQuiz()" hidden>Retomar simulado salvo</button>
+  <button type="button" id="home-profile-button" class="install-app-button install-app-home" aria-haspopup="dialog" aria-controls="profile-dialog" onclick="CloudSync.openProfile()">
+    <span class="install-app-symbol" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="10" r="5"/><path d="M6 28v-3a10 10 0 0 1 20 0v3M23 5l2 2 4-4"/></svg></span>
+    <span id="home-profile-label" class="install-app-label">Salvar meu perfil</span>
+  </button>
   <button type="button" id="install-app-button" class="install-app-button install-app-home" aria-haspopup="dialog" aria-controls="install-app-guide">
     <span class="install-app-symbol" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><rect x="6" y="3" width="16" height="26" rx="4"/><path d="M11 7h6M12 25h4"/><circle cx="24" cy="17" r="7"/><path d="M24 14v6M21 17h6"/></svg></span>
     <span class="install-app-copy"><span class="install-app-label">Instalar REVALIDDA</span><span class="install-app-detail">Adicionar à tela inicial</span></span>
   </button>
 </div>
 
-<!-- RESPOSTAS RÁPIDAS -->
-<section id="screen-statistics" class="screen" style="display:none" aria-labelledby="statistics-title">
-  <div class="areas-shell statistics-shell">
-    <button type="button" class="areas-back" onclick="StudyStatistics.home()">← Menu principal</button>
-    <header class="areas-header"><h1 id="statistics-title" tabindex="-1">Seu estudo, em perspectiva</h1><p>Veja seus resultados, encontre áreas para revisar e acompanhe seu ritmo.</p></header>
-    <p id="statistics-storage" class="statistics-storage" role="status"></p>
-    <details class="statistics-details results-transfer" id="cloud-settings">
-      <summary>Salvamento automático entre dispositivos</summary>
+    <dialog id="profile-dialog" class="install-app-guide" aria-labelledby="profile-dialog-title">
+      <form method="dialog"><button type="submit" class="areas-back" aria-label="Fechar perfil">Fechar</button></form>
+      <h2 id="profile-dialog-title">Salvar meu perfil</h2>
+      <div class="statistics-details results-transfer" id="cloud-settings">
       <p class="areas-note">Escolha um nome para começar, sem e-mail ou senha. Para conectar outro dispositivo ao mesmo perfil, use o código gerado aqui. Respostas e tempos sincronizam ao voltar ao menu e a cada 30 segundos fora da prova. Sem internet, continuam salvos neste navegador; a prova em andamento permanece local.</p>
       <p id="cloud-status" role="status" aria-live="polite"></p>
       <form id="cloud-login" onsubmit="CloudSync.authenticate(event)">
@@ -253,42 +253,54 @@
         <p class="areas-note">Criar um perfil adiciona os resultados de visitante sem apagar os originais. Trocar de perfil preserva o cache anterior neste dispositivo.</p>
       </div>
       <details><summary>Já tenho um perfil em outro dispositivo</summary><form id="cloud-device" onsubmit="CloudSync.joinDevice(event)"><label for="cloud-device-code">Código do dispositivo de origem</label><input id="cloud-device-code" type="text" autocomplete="off" spellcheck="false" required maxlength="64"><button id="cloud-connect" class="areas-back" type="submit">Conectar este dispositivo</button></form></details>
-    </details>
-    <details class="statistics-details results-transfer">
-      <summary>Exportar ou importar resultados</summary>
-      <p class="areas-note">No dispositivo de origem, exporte o arquivo JSON e envie-o para o outro dispositivo por AirDrop, Drive, e-mail ou outro meio de sua preferência. No destino, abra este site e importe o arquivo. Inclui respostas e tempos registrados, não a prova em andamento. Esta transferência manual também funciona sem conta na nuvem.</p>
-      <div class="results-transfer-actions">
-        <button type="button" class="areas-back" onclick="ResultsTransfer.exportFile()">Exportar resultados</button>
-        <button type="button" class="areas-back" onclick="document.getElementById('results-import-file').click()">Escolher arquivo para importar</button>
-        <input id="results-import-file" type="file" accept=".json,application/json" onchange="ResultsTransfer.selectFile(this)" hidden>
       </div>
-      <p id="results-transfer-status" role="status" aria-live="polite"></p>
-      <div id="results-import-preview" hidden>
-        <p id="results-import-description" class="areas-note"></p>
-        <label for="results-import-policy">Para questões já existentes neste navegador:</label>
-        <select id="results-import-policy"><option value="keep">Manter meus resultados atuais</option><option value="replace">Usar os resultados do arquivo</option></select>
-        <p class="areas-note">Questões que não estão no arquivo permanecem intactas. Exporte uma cópia dos resultados atuais antes de substituir respostas.</p>
-        <div class="results-transfer-actions"><button type="button" class="areas-back" onclick="ResultsTransfer.confirm()">Confirmar importação</button><button type="button" class="areas-back" onclick="ResultsTransfer.cancel()">Cancelar</button></div>
-      </div>
-    </details>
+    </dialog>
+
+
+<!-- RESPOSTAS RÁPIDAS -->
+<section id="screen-statistics" class="screen" style="display:none" aria-labelledby="statistics-title">
+  <div class="areas-shell statistics-shell">
+    <button type="button" class="areas-back" onclick="StudyStatistics.home()">← Menu principal</button>
+    <header class="areas-header"><h1 id="statistics-title" tabindex="-1">Seu desempenho</h1><p>O essencial do seu estudo. Abra os detalhes quando precisar.</p></header>
+    <p id="statistics-storage" class="statistics-storage" role="status"></p>
     <div id="statistics-summary" class="area-stats" aria-label="Resumo do desempenho"></div>
     <p id="statistics-bank-summary" class="statistics-bank-summary"></p>
     <p id="statistics-empty" class="statistics-empty" hidden>Você ainda não respondeu questões neste navegador. Inicie uma prova ou um estudo por área para acompanhar seu desempenho aqui.</p>
-    <div class="statistics-charts">
-      <section class="statistics-chart" aria-labelledby="statistics-outcomes-title"><h2 id="statistics-outcomes-title">Acertos e erros</h2><p>Distribuição das questões respondidas.</p><div id="statistics-outcomes-chart"></div></section>
+    <div class="statistics-charts" id="statistics-area-overview">
       <section class="statistics-chart" aria-labelledby="statistics-area-chart-title"><h2 id="statistics-area-chart-title">Aproveitamento por área</h2><p>Taxa de acerto entre as questões respondidas · escala de 0 a 100%.</p><div id="statistics-area-chart"></div></section>
     </div>
-    <section aria-labelledby="statistics-timing-title">
-      <h2 id="statistics-timing-title">Ritmo de estudo</h2>
+    <details class="statistics-details statistics-disclosure" id="statistics-outcomes-details"><summary id="statistics-outcomes-title">Distribuição de acertos e erros <span>Veja o gráfico das respostas registradas</span></summary><div id="statistics-outcomes-chart"></div></details>
+    <details class="statistics-details statistics-disclosure" id="statistics-timing-details">
+      <summary id="statistics-timing-title">Ritmo de estudo <span>Tempos, previsão de 100 questões e comparação por área</span></summary>
       <div id="statistics-timing-summary" class="area-stats" aria-label="Resumo dos tempos de resposta"></div>
       <p class="areas-note">Projeção de 100 questões = média por resposta × 100. Não inclui pausas, comentários após responder ou revisão final.</p>
       <p id="statistics-timing-insight" class="statistics-timing-insight"></p>
       <section class="statistics-chart" aria-labelledby="statistics-time-chart-title"><h3 id="statistics-time-chart-title">Tempo médio para acertar por área</h3><p>Somente acertos cronometrados. Barras mais longas indicam mais tempo.</p><div id="statistics-time-chart"></div></section>
       <details class="statistics-details"><summary>Ver tempos e quantidade de acertos</summary><div id="statistics-timing-areas" class="statistics-table-wrap" role="region" aria-label="Tempos por grande área" tabindex="0"></div></details>
-    </section>
+    </details>
     <details class="statistics-details"><summary id="statistics-areas-title">Ver detalhes por grande área</summary><div id="statistics-areas" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por área" tabindex="0"></div></details>
-    <section aria-labelledby="statistics-exams-title"><h2 id="statistics-exams-title">Desempenho por prova</h2><p class="areas-note">Taxa de acerto nas respostas de cada prova · escala de 0 a 100%.</p><div id="statistics-exam-chart" class="statistics-chart"></div><details class="statistics-details"><summary>Ver detalhes por prova</summary><div id="statistics-exams" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por prova" tabindex="0"></div></details></section>
-    <details class="statistics-details statistics-method"><summary>Como os dados são calculados e salvos</summary><p class="areas-note">Cada questão conta uma vez, usando a última resposta. Anuladas não entram no aproveitamento ou no progresso. A estimativa de 100 questões considera acertos e erros com tempo registrado, não a duração de provas completas. Questões antigas sem tempo ficam fora das médias. A comparação de tempo por área inclui apenas acertos com grande área definida. Poucas respostas podem produzir médias pouco representativas. Tempos em horas:minutos:segundos.</p><p class="areas-note">Os dados permanecem ao fechar o navegador no mesmo dispositivo, perfil e endereço do site. Limpar dados do site, usar navegação privada ou trocar de navegador pode remover ou separar o histórico. Não há sincronização entre dispositivos.</p></details>
+    <details class="statistics-details statistics-disclosure" id="statistics-exams-details"><summary id="statistics-exams-title">Desempenho por prova <span>Compare as edições e consulte as respostas</span></summary><p class="areas-note">Taxa de acerto nas respostas de cada prova · escala de 0 a 100%.</p><div id="statistics-exam-chart" class="statistics-chart"></div><details class="statistics-details"><summary>Ver tabela por prova</summary><div id="statistics-exams" class="statistics-table-wrap" role="region" aria-label="Tabela de desempenho por prova" tabindex="0"></div></details></details>
+    <details class="statistics-details statistics-disclosure" id="statistics-saving-details">
+      <summary>Perfil e cópia dos resultados <span>Gerencie seu perfil, exporte ou importe uma cópia</span></summary>
+      <button type="button" class="areas-back" aria-haspopup="dialog" aria-controls="profile-dialog" onclick="CloudSync.openProfile(this)">Meu perfil e salvamento automático</button>
+      <details class="statistics-details results-transfer">
+        <summary>Exportar ou importar resultados</summary>
+        <p class="areas-note">Exporte o arquivo JSON e envie ao outro dispositivo. Depois, importe aqui. A cópia inclui respostas e tempos, mas não o simulado em andamento.</p>
+        <div class="results-transfer-actions">
+          <button type="button" class="areas-back" onclick="ResultsTransfer.exportFile()">Exportar resultados</button>
+          <button type="button" class="areas-back" onclick="document.getElementById('results-import-file').click()">Escolher arquivo para importar</button>
+          <input id="results-import-file" type="file" accept=".json,application/json" onchange="ResultsTransfer.selectFile(this)" hidden>
+        </div>
+        <p id="results-transfer-status" role="status" aria-live="polite"></p>
+        <div id="results-import-preview" hidden>
+          <p id="results-import-description" class="areas-note"></p>
+          <label for="results-import-policy">Para questões já existentes neste navegador:</label>
+          <select id="results-import-policy"><option value="keep">Manter meus resultados atuais</option><option value="replace">Usar os resultados do arquivo</option></select>
+          <p class="areas-note">Questões que não estão no arquivo permanecem intactas. Exporte uma cópia dos resultados atuais antes de substituir respostas.</p>
+          <div class="results-transfer-actions"><button type="button" class="areas-back" onclick="ResultsTransfer.confirm()">Confirmar importação</button><button type="button" class="areas-back" onclick="ResultsTransfer.cancel()">Cancelar</button></div>
+        </div>
+      </details>
+    </details>
     <footer class="site-activity" aria-label="Atividade do site">
       <details class="statistics-details developer-area">
         <summary>Área do desenvolvedor</summary>
@@ -580,18 +592,18 @@
 <script src="js/review.js?v=3"></script>
 <script src="js/rapid.js?v=extra13"></script>
 <script src="js/areas.js?v=stats1"></script>
-<script src="js/statistics.js?v=activity1"></script>
+<script src="js/statistics.js?v=impeccable1"></script>
 <script src="js/results-transfer.js?v=1"></script>
 <script src="vendor/supabase-2.117.2.js"></script>
 <script src="js/cloud-config.js?v=medicus1"></script>
 <script src="js/site-activity.js?v=adjustment100"></script>
-<script src="js/cloud-sync.js?v=globalprogress1"></script>
+<script src="js/cloud-sync.js?v=homeprofile1"></script>
 <script src="js/assistant-public-groq.js?v=1"></script>
 <script src="js/assistant.js?v=public1"></script>
 <script src="js/assistant-brain.js?v=5"></script>
 <script src="js/app.js?v=startup1"></script>
 <script src="js/install-app.js?v=1"></script>
 <script src="js/developer-activity.js?v=profiles1"></script>
-<script src="js/global-progress.js?v=1"></script>
+<script src="js/global-progress.js?v=examcheck1"></script>
 </body>
 </html>

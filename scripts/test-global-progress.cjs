@@ -1,4 +1,20 @@
 const test=require('node:test'), assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+test('exam checks: all valid answers, wrong answers count, skipped and invalid do not, annulled excluded, no duplication',()=>{
+  const buttons=['one','two','annulled'].map(year=>({dataset:{year},children:[],querySelector(){return this.children[0]||null;},appendChild(child){this.children.push(child);}}));
+  const all=[{id:'a',year:'one',opts:['A','B'],answer:'A'},{id:'b',year:'one',opts:['A','B'],answer:'B'},{id:'x',year:'one',opts:['A','B'],answer:'X'}, {id:'c',year:'two',opts:['A','B'],answer:'A'}, {id:'z',year:'annulled',opts:['A','B'],answer:'X'}];
+  let progress={},subscriber;const events={};
+  const c=vm.createContext({QuestionRepository:{getAllQuestions:()=>all,isAnnulled:q=>q.answer==='X'},QuestionClassification:{},RevalidaStorage:{loadProgress:()=>progress,subscribe:fn=>{subscriber=fn;}},document:{getElementById:()=>null,querySelectorAll:()=>buttons,createElement:()=>({setAttribute(k,v){this[k]=v;}}),addEventListener:(k,f)=>events[k]=f},window:{addEventListener:(k,f)=>events[k]=f}});
+  for(const f of ['area-repository.js','global-progress.js'])vm.runInContext(fs.readFileSync('netlify-dist/js/'+f,'utf8'),c);
+  assert.ok(buttons.every(b=>b.children[0].hidden));
+  progress={a:{answer:'B'},b:{status:'skipped'}};subscriber();assert.equal(buttons[0].children[0].hidden,true);
+  progress.b={answer:'Z'};subscriber();assert.equal(buttons[0].children[0].hidden,true);
+  progress.b={answer:'A'};subscriber();assert.equal(buttons[0].children[0].hidden,false);
+  assert.equal(buttons[1].children[0].hidden,true);assert.equal(buttons[2].children[0].hidden,true);
+  assert.equal(buttons[0].children[0]['aria-label'],'Prova concluída');
+  events.focus();assert.ok(buttons.every(b=>b.children.length===1));
+  progress={c:{answer:'A'}};events.storage();assert.equal(buttons[0].children[0].hidden,true);assert.equal(buttons[1].children[0].hidden,false);
+  progress={};subscriber();assert.ok(buttons.every(b=>b.children[0].hidden));
+});
 test('global percentage: persistent unique valid answers, storage events, all screens and no fabricated progress',()=>{
   const nodes=new Map(),saved=new Map(),events={};
   const node=id=>{if(!nodes.has(id))nodes.set(id,{});return nodes.get(id);};

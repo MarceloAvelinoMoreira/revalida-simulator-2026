@@ -6,4 +6,8 @@
 .global-progress-inner progress::-webkit-progress-value { background: #59bfff; border-radius: 6px; }
 .global-progress-inner progress::-moz-progress-bar { background: #59bfff; border-radius: 6px; }
 #global-progress-count { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+#screen-home .year-btn { position: relative; padding-right: 32px; }
+.exam-complete { position: absolute; top: 9px; right: 9px; width: 16px; height: 16px; color: #62cbaa; pointer-events: none; }
+.exam-complete svg { display: block; width: 100%; height: 100%; }
+.exam-complete[hidden] { display: none !important; }
 @media(max-width:600px) { .global-progress { padding: 6px 10px; } .global-progress-inner { font-size: 11px; gap: 7px; } .global-progress-inner progress { width: 26px; } }

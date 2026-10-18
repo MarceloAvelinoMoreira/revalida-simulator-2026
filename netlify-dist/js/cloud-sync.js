@@ -15,6 +15,9 @@ const CloudSync = (() => {
   const valid = results => ResultsTransfer.validate({app:'REVALIDDA',version:1,results}).results;
   function quizOpen() { return ['screen-quiz','screen-result'].some(id => el(id)?.style.display === 'block'); }
   function render() {
+    if (el('home-profile-label')) el('home-profile-label').textContent = user ? 'Perfil: ' + user.name : 'Salvar meu perfil';
+    if (el('home-profile-button')) el('home-profile-button').title = user ? 'Gerenciar perfil salvo neste navegador' : 'Começar a salvar com seu nome';
+    if (el('profile-dialog-title')) el('profile-dialog-title').textContent = user ? 'Meu perfil salvo' : 'Salvar meu perfil';
     if (!el('cloud-login')) return;
     el('cloud-login').hidden = !!user;
     el('cloud-account').hidden = !user;
@@ -87,7 +90,7 @@ const CloudSync = (() => {
     user = next; RevalidaStorage.useAccount(user?.id); render();
     if (typeof GlobalStudyProgress !== 'undefined') GlobalStudyProgress.refresh();
     status(user ? 'Perfil ativo. Salvamento automático neste navegador.' : 'Modo visitante. Os resultados anteriores foram preservados.');
-    if (typeof StudyStatistics !== 'undefined') StudyStatistics.open();
+    if (typeof StudyStatistics !== 'undefined' && !el('profile-dialog')?.open) StudyStatistics.open();
     if (user) { changed(); setTimeout(sync,0); }
   }
   async function authenticate(event) {
@@ -161,5 +164,18 @@ const CloudSync = (() => {
     document.addEventListener('visibilitychange',() => { if (!document.hidden) sync(); });
   }
   init();
-  return {authenticate,logout,importGuest,sync,joinDevice};
+  function openProfile(trigger) {
+    const dialog = el('profile-dialog');
+    if (!dialog || typeof dialog.showModal !== 'function') return;
+    if (dialog.open) return;
+    render();
+    dialog.showModal();
+    const input = el(user ? 'cloud-recovery-code' : 'cloud-username');
+    if (input && typeof input.focus === 'function') input.focus();
+    dialog.addEventListener('close', () => {
+      const button = trigger || el('home-profile-button');
+      if (button && typeof button.focus === 'function') button.focus();
+    }, {once:true});
+  }
+  return {authenticate,logout,importGuest,sync,joinDevice,openProfile};
 })();
