@@ -26,7 +26,7 @@ function summarize(text) {
 }
 function load() {
   const context=vm.createContext({});
-  for(const file of ['questions.js','questions-2026-2.js','questions-facisa.js','questions-quinzena-01.js','questions-tutoria-semana-01.js','question-repository.js'])vm.runInContext(fs.readFileSync(path.join(root,'netlify-dist/js',file),'utf8'),context);
+  for(const file of ['questions.js','questions-2026-2.js','questions-facisa.js','questions-quinzena-01.js','questions-tutoria-semana-01.js','questions-tpi-2026-2-tpi3.js','question-repository.js'])vm.runInContext(fs.readFileSync(path.join(root,'netlify-dist/js',file),'utf8'),context);
   return vm.runInContext('QuestionRepository.getAllQuestions()',context);
 }
 function rows() {

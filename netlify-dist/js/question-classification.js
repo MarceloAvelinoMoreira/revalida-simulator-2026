@@ -1,4 +1,4 @@
-// Individual metadata; original question IDs are preserved.
+// Individual classification; IDs and existing metadata preserved.
 const QuestionClassification = {
   "2021-001": {
     "grandeArea": "ginecologia_obstetricia",
@@ -10285,5 +10285,705 @@ const QuestionClassification = {
     "tema": "Declaração de óbito: morte natural com assistência domiciliar",
     "classificacaoPendente": false,
     "fonte": "Área CM/CG/GO/PED/SC explicitada no PDF Tutoria ENAMED Semana 01 · P9 + P10"
+  },
+  "tpi-2026-2-tpi3-001": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Hipertensão arterial sistêmica",
+    "tema": "Hipertensão arterial sistêmica",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-002": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Síndrome coronariana",
+    "tema": "Síndrome coronariana",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-003": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Parada cardiorrespiratória",
+    "tema": "Parada cardiorrespiratória",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-004": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Insuficiência Cardíaca",
+    "tema": "Insuficiência Cardíaca",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-005": {
+    "grandeArea": "clinica_medica",
+    "subarea": "DPOC",
+    "tema": "DPOC",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-006": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infecção do trato urinário",
+    "tema": "Infecção do trato urinário",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-007": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Asma",
+    "tema": "Asma",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-008": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Sífilis no adulto",
+    "tema": "Sífilis no adulto",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-009": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Tireotoxicose",
+    "tema": "Tireotoxicose",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-010": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Hanseníase",
+    "tema": "Hanseníase",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-011": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Complicações da cirrose hepática",
+    "tema": "Complicações da cirrose hepática",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-012": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Lesão renal aguda",
+    "tema": "Lesão renal aguda",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-013": {
+    "grandeArea": "clinica_medica",
+    "subarea": "AVCI",
+    "tema": "AVCI",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-014": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Hemorragia subaracnoide",
+    "tema": "Hemorragia subaracnoide",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-015": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Crise hipertensiva",
+    "tema": "Crise hipertensiva",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-016": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Depressão maior",
+    "tema": "Depressão maior",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-017": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Psicofarmacologia",
+    "tema": "Psicofarmacologia",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-018": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Transtorno bipolar",
+    "tema": "Transtorno bipolar",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-019": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Gota",
+    "tema": "Gota",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-020": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Tuberculose",
+    "tema": "Tuberculose",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-021": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Arritmias",
+    "tema": "Arritmias",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-022": {
+    "grandeArea": "cirurgia",
+    "subarea": "Apendicite aguda",
+    "tema": "Apendicite aguda",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-023": {
+    "grandeArea": "cirurgia",
+    "subarea": "Coledocolitíase e colangite",
+    "tema": "Coledocolitíase e colangite",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-024": {
+    "grandeArea": "cirurgia",
+    "subarea": "Obstrução intestinal",
+    "tema": "Obstrução intestinal",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-025": {
+    "grandeArea": "cirurgia",
+    "subarea": "Vesícula e vias biliares",
+    "tema": "Vesícula e vias biliares",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-026": {
+    "grandeArea": "cirurgia",
+    "subarea": "Síndrome compartimental",
+    "tema": "Síndrome compartimental",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-027": {
+    "grandeArea": "cirurgia",
+    "subarea": "Diverticulite e doença diverticular do cólon",
+    "tema": "Diverticulite e doença diverticular do cólon",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-028": {
+    "grandeArea": "cirurgia",
+    "subarea": "Choque hemorrágico",
+    "tema": "Choque hemorrágico",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-029": {
+    "grandeArea": "cirurgia",
+    "subarea": "Medicações",
+    "tema": "Medicações",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-030": {
+    "grandeArea": "cirurgia",
+    "subarea": "Trauma torácico",
+    "tema": "Trauma torácico",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-031": {
+    "grandeArea": "cirurgia",
+    "subarea": "Trauma abdominal e pélvico",
+    "tema": "Trauma abdominal e pélvico",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-032": {
+    "grandeArea": "cirurgia",
+    "subarea": "Trauma cranioencefálico",
+    "tema": "Trauma cranioencefálico",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-033": {
+    "grandeArea": "cirurgia",
+    "subarea": "Antibiótico E Infecção De Sítio Cirúrgico",
+    "tema": "Antibiótico E Infecção De Sítio Cirúrgico",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-034": {
+    "grandeArea": "cirurgia",
+    "subarea": "Queimaduras",
+    "tema": "Queimaduras",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-035": {
+    "grandeArea": "cirurgia",
+    "subarea": "Cicatrização e ferida cirúrgica",
+    "tema": "Cicatrização e ferida cirúrgica",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-036": {
+    "grandeArea": "cirurgia",
+    "subarea": "Doença vascular periférica e varizes de membros inferiores",
+    "tema": "Doença vascular periférica e varizes de membros inferiores",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-037": {
+    "grandeArea": "cirurgia",
+    "subarea": "Trauma raquimedular",
+    "tema": "Trauma raquimedular",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-038": {
+    "grandeArea": "cirurgia",
+    "subarea": "Abscessos e fístulas anais",
+    "tema": "Abscessos e fístulas anais",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-039": {
+    "grandeArea": "cirurgia",
+    "subarea": "Hérnias da parede abdominal",
+    "tema": "Hérnias da parede abdominal",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-040": {
+    "grandeArea": "cirurgia",
+    "subarea": "Cirurgia De Obesidade - Indicações E Técnicas Cirúrgicas",
+    "tema": "Cirurgia De Obesidade - Indicações E Técnicas Cirúrgicas",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-041": {
+    "grandeArea": "cirurgia",
+    "subarea": "Câncer de bexiga e rim",
+    "tema": "Câncer de bexiga e rim",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-042": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Câncer de endométrio",
+    "tema": "Câncer de endométrio",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-043": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Rastreamento do câncer de colo uterino",
+    "tema": "Rastreamento do câncer de colo uterino",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-044": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Cervicite e vulvovaginite",
+    "tema": "Cervicite e vulvovaginite",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-045": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Métodos contraceptivos",
+    "tema": "Métodos contraceptivos",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-046": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Climatério",
+    "tema": "Climatério",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-047": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Assistência ao parto",
+    "tema": "Assistência ao parto",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-048": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Assistência à vítima de violência sexual",
+    "tema": "Assistência à vítima de violência sexual",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-049": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Miomatose uterina",
+    "tema": "Miomatose uterina",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-050": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Pré-eclâmpsia e eclâmpsia",
+    "tema": "Pré-eclâmpsia e eclâmpsia",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-051": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Síndrome dos Ovários Policísticos",
+    "tema": "Síndrome dos Ovários Policísticos",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-052": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Sífilis na gestação e sífilis congênita",
+    "tema": "Sífilis na gestação e sífilis congênita",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-053": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Gravidez ectópica",
+    "tema": "Gravidez ectópica",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-054": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Pré-eclâmpsia e eclâmpsia",
+    "tema": "Pré-eclâmpsia e eclâmpsia",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-055": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Diabetes na gestação",
+    "tema": "Diabetes na gestação",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-056": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Hemorragia pós-parto",
+    "tema": "Hemorragia pós-parto",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-057": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Trabalho de parto prematuro",
+    "tema": "Trabalho de parto prematuro",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-058": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Cardiotocografia",
+    "tema": "Cardiotocografia",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-059": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Síndrome pré-menstrual",
+    "tema": "Síndrome pré-menstrual",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-060": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Aleitamento materno e mastite puerperal",
+    "tema": "Aleitamento materno e mastite puerperal",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-061": {
+    "grandeArea": "pediatria",
+    "subarea": "Reanimação Neonatal",
+    "tema": "Reanimação Neonatal",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-062": {
+    "grandeArea": "pediatria",
+    "subarea": "Crupe e laringite",
+    "tema": "Crupe e laringite",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-063": {
+    "grandeArea": "pediatria",
+    "subarea": "Doença de Kawasaki",
+    "tema": "Doença de Kawasaki",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-064": {
+    "grandeArea": "pediatria",
+    "subarea": "Pneumonia na infância",
+    "tema": "Pneumonia na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-065": {
+    "grandeArea": "pediatria",
+    "subarea": "Diarreia e desidratação",
+    "tema": "Diarreia e desidratação",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-066": {
+    "grandeArea": "pediatria",
+    "subarea": "Mononucleose infecciosa",
+    "tema": "Mononucleose infecciosa",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-067": {
+    "grandeArea": "pediatria",
+    "subarea": "Maus-tratos e violência contra a criança",
+    "tema": "Maus-tratos e violência contra a criança",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-068": {
+    "grandeArea": "pediatria",
+    "subarea": "Transtorno do espectro autista",
+    "tema": "Transtorno do espectro autista",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-069": {
+    "grandeArea": "pediatria",
+    "subarea": "Bronquiolite e lactente sibilante",
+    "tema": "Bronquiolite e lactente sibilante",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-070": {
+    "grandeArea": "pediatria",
+    "subarea": "Aleitamento materno e amamentação",
+    "tema": "Aleitamento materno e amamentação",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-071": {
+    "grandeArea": "pediatria",
+    "subarea": "Sarampo, rubéola, caxumba e varicela",
+    "tema": "Sarampo, rubéola, caxumba e varicela",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-072": {
+    "grandeArea": "pediatria",
+    "subarea": "Icterícia neonatal",
+    "tema": "Icterícia neonatal",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-073": {
+    "grandeArea": "pediatria",
+    "subarea": "Cardiopatias congênitas no recém-nascido",
+    "tema": "Cardiopatias congênitas no recém-nascido",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-074": {
+    "grandeArea": "pediatria",
+    "subarea": "Cetoacidose diabética e estado hiperosmolar",
+    "tema": "Cetoacidose diabética e estado hiperosmolar",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-075": {
+    "grandeArea": "pediatria",
+    "subarea": "Puberdade precoce e tardia",
+    "tema": "Puberdade precoce e tardia",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-076": {
+    "grandeArea": "pediatria",
+    "subarea": "Distúrbios do Crescimento e Desenvolvimento",
+    "tema": "Distúrbios do Crescimento e Desenvolvimento",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-077": {
+    "grandeArea": "pediatria",
+    "subarea": "Síndrome nefrótica e nefrítica na infância",
+    "tema": "Síndrome nefrótica e nefrítica na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-078": {
+    "grandeArea": "pediatria",
+    "subarea": "Transtorno do déficit de atenção e hiperatividade",
+    "tema": "Transtorno do déficit de atenção e hiperatividade",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-079": {
+    "grandeArea": "pediatria",
+    "subarea": "Anemia falciforme na infância",
+    "tema": "Anemia falciforme na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-080": {
+    "grandeArea": "pediatria",
+    "subarea": "Caderneta de saúde da criança",
+    "tema": "Caderneta de saúde da criança",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-081": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Financiamento do SUS",
+    "tema": "Financiamento do SUS",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-082": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Política Nacional de Saúde Mental",
+    "tema": "Política Nacional de Saúde Mental",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-083": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Declaração de óbito",
+    "tema": "Declaração de óbito",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-084": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Rastreamento populacional",
+    "tema": "Rastreamento populacional",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-085": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Vigilância Epidemiológica",
+    "tema": "Vigilância Epidemiológica",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-086": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Atendimento ao adolescente e sigilo",
+    "tema": "Atendimento ao adolescente e sigilo",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-087": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Controle social e conselhos de saúde",
+    "tema": "Controle social e conselhos de saúde",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-088": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Profilaxia pré e pós-exposição ao HIV",
+    "tema": "Profilaxia pré e pós-exposição ao HIV",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-089": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Comunicação clínica e relação médico-paciente",
+    "tema": "Comunicação clínica e relação médico-paciente",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-090": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Trabalho em equipe multiprofissional",
+    "tema": "Trabalho em equipe multiprofissional",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-091": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Matriciamento e apoio matricial",
+    "tema": "Matriciamento e apoio matricial",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-092": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Processo saúde-doença",
+    "tema": "Processo saúde-doença",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-093": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Coordenação do cuidado e referência/contrarreferência",
+    "tema": "Coordenação do cuidado e referência/contrarreferência",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-094": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Notificação compulsória e violência",
+    "tema": "Notificação compulsória e violência",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-095": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Indicadores em Saúde",
+    "tema": "Indicadores em Saúde",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-096": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Cuidados paliativos",
+    "tema": "Cuidados paliativos",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-097": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Tipos de estudos epidemiológicos",
+    "tema": "Tipos de estudos epidemiológicos",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-098": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Suicídio e comportamento suicida",
+    "tema": "Suicídio e comportamento suicida",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-099": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Sensibilidade, especificidade e valores preditivos",
+    "tema": "Sensibilidade, especificidade e valores preditivos",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "tpi-2026-2-tpi3-100": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Bioética e dilemas éticos",
+    "tema": "Bioética e dilemas éticos",
+    "classificacaoPendente": false,
+    "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
   }
 };

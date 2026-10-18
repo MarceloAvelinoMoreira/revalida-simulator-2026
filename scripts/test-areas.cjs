@@ -10,7 +10,7 @@ function setup(initial = {}) {
     return nodes.get(id);
   };
   const c = vm.createContext({console, setTimeout,clearTimeout,performance:{now:()=>clockTime},setInterval:fn=>{clockLoops.set(++clockId,fn);return clockId;},clearInterval:id=>clockLoops.delete(id), window:{scrollTo(){},addEventListener:(name,fn)=>listeners.set(name,fn)}, localStorage:{getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v),removeItem:k=>saved.delete(k)},document:{getElementById:node,createElement:()=>node('button'+Math.random()),querySelectorAll:()=>[],querySelector:()=>node('query'),addEventListener(){}},insertSoftHyphens:s=>s,formatProseHtml:s=>s});
-  for (const f of ['questions.js','questions-2026-2.js','questions-facisa.js','questions-quinzena-01.js','questions-tutoria-semana-01.js','utils.js','storage.js','score.js','question-repository.js','question-classification.js','area-repository.js','quiz-clock.js','simulator.js','rapid.js','areas.js','statistics.js','results-transfer.js']) vm.runInContext(fs.readFileSync(path.join(root,'netlify-dist/js',f),'utf8'),c);
+  for (const f of ['questions.js','questions-2026-2.js','questions-facisa.js','questions-quinzena-01.js','questions-tutoria-semana-01.js','questions-tpi-2026-2-tpi3.js','utils.js','storage.js','score.js','question-repository.js','question-classification.js','area-repository.js','quiz-clock.js','simulator.js','rapid.js','areas.js','statistics.js','results-transfer.js']) vm.runInContext(fs.readFileSync(path.join(root,'netlify-dist/js',f),'utf8'),c);
   const run = source=>vm.runInContext(source,c);
   // Tests never call a provider. Educational rendering is checked separately below.
   run('loadEduForCurrent = async () => null; syncExtraButtons = () => {}; renderTakeHome = () => {}; renderKeyPoints = () => {}; renderAltRationales = () => {};');
@@ -46,6 +46,31 @@ test('Quinzena 01: 100 source comments, valid keys, five areas and existing quiz
   assert.match(list[98].officialComment,/incompleta/i);
 });
 
+test('TPI 3: complete PDF bank, comments, source images, areas, quiz and rapid answers',()=>{
+  const {run,node}=setup();
+  const qs=run('QuestionRepository.getEdition("tpi-2026-2-tpi3").questions');
+  assert.equal(qs.length,100);
+  assert.equal(new Set(qs.map(q=>q.id)).size,100);
+  assert.equal(qs.map(q=>q.answer).join(''),'CDABACABDDBACBBDACCA'+'CCDBACDDBACBDDAADDCA'+'CCDAADBBADBCCADACCDB'+'BCCABADBDCABBDCABACB'+'AB DABACBCDBBDCDDACDB'.replace(/ /g,''));
+  for(const q of qs){
+    assert.equal(q.opts.length,4);assert.ok(q.opts.every(Boolean));
+    assert.ok(q.officialComment.length>500);assert.match(q.officialComment,/Fonte:/);
+    assert.ok(q.takeHome);assert.equal(q.sourceCommentImported,true);
+    assert.ok(run(`AreaRepository.metadata('${q.id}').grandeArea`));
+    if(q.image)assert.ok(fs.existsSync(path.join(root,'netlify-dist',q.image)));
+  }
+  assert.equal(qs.filter(q=>q.image).map(q=>q.n).join(','),'21,22,80');
+  run('selectedMode="year";selectedYear="tpi-2026-2-tpi3";startQuiz()');
+  assert.equal(run('questions.length'),100);
+  run('handleAnswer(questions[0].answer,document.createElement("button"),questions[0])');
+  assert.equal(run('correct'),1);
+  run('goHome();openRapidAnswers("tpi-2026-2-tpi3")');
+  assert.equal(run('rapidQuestions.length'),100);
+  assert.equal((node('rapid-list').innerHTML.match(/<article/g)||[]).length,1);
+  run('openRapidQuestionSet([QuestionRepository.getById("tpi-2026-2-tpi3-080")],"TPI")');
+  assert.match(node('rapid-list').innerHTML,/<img /);
+});
+
 test('custom area pool: quantity bounds, exclusive area, all areas and preserved exam IDs',()=>{
   const {run,node}=setup();
   run('selectedMode="custom";selectCustomArea("ginecologia_obstetricia");selectQty(50,document.createElement("button"));buildQuestions()');
@@ -55,7 +80,7 @@ test('custom area pool: quantity bounds, exclusive area, all areas and preserved
   run(`selectQty(${total+1},document.createElement("button"))`);
   assert.equal(node('start-btn').disabled,true);
   assert.equal(node('custom-qty-input').max,total);
-  run('selectCustomArea("")');assert.equal(run('customQuestionPool().length'),1435);
+  run('selectCustomArea("")');assert.equal(run('customQuestionPool().length'),1535);
   for(const [id,label] of [['facisa','Temas Menos e Mais'],['quinzena-01','Tutoria Quinzenal'],['tutoria-semana-01','Tutoria Primeira Semana']]) {
     assert.equal(run(`QuestionRepository.getEdition('${id}').label`),label);
     assert.ok(run(`QuestionRepository.getAllQuestions().filter(q=>q.year==='${id}').every(q=>q.label==='${label}')`));
@@ -166,9 +191,9 @@ test('released cloud/account quiz state cannot replay answers or erase a resumab
 test('all IDs audited once; five actual counts; original content, keys, comments and media untouched',()=>{
   const {run}=setup();
   const report=JSON.parse(fs.readFileSync(path.join(root,'netlify-dist/data/question-classification-report.json')));
-  assert.equal(run('AreaRepository.all.length'),1435);
-  assert.equal(new Set(report.questions.map(q=>q.id)).size,1435);
-  assert.equal(report.classified+report.pending,1435);
+  assert.equal(run('AreaRepository.all.length'),1535);
+  assert.equal(new Set(report.questions.map(q=>q.id)).size,1535);
+  assert.equal(report.classified+report.pending,1535);
   assert.equal(run('AreaRepository.pending().length'),report.pending);
   for (const area of Object.keys(report.distribution)) {
     assert.equal(run(`AreaRepository.filter({area:'${area}'}).length`),report.distribution[area]);
