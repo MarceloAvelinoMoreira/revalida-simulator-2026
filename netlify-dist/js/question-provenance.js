@@ -733,11 +733,16 @@ const QuestionProvenance = (() => {
     "official": true
   }
 };
-  function get(question) { return sources[question && question.id] || null; }
+  function get(question) {
+    if (!question) return null;
+    if (sources[question.id]) return sources[question.id];
+    const source = /^tpi-2026-2-tpi2-/.test(question.id || '') && question.provenance;
+    return source && source.confidence >= 75 && /^https:\/\//.test(source.source || '') ? source : null;
+  }
   function render(question, container) {
     if (!container) return;
     container.replaceChildren();
-    if (!question || !/^tpi-2026-2-tpi1-/.test(question.id || '')) return;
+    if (!question || !/^tpi-2026-2-tpi[12]-/.test(question.id || '')) return;
     const source = get(question);
     if (!source) {
       const label = document.createElement('p');

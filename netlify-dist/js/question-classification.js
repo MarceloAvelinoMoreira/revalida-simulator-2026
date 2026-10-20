@@ -12385,5 +12385,705 @@ const QuestionClassification = {
     "tema": "Bioética e dilemas éticos",
     "classificacaoPendente": false,
     "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi2-001": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Cardiologia",
+    "tema": "Doença arterial periférica",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-002": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Cardiologia",
+    "tema": "Hipertensão arterial sistêmica",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-003": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Dermatologia",
+    "tema": "Melanoma",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-004": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Dermatologia",
+    "tema": "Reações cutâneas a drogas",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-005": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Endocrinologia",
+    "tema": "Complicações crônicas do diabetes",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-006": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Endocrinologia",
+    "tema": "Diabetes",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-007": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Endocrinologia",
+    "tema": "Nódulo e câncer de tireoide",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-008": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Gastroenterologia/Hepatologia",
+    "tema": "Complicações da cirrose",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-009": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Gastroenterologia/Hepatologia",
+    "tema": "Distúrbios disabsortivos",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-010": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Gastroenterologia/Hepatologia",
+    "tema": "Hemorragia digestiva alta",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-011": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Gastroenterologia/Hepatologia",
+    "tema": "Pancreatite crônica",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-012": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Hematologia",
+    "tema": "Hemoglobinopatias",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-013": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Hematologia",
+    "tema": "Leucemias",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-014": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Hematologia",
+    "tema": "Linfoma",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-015": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Acidentes com animais peçonhentos",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-016": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Dengue e outras arboviroses",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-017": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Dengue e outras arboviroses",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-018": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Leishmaniose",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-019": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Parasitoses",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-020": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Sepse e choque séptico",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-021": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Tuberculose",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-022": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Nefrologia",
+    "tema": "Doença renal crônica",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-023": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Nefrologia",
+    "tema": "Lesão renal aguda",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-024": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Nefrologia",
+    "tema": "Síndrome nefrótica",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-025": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Neurologia",
+    "tema": "Cefaleias",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-026": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Neurologia",
+    "tema": "Epilepsia",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-027": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Pneumologia",
+    "tema": "Câncer de pulmão",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-028": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Pneumologia",
+    "tema": "Derrame pleural",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-029": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Psiquiatria",
+    "tema": "Depressão maior",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-030": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Psiquiatria",
+    "tema": "Intoxicações exógenas",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-031": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Psiquiatria",
+    "tema": "Psicofarmacologia",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-032": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Psiquiatria",
+    "tema": "Síndrome de abstinência",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-033": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Reumatologia",
+    "tema": "Vasculites",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-034": {
+    "grandeArea": "cirurgia",
+    "subarea": "Abdome agudo inflamatório",
+    "tema": "Apendicite aguda",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-035": {
+    "grandeArea": "cirurgia",
+    "subarea": "Abdome agudo obstrutivo",
+    "tema": "Obstrução intestinal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-036": {
+    "grandeArea": "cirurgia",
+    "subarea": "Abdome agudo obstrutivo",
+    "tema": "Obstrução intestinal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-037": {
+    "grandeArea": "cirurgia",
+    "subarea": "Cirurgia Digestiva",
+    "tema": "Doença do refluxo gastroesofágico",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-038": {
+    "grandeArea": "cirurgia",
+    "subarea": "Cirurgia Digestiva",
+    "tema": "Neoplasias pancreáticas",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-039": {
+    "grandeArea": "cirurgia",
+    "subarea": "Cirurgia Pediátrica",
+    "tema": "Estenose de piloro do lactente",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-040": {
+    "grandeArea": "cirurgia",
+    "subarea": "Cirurgia Vascular",
+    "tema": "Doença vascular periférica e varizes de membros inferiores",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-041": {
+    "grandeArea": "cirurgia",
+    "subarea": "Ortopedia",
+    "tema": "Doenças Do Quadril",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-042": {
+    "grandeArea": "cirurgia",
+    "subarea": "Perioperatório",
+    "tema": "Antibiótico E Infecção De Sítio Cirúrgico",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-043": {
+    "grandeArea": "cirurgia",
+    "subarea": "Perioperatório",
+    "tema": "Complicações Pós Operatórias + Profilaxia De",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-044": {
+    "grandeArea": "cirurgia",
+    "subarea": "Perioperatório",
+    "tema": "Medicações",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-045": {
+    "grandeArea": "cirurgia",
+    "subarea": "Prctologia",
+    "tema": "Fissura anal e doenças orificiais",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-046": {
+    "grandeArea": "cirurgia",
+    "subarea": "Técnica Cirúrgica",
+    "tema": "Fios E Suturas",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-047": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Queimaduras",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-048": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Trauma abdominal e pélvico",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-049": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Trauma geniturinário",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-050": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Trauma raquimedular",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-051": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Trauma torácico",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-052": {
+    "grandeArea": "cirurgia",
+    "subarea": "Urologia",
+    "tema": "Câncer de próstata",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-053": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Amenorreia",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-054": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Cervicite e vulvovaginite",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-055": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Cervicite e vulvovaginite",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-056": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Climatério",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-057": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Doenças benignas da mama",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-058": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Endometriose",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-059": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Incontinência urinária na mulher",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-060": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Métodos contraceptivos",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-061": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Métodos contraceptivos",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-062": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Miomatose uterina",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-063": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Rastreamento do câncer de colo uterino",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-064": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Tumores anexiais e câncer de ovário",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-065": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Cardiotocografia",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-066": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Corioamnionite e infecção puerperal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-067": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Descolamento prematuro de placenta",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-068": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Hemorragia pós-parto",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-069": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Pré-eclâmpsia e eclâmpsia",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-070": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Puerpério",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-071": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Restrição de crescimento fetal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-072": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Toxoplasmose na gestação",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-073": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Trabalho de parto",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-074": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Trabalho de parto prematuro",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-075": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Parasitoses intestinais na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-076": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Tuberculose na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-077": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Vacinação",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-078": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Vacinação",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-079": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Vacinação",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-080": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Icterícia neonatal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-081": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Sífilis congênita",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-082": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Triagem neonatal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-083": {
+    "grandeArea": "pediatria",
+    "subarea": "Nutrição e Crescimento",
+    "tema": "Puberdade precoce e tardia",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-084": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Asma na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-085": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Diarreia e desidratação",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-086": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Hipertensão arterial na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-087": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Infecção urinária na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-088": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Síndrome nefrótica e nefrítica na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-089": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Transtorno do espectro autista",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-090": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Atenção Primária",
+    "tema": "Atributos da Atenção Primária à Saúde",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-091": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Atenção Primária",
+    "tema": "Coordenação do cuidado e referência/contrarreferência",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-092": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Atenção Primária",
+    "tema": "Cuidados paliativos",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-093": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia",
+    "tema": "Determinantes sociais da saúde",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-094": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia",
+    "tema": "Indicadores em Saúde",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-095": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia",
+    "tema": "Tipos de estudos epidemiológicos",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-096": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia",
+    "tema": "Vieses em epidemiologia",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-097": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Ética Médica",
+    "tema": "Erro médico e responsabilidade profissional",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-098": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Políticas Públicas e SUS",
+    "tema": "Lei Orgânica da Saúde (8080 e",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-099": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Políticas Públicas e SUS",
+    "tema": "Saúde da população em situação de rua e privada de liberdade",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
+  },
+  "tpi-2026-2-tpi2-100": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Políticas Públicas e SUS",
+    "tema": "Saúde suplementar e planos de saúde",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI2_2026-2_Prova_Comentada.pdf"
   }
 };

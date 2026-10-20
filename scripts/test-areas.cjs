@@ -10,7 +10,7 @@ function setup(initial = {}) {
     return nodes.get(id);
   };
   const c = vm.createContext({console, setTimeout,clearTimeout,performance:{now:()=>clockTime},setInterval:fn=>{clockLoops.set(++clockId,fn);return clockId;},clearInterval:id=>clockLoops.delete(id), window:{scrollTo(){},addEventListener:(name,fn)=>listeners.set(name,fn)}, localStorage:{getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v),removeItem:k=>saved.delete(k)},document:{getElementById:node,createElement:()=>node('button'+Math.random()),querySelectorAll:()=>[],querySelector:()=>node('query'),addEventListener(){}},insertSoftHyphens:s=>s,formatProseHtml:s=>s});
-  for (const f of ['questions.js','questions-2026-2.js','questions-facisa.js','questions-quinzena-01.js','questions-tutoria-semana-01.js','questions-tpi-2026-2-tpi3.js','questions-quinzena-02.js','questions-tpi-2026-2-tpi1.js','utils.js','storage.js','score.js','question-repository.js','question-classification.js','area-repository.js','quiz-clock.js','simulator.js','rapid.js','areas.js','statistics.js','results-transfer.js']) vm.runInContext(fs.readFileSync(path.join(root,'netlify-dist/js',f),'utf8'),c);
+  for (const f of ['questions.js','questions-2026-2.js','questions-facisa.js','questions-quinzena-01.js','questions-tutoria-semana-01.js','questions-tpi-2026-2-tpi3.js','questions-quinzena-02.js','questions-tpi-2026-2-tpi1.js','questions-tpi-2026-2-tpi2.js','utils.js','storage.js','score.js','question-repository.js','question-classification.js','area-repository.js','quiz-clock.js','simulator.js','rapid.js','areas.js','statistics.js','results-transfer.js']) vm.runInContext(fs.readFileSync(path.join(root,'netlify-dist/js',f),'utf8'),c);
   const run = source=>vm.runInContext(source,c);
   // Tests never call a provider. Educational rendering is checked separately below.
   run('loadEduForCurrent = async () => null; syncExtraButtons = () => {}; renderTakeHome = () => {}; renderKeyPoints = () => {}; renderAltRationales = () => {};');
@@ -118,6 +118,34 @@ test('TPI 1: source keys, 100 full comments, unchanged A–E placeholders, two i
   run('openRapidQuestionSet([QuestionRepository.getById("tpi-2026-2-tpi1-026")],"TPI 1")');assert.match(node('rapid-list').innerHTML,/<img /);
 });
 
+test('TPI 2: complete source comments, stable numbering, figures, origins and study modes',()=>{
+  const {run,node}=setup();
+  const qs=run('QuestionRepository.getEdition("tpi-2026-2-tpi2").questions');
+  assert.equal(qs.length,100);assert.equal(new Set(qs.map(q=>q.id)).size,100);
+  assert.equal(new Set(qs.map(q=>q.originalBookletQuestionNumber)).size,100);
+  for(const [i,q] of qs.entries()){
+    assert.equal(q.n,i+1);assert.equal(q.opts.length,4);
+    assert.ok(q.opts.every(o=>o.length>0));assert.match(q.answer,/^[A-D]$/);
+    assert.ok(q.text.length>65);assert.ok(q.officialComment.length>100);
+    assert.equal(q.sourceCommentImported,true);assert.ok(!JSON.stringify(q).includes('\\u0000'));
+    if(q.image)assert.ok(fs.existsSync(path.join(root,'netlify-dist',q.image)));
+    if(q.provenance){assert.ok(q.provenance.confidence>=75);assert.match(q.provenance.source,/^https:\/\//);}
+  }
+  assert.equal(qs.filter(q=>q.provenance).length,93);
+  assert.equal(qs.filter(q=>q.image).map(q=>q.n).join(','),'35,43,45,48,65');
+  assert.ok(!qs[96].opts[0].includes('as orientações recebidas'));
+  assert.ok(qs[96].opts[1].includes('as orientações recebidas'));
+  for(const [area,count] of Object.entries({clinica_medica:33,cirurgia:19,ginecologia_obstetricia:22,pediatria:15,medicina_preventiva:11}))
+    assert.equal(run(`AreaRepository.filter({area:'${area}',exam:'tpi-2026-2-tpi2'}).length`),count);
+  run('selectedMode="year";selectedYear="tpi-2026-2-tpi2";startQuiz()');
+  assert.equal(run('questions.length'),100);
+  run('handleAnswer(questions[0].answer,document.createElement("button"),questions[0])');assert.equal(run('correct'),1);
+  run('goHome();openRapidAnswers("tpi-2026-2-tpi2")');assert.equal(run('rapidQuestions.length'),100);
+  assert.equal((node('rapid-list').innerHTML.match(/<article/g)||[]).length,1);
+  run('openRapidQuestionSet([QuestionRepository.getById("tpi-2026-2-tpi2-043")],"TPI 2")');
+  assert.match(node('rapid-list').innerHTML,/<img /);
+});
+
 test('custom area pool: quantity bounds, exclusive area, all areas and preserved exam IDs',()=>{
   const {run,node}=setup();
   run('selectedMode="custom";selectCustomArea("ginecologia_obstetricia");selectQty(50,document.createElement("button"));buildQuestions()');
@@ -127,7 +155,7 @@ test('custom area pool: quantity bounds, exclusive area, all areas and preserved
   run(`selectQty(${total+1},document.createElement("button"))`);
   assert.equal(node('start-btn').disabled,true);
   assert.equal(node('custom-qty-input').max,total);
-  run('selectCustomArea("")');assert.equal(run('customQuestionPool().length'),1735);
+  run('selectCustomArea("")');assert.equal(run('customQuestionPool().length'),1835);
   for(const [id,label] of [['facisa','Temas Menos e Mais'],['quinzena-01','Tutoria Quinzenal'],['tutoria-semana-01','Tutoria Primeira Semana']]) {
     assert.equal(run(`QuestionRepository.getEdition('${id}').label`),label);
     assert.ok(run(`QuestionRepository.getAllQuestions().filter(q=>q.year==='${id}').every(q=>q.label==='${label}')`));
@@ -238,9 +266,9 @@ test('released cloud/account quiz state cannot replay answers or erase a resumab
 test('all IDs audited once; five actual counts; original content, keys, comments and media untouched',()=>{
   const {run}=setup();
   const report=JSON.parse(fs.readFileSync(path.join(root,'netlify-dist/data/question-classification-report.json')));
-  assert.equal(run('AreaRepository.all.length'),1735);
-  assert.equal(new Set(report.questions.map(q=>q.id)).size,1735);
-  assert.equal(report.classified+report.pending,1735);
+  assert.equal(run('AreaRepository.all.length'),1835);
+  assert.equal(new Set(report.questions.map(q=>q.id)).size,1835);
+  assert.equal(report.classified+report.pending,1835);
   assert.equal(run('AreaRepository.pending().length'),report.pending);
   for (const area of Object.keys(report.distribution)) {
     assert.equal(run(`AreaRepository.filter({area:'${area}'}).length`),report.distribution[area]);

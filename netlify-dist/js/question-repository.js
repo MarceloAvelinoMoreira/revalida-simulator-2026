@@ -21,6 +21,7 @@ const QuestionRepository = (() => {
     "tutoria-semana-01",
     "tpi-2026-2-tpi3",
     "tpi-2026-2-tpi1",
+    "tpi-2026-2-tpi2",
   ];
 
   function assertBank() {

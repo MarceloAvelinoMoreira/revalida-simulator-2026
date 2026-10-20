@@ -37,5 +37,5 @@ test('official-document distinction and existing quiz/rapid integration are pres
   const {api,container}=boot();api.render({id:'tpi-2026-2-tpi1-032'},container);
   assert.match(container.children[0].children[2].textContent,/documento oficial consultado/);
   for(const name of ['simulator.js','rapid.js']) assert.match(fs.readFileSync(path.join(root,'netlify-dist/js',name),'utf8'),/QuestionProvenance\.render/);
-  assert.match(fs.readFileSync(path.join(root,'index.html'),'utf8'),/js\/question-provenance\.js\?v=1/);
+  assert.match(fs.readFileSync(path.join(root,'index.html'),'utf8'),/js\/question-provenance\.js\?v=2/);
 });
