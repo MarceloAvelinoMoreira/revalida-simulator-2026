@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <base href="netlify-dist/">
-<meta name="description" content="Prepare-se para o Revalida com 1.535 questões, simulados, comentários, respostas rápidas e estudo por grandes áreas. Acompanhe seu desempenho e tempo de estudo.">
+<meta name="description" content="Prepare-se para o Revalida com 1.735 questões, simulados, comentários, respostas rápidas e estudo por grandes áreas. Acompanhe seu desempenho e tempo de estudo.">
 <meta name="author" content="Marcelo Avelino">
 <meta name="theme-color" content="#0a0e1a">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -12,7 +12,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="application-name" content="REVALIDDA Simulator">
 <meta property="og:title" content="REVALIDDA Simulator">
-<meta property="og:description" content="Prepare-se para o Revalida com 1.535 questões, simulados, comentários, respostas rápidas e estudo por grandes áreas. Acompanhe seu desempenho e tempo de estudo.">
+<meta property="og:description" content="Prepare-se para o Revalida com 1.735 questões, simulados, comentários, respostas rápidas e estudo por grandes áreas. Acompanhe seu desempenho e tempo de estudo.">
 <meta property="og:url" content="https://marceloavelinomoreira.github.io/revalida-simulator-2026/">
 <meta property="og:site_name" content="REVALIDDA">
 <meta property="og:image" content="https://marceloavelinomoreira.github.io/revalida-simulator-2026/netlify-dist/assets/brain-icon-512.png">
@@ -23,7 +23,7 @@
 <meta property="og:image:alt" content="Cérebro azul — símbolo do REVALIDDA">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="REVALIDDA Simulator">
-<meta name="twitter:description" content="1.535 questões para estudar: simulados, comentários, respostas rápidas, grandes áreas e estatísticas de desempenho.">
+<meta name="twitter:description" content="1.735 questões para estudar: simulados, comentários, respostas rápidas, grandes áreas e estatísticas de desempenho.">
 <meta name="twitter:image" content="https://marceloavelinomoreira.github.io/revalida-simulator-2026/netlify-dist/assets/brain-icon-512.png">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
@@ -185,6 +185,7 @@
       <summary>Tutorias Facisa</summary>
       <div class="year-grid">
       <button type="button" class="year-btn" data-year="quinzena-01" onclick="selectYear('quinzena-01', this)">Tutoria Quinzenal <span class="yb-sub">100 questões comentadas</span></button>
+      <button type="button" class="year-btn" data-year="quinzena-02" onclick="selectYear('quinzena-02', this)">Tutoria Quizenal 2 <span class="yb-sub">100 questões comentadas</span></button>
       <button type="button" class="year-btn" data-year="tutoria-semana-01" onclick="selectYear('tutoria-semana-01', this)">Tutoria Primeira Semana <span class="yb-sub">35 questões · 33 comentadas</span></button>
       <button type="button" class="year-btn" data-year="facisa" onclick="selectYear('facisa', this)">
         Temas Menos e Mais
@@ -195,6 +196,7 @@
     <details class="tutoria-group" open>
       <summary>TPI</summary>
       <div class="year-grid">
+        <button type="button" class="year-btn" data-year="tpi-2026-2-tpi1" onclick="selectYear('tpi-2026-2-tpi1', this)">TPI 2026.2 - TPI 1 <span class="yb-sub">100 questões comentadas</span></button>
         <button type="button" class="year-btn" data-year="tpi-2026-2-tpi3" onclick="selectYear('tpi-2026-2-tpi3', this)">TPI 2026.2 — TPI 3 <span class="yb-sub">100 questões comentadas</span></button>
       </div>
     </details>
@@ -212,7 +214,7 @@
       <option value="medicina_preventiva">Medicina Preventiva / Saúde Coletiva</option>
     </select>
     <div class="mode-label">Quantidade de questões</div>
-    <div class="custom-qty-info">Sorteio aleatório entre edições na área escolhida · <span id="custom-total-label">1535 questões disponíveis</span></div>
+    <div class="custom-qty-info">Sorteio aleatório entre edições na área escolhida · <span id="custom-total-label">1735 questões disponíveis</span></div>
     <div class="qty-grid">
       <button type="button" class="qty-btn" data-qty="10" onclick="selectQty(10, this)">10</button>
       <button type="button" class="qty-btn" data-qty="20" onclick="selectQty(20, this)">20</button>
@@ -589,8 +591,10 @@
 <script src="js/score.js?v=2"></script>
 <script src="js/questions-tutoria-semana-01.js?v=tutoria35"></script>
 <script src="js/questions-tpi-2026-2-tpi3.js?v=1"></script>
-<script src="js/question-repository.js?v=tpi3"></script>
-<script src="js/question-classification.js?v=tpi3"></script>
+<script src="js/questions-quinzena-02.js?v=1"></script>
+<script src="js/questions-tpi-2026-2-tpi1.js?v=1"></script>
+<script src="js/question-repository.js?v=tpi1"></script>
+<script src="js/question-classification.js?v=tpi1"></script>
 <script src="js/area-repository.js?v=1"></script>
 <script src="js/eo-repository.js?v=6"></script>
 <script src="js/resolver.js?v=editorial13"></script>

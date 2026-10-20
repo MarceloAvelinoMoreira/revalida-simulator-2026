@@ -1,7 +1,7 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs');
 const {rows,load,summarize,build,clean}=require('./export-summarized-review.cjs');
 test('standalone review: all question IDs, exact keys, no invented answers for annulled questions',()=>{
-  const source=load(),data=rows();assert.equal(data.length,1535);assert.equal(new Set(data.map(q=>q.id)).size,1535);
+  const source=load(),data=rows();assert.equal(data.length,1735);assert.equal(new Set(data.map(q=>q.id)).size,1735);
   assert.equal(data.filter(q=>q.annulled).length,73);
   data.forEach((q,i)=>{
     assert.equal(q.id,source[i].id);
@@ -14,8 +14,8 @@ test('standalone review: all question IDs, exact keys, no invented answers for a
 });
 test('standalone review: self-contained HTML, escaped source, only correct alternatives and filters',()=>{
   const html=fs.readFileSync(build(require('node:path').resolve('tmp/review-test.html')),'utf8');
-  assert.equal((html.match(/<article data-edition=/g)||[]).length,1535);
-  assert.equal((html.match(/Resposta correta no banco/g)||[]).length,1462);
+  assert.equal((html.match(/<article data-edition=/g)||[]).length,1735);
+  assert.equal((html.match(/Resposta correta no banco/g)||[]).length,1662);
   assert.equal((html.match(/>Questão anulada</g)||[]).length,73);
   assert.doesNotMatch(html,/<script[^>]+src=|<link[^>]+stylesheet|apiKey|Authorization|gsk_|xai-/);
   assert.match(html,/Resumos extrativos automáticos/);assert.match(html,/id="edition"/);assert.match(html,/id="search"/);

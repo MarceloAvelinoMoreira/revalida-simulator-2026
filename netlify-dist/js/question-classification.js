@@ -10985,5 +10985,1405 @@ const QuestionClassification = {
     "tema": "Bioética e dilemas éticos",
     "classificacaoPendente": false,
     "fonte": "Seção por grande área e tópico do sumário do PDF TPI3_2026-2_INTERATIVA.pdf"
+  },
+  "quinzena-02-001": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Pneumologia",
+    "tema": "Derrame pleural",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-002": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Pneumologia",
+    "tema": "Derrame pleural",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-003": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Pneumologia",
+    "tema": "Derrame pleural",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-004": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Pneumologia",
+    "tema": "Câncer de pulmão",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-005": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Pneumologia",
+    "tema": "Câncer de pulmão",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-006": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Pneumologia",
+    "tema": "Câncer de pulmão",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-007": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Pneumologia",
+    "tema": "Câncer de pulmão",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-008": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Cardiologia",
+    "tema": "Síndrome coronariana",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-009": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Cardiologia",
+    "tema": "Síndrome coronariana",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-010": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Cardiologia",
+    "tema": "Síndrome coronariana",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-011": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Cardiologia",
+    "tema": "Síndrome coronariana",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-012": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Cardiologia",
+    "tema": "Síndrome coronariana",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-013": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Cardiologia",
+    "tema": "Insuficiência Cardíaca",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-014": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Cardiologia",
+    "tema": "Insuficiência Cardíaca",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-015": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Pneumonia adquirida na comunidade",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-016": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Pneumonia adquirida na comunidade",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-017": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Pneumonia adquirida na comunidade",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-018": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Pneumonia adquirida na comunidade",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-019": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Pneumonia adquirida na comunidade",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-020": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Sepse e choque séptico",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-021": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Queimaduras",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-022": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Queimaduras",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-023": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Queimaduras",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-024": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Queimaduras",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-025": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Queimaduras",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-026": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Queimaduras",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-027": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Queimaduras",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-028": {
+    "grandeArea": "cirurgia",
+    "subarea": "Abdome agudo inflamatório",
+    "tema": "Coledocolitíase e colangite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-029": {
+    "grandeArea": "cirurgia",
+    "subarea": "Abdome agudo inflamatório",
+    "tema": "Coledocolitíase e colangite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-030": {
+    "grandeArea": "cirurgia",
+    "subarea": "Abdome agudo inflamatório",
+    "tema": "Coledocolitíase e colangite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-031": {
+    "grandeArea": "cirurgia",
+    "subarea": "Abdome agudo inflamatório",
+    "tema": "Coledocolitíase e colangite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-032": {
+    "grandeArea": "cirurgia",
+    "subarea": "Abdome agudo inflamatório",
+    "tema": "Coledocolitíase e colangite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-033": {
+    "grandeArea": "cirurgia",
+    "subarea": "Abdome agudo inflamatório",
+    "tema": "Coledocolitíase e colangite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-034": {
+    "grandeArea": "cirurgia",
+    "subarea": "Abdome agudo inflamatório",
+    "tema": "Coledocolitíase e colangite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-035": {
+    "grandeArea": "cirurgia",
+    "subarea": "Perioperatório",
+    "tema": "Antibiótico E Infecção De Sítio Cirúrgico",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-036": {
+    "grandeArea": "cirurgia",
+    "subarea": "Perioperatório",
+    "tema": "Antibiótico E Infecção De Sítio Cirúrgico",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-037": {
+    "grandeArea": "cirurgia",
+    "subarea": "Perioperatório",
+    "tema": "Antibiótico E Infecção De Sítio Cirúrgico",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-038": {
+    "grandeArea": "cirurgia",
+    "subarea": "Perioperatório",
+    "tema": "Antibiótico E Infecção De Sítio Cirúrgico",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-039": {
+    "grandeArea": "cirurgia",
+    "subarea": "Perioperatório",
+    "tema": "Antibiótico E Infecção De Sítio Cirúrgico",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-040": {
+    "grandeArea": "cirurgia",
+    "subarea": "Perioperatório",
+    "tema": "Antibiótico E Infecção De Sítio Cirúrgico",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-041": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Cervicite e vulvovaginite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-042": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Cervicite e vulvovaginite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-043": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Cervicite e vulvovaginite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-044": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Cervicite e vulvovaginite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-045": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Cervicite e vulvovaginite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-046": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Cervicite e vulvovaginite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-047": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Cervicite e vulvovaginite",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-048": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Hemorragia pós-parto",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-049": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Hemorragia pós-parto",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-050": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Hemorragia pós-parto",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-051": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Hemorragia pós-parto",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-052": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Hemorragia pós-parto",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-053": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Hemorragia pós-parto",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-054": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Hemorragia pós-parto",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-055": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Partograma e distocia",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-056": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Partograma e distocia",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-057": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Partograma e distocia",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-058": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Partograma e distocia",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-059": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Partograma e distocia",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-060": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Partograma e distocia",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-061": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Parasitoses intestinais na infância",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-062": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Parasitoses intestinais na infância",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-063": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Parasitoses intestinais na infância",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-064": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Parasitoses intestinais na infância",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-065": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Parasitoses intestinais na infância",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-066": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Parasitoses intestinais na infância",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-067": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Parasitoses intestinais na infância",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-068": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Síndrome de Down e outras síndromes genéticas",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-069": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Síndrome de Down e outras síndromes genéticas",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-070": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Síndrome de Down e outras síndromes genéticas",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-071": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Síndrome de Down e outras síndromes genéticas",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-072": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Síndrome de Down e outras síndromes genéticas",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-073": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Síndrome de Down e outras síndromes genéticas",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-074": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Reanimação pediátrica",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-075": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Reanimação Neonatal",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-076": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Reanimação Neonatal",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-077": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Reanimação Neonatal",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-078": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Reanimação Neonatal",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-079": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Reanimação Neonatal",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-080": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Reanimação Neonatal",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-081": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia",
+    "tema": "Tipos de estudos epidemiológicos",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-082": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia",
+    "tema": "Tipos de estudos epidemiológicos",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-083": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia",
+    "tema": "Tipos de estudos epidemiológicos",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-084": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia",
+    "tema": "Tipos de estudos epidemiológicos",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-085": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia",
+    "tema": "Tipos de estudos epidemiológicos",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-086": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia",
+    "tema": "Tipos de estudos epidemiológicos",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-087": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia",
+    "tema": "Tipos de estudos epidemiológicos",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-088": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Políticas Públicas e SUS",
+    "tema": "Saúde do idoso",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-089": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Políticas Públicas e SUS",
+    "tema": "Saúde do idoso",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-090": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Políticas Públicas e SUS",
+    "tema": "Saúde do idoso",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-091": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Políticas Públicas e SUS",
+    "tema": "Saúde do idoso",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-092": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Políticas Públicas e SUS",
+    "tema": "Saúde do idoso",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-093": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Políticas Públicas e SUS",
+    "tema": "Saúde do idoso",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-094": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Políticas Públicas e SUS",
+    "tema": "Saúde do idoso",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-095": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Atenção Primária",
+    "tema": "Comunicação clínica e relação médico-paciente",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-096": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Atenção Primária",
+    "tema": "Comunicação clínica e relação médico-paciente",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-097": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Atenção Primária",
+    "tema": "Comunicação clínica e relação médico-paciente",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-098": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Atenção Primária",
+    "tema": "Comunicação clínica e relação médico-paciente",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-099": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Atenção Primária",
+    "tema": "Comunicação clínica e relação médico-paciente",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "quinzena-02-100": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Atenção Primária",
+    "tema": "Comunicação clínica e relação médico-paciente",
+    "classificacaoPendente": false,
+    "fonte": "Área e tema informados na resolução comentada do PDF Quinzena_02.pdf"
+  },
+  "tpi-2026-2-tpi1-001": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Psiquiatria",
+    "tema": "Suicídio e comportamento suicida",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-002": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Psiquiatria",
+    "tema": "Intoxicações exógenas",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-003": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Psiquiatria",
+    "tema": "Depressão maior",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-004": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Psiquiatria",
+    "tema": "Transtorno de pânico",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-005": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Endocrinologia",
+    "tema": "Nódulo e câncer de tireoide",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-006": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Dengue e outras arboviroses",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-007": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Infecções oportunistas no HIV",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-008": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Parasitoses",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-009": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Tuberculose",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-010": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Raiva, tétano e mordedura animal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-011": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Raiva, tétano e mordedura animal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-012": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Hepatite B",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-013": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Gastroenterologia/Hepatologia",
+    "tema": "Pancreatite crônica",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-014": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Cardiologia",
+    "tema": "Hipertensão arterial sistêmica",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-015": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Psiquiatria",
+    "tema": "Psiquiatria infantil",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-016": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Neurologia",
+    "tema": "Cefaleias",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-017": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Endocrinologia",
+    "tema": "Obesidade e síndrome metabólica",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-018": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Cardiologia",
+    "tema": "Arritmias",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-019": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Oftalmologia",
+    "tema": "Traumatismos oculares",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-020": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Hematologia",
+    "tema": "Anemia ferropriva",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-021": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Endocrinologia",
+    "tema": "Hipotireoidismo",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-022": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Otorrinolaringologia",
+    "tema": "Surdez e hipoacusia",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-023": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Neurologia",
+    "tema": "AVCI",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-024": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Psiquiatria",
+    "tema": "Dependência química",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-025": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Psiquiatria | Ética Médica",
+    "tema": "Depressão maior | Notificação compulsória de agravos e violência",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-026": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Pneumonia adquirida na comunidade (PAC)",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-027": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Infectologia",
+    "tema": "Tuberculose",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-028": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Pneumologia",
+    "tema": "Asma",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-029": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Endocrinologia",
+    "tema": "Cetoacidose diabética e estado hiperosmolar",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-030": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Gastroenterologia/Hepatologia",
+    "tema": "Doença ulcerosa péptica e Helicobacter pylori",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-031": {
+    "grandeArea": "clinica_medica",
+    "subarea": "Nefrologia",
+    "tema": "Síndrome nefrítica",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-032": {
+    "grandeArea": "cirurgia",
+    "subarea": "Ortopedia",
+    "tema": "Lombalgia e hérnia de disco",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-033": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Trauma torácico",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-034": {
+    "grandeArea": "cirurgia",
+    "subarea": "Cirurgia Digestiva",
+    "tema": "Diverticulite e doença diverticular do cólon",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-035": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Trauma cranioencefálico (TCE)",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-036": {
+    "grandeArea": "cirurgia",
+    "subarea": "Cirurgia Digestiva",
+    "tema": "Neoplasias de estômago e esôfago",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-037": {
+    "grandeArea": "cirurgia",
+    "subarea": "Cirurgia Digestiva",
+    "tema": "Neoplasias pancreáticas",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-038": {
+    "grandeArea": "cirurgia",
+    "subarea": "Urologia",
+    "tema": "Hiperplasia prostática benigna",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-039": {
+    "grandeArea": "cirurgia",
+    "subarea": "Perioperatório",
+    "tema": "Complicações pós-operatórias",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-040": {
+    "grandeArea": "cirurgia",
+    "subarea": "Perioperatório",
+    "tema": "Antibioticoprofilaxia e infecção de sítio cirúrgico",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-041": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Queimaduras",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-042": {
+    "grandeArea": "cirurgia",
+    "subarea": "Abdome agudo obstrutivo",
+    "tema": "Obstrução intestinal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-043": {
+    "grandeArea": "cirurgia",
+    "subarea": "Coloproctologia",
+    "tema": "Abscessos e fístulas anais",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-044": {
+    "grandeArea": "cirurgia",
+    "subarea": "Urologia",
+    "tema": "Câncer de bexiga e rim",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-045": {
+    "grandeArea": "cirurgia",
+    "subarea": "Traumatologia",
+    "tema": "Trauma raquimedular",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-046": {
+    "grandeArea": "cirurgia",
+    "subarea": "Cirurgia Digestiva",
+    "tema": "Neoplasias pancreáticas",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-047": {
+    "grandeArea": "cirurgia",
+    "subarea": "Cirurgia Pediátrica",
+    "tema": "Estenose hipertrófica do piloro",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-048": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Climatério",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-049": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Cardiotocografia",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-050": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Métodos contraceptivos",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-051": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Rastreamento do câncer de mama",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-052": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Sangramento uterino anormal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-053": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Diabetes mellitus gestacional",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-054": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Amenorreia",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-055": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Aleitamento materno e mastite puerperal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-056": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Câncer de endométrio",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-057": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Rastreamento do câncer de colo uterino",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-058": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Infecção do trato urinário na gestação",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-059": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia | Obstetrícia",
+    "tema": "Rotura prematura de membranas ovulares | Estreptococo do grupo B",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-060": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Cervicite e vulvovaginite",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-061": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Sífilis na gestação e sífilis congênita",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-062": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Doença hemolítica perinatal e isoimunização Rh",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-063": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Diabetes mellitus gestacional",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-064": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Estreptococo do grupo B",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-065": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia",
+    "tema": "Rastreamento do câncer de colo uterino",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-066": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Pré-eclâmpsia e eclâmpsia",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-067": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Aleitamento materno e mastite puerperal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-068": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Ginecologia | Infectologia",
+    "tema": "Assistência à vítima de violência sexual | Profilaxia pré e pós-exposição ao HIV",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-069": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Assistência pré-natal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-070": {
+    "grandeArea": "ginecologia_obstetricia",
+    "subarea": "Obstetrícia",
+    "tema": "Hemorragias da primeira metade da gestação",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-071": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Reanimação Neonatal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-072": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Parasitoses intestinais na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-073": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Cuidados neonatais",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-074": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Vacinação",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-075": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Diarreia e desidratação",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-076": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Maus-tratos e violência contra a criança",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-077": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Asma na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-078": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Bronquiolite e lactente sibilante",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-079": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Convulsão febril",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-080": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Icterícia neonatal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-081": {
+    "grandeArea": "pediatria",
+    "subarea": "Nutrição e Crescimento",
+    "tema": "Marcos do desenvolvimento neuropsicomotor",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-082": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Mononucleose infecciosa",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-083": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Doença de Kawasaki",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-084": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Toxoplasmose congênita",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-085": {
+    "grandeArea": "pediatria",
+    "subarea": "Neonatologia",
+    "tema": "Triagem neonatal",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-086": {
+    "grandeArea": "pediatria",
+    "subarea": "Pediatria Geral",
+    "tema": "Infecção urinária na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-087": {
+    "grandeArea": "pediatria",
+    "subarea": "Nutrição e Crescimento",
+    "tema": "Obesidade na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-088": {
+    "grandeArea": "pediatria",
+    "subarea": "Infectologia Pediátrica",
+    "tema": "Pneumonia na infância",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-089": {
+    "grandeArea": "pediatria",
+    "subarea": "Nutrição e Crescimento",
+    "tema": "Distúrbios do Crescimento e Desenvolvimento",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-090": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Políticas Públicas e SUS",
+    "tema": "Saúde do trabalhador",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-091": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Políticas Públicas e SUS",
+    "tema": "Controle social e conselhos de saúde",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-092": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Políticas Públicas e SUS",
+    "tema": "Princípios e diretrizes do SUS",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-093": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia",
+    "tema": "Tipos de estudos epidemiológicos",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-094": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Ética Médica",
+    "tema": "Cuidados paliativos e ortotanásia",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-095": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia | Cirurgia Digestiva",
+    "tema": "Rastreamento populacional | Pólipos e neoplasias intestinais",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-096": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Ética Médica",
+    "tema": "Declaração de óbito",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-097": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Epidemiologia",
+    "tema": "Indicadores em Saúde",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-098": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Atenção Primária",
+    "tema": "Prevenção quaternária",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-099": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Atenção Primária",
+    "tema": "Estratégia de saúde da família",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
+  },
+  "tpi-2026-2-tpi1-100": {
+    "grandeArea": "medicina_preventiva",
+    "subarea": "Ética Médica",
+    "tema": "Bioética e dilemas éticos",
+    "classificacaoPendente": false,
+    "fonte": "Seção da prova e tema do comentário no PDF TPI_2026-2_PROVA1_Diagramada_v2.pdf"
   }
 };
