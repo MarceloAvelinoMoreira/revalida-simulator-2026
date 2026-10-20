@@ -90,11 +90,13 @@ function renderRapidQuestion() {
     : '<div class="rapid-answer rapid-annulled"><span class="rapid-answer-label">Questão anulada</span><span class="rapid-answer-text">Não há alternativa correta válida no gabarito oficial.</span></div>';
   list.innerHTML = `<article class="rapid-card" id="rapid-question-${rapidEscape(question.n)}">
       <div class="rapid-question-label">${rapidEscape(question.label)} — Questão ${rapidEscape(question.n)}</div>
+      <div class="question-provenance-slot"></div>
       <p class="rapid-question-text">${rapidEscape(rapidText(statement))}</p>
       ${mediaHtml}
       ${answerHtml}
       ${question.answerNote ? `<p class="areas-note">${rapidEscape(question.answerNote)}</p>` : ''}
     </article>`;
+  if (typeof QuestionProvenance !== 'undefined') QuestionProvenance.render(question, list.querySelector('.question-provenance-slot'));
   count.textContent = `${rapidIndex + 1} de ${rapidQuestions.length} questões`;
   if (pageLabel) pageLabel.textContent = `Questão ${question.n}`;
   if (previous) previous.disabled = rapidIndex === 0;

@@ -1,0 +1,7 @@
+.question-provenance, .question-provenance-unknown {margin: 6px 0 16px; color: #a2b5ce; font-size: 12px; line-height: 1.5; overflow-wrap: anywhere;}
+.question-provenance summary {width: fit-content; max-width: 100%; cursor: pointer; color: #b5c9e3; padding: 5px 0;}
+.question-provenance summary:hover, .question-provenance a:hover {color: #e8edf5;}
+.question-provenance p {margin: 6px 0; max-width: 68ch;}
+.question-provenance a {display: inline-block; padding: 6px 0; color: #99cbff; text-underline-offset: 3px;}
+.question-provenance summary:focus-visible, .question-provenance a:focus-visible {outline: 2px solid #99cbff; outline-offset: 4px; border-radius: 2px;}
+.question-provenance-unknown {font-style: italic;}

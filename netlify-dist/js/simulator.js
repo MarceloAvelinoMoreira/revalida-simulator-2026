@@ -622,6 +622,7 @@ function renderQuestion() {
   document.getElementById('quiz-counter').textContent = `${currentIndex + 1} / ${total}`;
   document.getElementById('progress-fill').style.width = pct + '%';
   document.getElementById('question-num').textContent = `Questão ${q.n} · ${q.year}`;
+  if (typeof QuestionProvenance !== 'undefined') QuestionProvenance.render(q, document.getElementById('question-provenance'));
   document.getElementById('question-text').textContent = insertSoftHyphens(q.text);
   renderQuestionMedia(q);
   hideEduSurfaces();
