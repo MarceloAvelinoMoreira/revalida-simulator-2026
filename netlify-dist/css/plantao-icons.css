@@ -1,0 +1,11 @@
+/* Shared 24px / 2px icon system; existing status text remains authoritative. */
+.department{grid-template-columns:48px minmax(0,1fr) 26px}
+.department .sector-icon{position:relative;display:grid;place-items:center;width:48px;height:48px;flex:none;border-radius:12px;color:#e2e8f0;border:1px solid #ffffff25;background:#ffffff0d;margin-top:3px;transition:background .2s ease,border-color .2s ease,color .2s ease}
+.department .sector-icon>svg{width:24px;height:24px;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none;margin:0}
+.department.in-progress .sector-icon,.department.complete .sector-icon{color:var(--sector);background:linear-gradient(145deg,color-mix(in srgb,var(--sector) 15%,transparent),color-mix(in srgb,var(--sector) 5%,transparent));border-color:color-mix(in srgb,var(--sector) 35%,transparent)}
+.department.in-progress .sector-icon>svg{filter:drop-shadow(0 0 5px color-mix(in srgb,var(--sector) 40%,transparent))}
+.department .sector-icon-check{display:none;position:absolute;right:-5px;bottom:-5px;width:19px;height:19px;align-items:center;justify-content:center;border-radius:50%;background:var(--sector);color:#0a0f1d;border:2px solid #132238}
+.department.complete .sector-icon-check{display:flex}
+.department .sector-icon-check>svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;margin:0}
+@media(max-width:720px){.department{grid-template-columns:44px minmax(0,1fr) 26px;gap:10px}.department .sector-icon{width:44px;height:44px}}
+@media(prefers-reduced-motion:reduce){.department .sector-icon{transition:none}}

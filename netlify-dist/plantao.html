@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0e1a">
+<title>REVALIDDA Plantão — piloto</title>
+<link rel="icon" href="assets/brain-icon-192.png">
+<link rel="stylesheet" href="css/plantao.css?v=2">
+<link rel="stylesheet" href="css/plantao-polish.css?v=4">
+<link rel="stylesheet" href="css/plantao-notebook.css?v=1">
+<link rel="stylesheet" href="css/plantao-icons.css?v=1">
+</head>
+<body>
+<header class="topbar"><a class="return-link" href="../index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 5-7 7 7 7M5 12h14"/></svg><span>Voltar ao REVALIDDA</span></a><span class="test-label">Versão Piloto</span></header>
+<main id="plantao-main">
+  <header class="intro"><div><h1>REVALIDDA Plantão</h1><p>Um hospital. Cinco áreas. <br>Seu conhecimento em prática.</p></div><button type="button" id="brain-guide" class="brain-guide" aria-expanded="false" aria-controls="guide-panel"><img src="assets/brain-icon-192.png" alt="" width="88" height="88"><span><strong>Seu guia de plantão</strong><small>Toque para uma orientação</small></span></button></header>
+  <section id="guide-panel" class="guide-panel" hidden aria-labelledby="guide-title"><h2 id="guide-title">Vamos por partes.</h2><p id="guide-text"></p><p>20 XP por acerto e 5 XP por tentativa na primeira resposta. Revisar não duplica XP.</p><button type="button" id="guide-close" class="subtle">Fechar orientação</button></section>
+  <p class="pilot-note">Piloto com 15 questões do TPI 2: três por área. Atividade educacional, não uma ferramenta de atendimento clínico.</p>
+  <p id="storage-warning" role="alert" hidden></p>
+  <section class="career" aria-label="Seu progresso no Plantão"><div><strong class="rank-label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 8 4v7c0 4-8 9-8 9s-8-5-8-9V6Z"/><path d="m8 12 3 3 5-6"/></svg><span id="rank">Acadêmico</span></strong><span id="xp">0 XP</span></div><progress id="level" max="100" value="0" aria-label="XP para o próximo nível"></progress><p id="career-summary">Nenhuma questão respondida ainda.</p><p id="next-rank" class="next-rank"></p></section>
+  <nav class="tabs" aria-label="Seções do Plantão"><button type="button" data-view="hospital" aria-current="page">Hospital</button><button type="button" data-view="errors">Caderno de erros <span id="error-count">0</span></button><button type="button" data-view="achievements">Conquistas</button></nav>
+  <section id="hospital" aria-labelledby="hospital-title"><div class="section-heading"><h2 id="hospital-title">Seu hospital de estudos</h2><span>Selecione uma ala para entrar</span></div><div class="hospital"><div class="hospital-sign"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6Z"/></svg><span>Hospital REVALIDDA<small>5 setores · 15 casos no piloto</small></span><span id="hospital-progress" class="hospital-progress">0/15</span></div><div id="departments" class="departments"></div><p class="reception">Escolha livremente uma área. Seu histórico e XP continuam salvos ao trocar de setor.</p></div><button id="resume" class="primary" type="button" hidden>Retomar plantão em andamento</button><p class="reward-note">Plantões de 3 casos · comentários a cada resposta · revisão sem pressa</p></section>
+  <section id="errors" hidden aria-labelledby="errors-title" tabindex="-1">
+    <h2 id="errors-title">Caderno de erros</h2><p>Transforme cada erro em uma revisão. As questões continuam no histórico depois de um acerto — nada é apagado automaticamente.</p>
+    <p id="notebook-summary" class="notebook-summary"></p>
+    <div class="notebook-filters">
+      <label for="notebook-search">Buscar tema, enunciado ou anotação<input id="notebook-search" type="search" placeholder="Ex.: apendicite, vacinação…" maxlength="200"></label>
+      <label for="notebook-area">Grande área<select id="notebook-area"><option value="">Todas as áreas</option><option value="clinica">Clínica Médica</option><option value="cirurgia">Cirurgia</option><option value="go">Ginecologia e Obstetrícia</option><option value="pediatria">Pediatria</option><option value="preventiva">Medicina Preventiva</option></select></label>
+      <label for="notebook-status">Situação<select id="notebook-status"><option value="">Todo o histórico</option><option value="pending">Para revisar</option><option value="reviewed">Revisadas com acerto</option></select></label>
+    </div>
+    <div class="notebook-toolbar"><button id="review-errors" type="button" class="primary">Revisar questões pendentes</button><button id="notebook-clear" type="button" class="subtle">Limpar filtros</button></div>
+    <p id="notebook-results" class="notebook-results" role="status"></p>
+    <p class="notebook-scope">Somente questões do piloto Plantão. Anotações salvas neste navegador; ainda sem sincronização na nuvem.</p>
+    <div id="error-list"></div>
+  </section>
+  <section id="achievements" hidden aria-labelledby="achievements-title"><h2 id="achievements-title">Suas conquistas</h2><p>Conquistas baseadas apenas no que você respondeu neste piloto.</p><ul id="badges" class="badges"></ul></section>
+  <section id="game" hidden aria-labelledby="case-title" tabindex="-1">
+    <div class="section-heading"><button type="button" id="pause" class="subtle">← Hospital</button><span id="case-position"></span></div><progress id="case-progress" value="0" max="3" aria-label="Casos respondidos neste plantão"></progress>
+    <h2 id="case-title"></h2><p id="case-wing" class="case-wing"></p><p id="case-source" class="muted"></p><p id="case-text" class="case-text"></p><button type="button" id="image-open" class="image-open" aria-haspopup="dialog" aria-controls="image-zoom" hidden><img id="case-image" src="assets/tpi-2026-2-tpi2/question-035.png" alt="" hidden><span>Ampliar imagem médica</span></button>
+    <div id="options" class="options"></div>
+    <div id="feedback" aria-live="polite"></div>
+    <details id="comment" hidden><summary>Comentário e justificativa do material</summary><p id="comment-text"></p></details>
+    <button type="button" id="next" class="primary" hidden>Próximo caso</button>
+  </section>
+  <section id="finished" hidden tabindex="-1" aria-labelledby="finished-title"><h2 id="finished-title">Plantão concluído</h2><p id="finished-summary"></p><button type="button" id="back" class="primary">Voltar ao hospital</button></section>
+  <footer>Seu progresso é salvo neste navegador, separado dos simulados e sem sincronização na nuvem. Os gabaritos e comentários são os do material fornecido, sem nova revisão clínica.</footer>
+</main>
+<dialog id="image-zoom" class="image-zoom" aria-labelledby="image-zoom-title"><div><h2 id="image-zoom-title">Imagem da questão</h2><button type="button" id="image-close" autofocus>Fechar imagem</button></div><img id="zoom-image" src="assets/tpi-2026-2-tpi2/question-035.png" alt="Imagem ampliada da questão"></dialog>
+<script>const EXAMS = {};</script>
+<script src="js/questions-tpi-2026-2-tpi2.js?v=1"></script>
+<script src="js/plantao.js?v=5"></script>
+</body></html>

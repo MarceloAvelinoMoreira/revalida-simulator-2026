@@ -1,0 +1,10 @@
+/* Local components inspired by accessible native button/link patterns. */
+.plantao-entry>svg>path{stroke:#ff929a;animation:plantao-cross-pulse 2.4s ease-in-out infinite;animation-play-state:paused}
+.plantao-entry.pulse-visible>svg>path{animation-play-state:running}
+@keyframes plantao-cross-pulse{0%,100%{stroke:#ffadb5;filter:none}50%{stroke:#ff596d;filter:drop-shadow(0 0 3px #ff596d66)}}
+@media(prefers-reduced-motion:reduce){.plantao-entry>svg>path{animation:none;stroke:#ff929a;filter:none}}
+.plantao-entry{position:relative;display:flex;align-items:center;gap:22px;padding:26px 28px;margin:28px 0 32px;border:1px solid #638cbf;border-radius:16px;background:#173e68;color:#f1f6ff;text-decoration:none;text-align:left;min-height:112px;box-shadow:0 10px 26px #03091340;transition:background .2s ease,border-color .2s ease,transform .2s ease}
+.plantao-entry>svg{flex:none;width:44px;height:44px;stroke:#b8d9ff;stroke-width:1.7;fill:none;background:#244e7a;border:1px solid #6590be;border-radius:12px;padding:9px}
+.plantao-entry strong{display:block;font-size:21px;font-weight:700;line-height:1.3;letter-spacing:-.015em}.plantao-entry small{display:block;color:#d0e4fc;font-size:14px;line-height:1.55;margin-top:5px;max-width:52ch}.plantao-entry:hover{background:#214f80;border-color:#a9ceff;transform:translateY(-2px)}.plantao-entry:active{transform:translateY(0)}.plantao-entry:focus-visible{outline:3px solid #aad0ff;outline-offset:5px}.plantao-entry .plantao-arrow{margin-left:auto;display:grid;place-items:center;width:40px;height:40px;flex:none;border-radius:50%;border:1px solid #779ac1;font-size:24px;color:#d4eaff;transition:transform .2s ease}.plantao-entry:hover .plantao-arrow{transform:translateX(4px)}
+@media(max-width:600px){.plantao-entry{padding:20px 16px;gap:14px;min-height:100px}.plantao-entry>svg{width:38px;height:38px;padding:8px}.plantao-entry strong{font-size:18px}.plantao-entry small{font-size:12px}.plantao-entry .plantao-arrow{width:30px;height:30px;font-size:20px}}
+@media(prefers-reduced-motion:reduce){.plantao-entry,.plantao-entry .plantao-arrow{transition:none}.plantao-entry:hover,.plantao-entry:hover .plantao-arrow{transform:none}}

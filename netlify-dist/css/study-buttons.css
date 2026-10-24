@@ -1,4 +1,25 @@
 /* Button-only polish: existing study flow, dark blue identity and type retained. */
+/* One short response per interaction; no idle loops or change to button actions. */
+#screen-home .mode-cards{--study-icon-action:study-book}
+#screen-home [data-mode="year"]{--study-icon-action:study-sheet}
+#screen-home [data-mode="custom"]{--study-icon-action:study-shuffle}
+#screen-home [data-mode="rapid"]{--study-icon-action:study-lightning}
+#screen-home [data-mode="area"]{--study-icon-action:study-cross}
+#screen-home .study-tool-card{--study-icon-action:study-chart}
+#screen-home .study-icon{border:1px solid transparent;transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease}
+#screen-home .study-icon svg{transform-origin:center;transform-box:fill-box}
+#screen-home .mode-card:focus-visible .study-icon,#screen-home .study-tool-card:focus-visible .study-icon{border-color:currentColor;background:#284469}
+#screen-home .mode-card:focus-visible .study-icon svg,#screen-home .study-tool-card:focus-visible .study-icon svg{animation:var(--study-icon-action) .6s ease-out 1}
+#screen-home .mode-card:active .study-icon,#screen-home .study-tool-card:active .study-icon{transform:scale(.92);border-color:currentColor}
+#screen-home .mode-card:active .study-icon svg,#screen-home .study-tool-card:active .study-icon svg{animation:var(--study-icon-action) .6s ease-out 1}
+@media(hover:hover){#screen-home .mode-card:hover .study-icon,#screen-home .study-tool-card:hover .study-icon{border-color:currentColor;transform:translateY(-2px)}#screen-home .mode-card:hover .study-icon svg,#screen-home .study-tool-card:hover .study-icon svg{animation:var(--study-icon-action) .6s ease-out 1}}
+@keyframes study-book{0%,100%{transform:perspective(90px) rotateY(0) scale(1)}45%{transform:perspective(90px) rotateY(-25deg) scale(1.14)}}
+@keyframes study-sheet{0%,100%{transform:translateY(0) rotate(0)}40%{transform:translateY(-3px) rotate(-7deg)}70%{transform:translateY(1px) rotate(3deg)}}
+@keyframes study-shuffle{0%,100%{transform:rotate(0)}35%{transform:rotate(22deg)}70%{transform:rotate(-14deg)}}
+@keyframes study-lightning{0%,100%{transform:scale(1);filter:none}45%{transform:scale(1.2);filter:brightness(1.25)}}
+@keyframes study-cross{0%{transform:rotate(0)}100%{transform:rotate(90deg)}}
+@keyframes study-chart{0%,100%{transform:scaleY(1)}40%{transform:scaleY(.65)}70%{transform:scaleY(1.12)}}
+@media(prefers-reduced-motion:reduce){#screen-home .mode-cards .study-icon,#screen-home .mode-cards .study-icon svg{animation:none!important;transition:none!important;transform:none!important;filter:none!important}}
 #screen-home .mode-section {max-width:840px;}
 #screen-home .mode-cards {gap:14px;}
 #screen-home button.mode-card,#screen-home .study-tool-card {display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:0;min-width:0;min-height:184px;padding:22px;text-align:left;font:inherit;color:#edf4ff;background:#141e2f;border:1px solid #2b3d56;border-radius:14px;cursor:pointer;position:relative;transition:background .15s,border-color .15s;transform:none;}
